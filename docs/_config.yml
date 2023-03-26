@@ -31,7 +31,7 @@ twitter_username: maxwellcc
 github_username:  maxwellamaral
 
 # Build settings
-theme: minima
+theme: dinky
 plugins:
   - jekyll-feed
 
