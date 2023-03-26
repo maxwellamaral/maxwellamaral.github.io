@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Introdução"
-permalink: /lessons
+title: "Práticas"
+permalink: /lessons/
 ---
 
 # Isto é um teste
