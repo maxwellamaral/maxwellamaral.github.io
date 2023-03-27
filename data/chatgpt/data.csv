@@ -1,0 +1,12 @@
+Nome do Produto,Categoria,Data de Compra,Tempo de Garantia (dias),Tempo de Garantia Estendida (dias),Total de Garantia (dias),Data Final da Garantia,Preço Unitário,Preço com Desconto,Preço Líquido,Quantidade,Preço Final,Preço da Garantia Estendida,Preço Final com Garantia Estendida
+Smartphone Samsung Galaxy S21,Eletrônicos,2022-01-10,365,30,395,2023-02-09,999.99,899.99,100.00,1,100.00,50.00,150.00
+Notebook Dell Inspiron 15,Eletrônicos,2021-11-20,730,60,790,2023-12-18,1999.99,1799.99,200.00,2,400.00,120.00,520.00
+Monitor LG 24LED Full HD,Eletrônicos,2022-02-28,365,90,455,2023-05-02,499.99,449.99,50.00,1,50.00,80.00,130.00
+Máquina de Lavar Brastemp 10kg,Eletrodomésticos,2022-03-12,1095,180,1275,2025-03-10,2999.99,2699.99,300.00,1,300.00,250.00,550.00
+Forno Elétrico Fischer 44L,Eletrodomésticos,2021-10-15,365,30,395,2022-11-06,899.99,799.99,100.00,1,100.00,40.00,140.00
+Panela de Pressão Elétrica Philco,Eletrodomésticos,2022-02-14,365,0,365,2023-02-14,399.99,349.99,50.00,1,50.00,0.00,50.00
+Tênis Nike Air Max,Vestuário,2023-03-15,90,0,90,2023-06-13,399.99,349.99,50.00,1,50.00,0.00,50.00
+Camisa Polo Ralph Lauren,Vestuário,2022-08-01,0,0,0,2022-08-01,149.99,119.99,30.00,2,60.00,0.00,60.00
+Calça Jeans Levi's 501,Vestuário,2021-12-25,0,180,180,2022-06-23,199.99,169.99,30.00,1,30.00,40.00,70.00
+Jaqueta de Couro Schott NYC,Vestuário,2022-11-05,0,365,365,2023-11-05,1999.99,1799.99,200.00,1,200.00,200.00,400.00
+
