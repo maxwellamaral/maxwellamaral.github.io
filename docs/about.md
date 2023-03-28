@@ -1,7 +1,5 @@
 ---
-layout: default
-title: About
+layout: home
+title: Sobre
 ---
-# About page
-
 This page tells you a little bit about me.
