@@ -7,5 +7,7 @@
 			"path": "../práticas de engenharia de software"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.language": "en,pt,pt-BR"
+	}
 }

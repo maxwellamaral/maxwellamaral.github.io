@@ -4,9 +4,32 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Sobre"
     url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Disciplinas"
+    url: "/lessons/"
+
+docs:
+  - title: "Disciplinas"
+    children:
+      - title: "Home"
+        url: "/lessons/"
+      - title: "Engenharia de Software"
+        url: /lessons/softeng/
+
+softeng:
+  - title: "Engenharia de Software"
+    children:
+      - title: Bem-vindo
+        url: /lessons/softeng/
+      - title: Introdução
+        url: /lessons/softeng/intro/intro/ 
+      - title: Criando uma conta no GitHub
+        url: /lessons/softeng/intro/github/
+      - title: Instalando o Git
+        url: /lessons/softeng/intro/git/
+      - title: Instalando o Visual Studio Code
+        url: /lessons/softeng/intro/vscode/
+      - title: Instalando o Python
+        url: /lessons/softeng/intro/python/
+      - title: Instalando o Django
+        url: /lessons/softeng/intro/django/
+        
