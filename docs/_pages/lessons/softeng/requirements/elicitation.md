@@ -71,7 +71,7 @@ Exemplos de entrevistas livre de contexto:
   - Que problemas o sistema deve resolver?
   - Poderão existir riscos para o usuário?
   - Em que ambiente o produto deverá ser executado?
-  - O que você espera do produto com relação a: 
+  - O que você espera do produto com relação a:
     - qualidade
     - desempenho
     - segurança

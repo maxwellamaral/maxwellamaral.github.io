@@ -36,5 +36,9 @@ softeng:
         url: /lessons/softeng/requirements/intro/
       - title: Elicitação de Requisitos
         url: /lessons/softeng/requirements/elicitation/
+      - title: Visão do Produto
+        url: /lessons/softeng/requirements/vision/
+      - title: Análise de custos e vendas
+        url: /lessons/softeng/requirements/costs/
       
         

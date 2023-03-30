@@ -33,3 +33,13 @@ Imagina que um cliente procura você e te diz que o que ele queria dizer não fo
 Tem que rir para não acabar chorando.
 
 Então, engenharia de requisitos é difícil, mas não é impossível. É uma arte, uma ciência e uma técnica. E é uma das partes mais importantes do processo de desenvolvimento de software. A dificuldade se resume em entender e ter certeza sobre o que o cliente está pedindo em relação ao problema que está enfrentando. E este problema se resume, geralmente, em uma necessidade de negócio.
+
+Veja aqui o conteúdo das aulas:
+
+- [Introdução à Engenharia de Requisitos](/lessons/softeng/requirements/intro/)
+- [Elicitação de Requisitos](/lessons/softeng/requirements/elicitation/)
+- [Visão do Produto](/lessons/softeng/requirements/vision/)
+  - Ferramentas, modelos e exemplos:
+    - [Documento de Visão do Produto (DVP)](/lessons/softeng/requirements/vision/sample/)
+- [Análise de custos e vendas](/lessons/softeng/requirements/costs/)
+  
