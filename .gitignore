@@ -1,9 +1,10 @@
-data/garantias.xlsx
 .venv/
 .bkp/
-maxwellamaral.github.io.code-workspace
-docs/.jekyll-cache
+_site/
+.jekyll-cache/
+docs/.jekyll-cache/
 docs/Gemfile.lock
-docs/_site
-.jekyll-cache
-_site
+docs/_site/
+maxwellamaral.github.io.code-workspace
+data/garantias.xlsx
+docs/.jekyll-metadata

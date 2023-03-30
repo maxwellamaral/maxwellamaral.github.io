@@ -6,7 +6,7 @@ main:
     url: "/lessons/"
   - title: "Sobre"
     url: /about/
-    
+
 docs:
   - title: "Disciplinas"
     children:
@@ -32,4 +32,9 @@ softeng:
         url: /lessons/softeng/intro/python/
       - title: Instalando o Django
         url: /lessons/softeng/intro/django/
+      - title: Introdução à Engenharia de Requisitos
+        url: /lessons/softeng/requirements/intro/
+      - title: Elicitação de Requisitos
+        url: /lessons/softeng/requirements/elicitation/
+      
         

@@ -2,7 +2,7 @@
 layout: home
 author_profile: true
 title: Elicitação de Requisitos
-permalink: /lessons/softeng/requirements/elicitacao/
+permalink: /lessons/softeng/requirements/elicitation/
 sidebar:
     nav: "softeng"
 ---
@@ -18,7 +18,7 @@ Criado em Março de 2023 por *Maxwell Anderson*
 
 # Introdução
 
-Esta atividade abrange identificar quais as principais necessidades das partes envolvidas ou _stakeholders_ no projeto. A partir daí, é possível identificar os requisitos do sistema.
+Esta atividade abrange identificar quais as principais necessidades das partes envolvidas ou *stakeholders* no projeto. A partir daí, é possível identificar os requisitos do sistema.
 
 # Objetivos
 
@@ -43,7 +43,7 @@ Outra coisa que vale salientar: nós não somos, inicialmente, os especialistas 
 
 > 💡**Exemplo**
 >
-> Se um advogado ou um escritório de advocacia solicita a você que seja desenvolvido um sistema para gerenciar os processos judiciais? 
+> Se um advogado ou um escritório de advocacia solicita a você que seja desenvolvido um sistema para gerenciar os processos judiciais?
 >
 > Pergunta: você entende do ramo do Direito? Provavelmente não.
 >
@@ -92,3 +92,29 @@ Exemplos de entrevistas livre de contexto:
 - Perguntas longas e complexas:
   - Tenho uma pergunta que se divide em 3 partes.
 
+### Considerações
+
+- Não faça perguntas que você já sabe a resposta.
+  - Por exemplo, se você já sabe que o cliente deseja um sistema que seja executado em um computador desktop, não pergunte se ele deseja um sistema que seja executado em um computador desktop.
+- Evite pedir ao cliente que descreva algo que ele normalmente não descreve.
+  - Por exemplo, se o cliente não tem experiência em desenvolvimento de software, evite perguntar sobre aspectos técnicos muito específicos.
+- Não formule perguntas que pressupõem que o cliente pode descrever atividades complexas.
+  - Por exemplo, em vez de perguntar "como você descreveria o processo de integração de dados entre sistemas?", prefira perguntar "como os diferentes sistemas se comunicam atualmente?".
+- De modo geral, os clientes podem realizar muitas atividades que não conseguem descrever.
+  - Por exemplo, um cliente pode utilizar um software complexo diariamente, mas não saber explicar detalhes técnicos sobre seu funcionamento.
+- Existem poucas correlações empíricas que comprovam isso.
+  - Por exemplo, pode haver casos em que o cliente não consiga descrever uma atividade, mas ao mesmo tempo possua uma grande quantidade de informações valiosas sobre outras atividades.
+- Formule perguntas que não possuem respostas definitivas.
+  - Por exemplo, em vez de perguntar "qual é a solução ideal para este problema?", prefira perguntar "como vocês lidam atualmente com este problema?".
+- Evite perguntas que começam com "Por que...?", pois elas podem gerar uma postura defensiva.
+  - Por exemplo, em vez de perguntar "por que vocês fizeram desta forma?", prefira perguntar "vocês já consideraram outras opções para resolver este problema?".
+
+### Condução da entrevista
+
+- Seja gentil e educado.
+- Seja paciente e atencioso.
+- Não espere que o entrevistado responda todas as suas perguntas.
+- Não espere respostas curtas e simples.
+- Não apresse o entrevistado quando estiver respondendo.
+- Lembre-se que existem partes interessadas que não são usuários de sistemas de informação e/ou que possuem vários níveis de conhecimento e formação educacional, alguns com conhecimentos técnicos e outros não.
+- Sempre ouça!
