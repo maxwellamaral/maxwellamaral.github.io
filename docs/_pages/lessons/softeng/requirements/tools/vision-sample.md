@@ -197,7 +197,7 @@ Além disso, o sistema SCGP pode ser integrado com outros sistemas, como sistema
 
 Uma estrutura operacional do produto é apresentada na Figura 1.
 
-![Arquitetura ambiental do sistema SCGP](arquitechture.svg)
+![Arquitetura ambiental do sistema SCGP](../../../../../assets/images/lessons/architecture.jpg)
 
 **Figura 1** - Arquitetura ambiental do sistema SCGP
 
