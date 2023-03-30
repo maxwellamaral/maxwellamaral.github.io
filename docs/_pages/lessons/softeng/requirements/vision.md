@@ -61,6 +61,16 @@ Um modelo em "branco" pode ser copiado e utilizado como base para a criação de
 
 ## Dica de uso por IA generativa. 🧠
 
+As IAs generativas podem ser utilizadas para gerar conteúdos e textos. Elas podem ser utilizadas para gerar exemplos de DVPs.
+
+> **Atenção!** 🚨
+>
+> Devemos utilizar estas tecnologias como aliadas a fim de tornar o trabalho produtivo. Todavia, devemos ter cuidado para que não se tornem um obstáculo para a criatividade e para a inovação, pois elas podem acabar gerando conteúdos e textos que não sejam úteis ou mesmo que não sejam verdadeiros.
+>
+> Também tome cuidado para não infrigir os direitos autorais de terceiros. Se você utilizar conteúdos e textos gerados por IA, certifique-se de que eles não infrinjam os direitos autorais de terceiros.
+
+Seguem alguns exemplos prompts e de textos gerados por IA.
+
 ### Prompt para descrição de oportunidades de negócios
 
 Para gerar o exemplo de DVP acima, seguem alguns prompts que podem ser utilizados para gerar textos e conteúdos importantes:
