@@ -67,7 +67,7 @@ As IAs generativas podem ser utilizadas para gerar conteúdos e textos. Elas pod
 >
 > Devemos utilizar estas tecnologias como aliadas a fim de tornar o trabalho produtivo. Todavia, devemos ter cuidado para que não se tornem um obstáculo para a criatividade e para a inovação, pois elas podem acabar gerando conteúdos e textos que não sejam úteis ou mesmo que não sejam verdadeiros.
 >
-> Também tome cuidado para não infrigir os direitos autorais de terceiros. Se você utilizar conteúdos e textos gerados por IA, certifique-se de que eles não infrinjam os direitos autorais de terceiros.
+> Também tome cuidado para não infringir os direitos autorais de terceiros. Se você utilizar conteúdos e textos gerados por IA, certifique-se de que eles não infrinjam os direitos autorais de terceiros.
 
 Seguem alguns exemplos prompts e de textos gerados por IA.
 
