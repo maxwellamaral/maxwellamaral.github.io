@@ -38,8 +38,8 @@ Realize os seguintes passos:
 
 - Na página seguinte, você vai preencher os campos com seus dados.
 
-    ### Uma dica de ouro 🤩
-    
+    <span id="#dica_1"><strong>Dica de ouro</strong> 🤩</span>
+
     > Se você é estudante ou professor vinculado a uma instituição pública ou privada de ensino, você pode obter um plano profissional gratuito do GitHub através do [GitHub for Education](https://education.github.com/pack). Para isso:
     >
     > - Você deverá preencher o formulário com seus dados. Use preferencialmente um endereço de e-mail institucional.
