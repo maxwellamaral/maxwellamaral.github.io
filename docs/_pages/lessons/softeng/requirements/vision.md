@@ -27,6 +27,7 @@ Criado em Março de 2023 por *Maxwell Anderson*
 **Ferramentas**
 
 - 📄[Exemplo de Documento de Visão do Produto (DVP)](/lessons/softeng/requirements/vision/sample/)
+- 📃[Modelo de Documento de Visão do Produto (DVP)](/lessons/softeng/requirements/vision/model/)
 
 # Introdução
 
@@ -53,6 +54,10 @@ Tudo que é escrito nele será reutilizado nas próximas etapas e, portanto, ten
 A melhor forma de aprender é partindo de exemplos. Vamos ver um exemplo de um DVP que poderá ser utilizado como exemplo.
 
 📄[Exemplo de Documento de Visão do Produto (DVP)](/lessons/softeng/requirements/vision/sample/)
+
+Um modelo em "branco" pode ser copiado e utilizado como base para a criação de um DVP. Ele contém os principais tópicos que devem ser abordados.
+
+📃[Modelo de Documento de Visão do Produto (DVP)](/lessons/softeng/requirements/vision/model/)
 
 ## Dica de uso por IA generativa. 🧠
 
