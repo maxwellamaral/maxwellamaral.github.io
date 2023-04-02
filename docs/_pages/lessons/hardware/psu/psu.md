@@ -236,3 +236,5 @@ Por que recomenda-se uma fonte de alimentação com uma potência de 1000W?
 Porque a potência de uma fonte de alimentação é medida em picos. Ou seja, a fonte de alimentação pode fornecer 1000W por um curto período de tempo, mas não por um longo período de tempo. Por isso, é recomendado que a fonte de alimentação tenha uma potência superior a potência necessária para o computador.
 
 Outro motivo é de possibilitar que você possa fazer upgrades no computador no futuro. Por exemplo, você pode adicionar uma placa de vídeo ou um processador mais potente.
+
+> Selecione o menu lateral para navegar pelo curso.

@@ -22,3 +22,5 @@ Criado em Março de 2023 por *Maxwell Anderson*
 
 A montagem e a manutenção de um computador é um processo relativamente simples, mas que requer alguns cuidados para que o equipamento funcione corretamente. Neste curso, você aprenderá os conceitos básicos de montagem e manutenção de computadores, bem como a instalação de sistemas operacionais e aplicativos.
 
+> Selecione o menu lateral para navegar pelo curso.
+

@@ -127,3 +127,4 @@ Segue a tabela de pinos do conector ATX 2.x de 24 pinos:
 
 Existem padrões menores, como o microATX e o miniATX.
 
+> Selecione o menu lateral para navegar pelo curso.
