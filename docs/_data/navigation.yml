@@ -10,10 +10,12 @@ main:
 docs:
   - title: "Disciplinas"
     children:
-      - title: "Home"
+      - title: "Visão geral"
         url: "/lessons/"
       - title: "Engenharia de Software"
         url: /lessons/softeng/
+      - title: "Manutenção e Montagem de Computadores"
+        url: /lessons/hardware/
 
 softeng:
   - title: "Engenharia de Software"
@@ -40,6 +42,19 @@ softeng:
         url: /lessons/softeng/requirements/vision/
       - title: Análise de custos e vendas
         url: /lessons/softeng/requirements/costs/
+
+hardware:
+  - title: Manutenção e Montagem de Computadores
+    children:
+      - title: Bem-vindo
+        url: /lessons/hardware/
+      - title: Introdução
+        url: /lessons/hardware/intro/intro/
+      - title: Fontes de alimentação
+        url: /lessons/hardware/psu/psu/
+      - title: Padrões de fontes de alimentação
+        url: /lessons/hardware/psu/psu_standards/
+
       
       
         
