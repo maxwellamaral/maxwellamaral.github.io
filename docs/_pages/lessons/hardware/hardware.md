@@ -27,5 +27,6 @@ Maxwell Anderson Ielpo do Amaral
 # Conteúdo
 
 * [Introdução](/lessons/hardware/intro/intro/)
-* [Fontes de alimentação](/lessons/hardware/psu/psu/)
-* [Padrões de fontes de alimentação](/lessons/hardware/psu/psu_standards/)	
+* Alimentação 
+  * [Fontes de alimentação](/lessons/hardware/psu/psu/)
+  * [Padrões de fontes de alimentação](/lessons/hardware/psu/psu_standards/)	
