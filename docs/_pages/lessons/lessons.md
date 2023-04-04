@@ -5,4 +5,8 @@ title: Disciplinas
 permalink: /lessons/
 ---
 
-* 🧑🏻‍💻 [Engenharia de Software - Práticas](/lessons/softeng/)
+Disciplinas ministradas.
+
+
+- 🧑🏻‍💻 [Engenharia de Software - Práticas](/lessons/softeng/)
+- 🪛 [Montagem e Manutenção de Computadores](/lessons/hardware/)
