@@ -30,6 +30,8 @@ Cada tecnologia será armazenada em repositório próprio, sendo adicionado ao r
 
 ## Monolithic
 
+* `README.md` dos projetos monolíticos [./monolithic/README.md](./monolithic/README.md)
+
 Exemplos:
 
 * [x] Django - `./monolithic/dj` como submódulo de <https://github.com/maxwellamaral/garantias-mono-dj.git>

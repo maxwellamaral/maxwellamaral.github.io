@@ -4,10 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "../práticas de engenharia de software"
+			"path": "src/monolithic/dj"
 		}
 	],
 	"settings": {
-		"cSpell.language": "en,pt,pt-BR"
+		"cSpell.language": "en,pt-BR"
 	}
 }
