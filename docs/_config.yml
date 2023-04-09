@@ -15,7 +15,7 @@ minimal_mistakes_skin    : "neon" # "default" "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "pt-BR"
-title                    : "Maxwell Anderson"
+title                    : "maxClass IT"
 title_separator          : "-"
 subtitle                 : "Disciplinas ministradas" # site tagline that appears below site title in masthead
 name                     : "Maxwell Anderson"
@@ -105,7 +105,7 @@ analytics:
 author:
   name             : "Maxwell Anderson"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Professor | Engenheiro de Software"
+  bio              : "Professor / Engenheiro de Software"
   location         : "João Pessoa, PB, Brasil"
   email            : maxwell.amaral@ifpb.edu.br
   links:
