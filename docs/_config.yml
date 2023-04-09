@@ -15,7 +15,7 @@ minimal_mistakes_skin    : "neon" # "default" "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "pt-BR"
-title                    : "maxClass IT"
+title                    : "maxclass_it"
 title_separator          : "-"
 subtitle                 : "Disciplinas ministradas" # site tagline that appears below site title in masthead
 name                     : "Maxwell Anderson"
