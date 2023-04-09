@@ -24,13 +24,23 @@ Conteúdo
 
 # Fornecimento e aterramento elétrico
 
-![Esquema de aterramento elétrico em 220V com uma fase](../../../../assets/images/lessons/psu_plug_220v.png)
+<center>
+  <figure>
+      <img src="../../../../assets/images/lessons/psu_plug_220v.png" width="450" alt="Esquema de aterramento elétrico em 220V com uma fase">
+      <br>
+      <figcaption>Esquema de aterramento elétrico em 220V com uma fase</figcaption>
+      <small></small>
+  </figure>
+</center>
 
-Esquema de aterramento elétrico em 220V com uma fase
-
-![Esquema de aterramento elétrico em 220V e 110C com duas fase](../../../../assets/images/lessons/psu_plug_220v_110v.png)
-
-Esquema de aterramento elétrico em 220V e 110V com duas fases
+<center>
+  <figure>
+      <img src="../../../../assets/images/lessons/psu_plug_220v_110v.png" width="450" alt="Esquema de aterramento elétrico em 220V e 110V com duas fases">
+      <br>
+      <figcaption>Esquema de aterramento elétrico em 220V e 110V com duas fases</figcaption>
+      <small></small>
+  </figure>
+</center>
 
 Alguns estados fornecem 200V e outros fornecem 110V. Antes de verificar a tomada, é necessário realizar uma medição de tensão para verificar se a tensão fornecida é a mesma que a tensão de entrada da fonte de alimentação. Se a tensão fornecida for diferente da tensão de entrada da fonte de alimentação, é necessário ajustar a tensão de entrada da fonte de alimentação para a tensão fornecida, caso contrário, a fonte de alimentação pode ser danificada.
 
@@ -92,15 +102,19 @@ Veja o que acontece com o nosso corpo quando levamos choque:
 | Entre 100mA e 3000mA (ou 3A) | Fibrilação muscular cardíaca ☠️                   |
 | Acima de 3000mA (ou 3A)      | Parada cardíaca e queimaduras graves ☠️           |
 
-Então por que os pássaros não morrem quando tocam em fios elétricos? 
-
+Então por que os pássaros não morrem quando tocam em fios elétricos?
 Porque eles não são capazes de conduzir corrente elétrica, pois não existe diferença de potencial. Caso ele encoste o bico em um fio com potencial diferente, as cargas elétricas poderão percorrer o seu corpo (tadinho).
 
 ## Aterramento
 
-![Haste de cobre](https://portalconstrucaofacil.com/wp-content/uploads/2019/02/haste-atermto.jpg)
-
-Fonte: Portal Construção Fácil, disponívem em https://portalconstrucaofacil.com/aterramento-residencial/, acessado em 09/04/2023.
+<center>
+  <figure>
+      <img src="https://portalconstrucaofacil.com/wp-content/uploads/2019/02/haste-atermto.jpg" width="450" alt="Haste de cobre">
+      <br>
+      <figcaption>Haste de cobre</figcaption>
+      <small>Portal Construção Fácil, disponívem em https://portalconstrucaofacil.com/aterramento-residencial/, acessado em 09/04/2023.</small>
+  </figure>
+</center>
 
 O aterramento é um processo de ligação de um condutor de cobre (geralmente uma haste) ao solo, para que a corrente elétrica possa retornar ao solo, caso ocorra uma fuga de corrente.
 
@@ -116,9 +130,11 @@ Veja os principais cuidados que devemos ter:
 | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | ![Nunca conecte o pino terra ao polo neutro](../../../../assets/images/lessons/psu_ground.png) | ![Não utilize sistema de aterramento eletrônico](../../../../assets/images/lessons/psu_ground_electronic.png) |
 
-<figure style="text-align:center">
-    <img src="../../../../assets/images/gpt/cat_shock1.jpg" width="450" alt="Gato técnico em computador levando um choque por não ter tomado cuidado.">
-    <br>
-    <figcaption>Gato técnico em computador levando um choque por não ter tomado cuidado. Prompt: create an image of computer technician cat getting shocked for not being careful. </figcaption>
-    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
-</figure>
+<center>
+  <figure>
+      <img src="../../../../assets/images/gpt/cat_shock1.jpg" width="450" alt="Gato técnico em computador levando um choque por não ter tomado cuidado.">
+      <br>
+      <figcaption>Gato técnico em computador levando um choque por não ter tomado cuidado. Prompt: create an image of computer technician cat getting shocked for not being careful. </figcaption>
+      <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
+  </figure>
+</center>
