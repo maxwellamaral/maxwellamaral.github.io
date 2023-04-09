@@ -1,0 +1,3 @@
+[submodule "src\\monolithic\\dj"]
+	path = src\\monolithic\\dj
+	url = https://github.com/maxwellamaral/garantias-mono-dj.git
