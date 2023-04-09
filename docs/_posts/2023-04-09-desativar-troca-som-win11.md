@@ -1,7 +1,14 @@
 ---
-layout: post
+layout: posts
 title:  "Como impedir que o Windows 11 realize a troca de saída de som ao conectar novo dispositivo de som"
 ---
+
+<figure>
+    <img src="../assets/images/gpt/cat_studying_glasses3.jpg" width="350" alt="Gato estudando usando óculos. Prompt: Create an image of a cat studying software engineering">
+    <figcaption>Gato estudando.</figcaption>
+    <br>
+    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
+</figure>
 
 # Introdução
 
