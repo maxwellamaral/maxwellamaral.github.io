@@ -24,6 +24,8 @@ Conteúdo
   - [O padrão AT](#o-padrão-at)
   - [O padrão ATX](#o-padrão-atx)
     - [Pinos](#pinos)
+    - [Como ligar a fonte fora do gabinete?](#como-ligar-a-fonte-fora-do-gabinete)
+    - [Como testar uma fonte de alimentação?](#como-testar-uma-fonte-de-alimentação)
 
 # Padrões de fontes de alimentação
 
@@ -69,21 +71,21 @@ Segue foto do plugue ATX 2.x de 24 pinos:
     </small>
 </figure>
 
-| Pino | Cor | Cor | Pino |
-| :--: | :-: | :-: | :--: |
-|  1   | 🟧  | 🟧  |  13  |
-|  2   | 🟧  | 🟦  |  14  |
-|  3   | ⬛  | ⬛  |  15  |
-|  4   | 🟥  | 🟩  |  16  |
-|  5   | ⬛  | ⬛  |  17  |
-|  6   | 🟥  | ⬛  |  18  |
-|  7   | ⬛  | ⬛  |  19  |
-|  8   | CZ  | RV  |  20  |
-|  9   | 🟪  | 🟥  |  21  |
-|  10  | 🟨  | 🟥  |  22  |
-|  --  | --  | --  |  --  |
-|  11  | 🟨  | 🟥  |  23  |
-|  12  | 🟧  | ⬛  |  24  |
+| Pino  |  Cor  |  Cor  | Pino  |
+| :---: | :---: | :---: | :---: |
+|   1   |   🟧   |   🟧   |  13   |
+|   2   |   🟧   |   🟦   |  14   |
+|   3   |   ⬛   |   ⬛   |  15   |
+|   4   |   🟥   |   🟩   |  16   |
+|   5   |   ⬛   |   ⬛   |  17   |
+|   6   |   🟥   |   ⬛   |  18   |
+|   7   |   ⬛   |   ⬛   |  19   |
+|   8   |  CZ   |  RV   |  20   |
+|   9   |   🟪   |   🟥   |  21   |
+|  10   |   🟨   |   🟥   |  22   |
+|  --   |  --   |  --   |  --   |
+|  11   |   🟨   |   🟥   |  23   |
+|  12   |   🟧   |   ⬛   |  24   |
 
 <small>Pinagem dos conectores ATX 2.x</small><br>
 <small>Fonte: autoria própria (2023)</small>
@@ -92,32 +94,32 @@ Possui 3 tensões principais de saída: 3,3V, 5V e 12V. A tensão de 12V é a ma
 
 Segue a tabela de pinos do conector ATX 2.x de 24 pinos:
 
-| Pino |    Cor    |   Sinal    | Descritivo                                                                          |
-| :--: | :-------: | :--------: | :---------------------------------------------------------------------------------- |
-|  1   |    🟧     |   +3,3V    |                                                                                     |
-|  2   |    🟧     |   +3,3V    |                                                                                     |
-|  3   |    ⬛     |    GND     |                                                                                     |
-|  4   |    🟥     |    +5V     |                                                                                     |
-|  5   |    ⬛     |    GND     |                                                                                     |
-|  6   |    🟥     |    +5V     |                                                                                     |
-|  7   |    ⬛     |    GND     |                                                                                     |
-|  8   |   Cinza   | Power good | Quando as outras saídas estão prontas para fornecer energia. É um sinal de controle |
-|  9   |    🟪     |    +5V     | Stand by                                                                            |
-|  10  |    🟨     |    12V     |                                                                                     |
-|  11  |    🟨     |    12V     | Somente no conector de 24 pinos                                                     |
-|  12  |    🟧     |   +3,3V    | Somente no conector de 24 pinos                                                     |
-|  13  |    🟧     |   +3,3V    |                                                                                     |
-|  14  |    🟦     |    -12V    |                                                                                     |
-|  15  |    ⬛     |    GND     |                                                                                     |
-|  16  |    🟩     |  Power on  | Quando jampeado com um pino de GND, a fonte é ligada.                               |
-|  17  |    ⬛     |    GND     |                                                                                     |
-|  18  |    ⬛     |    GND     |                                                                                     |
-|  19  |    ⬛     |    GND     |                                                                                     |
-|  20  | Reservado |            | Anteriormente era -5V. Fora de uso.                                                 |
-|  21  |    🟥     |    +5V     |                                                                                     |
-|  22  |    🟥     |    +5V     |                                                                                     |
-|  23  |    🟥     |    +5V     | Somente no conector de 24 pinos                                                     |
-|  24  |    ⬛     |    GND     | Somente no conector de 24 pinos                                                     |
+| Pino  |    Cor    |   Sinal    | Descritivo                                                                          |
+| :---: | :-------: | :--------: | :---------------------------------------------------------------------------------- |
+|   1   |     🟧     |   +3,3V    |                                                                                     |
+|   2   |     🟧     |   +3,3V    |                                                                                     |
+|   3   |     ⬛     |    GND     |                                                                                     |
+|   4   |     🟥     |    +5V     |                                                                                     |
+|   5   |     ⬛     |    GND     |                                                                                     |
+|   6   |     🟥     |    +5V     |                                                                                     |
+|   7   |     ⬛     |    GND     |                                                                                     |
+|   8   |   Cinza   | Power good | Quando as outras saídas estão prontas para fornecer energia. É um sinal de controle |
+|   9   |     🟪     |    +5V     | Stand by                                                                            |
+|  10   |     🟨     |    12V     |                                                                                     |
+|  11   |     🟨     |    12V     | Somente no conector de 24 pinos                                                     |
+|  12   |     🟧     |   +3,3V    | Somente no conector de 24 pinos                                                     |
+|  13   |     🟧     |   +3,3V    |                                                                                     |
+|  14   |     🟦     |    -12V    |                                                                                     |
+|  15   |     ⬛     |    GND     |                                                                                     |
+|  16   |     🟩     |  Power on  | Quando jampeado com um pino de GND, a fonte é ligada.                               |
+|  17   |     ⬛     |    GND     |                                                                                     |
+|  18   |     ⬛     |    GND     |                                                                                     |
+|  19   |     ⬛     |    GND     |                                                                                     |
+|  20   | Reservado |            | Anteriormente era -5V. Fora de uso.                                                 |
+|  21   |     🟥     |    +5V     |                                                                                     |
+|  22   |     🟥     |    +5V     |                                                                                     |
+|  23   |     🟥     |    +5V     | Somente no conector de 24 pinos                                                     |
+|  24   |     ⬛     |    GND     | Somente no conector de 24 pinos                                                     |
 
 <figure>
     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/ATX-Netzteil.jpg" alt="ATX-Netzteil.jpg" height="469" width="640">
@@ -126,5 +128,36 @@ Segue a tabela de pinos do conector ATX 2.x de 24 pinos:
 </figure>
 
 Existem padrões menores, como o microATX e o miniATX.
+
+<p><a href="https://commons.wikimedia.org/wiki/File:MicroATX_Motherboard_with_AMD_Athlon_Processor_2_Digon3.jpg#/media/File:MicroATX_Motherboard_with_AMD_Athlon_Processor_2_Digon3.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/MicroATX_Motherboard_with_AMD_Athlon_Processor_2_Digon3.jpg" alt="MicroATX Motherboard with AMD Athlon Processor 2 Digon3.jpg" height="720" width="781"></a><br>By I, <a href="//commons.wikimedia.org/wiki/User:Digon3" title="User:Digon3">Jonathan Zander</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=4994025">Link</a></p>
+
+Na figura acima podemos ver que os conectores da placa-mãe ficam acima do soquete do processador. Temos ali os conectores de energia e o conector de alimentação do processador.
+
+### Como ligar a fonte fora do gabinete?
+
+Para ligar a fonte fora do gabinete sem precisar estar conectada à placa-mãe, é necessário "jampear" ou fechar o circuito entre o pino Power On e um pino GND. O pino Power On é o pino 16 e o pino GND é o pino 15. Para fechar o circuito, basta colocar um jumper entre os dois pinos.
+
+### Como testar uma fonte de alimentação?
+
+Siga os passos abaixo:
+
+1. Desconecte a fonte do gabinete e da placa-mãe.
+2. Conecte o cabo de força na fonte.
+3. Teste a tomada e verifique se a mesma possui aterramento conforme instruções anteriores.
+4. Se a tomada estiver em conformidade com os padrões de segurança, conecte o cabo de força na tomada. Caso contrário, não conecte o cabo de força na tomada e procure um eletricista para verificar a tomada.
+5. Realize o jampeamento entre os pinos Power On e GND.
+    - Se não ligar, verifique o fusível.
+6. Ligue o interruptor da fonte, se houver.
+7. Verifique a tensão correta com um multímetro.
+    - Para tensões de 3,3V, deve estar entre 3,12V e 3,48V.
+    - Para tensões de 5V, deve estar entre 4,75V e 5,25V.
+    - Para tensões de 12V, deve estar entre 11,4V e 12,6V.
+
+Se as tensões estiverem abaixo do normal, isto pode causar inoperância ou instabilidade nop PC. Se as tensões estiverem acima do normal, isto pode causar danos ao PC, seja em capacitores, resistores ou outros componentes eletrônicos como processador, memória RAM, placa de vídeo etc.
+
+Uma outra forma de testar é utilizando ferramenta específica, como podemos ver abaixo:
+
+![Teste de fonte de alimentação](https://ae01.alicdn.com/kf/H03875dc87e8e42cfa060426bf7f368e2q.jpg)
+Fonte: AliExpress em <https://pt.aliexpress.com/item/4000048643037.html>, 09/04/2023.
 
 > Selecione o menu lateral para navegar pelo curso.

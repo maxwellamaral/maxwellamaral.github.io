@@ -54,6 +54,8 @@ hardware:
         url: /lessons/hardware/psu/psu/
       - title: Padrões de fontes de alimentação
         url: /lessons/hardware/psu/psu_standards/
+      - title: Fornecimento e aterramento elétrico
+        url: /lessons/hardware/psu/psu_electrical/
 
       
       
