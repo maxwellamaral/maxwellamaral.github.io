@@ -1,2 +1,2 @@
-[submodule "src/monolithic/dj"]
+[submodule "dj"]
 	path = src/monolithic/dj
