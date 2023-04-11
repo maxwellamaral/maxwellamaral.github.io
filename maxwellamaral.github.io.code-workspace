@@ -8,6 +8,7 @@
 		}
 	],
 	"settings": {
-		"cSpell.language": "en,pt-BR"
+		"cSpell.language": "en,pt-BR",
+		"powershell.cwd": "p:\\learning\\maxwellamaral.github.io\\src\\monolithic\\dj"
 	}
 }
