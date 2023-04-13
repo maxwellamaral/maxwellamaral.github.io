@@ -1,7 +1,7 @@
 ---
 layout: home
 author_profile: true
-title: Práticas em Engenharia de Software
+[Práticas em Engenharia de Software
 permalink: /lessons/softeng/
 sidebar:
     nav: "softeng"
@@ -38,4 +38,15 @@ Maxwell Anderson Ielpo do Amaral
   * [Instalando o Visual Studio Code](/lessons/softeng/intro/vscode/)
   * [Instalando o Python no Windows](/lessons/softeng/intro/python/)
   * [Instalando o Django no Windows](/lessons/softeng/intro/django/)
-  <!-- * [Configurando as extensões do VSCode](01.%20Prepara%C3%A7%C3%A3o%20do%20ambiente/06.%20Configurando%20as%20extens%C3%B5es%20do%20VSCode.md) -->
+* Engenharia de Requisitos
+  * [Introdução à Engenharia de Requisitos](/lessons/softeng/requirements/intro/)
+  * [Elicitação de Requisitos](/lessons/softeng/requirements/elicitation/)
+  * [Visão do Produto](/lessons/softeng/requirements/vision/)
+  * [Análise de custos e vendas](/lessons/softeng/requirements/costs/)
+  
+  <!-- * [Configurando as extensões do VSCode](01.%20Prepara%C3%A7%C3%A3o%20do%20ambiente/06.%20Configurando%20as%20extens%C3%B5es%20do%20VSCode.md) 
+* Test Driven Development (TDD)
+  * [Introdução](/lessons/softeng/tdd/intro/)
+  * [Escrevendo histórias de usuários](/lessons/softeng/tdd/user-histories/)
+
+-->
