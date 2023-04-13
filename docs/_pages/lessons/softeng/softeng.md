@@ -1,7 +1,7 @@
 ---
 layout: home
 author_profile: true
-[Práticas em Engenharia de Software
+title: Práticas em Engenharia de Software
 permalink: /lessons/softeng/
 sidebar:
     nav: "softeng"
