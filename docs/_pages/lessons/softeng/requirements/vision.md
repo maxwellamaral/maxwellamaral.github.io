@@ -35,11 +35,11 @@ O Documento de Visão do Produto (DVP) é um documento que descreve o produto de
 
 Ele é, de longe, a fonte de informação mais importante para novos projetos. Através dele você obtém uma visão geral do problema e da necessidade do cliente e dos demais stakeholders. Ele é um documento que deve ser atualizado ao longo do projeto, sempre que novas informações forem obtidas.
 
-É difícil iniciar um trabalho de elicitação de requisitos sem que os engenheiros obtenham uma visão geral do problema e das necessidades dos stakeholders. É importante que você tenha uma visão geral do problema e das necessidades dos stakeholders antes de iniciar o trabalho de elicitação de requisitos. Acaba que se torna um norteador para que futuras questões possam ser elaboradas junto aos stakeholders. Ficará mais fácil dividir suas necessidades em categorias que poderão se tornar módulos do sistema.
+É difícil iniciar um trabalho de elicitação de requisitos sem que os engenheiros obtenham uma visão geral do problema e das necessidades dos stakeholders. É importante que você tenha uma visão geral do problema e das necessidades deles antes de iniciar o trabalho de elicitação de requisitos. Acaba que se torna um norteador para que futuras questões possam ser elaboradas. Ficará mais fácil dividir suas necessidades em categorias que poderão se tornar módulos do sistema.
 
 Você vai perceber que ele trará uma visão do negócio, bem como sobre as oportunidades e e melhorias no dia-a-dia dos stakeholders no uso do novo produto de software que você irá desenvolver. Ele também trará uma visão sobre as restrições do projeto, como prazos, custos, tecnologias, etc.
 
-Tudo que é escrito nele será reutilizado nas próximas etapas e, portanto, tenha muito cuidado com o que será escrito.
+Tudo que é escrito nele será reutilizado nas próximas etapas e, portanto, tenha muito cuidado com o que escreve.
 
 > **Lembre-se** 💡
 >
