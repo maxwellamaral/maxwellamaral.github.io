@@ -40,6 +40,8 @@ softeng:
         url: /lessons/softeng/requirements/elicitation/
       - title: Visão do Produto
         url: /lessons/softeng/requirements/vision/
+      - title: Exemplo de Documento de Requisitos de Software
+        url: /lessons/softeng/requirements/req/sample/
       - title: Análise de custos e vendas
         url: /lessons/softeng/requirements/costs/
 
