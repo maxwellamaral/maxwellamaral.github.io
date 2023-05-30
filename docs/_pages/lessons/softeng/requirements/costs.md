@@ -4,7 +4,7 @@ author_profile: true
 title: Considerações sobre custo e venda
 permalink: /lessons/softeng/requirements/costs/
 sidebar:
-    nav: "softeng"
+    nav: "softeng-requirements"
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 

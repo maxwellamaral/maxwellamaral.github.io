@@ -4,7 +4,7 @@ author_profile: true
 title: Obtendo a Visão do Produto
 permalink: /lessons/softeng/requirements/vision/
 sidebar:
-    nav: "softeng"
+    nav: "softeng-requirements"
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 

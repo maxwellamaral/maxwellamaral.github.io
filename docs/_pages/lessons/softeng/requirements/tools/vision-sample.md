@@ -4,7 +4,7 @@ author_profile: true
 title: Exemplo de Documento de Visão do Produto (DVP)
 permalink: /lessons/softeng/requirements/vision/sample/
 sidebar:
-  nav: "softeng"
+  nav: "softeng-requirements"
 ---
 
 Criado em Março de 2023 por _Maxwell Anderson_

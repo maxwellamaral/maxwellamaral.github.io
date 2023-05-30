@@ -2,9 +2,9 @@
 layout: home
 author_profile: true
 title: Introdução aos testes automatizados utilizando TDD
-permalink: /lessons/softeng/tdd/intro/
+permalink: /lessons/softeng/tests/intro/
 sidebar:
-    nav: "softeng"
+    nav: "softeng-tests"
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 

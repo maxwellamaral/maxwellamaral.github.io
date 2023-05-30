@@ -4,7 +4,7 @@ author_profile: true
 title: Modelo de Documento de Visão do Produto (DVP)
 permalink: /lessons/softeng/requirements/vision/model/
 sidebar:
-    nav: "softeng"
+    nav: "softeng-requirements"
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 

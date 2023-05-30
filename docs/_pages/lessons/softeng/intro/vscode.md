@@ -4,7 +4,7 @@ author_profile: true
 title: Instalando o Visual Studio Code
 permalink: /lessons/softeng/intro/vscode/
 sidebar:
-    nav: "softeng"
+    nav: "softeng-intro"
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 

@@ -4,7 +4,7 @@ author_profile: true
 title: Elicitação de Requisitos
 permalink: /lessons/softeng/requirements/elicitation/
 sidebar:
-    nav: "softeng"
+    nav: "softeng-requirements"
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 

@@ -4,7 +4,7 @@ author_profile: true
 title: Preparação de ambiente de desenvolvimento
 permalink: /lessons/softeng/intro/intro/
 sidebar:
-    nav: "softeng"
+    nav: "softeng-intro"
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 

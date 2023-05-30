@@ -4,7 +4,7 @@ author_profile: true
 title: Criando uma conta no GitHub
 permalink: /lessons/softeng/intro/github/
 sidebar:
-    nav: "softeng"
+    nav: "softeng-intro"
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 

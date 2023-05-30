@@ -4,7 +4,7 @@ author_profile: true
 title: Instalando o Python no Windows
 permalink: /lessons/softeng/intro/python/
 sidebar:
-    nav: "softeng"
+    nav: "softeng-intro"
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 

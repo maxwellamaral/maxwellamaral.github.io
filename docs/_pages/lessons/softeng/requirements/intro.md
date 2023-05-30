@@ -4,7 +4,7 @@ author_profile: true
 title: Introdução à Engenharia de Requisitos
 permalink: /lessons/softeng/requirements/intro/
 sidebar:
-    nav: "softeng"
+    nav: "softeng-requirements"
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 

@@ -4,7 +4,7 @@ author_profile: true
 title: Instalando o Git
 permalink: /lessons/softeng/intro/git/
 sidebar:
-    nav: "softeng"
+    nav: "softeng-intro"
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 

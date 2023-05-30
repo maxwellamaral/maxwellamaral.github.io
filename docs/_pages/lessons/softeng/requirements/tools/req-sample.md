@@ -4,7 +4,7 @@ author_profile: true
 title: Exemplo de Documento de Requisitos de Software
 permalink: /lessons/softeng/requirements/req/sample/
 sidebar:
-  nav: "softeng"
+  nav: "softeng-requirements"
 ---
 
 Criado em Abril de 2023 por _Maxwell Anderson_
