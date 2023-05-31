@@ -1,0 +1,13 @@
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+actor Cliente as c
+
+rectangle "Cadastro de produtos" {
+    usecase "Controlar produto" as uc1
+}
+
+c --> uc1
+
+@enduml
