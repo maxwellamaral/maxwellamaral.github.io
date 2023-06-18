@@ -23,17 +23,7 @@ softeng:
       - title: Bem-vindo
         url: /lessons/softeng/
       - title: Introdução
-        url: /lessons/softeng/intro/intro/ 
-      - title: Engenharia de Requisitos
-        url: /lessons/softeng/requirements/intro/
-      - title: Engenharia de Testes
-        url: /lessons/softeng/tests/intro/
-      - title: ◀️
-        url: /lessons/
-
-softeng-intro:
-  - title: "Introdução"
-    children:
+        url: /lessons/softeng/intro/intro/
       - title: Criando uma conta no GitHub
         url: /lessons/softeng/intro/github/
       - title: Instalando o Git
@@ -44,34 +34,14 @@ softeng-intro:
         url: /lessons/softeng/intro/python/
       - title: Instalando o Django
         url: /lessons/softeng/intro/django/
-      - title: ◀️
-        url: /lessons/softeng/
-
-softeng-requirements:
-  - title: "Engenharia de Requisitos"
-    children:
       - title: Introdução à Engenharia de Requisitos
         url: /lessons/softeng/requirements/intro/
       - title: Elicitação de Requisitos
         url: /lessons/softeng/requirements/elicitation/
       - title: Visão do Produto
         url: /lessons/softeng/requirements/vision/
-      - title: Exemplo de Documento de Requisitos de Software
-        url: /lessons/softeng/requirements/req/sample/
       - title: Análise de custos e vendas
         url: /lessons/softeng/requirements/costs/
-      - title: ◀️
-        url: /lessons/softeng/
-
-softeng-tests:
-  - title: "Engenharia de Testes"
-    children: 
-      - title: Introdução à Engenharia de Testes
-        url: /lessons/softeng/tests/intro/
-      - title: Histórias de Usuários
-        url: /lessons/softeng/tests/user_stories/
-      - title: ◀️
-        url: /lessons/softeng/
 
 hardware:
   - title: Manutenção e Montagem de Computadores
@@ -84,11 +54,15 @@ hardware:
         url: /lessons/hardware/psu/psu/
       - title: Padrões de fontes de alimentação
         url: /lessons/hardware/psu/psu_standards/
-      - title: Fornecimento e aterramento elétrico
-        url: /lessons/hardware/psu/psu_electrical/
-      - title: ◀️
-        url: /lessons/
-
-      
-      
-        
+      - title: Fontes de alimentação - Manutenação Corretiva
+        url: /lessons/hardware/psu/corrective/
+      - title: Setup
+        url: /lessons/hardware/setup/intro/
+      - title: Setup - Configuração
+        url: /lessons/hardware/setup/setup/
+      - title: BIOS - Manutenação Preventiva
+        url: /lessons/hardware/setup/preventive/
+      - title: BIOS - Manutenação Corretiva
+        url: /lessons/hardware/setup/corrective/
+      - title: BIOS - Post Codes
+        url: /lessons/hardware/setup/post_codes/
