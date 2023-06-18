@@ -17,31 +17,61 @@ docs:
       - title: "Manutenção e Montagem de Computadores"
         url: /lessons/hardware/
 
-softeng:
-  - title: "Engenharia de Software"
-    children:
-      - title: Bem-vindo
-        url: /lessons/softeng/
-      - title: Introdução
-        url: /lessons/softeng/intro/intro/
-      - title: Criando uma conta no GitHub
-        url: /lessons/softeng/intro/github/
-      - title: Instalando o Git
-        url: /lessons/softeng/intro/git/
-      - title: Instalando o Visual Studio Code
-        url: /lessons/softeng/intro/vscode/
-      - title: Instalando o Python
-        url: /lessons/softeng/intro/python/
-      - title: Instalando o Django
-        url: /lessons/softeng/intro/django/
-      - title: Introdução à Engenharia de Requisitos
-        url: /lessons/softeng/requirements/intro/
-      - title: Elicitação de Requisitos
-        url: /lessons/softeng/requirements/elicitation/
-      - title: Visão do Produto
-        url: /lessons/softeng/requirements/vision/
-      - title: Análise de custos e vendas
-        url: /lessons/softeng/requirements/costs/
+softeng: 
+  - title: "Engenharia de Software" 
+    children: 
+      - title: Bem-vindo 
+        url: /lessons/softeng/ 
+      - title: Introdução 
+        url: /lessons/softeng/intro/intro/  
+      - title: Engenharia de Requisitos 
+        url: /lessons/softeng/requirements/intro/ 
+      - title: Engenharia de Testes 
+        url: /lessons/softeng/tests/intro/ 
+      - title: ◀️ 
+        url: /lessons/ 
+
+softeng-intro: 
+  - title: "Introdução" 
+    children: 
+      - title: Criando uma conta no GitHub 
+        url: /lessons/softeng/intro/github/ 
+      - title: Instalando o Git 
+        url: /lessons/softeng/intro/git/ 
+      - title: Instalando o Visual Studio Code 
+        url: /lessons/softeng/intro/vscode/ 
+      - title: Instalando o Python 
+        url: /lessons/softeng/intro/python/ 
+      - title: Instalando o Django 
+        url: /lessons/softeng/intro/django/ 
+      - title: ◀️ 
+        url: /lessons/softeng/ 
+
+softeng-requirements: 
+  - title: "Engenharia de Requisitos" 
+    children: 
+      - title: Introdução à Engenharia de Requisitos 
+        url: /lessons/softeng/requirements/intro/ 
+      - title: Elicitação de Requisitos 
+        url: /lessons/softeng/requirements/elicitation/ 
+      - title: Visão do Produto 
+        url: /lessons/softeng/requirements/vision/ 
+      - title: Exemplo de Documento de Requisitos de Software 
+        url: /lessons/softeng/requirements/req/sample/ 
+      - title: Análise de custos e vendas 
+        url: /lessons/softeng/requirements/costs/ 
+      - title: ◀️ 
+        url: /lessons/softeng/ 
+
+softeng-tests: 
+  - title: "Engenharia de Testes" 
+    children:  
+      - title: Introdução à Engenharia de Testes 
+        url: /lessons/softeng/tests/intro/ 
+      - title: Histórias de Usuários 
+        url: /lessons/softeng/tests/user_stories/ 
+      - title: ◀️ 
+        url: /lessons/softeng/ 
 
 hardware:
   - title: Manutenção e Montagem de Computadores
