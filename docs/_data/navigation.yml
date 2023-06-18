@@ -54,6 +54,18 @@ hardware:
         url: /lessons/hardware/psu/psu/
       - title: Padrões de fontes de alimentação
         url: /lessons/hardware/psu/psu_standards/
+      - title: Fontes de alimentação - Manutenação Corretiva
+        url: /lessons/hardware/psu/corrective/
+      - title: Setup
+        url: /lessons/hardware/setup/intro/
+      - title: Setup - Configuração
+        url: /lessons/hardware/setup/setup/        
+      - title: BIOS - Manutenação Preventiva
+        url: /lessons/hardware/setup/preventive/   
+      - title: BIOS - Manutenação Corretiva
+        url: /lessons/hardware/setup/corrective/    
+      - title: BIOS - Post Codes
+        url: /lessons/hardware/setup/post_codes/    
 
       
       
