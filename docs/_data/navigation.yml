@@ -17,6 +17,8 @@ docs:
       - title: "Manutenção e Montagem de Computadores"
         url: /lessons/hardware/
 
+# ENGENHARIA DE SOFTWARE
+
 softeng: 
   - title: "Engenharia de Software" 
     children: 
@@ -73,6 +75,8 @@ softeng-tests:
       - title: ◀️ 
         url: /lessons/softeng/ 
 
+# HARDWARE
+
 hardware:
   - title: Manutenção e Montagem de Computadores
     children:
@@ -81,18 +85,38 @@ hardware:
       - title: Introdução
         url: /lessons/hardware/intro/intro/
       - title: Fontes de alimentação
+        url: /lessons/hardware/psu/psu/        
+      - title: Setup
+        url: /lessons/hardware/setup/intro/  
+      - title: ◀️ 
+        url: /lessons/               
+
+hardware-psu:
+  - title: Fontes de alimentação
+    children:
+      - title: Fontes de alimentação
         url: /lessons/hardware/psu/psu/
       - title: Padrões de fontes de alimentação
         url: /lessons/hardware/psu/psu_standards/
-      - title: Fontes de alimentação - Manutenação Corretiva
+      - title: Manutenação Corretiva
         url: /lessons/hardware/psu/corrective/
+      - title: ◀️ 
+        url: /lessons/hardware/         
+
+hardware-setup:
+  - title: BIOS-Setup
+    children:
       - title: Setup
         url: /lessons/hardware/setup/intro/
-      - title: Setup - Configuração
+      - title: Configuração
         url: /lessons/hardware/setup/setup/
-      - title: BIOS - Manutenação Preventiva
+      - title: Manutenação Preventiva
         url: /lessons/hardware/setup/preventive/
-      - title: BIOS - Manutenação Corretiva
+      - title: Manutenação Corretiva
         url: /lessons/hardware/setup/corrective/
-      - title: BIOS - Post Codes
+      - title: Post Codes
         url: /lessons/hardware/setup/post_codes/
+      - title: Beep Codes
+        url: /lessons/hardware/setup/beep_codes/
+      - title: ◀️ 
+        url: /lessons/hardware/          

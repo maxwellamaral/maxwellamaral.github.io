@@ -4,7 +4,7 @@ author_profile: true
 title: BIOS - Post Codes
 permalink: /lessons/hardware/setup/post_codes/
 sidebar:
-    nav: "hardware"
+    nav: "hardware-setup"
 ---
 Criado em Junho de 2023 por *Maxwell Anderson*
 
@@ -27,9 +27,6 @@ Criado em Junho de 2023 por *Maxwell Anderson*
     - [Intel  MRC  POST  Codes](#intel--mrc--post--codes)
     - [Intel  MRC  Error  Codes](#intel--mrc--error--codes)
     - [Intel  PM  POST  Codes](#intel--pm--post--codes)
-  - [BIOS  POST  Beep  code  (AMI  standard)](#bios--post--beep--code--ami--standard)
-    - [PEI  Beep  Codes](#pei--beep--codes)
-    - [DXE  Beep  Codes](#dxe--beep--codes)
 
 # Introdução
 
@@ -267,30 +264,3 @@ Fonte: [Gygabyte Technology, 2017](https://download.gigabyte.com/FileList/Manual
 | Inicialização de segurança                     | 0xED   |
 | Inicialização tardia do IIO                    | 0xEE   |
 | Evento IIO On pronto para inicialização        | 0xEF   |
-
-## BIOS  POST  Beep  code  (AMI  standard)
-
-### PEI  Beep  Codes
-
-| **#  de  Beeps** | **Descrição**                                                                                 |
-| ---------------- | --------------------------------------------------------------------------------------------- |
-| 1                | Memória não instalada.                                                                        |
-| 1                | A memória foi instalada duas vezes (o PEI Core instalou a rotina InstallPeiMemory duas vezes) |
-| 2                | Recuperação iniciada                                                                          |
-| 3                | DXEIPL  não foi encontrado                                                                    |
-| 3                | DXE Core Firmware Volume não foi encontrado                                                   |
-| 4                | Recuperação falhou                                                                            |
-| 4                | S3 Resume falhou                                                                              |
-| 7                | Reset  PPI  não está  disponível                                                              |
-
-### DXE  Beep  Codes
-
-| **#  de  Beeps** | **Descrição**                                                       |
-| ---------------- | ------------------------------------------------------------------- |
-| 1                | Senha  inválida                                                     |
-| 4                | Alguns dos  protocolos arquiteturais não estão disponíveis          |
-| 5                | Nenhum Dispositivo de Saída de Console é encontrado                 |
-| 5                | Nenhum Dispositivo de Entrada de Console é encontrado               |
-| 6                | A atualização de Flash falhou                                       |
-| 7                | O protocolo Reset não está disponível                               |
-| 8                | Os requisitos de recursos PCI da plataforma não podem ser atendidos |

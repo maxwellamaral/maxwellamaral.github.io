@@ -4,7 +4,7 @@ author_profile: true
 title: Padrões de fontes de alimentação
 permalink: /lessons/hardware/psu/psu_standards/
 sidebar:
-  nav: "hardware"
+  nav: "hardware-psu"
 ---
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>

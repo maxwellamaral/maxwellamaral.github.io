@@ -4,7 +4,7 @@ author_profile: true
 title: Fonte de alimentação - Manutenção Corretiva
 permalink: /lessons/hardware/psu/corrective/
 sidebar:
-    nav: "hardware"
+    nav: "hardware-psu"
 ---
 Criado em Junho de 2023 por *Maxwell Anderson*
 

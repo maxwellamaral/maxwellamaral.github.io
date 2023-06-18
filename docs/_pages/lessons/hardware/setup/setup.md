@@ -4,7 +4,7 @@ author_profile: true
 title: Setup - Configuração
 permalink: /lessons/hardware/setup/setup/
 sidebar:
-    nav: "hardware"
+    nav: "hardware-setup"
 ---
 Criado em Junho de 2023 por *Maxwell Anderson*
 

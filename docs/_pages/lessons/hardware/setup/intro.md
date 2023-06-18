@@ -4,7 +4,7 @@ author_profile: true
 title: BIOS e Setup de um PC
 permalink: /lessons/hardware/setup/intro/
 sidebar:
-    nav: "hardware"
+    nav: "hardware-setup"
 ---
 Criado em Junho de 2023 por *Maxwell Anderson*
 

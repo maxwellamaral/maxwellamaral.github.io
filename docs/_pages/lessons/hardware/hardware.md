@@ -27,7 +27,5 @@ Maxwell Anderson Ielpo do Amaral
 # Conteúdo
 
 * [Introdução](/lessons/hardware/intro/intro/)
-* Alimentação 
-  * [Fontes de alimentação](/lessons/hardware/psu/psu/)
-  * [Padrões de fontes de alimentação](/lessons/hardware/psu/psu_standards/)
-  * [Fornecimento e aterramento elétrico](/lessons/hardware/psu/psu_electrical/)
+* [Fontes de alimentação](/lessons/hardware/psu/psu/)
+* [BIOS-Setup](/lessons/hardware/setup/setup/)

@@ -4,7 +4,7 @@ author_profile: true
 title: BIOS - Manutenação Corretiva
 permalink: /lessons/hardware/setup/corrective/
 sidebar:
-    nav: "hardware"
+    nav: "hardware-setup"
 ---
 Criado em Junho de 2023 por *Maxwell Anderson*
 

@@ -4,7 +4,7 @@ author_profile: true
 title: BIOS - Manutenação Preventiva
 permalink: /lessons/hardware/setup/preventive/
 sidebar:
-    nav: "hardware"
+    nav: "hardware-setup"
 ---
 Criado em Junho de 2023 por *Maxwell Anderson*
 
