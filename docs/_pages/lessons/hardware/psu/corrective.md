@@ -8,13 +8,24 @@ sidebar:
 ---
 Criado em Junho de 2023 por *Maxwell Anderson*
 
-<figure style="text-align:center">
-    <img src="../../../../assets/images/gpt/cat_setup4.jpg" width="350" alt="Gato realizando a configuração do setup. Prompt: Crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.">
-    <figcaption>Gato realizando a configuração do setup.</figcaption>
-    <small>Prompt: crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.</small>
-    <br>
-    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
-</figure>
+<center>
+    <figure style="text-align:center">
+        <img src="../../../../assets/images/gpt/cat_setup4.jpg" width="350" alt="Gato realizando a configuração do setup. Prompt: Crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.">
+        <figcaption>Gato realizando a configuração do setup.</figcaption>
+        <small>Prompt: crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.</small>
+        <br>
+        <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
+    </figure>
+</center>
+
+## Conteúdo
+
+- [Introdução](#introdução)
+- [Problemas comuns](#problemas-comuns)
+- [Solução de problemas](#solução-de-problemas)
+  - [O computador não liga](#o-computador-não-liga)
+  - [O computador liga, mas por pouco tempo](#o-computador-liga-mas-por-pouco-tempo)
+  - [O computador liga, mas é muito lento](#o-computador-liga-mas-é-muito-lento)
 
 # Introdução
 

@@ -1,20 +1,28 @@
 ---
 layout: home
 author_profile: true
-title: BIOS - Manutenação Preventiva
+title: BIOS - Manutenção Preventiva
 permalink: /lessons/hardware/setup/preventive/
 sidebar:
     nav: "hardware-setup"
 ---
 Criado em Junho de 2023 por *Maxwell Anderson*
 
-<figure style="text-align:center">
-    <img src="../../../../assets/images/gpt/cat_setup1.jpg" width="350" alt="Gato realizando a configuração do setup. Prompt: Crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.">
-    <figcaption>Gato realizando a configuração do setup.</figcaption>
-    <small>Prompt: crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.</small>
-    <br>
-    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
-</figure>
+<center>
+    <figure style="text-align:center">
+        <img src="../../../../assets/images/gpt/cat_setup1.jpg" width="350" alt="Gato realizando a configuração do setup. Prompt: Crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.">
+        <figcaption>Gato realizando a configuração do setup.</figcaption>
+        <small>Prompt: crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.</small>
+        <br>
+        <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
+    </figure>
+</center>
+
+## Conteúdo
+
+- [Introdução](#introdução)
+  - [Troca de bateria da CMOS](#troca-de-bateria-da-cmos)
+  - [Atualização de firmware](#atualização-de-firmware)
 
 # Introdução
 
@@ -34,7 +42,7 @@ Manutenções preventivas devem ser realizadas periodicamente. No caso do BIOS, 
     </small>
 </figure>
 
-A bateria que alimenta a CMOS do PC é responsável por manter as configurações do setup, mesmo quando o computador está desligado, e deve ser trocada assim que o computador apresentar problemas de inicialização, como por exemplo, a data e hora estarem desconfiguradas. 
+A bateria que alimenta a CMOS do PC é responsável por manter as configurações do Setup, mesmo quando o computador está desligado, e deve ser trocada assim que o computador apresentar problemas de inicialização, como por exemplo, a data e hora estarem desconfiguradas.
 
 <figure style="text-align:center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Battery-lithium-cr2032.jpg" alt="Battery-lithium-cr2032.jpg" height="280" width="349">
@@ -42,13 +50,14 @@ A bateria que alimenta a CMOS do PC é responsável por manter as configuraçõe
   <small>Por Krzysztof Woźnica - <a href="//commons.wikimedia.org/w/index.php?title=User:Kylodee&amp;amp;action=edit&amp;amp;redlink=1" class="new" title="User:Kylodee (page does not exist)">KyloDee</a>, domínio público, <a href="https://commons.wikimedia.org/w/index.php?curid=242928">link</a></small>
 </figure>
 
-A bateria utilizada é a CR2032 de lítio, que pode ser encontrada em lojas de eletrônicos e informática. Tem uma vida útil de aproximadamente 3 anos. Quando a bateria está fraca, a configuração do setup é perdida e o computador volta para a configuração padrão de fábrica.
+A bateria geralmente utilizada é a CR2032 de lítio, que pode ser encontrada em lojas de eletrônicos e informática. Tem uma vida útil de aproximadamente 3 anos. Quando a bateria está fraca, a configuração do setup é perdida e o computador volta para a configuração padrão de fábrica.
 
-A carga de uma bateria de lítio CR2032 pode ser medida com um multímetro. A tensão de uma bateria nova é de 3,3V. Caso a tensão seja menor que 2,8V, a bateria deve ser trocada.
+> ℹ️ **Dica**
+>
+> A carga de uma bateria de lítio CR2032 pode ser medida com um multímetro. A tensão de uma bateria nova é de 3,3V. Caso a tensão seja menor que 2,8V, a bateria deve ser trocada.
 
 Algumas baterias são soldadas à placas-mãe. Nesse caso, é necessário utilizar um ferro de solda para realizar a troca da bateria. Caso não tenha experiência com solda, é recomendado que a troca seja realizada por um especialista.
 
 ## Atualização de firmware
 
-A atualização de firmware do BIOS é realizada através de um programa fornecido pelo fabricante da placa-mãe. Esse programa pode ser executado através do sistema operacional ou através de um pendrive bootável. A atualização de firmware deve ser realizada com cuidado, pois caso ocorra algum problema durante o processo, o computador pode ficar inutilizável.
-
+A atualização de firmware do BIOS é realizada através de um programa fornecido pelo fabricante da placa-mãe. Esse programa pode ser executado através do sistema operacional ou através de um pendrive *bootável*. A atualização de firmware deve ser realizada com cuidado, pois caso ocorra algum problema durante o processo, o computador pode ficar inutilizável.

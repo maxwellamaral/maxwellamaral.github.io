@@ -8,17 +8,26 @@ sidebar:
 ---
 Criado em Junho de 2023 por *Maxwell Anderson*
 
-<figure style="text-align:center">
-    <img src="../../../../assets/images/gpt/cat_setup5.jpg" width="350" alt="Gato realizando a configuração do setup. Prompt: Crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.">
-    <figcaption>Gato realizando a configuração do setup.</figcaption>
-    <small>Prompt: crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.</small>
-    <br>
-    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
-</figure>
+<center>
+    <figure style="text-align:center">
+        <img src="../../../../assets/images/gpt/cat_setup5.jpg" width="350" alt="Gato realizando a configuração do setup. Prompt: Crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.">
+        <figcaption>Gato realizando a configuração do setup.</figcaption>
+        <small>Prompt: crie uma imagem de um gato técnico em manutenção de computadores que está realizando a configuração do setup de BIOS, olhando para a tela de um computador.</small>
+        <br>
+        <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
+    </figure>
+</center>
+
+## Conteúdo
+
+- [Introdução](#introdução)
+- [Sequência de inicialização do computador](#sequência-de-inicialização-do-computador)
 
 # Introdução
 
-O BIOS, ou Sistema Básico de Entrada e Saída (Basic Input/Output System), é utilizado para realização da inicialização do hardware do computador, bem como fornece serviços para os sistemas operacionais e programas de aplicação. Hoje em dia são gravados em chips de memória flash, podendo ser atualizados pelo usuário. Todavia cria possibilidades para ataques de malware. Assim sendo, o BIOS é o firmware de um PC.
+O BIOS, ou Sistema Básico de Entrada e Saída (Basic Input/Output System), é utilizado para realização da inicialização do hardware do computador, bem como fornece serviços para os sistemas operacionais e programas de aplicação. 
+
+Hoje em dia são gravados em chips de memória flash, podendo ser atualizados pelo usuário, todavia cria possibilidades para ataques de malware. Assim sendo, o BIOS é o firmware de um PC.
 
 <figure style="text-align:center">
     <a href="https://commons.wikimedia.org/wiki/File:Elitegroup_761GX-M754_-_AMIBIOS_(American_Megatrends)_in_a_Winbond_W39V040APZ-5491.jpg#/media/File:Elitegroup_761GX-M754_-_AMIBIOS_(American_Megatrends)_in_a_Winbond_W39V040APZ-5491.jpg">
@@ -30,9 +39,9 @@ O BIOS, ou Sistema Básico de Entrada e Saída (Basic Input/Output System), é u
     </small>
 </figure>
 
-O Setup é um programa que localizado nessa memória flash da placa-mãe, que é executado quando o computador é ligado. Ele é responsável por fazer a configuração inicial do computador, como por exemplo, verificar se todos os componentes estão funcionando corretamente, permite ajustar parâmetros de funcionamento do computador, como por exemplo, a data e hora, a ordem de inicialização dos dispositivos de armazenamento, o gerenciamento de energia, da memória, da CPU e de outros dispositivos.
+O Setup é um programa que está localizado nessa memória flash da placa-mãe, e é executado quando o computador é ligado. Ele é responsável por realizar a configuração inicial do computador, como por exemplo, verificar se todos os componentes estão funcionando corretamente. Permite ajustar parâmetros de funcionamento do computador, como a data e hora, a ordem de inicialização dos dispositivos de armazenamento, o gerenciamento de energia, da memória, da CPU e de outros dispositivos.
 
-# Sequência de inicialização
+# Sequência de inicialização do computador
 
 A sequência de inicialização de um computador é a seguinte:
 
@@ -48,7 +57,7 @@ A sequência de inicialização de um computador é a seguinte:
 
 1. O computador é ligado e o BIOS é executado;
 2. Verifica os dados armazenados e configurados no CMOS através do Setup;
-3. É realizado o autoteste de inicialização (POST - Power-On Self-Test);
+3. É realizado o autoteste de inicialização (POST ou *Power-On Self-Test*);
 
     <figure style="text-align:center;">
         <a href="https://commons.wikimedia.org/wiki/File:POST_P5KPL.jpg#/media/Ficheiro:POST_P5KPL.jpg">
@@ -59,8 +68,8 @@ A sequência de inicialização de um computador é a seguinte:
         </figcaption>
     </figure>
 
-   1. Vale a pena observar que é neste momento que todos os componentes do computador são testados, como por exemplo, memória, processador, placa-mãe etc., e se algum componente não estiver funcionando corretamente, o computador não irá inicializar.
-   2. Desta forma, é possível verificar qual componente não funcionou corretamente, pois o BIOS emite um código de erro, que pode ser um beep sonoro, um código numérico no monitor ou em uma placa de diagnóstico apropriada.
+   1. Vale a pena observar que é neste momento que todos os componentes do computador são testados, como por exemplo, memória, processador, placa-mãe etc.
+   2. Se algum componente não estiver funcionando corretamente, o computador não irá inicializar. Desta forma, é possível verificar qual componente não funcionou corretamente, pois o BIOS emite um código de erro, que pode ser um beep sonoro, um código numérico no monitor ou em uma placa de diagnóstico apropriada.
 
     <figure style="text-align:center">
         <a href="https://commons.wikimedia.org/wiki/File:POST2.png#/media/Ficheiro:POST2.png">
@@ -75,8 +84,8 @@ A sequência de inicialização de um computador é a seguinte:
     </figure>
 
 4. Alguns dados de configuração são transferidos para a memória RAM;
-5. Realização da leitura do MBR (Master Boot Record) do disco rígido.
-   1. Aqui são carregados os arquivos necessários para a inicialização do sistema operacional, no setor de boot do disco rígido. Ali contém o bootloader.
+5. É realizada a leitura do MBR (Master Boot Record) do disco rígido.
+   1. Aqui são carregados os arquivos necessários para a inicialização do sistema operacional, no setor de boot do disco rígido. 
    2. A configuração do boot vai depender do sistema operacional instalado, podendo ser o Windows, Linux, Mac OS, Android etc.
 6. O sistema operacional é carregado na memória RAM, começando pelo seu kernel.
 

@@ -16,6 +16,8 @@ Criado em Junho de 2023 por *Maxwell Anderson*
     <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
 </figure>
 
+## Conteúdo
+
 - [Introdução](#introdução)
 - [Tabela de códigos de erro](#tabela-de-códigos-de-erro)
   - [Códigos BIOS  POST](#códigos-bios--post)
