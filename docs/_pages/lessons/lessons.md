@@ -8,5 +8,5 @@ permalink: /lessons/
 Disciplinas ministradas.
 
 
-- 🧑🏻‍💻 [Engenharia de Software - Práticas](/lessons/softeng/)
-- 🪛 [Montagem e Manutenção de Computadores](/lessons/hardware/)
+- 🧑🏻‍💻 [Engenharia de Software - Práticas](/lessons/softeng/) - *❗Em construção*
+- 🪛 [Montagem e Manutenção de Computadores](/lessons/hardware/) *❗Em construção*

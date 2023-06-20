@@ -11,14 +11,15 @@ sidebar:
 
 Criado em Março de 2023 por _Maxwell Anderson_
 
-<figure style="text-align:center">
-    <img src="../../../../assets/images/gpt/cat_hardware3.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a computer maintenance technician cat repairing computer power supply">
-    <figcaption>Gato técnico em manutenção de computadores consertando uma fonte de alimentação</figcaption>
-    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
-</figure>
+<center>
+    <figure style="text-align:center">
+        <img src="../../../../assets/images/gpt/cat_hardware3.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a computer maintenance technician cat repairing computer power supply">
+        <figcaption>Gato técnico em manutenção de computadores consertando uma fonte de alimentação</figcaption>
+        <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
+    </figure>
+</center>
 
-Conteúdo
---------
+## Conteúdo
 
 - [Padrões de fontes de alimentação](#padrões-de-fontes-de-alimentação)
   - [O padrão AT](#o-padrão-at)

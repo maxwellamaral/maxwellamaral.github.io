@@ -10,12 +10,13 @@ Criado em Março de 2023 por *Maxwell Anderson*
 
 **Seja bem-vindo ao curso de Manutenção e Montagem de Computadores.**
 
-<figure style="text-align:center">
-    <img src="../../../../assets/images/gpt/cat_hardware2.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a computer maintenance technician cat">
-    <figcaption>Gato técnico em manutenção de computadores</figcaption>
-    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
-</figure>
-
+<center>
+    <figure style="text-align:center">
+        <img src="../../../../assets/images/gpt/cat_hardware2.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a computer maintenance technician cat">
+        <figcaption>Gato técnico em manutenção de computadores</figcaption>
+        <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
+    </figure>
+</center>
 > Se o gato consegue, você conseguirá.
 
 # Introdução
