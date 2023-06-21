@@ -12,7 +12,7 @@ docs:
     children:
       - title: "Visão geral"
         url: "/lessons/"
-      - title: "Engenharia de Software"
+      - title: "Práticas de Engenharia de Software"
         url: /lessons/softeng/
       - title: "Manutenção e Montagem de Computadores"
         url: /lessons/hardware/
@@ -20,7 +20,7 @@ docs:
 # ENGENHARIA DE SOFTWARE
 
 softeng: 
-  - title: "Engenharia de Software" 
+  - title: "Engenharia de Software - Práticas" 
     children: 
       - title: Bem-vindo 
         url: /lessons/softeng/ 
@@ -28,6 +28,8 @@ softeng:
         url: /lessons/softeng/intro/intro/  
       - title: Engenharia de Requisitos 
         url: /lessons/softeng/requirements/intro/ 
+      - title: Projeto de Software
+        url: /lessons/softeng/design/intro/        
       - title: Engenharia de Testes 
         url: /lessons/softeng/tests/intro/ 
       - title: ◀️ 
@@ -64,6 +66,16 @@ softeng-requirements:
         url: /lessons/softeng/requirements/costs/ 
       - title: ◀️ 
         url: /lessons/softeng/ 
+
+softeng-design:
+  - title: "Projeto de Software"
+    children:
+      - title: Introdução ao Projeto
+        url: /lessons/softeng/design/intro/
+      - title: Visões do Sistema
+        url: /lessons/softeng/design/views/        
+      - title: ◀️ 
+        url: /lessons/softeng/         
 
 softeng-tests: 
   - title: "Engenharia de Testes" 

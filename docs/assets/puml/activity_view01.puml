@@ -1,0 +1,29 @@
+@startuml
+' Como um cliente, eu gostaria de poder cadastrar os produtos que eu compro e controlar as garantias, para que eu possa saber quando o produto estará fora de garantia. Os produtos devem ser cadastrados com os seguintes dados: nome do produto, data de compra, data de vencimento da garantia, segmento do produto, marca e modelo do produto, local de compra, valor pago pelo produto, valor da garantia e modo de compra (online ou físico).
+
+skinparam ArrowHeadColor none
+
+title UCs Manter produtos e garantias
+group UC Manter produtos
+    start
+    repeat :Buscar produto;
+    :Verificar se produto já existe;
+    backward :Cadastrar produto;
+    repeat while (Produto cadastrado?) is (Não) not (Sim)
+
+    if (Alterar produto?) then (Sim)
+        :Alterar dados do produto;
+        :Salvar alterações;
+        group UC Manter garantias
+            if (Alterar garantias?) then (Sim)
+                :Inserir ou alterar dados da garantia;
+                :Salvar alterações;
+            endif
+        end group
+    (Não) elseif  (Excluir produto?) then (Sim)
+        :Excluir produto;
+    endif
+    stop
+end group
+
+@enduml

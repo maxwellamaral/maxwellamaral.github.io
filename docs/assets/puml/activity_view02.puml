@@ -1,0 +1,22 @@
+@startuml
+
+skinparam ArrowHeadColor none
+
+title UC Manter clientes
+group UC Manter clientes
+    start
+    repeat :Buscar cliente;
+    :Verificar se cliente já existe;
+    backward :Cadastrar cliente;
+    repeat while (Cliente cadastrado?) is (Não) not (Sim)
+
+    if (Alterar cliente?) then (Sim)
+        :Alterar dados do cliente;
+        :Salvar alterações;
+    (Não) elseif  (Excluir cliente?) then (Sim)
+        :Excluir cliente;
+    endif
+    stop
+end group
+
+@enduml
