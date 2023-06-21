@@ -1,0 +1,116 @@
+@startuml
+
+class Cliente{
+    - nome: str
+    - assinatura: Assinatura
+    - produtos: List[Produto]
+    - solicitações_reparo: List[SolicitacaoReparo]
+    + adicionar_produto(produto: Produto) -> None
+    + remover_produto(produto: Produto) -> None
+    + buscar_produto(nome: str, marca: str, modelo: str, segmento: str, local_compra: str) -> List[Produto]
+    + realizar_download_dados(formato: str) -> str
+    + reportar_problema(problema: str) -> None
+    + cadastrar_solicitacao_reparo(produto: Produto, descricao: str) -> None
+    + obter_relatorio_garantias() -> str
+    + obter_relatorio_solicitacoes() -> str
+}
+
+class Produto{
+    - nome: str
+    - data_compra: datetime
+    - data_vencimento_garantia: datetime
+    - segmento: str
+    - marca: str
+    - modelo: str
+    - local_compra: str
+    - valor_pago: float
+    - valor_garantia: float
+    - modo_compra: str
+    + verificar_garantia() -> bool
+    + obter_contatos_fabricante() -> List[str]
+    + obter_regras_garantia() -> str
+}
+
+class Assinatura{
+    - tipo: str
+    - mensalidade: float
+    - produtos_limitados: int
+    + verificar_acesso_completo() -> bool
+}
+
+class Patrocinador{
+    - nome: str
+    - produtos_divulgacao: List[str]
+    + obter_produtos_divulgacao() -> List[str]
+}
+
+class Fabricante{
+    - nome: str
+    - produtos_venda_dados: List[str]
+    + obter_produtos_venda_dados() -> List[str]
+}
+
+class Varejista{
+    - nome: str
+    + enviar_atualizacoes(cliente: Cliente, mensagem: str) -> None
+}
+
+class Usuario{
+    - nome: str
+    - email: str
+    - senha: str
+    - acesso_biometria: bool
+    - acesso_dois_fatores: bool
+    + alterar_email(novo_email: str) -> None
+    + alterar_senha(nova_senha: str) -> None
+    + ativar_acesso_biometria() -> None
+    + ativar_acesso_dois_fatores() -> None
+}
+
+class Administrador{
+    - usuarios: List[Usuario]
+    - requisitos_minimos: str
+    + realizar_login(email: str, senha: str) -> bool
+    + gerenciar_usuarios() -> None
+    + notificar_atualizacoes_sistema(mensagem: str) -> None
+    + notificar_manutencao_agendada(mensagem: str) -> None
+    + verificar_requisitos_minimos(hardware: str, software: str) -> bool
+    + obter_regras_privacidade() -> str
+    + traduzir_texto(texto: str, idioma: str) -> str
+}
+
+class Sistema{
+    + confirmar_acesso(email: str, token: str) -> bool
+}
+
+class SolicitacaoReparo{
+    - produto: Produto
+    - descricao: str
+}
+
+Cliente "1" -- "0..1" Assinatura : possui
+Cliente "1" -- "0..*" Produto : possui
+Cliente "1" -- "0..*" SolicitacaoReparo : cadastra
+
+Cliente "1" -- "1" Cliente : backup
+
+Cliente "1" --> "0..*" Varejista : concorda_em_receber_atualizacoes
+Cliente "1" -- "1" Patrocinador : possui
+
+Produto "1" -- "1" Fabricante : possui
+
+Usuario "1" -- "1" Usuario : alterar_email
+Usuario "1" -- "1" Usuario : alterar_senha
+Usuario "1" -- "0..1" Usuario : ativar_acesso_biometria
+Usuario "1" -- "0..1" Usuario : ativar_acesso_dois_fatores
+
+Usuario "1" -- "1" Cliente : possui
+Usuario "1" -- "1" Administrador : gerenciar_usuarios
+
+Administrador "1" -- "0..*" Usuario : notificar_atualizacoes_sistema
+Administrador "1" -- "0..*" Usuario : notificar_manutencao_agendada
+
+Cliente "1" -- "0..*" Usuario : realizar_login
+Administrador "1" -- "1" Sistema : confirmar_acesso
+
+@enduml
