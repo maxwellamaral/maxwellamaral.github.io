@@ -134,7 +134,7 @@ Desta forma, vamos seguir as seguintes etapas para poder construir um diagrama d
    4. Desta forma, o relacionamento será entre os casos de usos "Manter Produtos" e "Manter Garantias", como sendo uma **opcionalidade**. Desenhe o relacionamento como "extends".
 8. O diagrama, inicialmente, deverá ficar assim:
 
-    [![Caso de Uso 02](https://tinyurl.com/2lumumdw)](https://tinyurl.com/2lumumdw)<!--![Caso de Uso 02](../../../../assets/puml/usecase_rf01_2.puml)-->
+    [![Caso de Uso 02](https://tinyurl.com/2mub4322)](https://tinyurl.com/2mub4322)<!--![Caso de Uso 02](../../../../assets/puml/usecase_rf01_2.puml)-->
     <br>
     <small>
         Diagrama de Casos de Uso UC Manter Produto e UC Manter Garantias

@@ -10,6 +10,6 @@ rectangle "Manter produtos" {
 }
 
 c -- uc1
-uc1 <. uc2: extends
+uc1 .> uc2: include
 
 @enduml
