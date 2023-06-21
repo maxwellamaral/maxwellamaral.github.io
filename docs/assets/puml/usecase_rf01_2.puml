@@ -6,8 +6,10 @@ actor Cliente as c
 
 rectangle "Manter produtos" {
     usecase "Manter produto" as uc1
+    usecase "Manter garantias" as uc2
 }
 
 c -- uc1
+uc1 <. uc2: extends
 
 @enduml

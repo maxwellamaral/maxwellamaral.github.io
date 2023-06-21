@@ -31,7 +31,7 @@ Antes de escrevermos a primeira história de usuário é necessário entender os
 
 Analisando o requisito funcional acima, podemos obter uma visão baseada em casos de uso. O objetivo é visualizar a interação do ator com o sistema através de uma funcionadidade. Eu acho interessante, em um primeiro momento, visualizar essa interação com o uso de um diagrama de casos de uso. Pode ser simplório, no início, mas com o passar do tempo, teremos uma visão geral de todo o sistema, de acordo com o escopo inicial selecionado em um backlog. O diagrama de casos de uso pode ser visto abaixo:
 
-[![Caso de Uso 01](https://tinyurl.com/2mqzrrvr)](https://tinyurl.com/2mqzrrvr)<!--![Caso de Uso 01](../../../../assets/puml/usecase_rf01.puml)-->
+[![Caso de Uso 01](https://tinyurl.com/2mszgurt)](https://tinyurl.com/2mszgurt)<!--![Caso de Uso 01](../../../../assets/puml/usecase_rf01.puml)-->
 
 Entendeu a necessidade do cliente? Vamos escrever a primeira história de usuário que seja testável por um humano. Vamos escrevê-la usando comentários em Python. Vamos chamar o cliente de Max.
 
