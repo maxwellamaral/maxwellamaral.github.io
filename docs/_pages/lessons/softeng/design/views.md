@@ -148,7 +148,7 @@ Desta forma, vamos seguir as seguintes etapas para poder construir um diagrama d
     >
     > O diagrama de caso de uso abaixo modela o requisito funcional RF001 até o RF007 do [Documento de Requisitos](/lessons/softeng/requirements/req/sample/) validado junto ao cliente.
 
-    [![Caso de Uso 02](https://tinyurl.com/2nvzsd5k)](https://tinyurl.com/2nvzsd5k)<!--![Caso de Uso 02](../../../../assets/puml/usecase_view.puml)-->
+    [![Caso de Uso 02](https://tinyurl.com/2pghbez5)](https://tinyurl.com/2pghbez5)<!--![Caso de Uso 02](../../../../assets/puml/usecase_view.puml)-->
     <br>
     <small>
         Diagrama de casos de uso
