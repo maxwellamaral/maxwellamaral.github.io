@@ -10,8 +10,8 @@ permalink: /lessons/
 - 🧑🏻‍💻 [Engenharia de Software - Práticas](/lessons/softeng/) - *❗Em construção*
 - 🪛 [Montagem e Manutenção de Computadores](/lessons/hardware/) *❗Em construção*
 
----
-> 🌟 **Observação importante (ou não)**
+
+> 🌟 **Observação importante (ou não) sobre os gatos**
 >
 > Para proporcionar momentos *lúdicos*, você verá uma imagem de um gato 🐈 criado por IA generativa em cada página relacionada às aulas.
 >
