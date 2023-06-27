@@ -17,6 +17,8 @@ permalink: /lessons/
 >
 > A ferramenta utilizada foi o Bing Image Creator nos idos de 2023.
 >
+> - 😺 [Galeria de imagens](/#galeria) geradas por IA. 
+>
 > A ideia é que o gato esteja relacionado ao conteúdo da página. Por exemplo, na página de introdução ao projeto de software, o gato está criando um projeto de software em UML.
 >
 > Você poderá escutar esta música enquanto estuda: 🎵
