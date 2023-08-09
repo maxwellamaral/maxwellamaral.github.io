@@ -54,7 +54,7 @@ Neste capítulo, você irá aprender sobre aspectos gerais da Engenharia de Soft
 
 O que é software para você? Deves imaginar um aplicativo ou um programa que é executado em um computador, certo? Mas, será que é só isso?
 
-Conforme mencionado por Pressman (2006), **software** é um produto desenvolvido por profissionais que abrange programas, instruções e dados que são executados em um computador, podendo ser smartphones, tablets, computadores pessoais, servidores, etc. Também é constituído por documentos, podendo ser impresso ou digital, desde que a documentação seja necessária para que o programa funcione corretamente.
+Conforme mencionado por Pressman (2006), **software** é um produto desenvolvido por profissionais que abrange programas, instruções e dados que são executados em um computador, podendo ser smartphones, tablets, computadores pessoais, servidores etc. Também é constituído por documentos, podendo ser impresso ou digital, desde que a documentação seja necessária para que o programa funcione corretamente.
 
 <center>
     <figure style="text-align:center">
@@ -68,7 +68,7 @@ Conforme mencionado por Pressman (2006), **software** é um produto desenvolvido
 > - **Usuário**: é quem utiliza o software. Pode ser uma pessoa, outra máquina ou um outro sistema.
 > - **Cliente**: é quem paga pelo software. Pode ser uma pessoa, uma empresa, um governo etc.
 > - **Especificação**: é o documento que descreve o que o software deve fazer.
-> - **Artefato**: é qualquer coisa que é produzida durante o trabalho de desenvolvimento de software. Pode ser um documento, um programa, um manual, etc.
+> - **Artefato**: é qualquer coisa que é produzida durante o trabalho de desenvolvimento de software. Pode ser um documento, um programa, um manual, uma especificação etc.
 
 **Mas o que é entregue ao cliente?**
 
@@ -82,8 +82,8 @@ Já vi clientes contratarem empresas de desenvolvimento de software para fazerem
 
 ## Categorias de produtos de software
 
-- Produtos genéricos ou de "prateleira": são softwares existentes no mercado que podem ser adquiridos por qualquer pessoa ou empresa. Exemplos: Windows, Linux, Microsoft Office, Photoshop etc.
-- Produtos sob encomenda: são softwares desenvolvidos sob medida para um cliente específico. Exemplos: sistemas de gestão de empresas, sistemas de gestão de universidades, sistemas de gestão de hospitais etc.
+- **Produtos genéricos ou de "prateleira"**: são softwares existentes no mercado que podem ser adquiridos por qualquer pessoa ou empresa. Exemplos: Windows, Linux, Microsoft Office, Photoshop etc.
+- **Produtos sob encomenda**: são softwares desenvolvidos sob medida para um cliente específico. Exemplos: sistemas de gestão de empresas, sistemas de gestão de universidades, sistemas de gestão de hospitais etc.
 
 # O que é Engenharia de Software?
 
@@ -132,7 +132,7 @@ Já tive alunos que não gostavam de programação (eu amo) e que se tornaram ex
 
 > 🤔 **Para memorizar**
 >
-> **Papel** é o termo usado para designar a função desempenhada por uma pessoa em uma equipe de desenvolvimento de software. Uma pessoa pode ser contratada para ser um analista de sistemas e atuar como tal, mas pode ser que, em um determinado projeto, ela atue como desenvolvedor. Neste caso, ela está desempenhando o papel de desenvolvedor, mas continua sendo um analista de sistemas.
+> **Papel** é o termo usado para designar a função desempenhada por uma pessoa em uma equipe de desenvolvimento de software. Uma pessoa pode ser contratada para ser um analista de sistemas e atuar como tal, mas pode ser que, em um determinado projeto, ela atue como desenvolvedor. Neste caso, ela está desempenhando o papel de desenvolvedor, mas continua representando a empresa ou instituição como analista de sistemas.
 
 Vamos tratar de cada uma das principais áreas da Engenharia de Software? Pode ser que você se identifique com alguma delas.
 
@@ -155,8 +155,8 @@ Vamos tratar de cada uma das principais áreas da Engenharia de Software? Pode s
 >
 > **Exemplo:**
 > 
-> "O sistema deve permitir que o usuário faça login no sistema utilizando seu e-mail e senha."
->
+> "O sistema deve permitir que o usuário faça login utilizando seu e-mail e senha."
+> 
 > Vamos ver este assunto de maneira detalhada e prática em [Engenharia de Requisitos](/lessons/softeng/requirements/intro/).
 
 A **engenharia de requisitos** é uma área da Engenharia de Software que estuda a aplicação de conhecimentos científicos e empíricos para a elicitação, análise, especificação, validação e gerenciamento de requisitos de software.
@@ -177,7 +177,14 @@ Podemos dividir a engenharia de requisitos em 4 subáreas:
 
 > 👷 **Papel**
 >
-> Assim sendo, a engenharia de requisitos é executado pelo papel de *analista de requisitos* ou *engenheiro de requisitos*, podendo ter variações de acordo com a empresa. Em metodologias ágeis, este papel é desempenhado pelo *Product Owner* ou *PO* (pronuncia-se *"pi-ôu"*).
+> Assim sendo, a engenharia de requisitos é executado pelo papel de:
+> 
+> - *analista de requisitos*
+> - *engenheiro de requisitos*
+> - *analista de negócios*
+> - *UX Designers*, mais especificamente na elaboração de protótipos visuais preliminares, esboços de telas, fluxos de telas etc.
+> - *Product Owner* ou *PO* (pronuncia-se *"pi-ôu"*). Em metodologias ágeis, este papel desempenha total ou parcialmente as atribuições de um engenheiro de requisitos.
+> - dentre outros, podendo ter variações de acordo com a empresa ou instituição.
 >
 > 🎨 **O que criam?**
 >
@@ -205,6 +212,8 @@ A análise e projeto de sistemas de software é uma área da Engenharia de Softw
 
 É uma atividade crucial para o desenvolvimento de software, pois é nesta fase que o sistema é projetado, ou seja, é definido como o sistema será implementado. É nesta fase que são definidos os componentes do sistema, como eles se relacionam e como eles se comunicam.
 
+Da mesma forma que um engenheiro civil projeta uma casa para um cliente, o analista de sistemas projeta um sistema de software para um cliente. O engenheiro civil pode fazer uma planta da casa e mostrar para o cliente, que pode aprovar ou não. 
+
 <center>
     <figure style="text-align:center">
         <img src="../../../../assets/images/lessons/intro06.png" width="550" alt="Ilustração de uma planta e um protótipo de casa">
@@ -212,7 +221,7 @@ A análise e projeto de sistemas de software é uma área da Engenharia de Softw
     </figure>
 </center>
 
-Da mesma forma que um engenheiro civil projeta uma casa para um cliente, o analista de sistemas projeta um sistema de software para um cliente. O engenheiro civil pode fazer uma planta da casa e mostrar para o cliente, que pode aprovar ou não. O analista de sistemas pode fazer um protótipo do sistema e mostrar para o cliente e para os desenvolvedores.
+O analista de sistemas pode fazer um protótipo do sistema e mostrar para o cliente e para os desenvolvedores.
 
 <center>
     <figure style="text-align:center">
@@ -240,25 +249,26 @@ Podemos resumir as atividades desempenhadas pelo analista de sistemas como **rea
 > - *Diagramas UML*, como diagramas de caso de uso, diagramas de classe, diagramas de sequência, diagramas de atividade, diagramas de estado etc.
 > - *Diagramas DFD* (Diagrama de Fluxo de Dados)
 > - *Diagramas de banco de dados*, como DER (Diagrama Entidade-Relacionamento)
+> - *Dicionários de dados*
 > - *Protótipos visuais*
-> - *Especificação* de componentes, interfaces, serviços, APIs etc.
+> - *Especificação textual* de componentes, interfaces, serviços, APIs etc.
 
 🛠️ **Ferramentas utilizadas**
 
-| Ferramentas                           | Descrição                                                               |
-| ------------------------------------- | ----------------------------------------------------------------------- |
-| Ferramentas CASE                      | Visual Paradigm, Astah, Enterprise Architect, Microsoft Visio           |
-| Ferramentas de prototipação           | Adobe XD, Figma, Balsamiq                                               |
-| Ferramentas de modelagem de dados     | MySQL Workbench, Oracle SQL Developer Data Modeler, SQL Power Architect |
-| Ferramentas de modelagem de processos | Bizagi Modeler, Draw.io, Microsoft Visio                                |
+| Ferramentas            | Descrição                                                               |
+| ---------------------- | ----------------------------------------------------------------------- |
+| Ferramentas CASE       | Visual Paradigm, Astah, Enterprise Architect, Microsoft Visio           |
+| Prototipação           | Adobe XD, Figma, Balsamiq                                               |
+| Modelagem de dados     | MySQL Workbench, Oracle SQL Developer Data Modeler, SQL Power Architect |
+| Modelagem de processos | Bizagi Modeler, Draw.io, Microsoft Visio                                |
 
 ### Gerência de projetos
 
 A gerência de projetos de software é uma área da Engenharia de Software que estuda a aplicação de conhecimentos em atividades relacionadas ao planejamento, execução e controle de tarefas que deverão ser executadas para o desenvolvimento de um produto de software.
 
-Conforme o Guia PMBOK, um **projeto** é "um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo".(PMI, 2017)
+Conforme o Guia PMBOK, um **projeto** é "um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo" (PMI, 2017).
 
-Um projeto é temporário no sentido de que tem um início e um término definidos no tempo, e, por isso, um escopo e recursos definidos.
+Um projeto é **temporário** no sentido de que tem um início e um término definidos no tempo, e, por isso, um escopo e recursos definidos.
 
 Já o **gerenciamento de projetos** é a "aplicação de conhecimentos, habilidades, ferramentas e técnicas às atividades do projeto a fim de atender aos seus requisitos." (PMI, 2017)
 
@@ -309,10 +319,11 @@ Assim sendo, o gerente de projetos deve se preocupar as restrições descritas a
 
 🛠️ **Ferramentas utilizadas**
 
-| Ferramentas                              | Descrição                                                      |
-| ---------------------------------------- | -------------------------------------------------------------- |
-| Ferramentas de gerenciamento de projetos | Jira, Trello, GitHub Projects, Microsoft Project               |
-| Ferramentas de escritório                | Microsoft Word, Google Docs, Microsoft Excel, Google Planilhas |
+| Ferramentas               | Descrição                                                      |
+| ------------------------- | -------------------------------------------------------------- |
+| Gerenciamento de projetos | Jira, Trello, GitHub Projects, Microsoft Project               |
+| Escritório                | Microsoft Word, Google Docs, Microsoft Excel, Google Planilhas |
+
 ### Gerência de configuração
 
 A gerência de configuração é uma área da Engenharia de Software que estuda a aplicação de conhecimentos em atividades relacionadas ao controle de versões dos artefatos produzidos durante o desenvolvimento de um produto de software.
@@ -337,13 +348,14 @@ Os procedimentos de gerenciamento de configuração definem como:
 
 🛠️ **Ferramentas utilizadas**
 
-| Ferramentas                                  | Descrição                                           |
-| -------------------------------------------- | --------------------------------------------------- |
-| Ferramentas de controle de versão            | Git, GitHub, GitLab, Bitbucket                      |
-| Ferramentas de gerenciamento de configuração | Jira, Trello, GitHub Projects                       |
-| Ferramentas de escritório                    | Microsoft Word, Google Docs                         |
-| Ferramentas de integração contínua           | Jenkins, Travis CI, Circle CI                       |
-| Ferramentas de automação de testes           | Selenium, Cypress (somente algumas funcionalidades) |
+| Ferramentas                   | Descrição                                           |
+| ----------------------------- | --------------------------------------------------- |
+| Controle de versão            | Git, GitHub, GitLab, Bitbucket                      |
+| Gerenciamento de configuração | Jira, Trello, GitHub Projects                       |
+| Escritório                    | Microsoft Word, Google Docs                         |
+| Integração contínua           | Jenkins, Travis CI, Circle CI                       |
+| Automação de testes           | Selenium, Cypress (somente algumas funcionalidades) |
+
 ### Codificação ou desenvolvimento
 
 A codificação ou desenvolvimento de software é uma área da Engenharia de Software que estuda a aplicação de conhecimentos em atividades relacionadas à implementação de um produto de software.
@@ -357,7 +369,7 @@ Envolve em colocar a "mão na massa" quando se trata de programar. É nesta fase
     </figure>
 </center>
 
-Veja ums lista de linguagens de programação em https://pt.wikipedia.org/wiki/Lista_de_linguagens_de_programa%C3%A7%C3%A3o 
+Veja ums lista de linguagens de programação em [https://pt.wikipedia.org/wiki/Lista_de_linguagens_de_programação](https://pt.wikipedia.org/wiki/Lista_de_linguagens_de_programa%C3%A7%C3%A3o )
 
 > 👷 **Papel**
 >
@@ -375,9 +387,9 @@ Veja ums lista de linguagens de programação em https://pt.wikipedia.org/wiki/L
 
 | Ferramentas                       | Descrição                                                                       |
 | --------------------------------- | ------------------------------------------------------------------------------- |
-| Ferramentas de desenvolvimento    | Visual Studio Code, PyCharm, Eclipse, IntelliJ IDEA, Netbeans, Bloco de notas 😄 |
-| Ferramentas de controle de versão | Git, GitHub, GitLab, Bitbucket                                                  |
-| Ferramentas de escritório         | Microsoft Word, Google Docs                                                     |
+| Desenvolvimento    | Visual Studio Code, PyCharm, Eclipse, IntelliJ IDEA, Netbeans, Bloco de notas 😄 |
+| Controle de versão | Git, GitHub, GitLab, Bitbucket                                                  |
+| Escritório         | Microsoft Word, Google Docs                                                     |
 
 ### Engenharia de testes
 
@@ -466,7 +478,7 @@ Conforme os mesmo Guia, os objetivos principais são:
 > - *Plano de garantia da qualidade*
 > - *Plano de medição*
 > - *Relatórios de qualidade e de conformidade*
-> - dentre outros
+> - Dentre outros
 
 🛠️ **Ferramentas utilizadas**
 
@@ -492,15 +504,15 @@ Como sabemos, não existe *bala de prata* e ao meu ver, sabem muito programar, m
 
 Um bom engenheiro de software deve conhecer ferramentas e boas práticas de desenvolvimento de software, bem como as metodologias de desenvolvimento de software, para que possa escolher a melhor abordagem para cada projeto.
 
-Existem projetos que o mínimo de levantamento e análise de requisitos é obrigatório, bem como desenvolvedores experientes devem ter conhecimento necessário para implementar uma arquitetura de software adequada para o projeto. E, claro, nunca deixar os testes de lado.
+O mínimo de levantamento e análise de requisitos é obrigatório. Desenvolvedores experientes devem ter conhecimento necessário para implementar uma arquitetura de software adequada para o projeto. E, claro, nunca deixar os testes de lado.
 
 Outros projetos exigirão especificação mais detalhada dos requisitos, bem como o desenvolvimento da análise e projeto do sistema, com o uso de diagramas para **facilitar** a compreensão daqueles que se beneficiarão com o uso da documentação. Se essa documentação será extensa ou não, mais uma vez, dependerá:
 
 1. **Do projeto**, daí podemos depreender que tudo dependerá do tamanho, da complexidade, do orçamento, do prazo, da qualidade, dos riscos etc.
 2. **Dos clientes**, pois estes poderão solicitar uma documentação mais detalhada para compreensão ou mesmo para que possam auditar o projeto. Por vezes um Documento de Visão e um Documento de Requisitos serão apensados em um contrato.
-3. **Da empresa**, pois esta poderá exigir uma documentação mais detalhada para que possa auditar o projeto bem como para que possa reutilizar a documentação em outros projetos. É muito comum que todo o conhecimento adquirido em um projeto esteja na "cabeça" dos principais desenvolvedores que, por vezes, não documentam nada. E, quando estes saem da empresa, todo o conhecimento é perdido. Outrossim, já vi um sistema com dez anos "de idade" precisar ser reimplementado totalmente utilizando nova tecnologia, pois o sistema era muito antigo e não havia documentação alguma. A empresa não conseguiu contratar desenvolvedores que entendessem o sistema e, por isso, teve que reimplementá-lo.
-4. **Da metodologia de desenvolvimento de software**, pois esta poderá exigir uma documentação mais detalhada para que possa auditar o projeto bem como para que possa reutilizar a documentação em outros projetos. Por exemplo, em metodologias ágeis, a documentação é mínima, mas existe. Em metodologias tradicionais, a documentação é mais detalhada, mas também existe. Existem as abordagens híbridas, quando se mesclam metodologias ágeis e tradicionais. Neste caso, a documentação pode ser mais detalhada ou não. Sou simpático à flexibilidade, pois acredito que cada projeto é um projeto e deve ser tratado como tal. Como sabemos não existe "bala de prata".
-5. **Da equipe**. Depende muito do tamanho, da maturidade e do conhecimento profissional dos componentes da equipe. Se a equipe é pequena, pode ser que um desenvolvedor experiente desempenhe mais de um papel e, ainda por cima, deverá dar suporte aos inexperientes. Vejo que a comunidade de TI no Brasil tem um perfil de pessoas que auxiliam umas as outras e é bem comum analistas seniores ensinarem ou transmitirem conhecimento aos juniores. De qualquer forma, a curva de aprendizagem sempre será fator determinante para cumprimento dos prazos de um projeto. Se a equipe é grande, pode ser que existam pessoas que desempenhem papéis específicos, como analista de requisitos, analista de testes, desenvolvedor, arquiteto de software, gerente de projetos etc. Neste caso, a curva de aprendizagem será menor, mas o custo do projeto será maior. São várias as variáveis e as equipes devem ir se auto ajustando a medida que os projetos avançam. O importante é que o projeto seja entregue com qualidade, dentro do prazo e do orçamento.
+3. **Da empresa**, pois esta poderá exigir uma documentação mais detalhada para que possa auditar o projeto bem como para que possa reutilizar a documentação em outros projetos. É muito comum que todo o conhecimento adquirido em um projeto esteja na "cabeça" dos principais desenvolvedores que, por vezes, não documentam nada. E, quando estes saem da empresa, todo o conhecimento é perdido. Outrossim, já vi um sistema com dez anos "de idade" precisar ser reimplementado totalmente utilizando nova tecnologia - o motivo foi a necessidade de adequação a um novo mercado. O problema é que o sistema era muito antigo e não havia documentação necessária para realizar o procedimento. Sabe-se também para entender como o sistema funcionava "por debaixo dos panos", havia uma curva de aprendizagem de dois anos. Pior foi ver gente ser demitida ou pedir demissão perto do fim desta janela de tempo. O resultado foi que o sistema teve que ser reimplementado do zero. Se houvesse documentação, o custo de reimplementação seria menor.
+4. **Da metodologia de desenvolvimento de software**, pois esta poderá exigir uma documentação mais detalhada para que possa auditar o projeto bem como para que possa reutilizar a documentação em outros projetos. Por exemplo, em metodologias ágeis, a documentação é mínima, mas existe. Em metodologias tradicionais, a documentação é mais detalhada. Existem as abordagens híbridas, quando se mesclam metodologias ágeis e tradicionais. Neste caso, a documentação pode ser mais detalhada ou não. Sou simpático à flexibilidade, pois acredito que cada projeto é um projeto e deve ser tratado como tal. Como sabemos não existe "bala de prata".
+5. **Da equipe**. Depende muito do tamanho, da maturidade e do conhecimento profissional dos componentes da equipe. Se a equipe é pequena, pode ser que um desenvolvedor experiente desempenhe mais de um papel e, ainda por cima, deverá dar suporte aos inexperientes. Vejo que a comunidade de TI no Brasil possui profissionais que auxiliam uns aos outros e é bem comum analistas seniores ensinarem ou transmitirem conhecimento aos juniores. De qualquer forma, a curva de aprendizagem sempre será fator determinante para cumprimento dos prazos de um projeto. Se a equipe é grande, pode ser que existam pessoas que desempenhem papéis específicos, como analista de requisitos, analista de testes, desenvolvedor, arquiteto de software, gerente de projetos etc. Neste caso, a curva de aprendizagem será menor, mas o custo do projeto será maior. São várias as variáveis e as equipes devem ir se auto ajustando a medida que os projetos avançam. O importante é que o projeto seja entregue com qualidade, dentro do prazo e do orçamento.
 
 > 📝 **Tome nota**
 >
@@ -521,6 +533,21 @@ Outros projetos exigirão especificação mais detalhada dos requisitos, bem com
 > - E várias relacionadas às metodologias ágeis como Scrum, XP, Kanban, Lean, FDD, DSDM etc.
 >
 > **Dica**: sobre as siglas acima, busque mais informações pela Internet. Você vai se surpreender com a quantidade de informações que existem sobre cada uma delas.
+
+Devido à experiência adquirida na implantação de melhoria de processos de desenvolvimento de software, pude escrever sobre o assunto em um livro. Se você se interessar, pode baixá-lo gratuitamente em [http://editora.ifpb.edu.br](http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7)
+
+<center>
+    <figure style="text-align:center">
+        <a href="http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7">
+            <img src="../../../../assets/images/lessons/intro09.png" width="250" alt="Exemplo de código-fonte. Comparação entre Java e Python">
+        </a>
+        <figcaption>
+            Implantação de melhoria de processos de software com CMMI-DEV nível 2 
+            <br>
+            Disponível em: <a href="http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7">http://editora.ifpb.edu.br</a>
+        </figcaption>
+    </figure>
+</center>
 
 ## Responsabilidade profissional do Engenheiro de Software
 
