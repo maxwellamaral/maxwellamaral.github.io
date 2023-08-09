@@ -1,0 +1,28 @@
+@startuml
+
+' left to right direction
+skinparam classAttributeIconSize 0
+
+class Pessoa {
+    - nome : str
+    - sobrenome : str
+    + setPessoa(nome: str, sobrenome: str, fone: Fone) -> void
+    + getPessoa() -> Pessoa
+}
+
+class Fone {
+    - codigo : str
+    - numero : str
+    - celular : bool
+    + setFone(codigo: str, numero: str, celular: bool) -> void
+    + getFone() -> string
+    + isCelular() -> bool
+}
+
+Pessoa --"-fone" Fone
+
+note right on link
+    o objeto será privado
+end note
+
+@enduml

@@ -24,7 +24,9 @@ softeng:
     children: 
       - title: Bem-vindo 
         url: /lessons/softeng/ 
-      - title: Introdução 
+      - title: Introdução à Engenharia de Software
+        url: /lessons/softeng/zero/intro/
+      - title: Ambiente de desenvolvimento
         url: /lessons/softeng/intro/intro/  
       - title: Engenharia de Requisitos 
         url: /lessons/softeng/requirements/intro/ 
@@ -34,6 +36,14 @@ softeng:
         url: /lessons/softeng/tests/intro/ 
       - title: ◀️ 
         url: /lessons/ 
+
+softeng-zero:
+  - title: "Engenharia de Software"
+    children:
+      - title: Introdução
+        url: /lessons/softeng/zero/intro/
+      - title: ◀️
+        url: /lessons/
 
 softeng-intro: 
   - title: "Introdução" 

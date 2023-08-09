@@ -1,0 +1,41 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class Cliente {
+    - nome: str
+    - email: str
+    - telefone: str
+    - endereco: str
+}
+
+class Produto {
+    - nome_produto: str
+    - data_compra: datetime
+    - data_vencimento_garantia: datetime
+    - local_compra: str
+    - valor_pago: float
+    - valor_garantia: float
+}
+
+class SegmentoMercado {
+    - nome: str 
+    - descricao: str
+}
+
+class Marca {
+    - nome: str 
+    - descricao: str
+}
+
+class Modelo {
+    - nome: str 
+    - descricao: str
+}
+
+class ModoCompra {
+    - nome: str 
+    - descricao: str
+}
+
+@enduml

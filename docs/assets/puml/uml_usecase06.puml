@@ -1,0 +1,26 @@
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Operador de\nsistema" as os
+actor "Operador de\nprogramação da afiliada" as opa
+actor "Conselho de\nprogramação" as cp
+
+rectangle TV_IFPB {
+    (Consultar\nbase compartilhada) as cbc
+    (Publicar e incluir\nvideo na base local) as pil
+    (Consultar\nbase local) as cbl
+    (Incluir video\nna base compartilhada) as ivg
+    (Ofertar conteúdo\npara afiliada) as oca
+    (Aprova\nprogramação) as ap
+
+    cp -- ap
+    os -- cbl
+    opa -- cbc
+    opa -- pil
+    opa - cbl
+    opa - oca
+}
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+
+left to right direction
+
+(Cadastrar cliente) as cc
+(Alterar cliente) as ac
+(Excluir cliente) as ec
+(Buscar cliente) as bc
+
+@enduml

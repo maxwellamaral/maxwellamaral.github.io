@@ -1,0 +1,30 @@
+@startuml
+
+' left to right direction
+skinparam classAttributeIconSize 0
+
+class ContaComum {
+    - data_abertura : date
+    - data_encerramento : date
+    - numero_conta : str
+    - saldo : float
+    - senha : str
+    - situacao : int
+    + abrirConta(conta: str) -> void
+    + consultarConta(agencia: str, conta: str) -> bool
+    + saldoConta(agencia: str, conta: str) -> float
+    + validarSenha() -> bool
+}
+
+class ContaEspecial {
+    - limite : double
+}
+
+class ContaPoupanca {
+    - data_aniversario : date
+}
+
+ContaComum <|-- ContaEspecial
+ContaComum <|-- ContaPoupanca
+
+@enduml

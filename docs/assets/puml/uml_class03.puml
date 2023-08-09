@@ -1,0 +1,20 @@
+@startuml
+
+' left to right direction
+skinparam classAttributeIconSize 0
+
+class Socio {
+    - data : date
+    - endereco : str
+    - nome : str
+    - telefone : str
+}
+
+class Dependente {
+    - data : date
+    - nome : str
+}
+
+Socio --"+possui()" Dependente
+
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class ContaComum {
+    - data_abertura : date
+    - data_encerramento : date
+    - numero_conta : str
+    - saldo : float
+    - senha : str
+    - situacao : int
+    + abrirConta(conta: str) -> void
+    + consultarConta(agencia: str, conta: str) -> bool
+    + saldoConta(agencia: str, conta: str) -> float
+    + validarSenha() -> bool
+}
+
+note left of ContaComum::data_abertura
+    - : privado
+end note
+
+note left of ContaComum::abrirConta
+    + : público
+end note
+
+@enduml

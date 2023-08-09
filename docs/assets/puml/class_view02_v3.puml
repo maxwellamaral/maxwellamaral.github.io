@@ -1,0 +1,85 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class Cliente {
+    - nome: str
+    - email: str
+    - telefone: str
+    - endereco: str
+    + alterar(cliente: Cliente) -> bool
+    + buscar(descricao: str) -> List[Cliente]
+    + excluir(cliente: Cliente) -> bool
+    + exibir(cliente: Cliente) -> Cliente
+    + incluir(nome: str, email: str, telefone: str, endereco: str) -> bool
+}
+
+class Produto {
+    - nome_produto: str
+    - data_compra: datetime
+    - data_vencimento_garantia: datetime
+    - local_compra: str
+    - valor_pago: float
+    - valor_garantia: float
+    + alterar(produto: Produto) -> bool
+    + buscar(descricao: str) -> List[int]
+    + excluir(produto: Produto) -> bool
+    + exibir(produto: Produto) -> Produto
+    + incluir(
+        nome: str, 
+        cliente: Cliente,
+        data_compra: datetime, 
+        data_vencimento_garantia: datetime, 
+        segmento: SegmentoMercado,
+        marca: Marca,
+        modelo: Modelo,
+        local_compra: str,
+        valor_pago: float,
+        valor_garantia: float,
+        modo_compra: ModoCompra) -> bool
+    + listar() -> List[Produto]
+    + validar(produto: Produto) -> bool
+    + exibir_mensagem(mensagem: str) -> bool
+}
+
+class SegmentoMercado {
+    - nome: str 
+    - descricao: str
+    + alterar(segmento: SegmentoMercado) -> bool
+    + buscar(descricao: str) -> List[SegmentoMercado]
+    + excluir(segmento: SegmentoMercado) -> bool
+    + exibir(segmento: SegmentoMercado) -> SegmentoMercado
+    + incluir(nome: str, descricao: str) -> bool
+}
+
+class Marca {
+    - nome: str 
+    - descricao: str
+    + alterar(marca: Marca) -> bool
+    + buscar(descricao: str) -> List[Marca]
+    + excluir(marca: Marca) -> bool
+    + exibir(marca: Marca) -> Marca
+    + incluir(nome: str, descricao: str) -> bool
+}
+
+class Modelo {
+    - nome: str 
+    - descricao: str
+    + alterar(modelo: Modelo) -> bool
+    + buscar(descricao: str) -> List[Modelo]
+    + excluir(modelo: Modelo) -> bool
+    + exibir(modelo: Modelo) -> Modelo
+    + incluir(nome: str, descricao: str) -> bool
+}
+
+class ModoCompra {
+    - nome: str 
+    - descricao: str
+    + alterar(modo_compra: ModoCompra) -> bool
+    + buscar(descricao: str) -> List[ModoCompra]
+    + excluir(modo_compra: ModoCompra) -> bool
+    + exibir(modo_compra: ModoCompra) -> ModoCompra
+    + incluir(nome: str, descricao: str) -> bool
+}
+
+@enduml

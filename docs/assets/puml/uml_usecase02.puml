@@ -1,0 +1,14 @@
+@startuml
+
+actor "Usuário" as u
+actor "Usuário\ncomum" as uc
+actor "Cliente" as c
+actor "Vendedor" as v
+actor "Administrador" as a
+
+u <|-- uc
+uc <|-- v
+uc <|-- c
+u <|-- a
+
+@enduml

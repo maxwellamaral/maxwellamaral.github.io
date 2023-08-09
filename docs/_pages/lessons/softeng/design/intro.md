@@ -24,11 +24,13 @@ Criado em Junho de 2023 por *Maxwell Anderson*
 - [Introdução ao Projeto de Software](#introdução-ao-projeto-de-software)
   - [O que é um projeto de software?](#o-que-é-um-projeto-de-software)
   - [Como um software pode ser modelado?](#como-um-software-pode-ser-modelado)
+  - [Quando um software deve ser modelado?](#quando-um-software-deve-ser-modelado)
+  - [É sempre necessário criar um projeto de software?](#é-sempre-necessário-criar-um-projeto-de-software)
 
 
 # Introdução ao Projeto de Software
 
-O projeto de sistemas de software engloba a criação de um modelo de software que descreve a estrutura e o comportamento do sistema. Pode ser criado usando uma linguagem de modelagem de software, como a UML.
+O projeto de sistemas de software engloba a criação de um modelo de software que descreve a estrutura e o comportamento do sistema. 
 
 Nas próximas aulas iremos aprender a criar um projeto de software usando a UML. Mas antes, vamos entender o que é um projeto de software e por que ele é importante.
 
@@ -46,11 +48,11 @@ A UML é uma linguagem de modelagem de software que permite que os engenheiros r
 
 <center>
     <figure>
-        <img src="../../../../assets/images/lessons/xxxxx.png" width=500 alt="Diagrama UML">
+        <img src="../../../../assets/images/lessons/design03.png" width=500 alt="Diagramas UML">
         <figcaption>
-            Diagrama UML
+            Diagramas UML
         </figcaption>
-        <small>Fonte: xxxxx, em jun/2023</small>
+        <small>Fonte: elaboração própria (2010)</small>
     </figure>
 </center>
 
@@ -65,3 +67,14 @@ Uma outra forma de modelar um software é utilizando protótipos visuais, de bai
         <small>Fonte: <a href="https://www.figma.com/">https://www.figma.com/</a>, em jun/2023</small>
     </figure>
 </center>
+
+## Quando um software deve ser modelado?
+
+O projeto de software deve ser criado antes da implementação do sistema. Ele deve ser criado durante a fase de projeto do processo de desenvolvimento de software.
+
+## É sempre necessário criar um projeto de software?
+
+Depende. Se o sistema for pequeno e simples, talvez não seja necessário criar um projeto de software. Todavia, se o sistema for grande e complexo, é recomendável criar um projeto de software.
+
+Sempre use quando você perceber que existe necessidade e que ele pode ajudar a entender o sistema e a implementá-lo.
+

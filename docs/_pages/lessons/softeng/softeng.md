@@ -14,6 +14,8 @@ Criado em Março de 2023 por *Maxwell Anderson*
     <img src="../../../assets/images/gpt/cat_studying_glasses.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a cat studying software engineering">
     <figcaption>Gato estudando Engenharia de Software</figcaption>
     <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
+    <br>
+    <small><em>Prompt: create an image of a cat studying software engineering</em></small>
 </figure>
 
 > Se o gato consegue, você conseguirá.
@@ -31,6 +33,8 @@ Maxwell Anderson Ielpo do Amaral
 
 ## Conteúdo
 
+* Introdução
+  * [Introdução à Engenharia de Software](/lessons/softeng/zero/intro/)
 * Preparação do ambiente
   * [Introdução](/lessons/softeng/intro/intro/)
   * [Criando uma conta no GitHub](/lessons/softeng/intro/github/)

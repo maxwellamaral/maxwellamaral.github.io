@@ -1,0 +1,13 @@
+@startuml
+
+skinparam packageStyle rectangle
+
+:Usuário: as u
+
+rectangle Sistema {
+    u -- (Abrir conta comum)
+    (Abrir conta comum) <|-- (Abrir conta especial)
+    (Abrir conta comum) <|-- (Abrir conta poupança)
+}
+
+@enduml

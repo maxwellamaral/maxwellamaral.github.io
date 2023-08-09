@@ -1,0 +1,21 @@
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor "usuário" as u
+
+rectangle Sistema {
+    (Fazer login) as fl
+    (Cadastrar-se) as cs
+    (Esqueci minha senha) as ems
+
+    u -- fl
+    u -- cs
+
+    ' extensão
+    fl <.. cs : <<extends>>
+    fl <.. ems : <<extends>>
+}
+
+@enduml

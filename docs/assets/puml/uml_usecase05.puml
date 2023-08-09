@@ -1,0 +1,15 @@
+@startuml
+
+left to right direction
+
+actor "Operador de\nsistema" as os
+actor "Operador de\nprogramação da afiliada" as opa
+actor "Conselho de\nprogramação" as cp
+
+(Consultar\nbase compartilhada) as cbc
+(Publicar e incluir\nvideo na base local) as pil
+(Consultar\nbase local) as cbl
+(Incluir video\nna base compartilhada) as ivg
+(Ofertar conteúdo\npara afiliada) as oca
+
+@enduml

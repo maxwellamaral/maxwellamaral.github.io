@@ -1,0 +1,12 @@
+@startuml
+
+left to right direction
+
+actor "Operador de\nsistema" as os
+actor "Operador de\nprogramação da afiliada" as opa
+actor "Conselho de\nprogramação" as cp
+
+os <|-- opa
+os <|-- cp
+
+@enduml

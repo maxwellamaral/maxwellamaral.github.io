@@ -38,24 +38,24 @@ u <|-- f
 u <|-- v
 
 c -- uc_manter_garantias
-uc_manter_garantias <. uc_manter_produtos: include
+uc_manter_garantias <. uc_manter_produtos: <<include>>
 
 c -- uc_manter_produtos
 adm -- uc_contratar_assinatura
 
 adm -- uc_vender_dados_produtos
-uc_vender_dados_produtos .> uc_manter_produtos: include
+uc_vender_dados_produtos .> uc_manter_produtos: <<include>>
 
 adm -- uc_divulgar_produtos
-uc_divulgar_produtos .> uc_manter_produtos: include
+uc_divulgar_produtos .> uc_manter_produtos: <<include>>
 
 adm -- uc_manter_clientes
 
 adm -- uc_manter_comunicacao_clientes
-' uc_manter_comunicacao_clientes .> uc_manter_clientes: include
+' uc_manter_comunicacao_clientes .> uc_manter_clientes: <<include>>
 
 v -- uc_comunicar_clientes
-' uc_comunicar_clientes .> uc_manter_clientes: include
+' uc_comunicar_clientes .> uc_manter_clientes: <<include>>
 
 c -- uc_notificar_cliente_sobre_garantia
 
@@ -69,6 +69,6 @@ c .. N1
 N1 .. uc_manter_fabricantes
 
 c -- uc_contatar_fabricantes
-uc_contatar_fabricantes .> uc_manter_fabricantes: extend
+uc_contatar_fabricantes .> uc_manter_fabricantes: <<extend>>
 @enduml
 

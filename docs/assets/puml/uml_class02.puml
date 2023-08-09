@@ -1,0 +1,12 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class Funcionario {
+    - nome : str
+    - cargo : str
+}
+
+Funcionario "0..*" -- Funcionario
+
+@enduml
