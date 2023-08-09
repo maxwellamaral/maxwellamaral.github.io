@@ -107,7 +107,7 @@ A **engenharia de software** é uma área da engenharia que estuda a aplicação
 
 # O que se pode fazer em Engenharia de Software?
 
-Se você está em um curso técnico ou superior da área de Engenharia de Software, Ciência da Computação ou afins, pode estar achando que, ao se concluir, você será um desenvolvedor ou programador. Talvez você nem goste de programação. Mas, não se preocupe, pois existem várias outras atividades que você pode fazer, como:
+Se você está em um curso técnico ou superior da área de Engenharia de Software, Ciência da Computação ou afins, pode estar achando que, ao concluir, você será um desenvolvedor ou programador. Talvez você nem goste de programação. Mas, não se preocupe, pois existem várias outras atividades que você pode fazer, como:
 
 - *Engenheiro de requisitos* ou *analista de requisitos*
 - *Analista de sistemas de software*
