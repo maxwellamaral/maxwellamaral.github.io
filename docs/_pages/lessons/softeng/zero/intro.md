@@ -564,7 +564,8 @@ Deve-se observar sempre:
 
 - PRESSMAN, Roger S. Engenharia de Software. 6. ed. São Paulo: McGraw-Hill, 2006.
 - Project Management Institute (PMI). Um guia do conhecimento em gerenciamento de projetos (Guia PMBOK). 6. ed. Pennsylvania: Project Management Institute, 2017.
-- SOFTEX. MPS.BR - Guia Geral MPS de Software. Recife: SOFTEX, 2020. 
+- Sommerville. Engenharia de Software. 8ª ed. São Paulo: Pearson Addison-Wesley, 2007.
+---. Guia de Implementação do MPS.Br nível F. Versão 1.1. SOFTEX, 2007.
 
 [Voltar](/lessons/softeng/)
 
