@@ -41,11 +41,9 @@ Neste capítulo, você irá aprender sobre aspectos gerais da Engenharia de Soft
     <figure style="text-align:center">
         <img src="../../../../assets/images/lessons/intro01.png" width="350" alt="Eu finalmente encontrei ele... depois de 15 anos. A DOCUMENTAÇÃO!">
         <figcaption>
-            <small>
-                "Eu finalmente encontrei ele... depois de 15 anos. A DOCUMENTAÇÃO!"
-                <br>
-                "PARA FAZER: preencha isto com mais detalhes depois."
-            </small>
+            "Eu finalmente encontrei ele... depois de 15 anos. A DOCUMENTAÇÃO!"
+            <br>
+            "PARA FAZER: preencha isto com mais detalhes depois."
         </figcaption>
     </figure>
 </center>
