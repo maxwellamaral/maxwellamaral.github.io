@@ -61,20 +61,20 @@ Conforme mencionado por Pressman (2006), **software** é um produto desenvolvido
     </figure>
 </center>
 
-> 🤔 **Para memorizar** 
+> 🤔 **Para memorizar**
 >
 > - **Usuário**: é quem utiliza o software. Pode ser uma pessoa, outra máquina ou um outro sistema.
 > - **Cliente**: é quem paga pelo software. Pode ser uma pessoa, uma empresa, um governo etc.
-> - **Especificação**: é o documento que descreve o que o software deve fazer.
+> - **Especificação**: é o documento que descreve o que o software deve fazer, de maneira detalhada.
 > - **Artefato**: é qualquer coisa que é produzida durante o trabalho de desenvolvimento de software. Pode ser um documento, um programa, um manual, uma especificação etc.
 
 **Mas o que é entregue ao cliente?**
 
-Depende: normalmente entregamos um programa funcionando mais o manual do usuário. Mas, dependendo do cliente, poderemos entregar toda a **especificação** e/ou quaisquer outros artefatos oriundos de um processo.
+**Depende**: normalmente entregamos um programa funcionando mais o manual do usuário. Mas, dependendo do cliente, poderemos entregar toda a **especificação** e/ou quaisquer outros artefatos oriundos de um processo.
 
-Já vi clientes contratarem empresas de desenvolvimento de software para fazerem a especificação e o desenvolvimento do software. Neste caso, o cliente recebe a especificação e o programa funcionando. Também já vi clientes comprarem, além disso, o código-fonte.
+Já vi clientes contratarem empresas para desenvolverem a especificação e o programa. Também já vi clientes comprarem, além disso, o código-fonte.
 
-> 💡 **Você sabia?** 
+> 💡 **Você sabia?**
 >
 > Que existem clientes que podem contratá-lo para desenvolver software e definir, inclusive, que linguagem de programação deve ser utilizada?
 
@@ -92,7 +92,7 @@ Já vi clientes contratarem empresas de desenvolvimento de software para fazerem
     </figure>
 </center>
 
-A **engenharia** é uma ciência que estuda a aplicação de conhecimentos científicos e empíricos para a resolução de problemas. 
+A **engenharia** é uma ciência que estuda a aplicação de conhecimentos científicos e empíricos para a resolução de problemas.
 
 A **engenharia de sistemas** estuda, no sentindo mais amplo, a aplicação de conhecimentos científicos e empíricos para o desenvolvimento de *sistemas em geral* com o objetivo de resolver problemas ou atender necessidades. Assim sendo, um sistema pode ser composto por elementos de vários outros subsistemas, como por exemplo, um robô que é constituído por elementos mecânicos, elétricos, eletrônicos e de software.
 
@@ -107,26 +107,26 @@ A **engenharia de software** é uma área da engenharia que estuda a aplicação
 
 # O que se pode fazer em Engenharia de Software?
 
-Se você está em um curso técnico ou superior da área de Engenharia de Software, Ciência da Computação ou afins, pode estar achando que, ao concluir, você será um desenvolvedor ou programador. Talvez você nem goste de programação. Mas, não se preocupe, pois existem várias outras atividades que você pode fazer, como:
+Se você está em um curso técnico ou superior da área de Engenharia de Software, Ciência da Computação ou afins, pode estar achando que, ao concluir, você será um desenvolvedor ou programador. Talvez você nem goste de programação. Mas, não se preocupe, pois existem várias outras funções que você pode exercer, como:
 
 - *Engenheiro de requisitos* ou *analista de requisitos*
 - *Analista de sistemas de software*
 - *Arquiteto de software*
 - *Gerente de projetos de software*
-- *Engenheiro de testes* ou *Testador de software*
+- *Engenheiro de testes* ou *testador de software*
 - *Analista de configuração*
-- *Analista de qualidade*, *SQA* ou *Analista de processos de software*
+- *Analista de qualidade*, *SQA* ou *analista de processos de software*
 - *Analista de segurança da informação*
 - *Desenvolvedor*
-- *UX Designer* ou *Designer de interface*
-- *Analista de dados* ou *Cientista de dados*
+- *UX Designer* ou *designer de interface*
+- *Analista de dados* ou *cientista de dados*
 - *Analista de negócios*
 - *Analista de suporte*
 - *Analista de infraestrutura*
-- *DBA* ou *Administrador de banco de dados*
+- *DBA* ou *administrador de banco de dados*
 - entre outros...
 
-Já tive alunos que não gostavam de programação (eu amo) e que se tornaram excelentes analistas de requisitos, analistas de testes... e hoje trabalham em grandes empresas.
+Já tive alunos que não gostavam de programação (já eu amo) e que se tornaram excelentes analistas de requisitos, analistas de testes... e hoje trabalham em grandes empresas.
 
 > 🤔 **Para memorizar**
 >
@@ -152,9 +152,9 @@ Vamos tratar de cada uma das principais áreas da Engenharia de Software? Pode s
 > Imagine um requisito como uma frase que começa com "O sistema deve..." ou "O sistema não deve...", ou mesmo "Como cliente, eu gostaria que o sistema permitisse...".
 >
 > **Exemplo:**
-> 
+>
 > "O sistema deve permitir que o usuário faça login utilizando seu e-mail e senha."
-> 
+>
 > Vamos ver este assunto de maneira detalhada e prática em [Engenharia de Requisitos](/lessons/softeng/requirements/intro/).
 
 A **engenharia de requisitos** é uma área da Engenharia de Software que estuda a aplicação de conhecimentos científicos e empíricos para a elicitação, análise, especificação, validação e gerenciamento de requisitos de software.
@@ -162,21 +162,21 @@ A **engenharia de requisitos** é uma área da Engenharia de Software que estuda
 Podemos dividir a engenharia de requisitos em 4 subáreas:
 
 1. **Análise de negócio ou do problema**, leva em consideração:
-   1. a identificação dos interessados ou *stakeholders* do projeto;
-   2. a identificação do problema ou demanda a ser atendida e suas restrições;
-   3. as características funcionais principais do produto, com o objetivo de entender de maneira geral o que o produto deve fazer.
+   - a identificação dos interessados ou *stakeholders* do projeto;
+   - a identificação do problema ou demanda a ser atendida e suas restrições;
+   - as características funcionais principais do produto, com o objetivo de entender de maneira geral o que o produto deve fazer.
 2. **Levantamento dos requisitos**:
-   1. permite descrever os requisitos de forma mais detalhada, com o objetivo de entender o que o produto deve fazer;
-   2. caracteriza os requisitos, classificando-os em funcionais e não funcionais;
-   3. analisa a viabilidade de desenvolvimento do produto, levando em consideração o custo, o tempo e a qualidade;
-   4. rastreabilidade dos requisitos, que permite identificar a origem de cada requisito, bem como a sua relação com outros requisitos.
+   - permite descrever os requisitos de forma mais detalhada, com o objetivo de entender o que o produto deve fazer;
+   - caracteriza os requisitos, classificando-os em funcionais e não funcionais;
+   - analisa a viabilidade de desenvolvimento do produto, levando em consideração o custo, o tempo e a qualidade;
+   - rastreabilidade dos requisitos, que permite identificar a origem de cada requisito, bem como a sua relação com outros requisitos.
 3. **Validação dos requisitos**: permite verificar se os requisitos estão corretos, completos, consistentes e não ambíguos.
 4. **Gerenciamento de mudanças** ou **gerenciamento de requisitos**: permite gerenciar as mudanças que ocorrem nos requisitos durante o desenvolvimento do produto.
 
 > 👷 **Papel**
 >
 > Assim sendo, a engenharia de requisitos é executado pelo papel de:
-> 
+>
 > - *analista de requisitos*
 > - *engenheiro de requisitos*
 > - *analista de negócios*
@@ -197,20 +197,20 @@ Podemos dividir a engenharia de requisitos em 4 subáreas:
 
 🛠️ **Ferramentas utilizadas**
 
-| Ferramentas                 | Descrição                     |
-| --------------------------- | ----------------------------- |
-| Gerenciamento de requisitos | Jira, Trello, GitHub Projects |
-| Prototipação                | Adobe XD, Figma, Balsamiq     |
-| Escritório                  | Microsoft Word, Google Docs   |
-| Métodos                     | Kanbam, Scrum                 |
+| Ferramentas                 | Descrição                                    |
+| --------------------------- | -------------------------------------------- |
+| Gerenciamento de requisitos | [Jira][1], [Trello][2], [GitHub Projects][3] |
+| Prototipação                | [Adobe XD][4], [Figma][13], [Balsamiq][5]    |
+| Escritório                  | [Microsoft Word][6], [Google Docs][7]        |
+| Métodos                     | [Kanban][8], [Scrum][9]                      |
 
 ### Análise e projeto
 
-A análise e projeto de sistemas de software é uma área da Engenharia de Software que estuda a aplicação de conhecimentos em atividades relacionadas à especificação ou detalhamento dos requisitos levantados na engenharia de requisitos, bem como a definição da arquitetura do sistema e a especificação dos componentes do sistema.
+A **análise e projeto de sistemas de software** é uma área da Engenharia de Software que estuda a aplicação de conhecimentos em atividades relacionadas à especificação ou detalhamento dos requisitos levantados na engenharia de requisitos, bem como a definição da arquitetura do sistema e a especificação dos componentes do sistema.
 
 É uma atividade crucial para o desenvolvimento de software, pois é nesta fase que o sistema é projetado, ou seja, é definido como o sistema será implementado. É nesta fase que são definidos os componentes do sistema, como eles se relacionam e como eles se comunicam.
 
-Da mesma forma que um engenheiro civil projeta uma casa para um cliente, o analista de sistemas projeta um sistema de software para um cliente. O engenheiro civil pode fazer uma planta da casa e mostrar para o cliente, que pode aprovar ou não. 
+Da mesma forma que um engenheiro civil projeta uma casa para um cliente, o analista de sistemas projeta um sistema de software para um cliente. O engenheiro civil pode fazer uma planta da casa e mostrar para o cliente, que pode aprovar ou não.
 
 <center>
     <figure style="text-align:center">
@@ -244,7 +244,7 @@ Podemos resumir as atividades desempenhadas pelo analista de sistemas como **rea
 > 🎨 **O que criam?**
 >
 > - *Esboço da arquitetura do sistema*
-> - *Diagramas UML*, como diagramas de caso de uso, diagramas de classe, diagramas de sequência, diagramas de atividade, diagramas de estado etc.
+> - [*Diagramas UML*](/lessons/softeng/design/uml/) (Unified Modeling Language), com diagramas de caso de uso, diagramas de classe, diagramas de sequência, diagramas de atividade, diagramas de estado etc.
 > - *Diagramas DFD* (Diagrama de Fluxo de Dados)
 > - *Diagramas de banco de dados*, como DER (Diagrama Entidade-Relacionamento)
 > - *Dicionários de dados*
@@ -253,12 +253,12 @@ Podemos resumir as atividades desempenhadas pelo analista de sistemas como **rea
 
 🛠️ **Ferramentas utilizadas**
 
-| Ferramentas            | Descrição                                                               |
-| ---------------------- | ----------------------------------------------------------------------- |
-| Ferramentas CASE       | Visual Paradigm, Astah, Enterprise Architect, Microsoft Visio           |
-| Prototipação           | Adobe XD, Figma, Balsamiq                                               |
-| Modelagem de dados     | MySQL Workbench, Oracle SQL Developer Data Modeler, SQL Power Architect |
-| Modelagem de processos | Bizagi Modeler, Draw.io, Microsoft Visio                                |
+| Ferramentas            | Descrição                                                                                 |
+| ---------------------- | ----------------------------------------------------------------------------------------- |
+| Ferramentas CASE       | [Visual Paradigm][10], [Astah][11], [Enterprise Architect][12], [Microsoft Visio][12]     |
+| Prototipação           | [Adobe XD][4], [Figma][13], [Balsamiq][5]                                                 |
+| Modelagem de dados     | [MySQL Workbench][14], [Oracle SQL Developer Data Modeler][15], [SQL Power Architect][16] |
+| Modelagem de processos | [Bizagi Modeler][17], [Draw.io][18], [Microsoft Visio][19]                                |
 
 ### Gerência de projetos
 
@@ -317,10 +317,10 @@ Assim sendo, o gerente de projetos deve se preocupar as restrições descritas a
 
 🛠️ **Ferramentas utilizadas**
 
-| Ferramentas               | Descrição                                                      |
-| ------------------------- | -------------------------------------------------------------- |
-| Gerenciamento de projetos | Jira, Trello, GitHub Projects, Microsoft Project               |
-| Escritório                | Microsoft Word, Google Docs, Microsoft Excel, Google Planilhas |
+| Ferramentas               | Descrição                                                                           |
+| ------------------------- | ----------------------------------------------------------------------------------- |
+| Gerenciamento de projetos | [Jira][1], [Trello][2], [GitHub Projects][3], [Microsoft Project][20]               |
+| Escritório                | [Microsoft Word][6], [Google Docs][7], [Microsoft Excel][6], [Google Planilhas][21] |
 
 ### Gerência de configuração
 
@@ -346,13 +346,13 @@ Os procedimentos de gerenciamento de configuração definem como:
 
 🛠️ **Ferramentas utilizadas**
 
-| Ferramentas                   | Descrição                                           |
-| ----------------------------- | --------------------------------------------------- |
-| Controle de versão            | Git, GitHub, GitLab, Bitbucket                      |
-| Gerenciamento de configuração | Jira, Trello, GitHub Projects                       |
-| Escritório                    | Microsoft Word, Google Docs                         |
-| Integração contínua           | Jenkins, Travis CI, Circle CI                       |
-| Automação de testes           | Selenium, Cypress (somente algumas funcionalidades) |
+| Ferramentas                   | Descrição                                                                           |
+| ----------------------------- | ----------------------------------------------------------------------------------- |
+| Controle de versão            | [Git][22], [GitHub][23], [GitLab][24], [Bitbucket][25]                              |
+| Gerenciamento de configuração | [Jira][1], [Trello][2], [GitHub Projects][3]                                        |
+| Escritório                    | [Microsoft Word][6], [Google Docs][7]                                               |
+| Integração contínua           | [Jenkins][26], [Travis CI][27], [Circle CI][28], [Gitlab][24], [GitHub Actions][23] |
+| Automação de testes           | [Selenium][29], [Cypress][30] (somente algumas funcionalidades são utilizadas)      |
 
 ### Codificação ou desenvolvimento
 
@@ -360,12 +360,31 @@ A codificação ou desenvolvimento de software é uma área da Engenharia de Sof
 
 Envolve em colocar a "mão na massa" quando se trata de programar. É nesta fase que o sistema é implementado, ou seja, é desenvolvido o código-fonte do sistema.
 
-<center>
-    <figure style="text-align:center">
-        <img src="../../../../assets/images/lessons/intro08.png" width="450" alt="Exemplo de código-fonte. Comparação entre Java e Python">
-        <figcaption>Fonte desconhecida</figcaption>
-    </figure>
-</center>
+__Exemplos de códigos__
+
+```java
+// Leitura do arquivo test.txt em Java
+File dir = new File("/home/user/test.txt");
+File fin = new File(dir.getCanonicalPath() + File.separator + "test.txt");
+FileInputStream fis = new FileInputStream(fin);
+BufferedReader br = new BufferedReader(new InputStreamReader(fis));
+String aLine = null;
+while ((aLine = br.readLine()) != null) {
+    System.out.println(aLine);
+}
+if (aLine.trim().length() == 0) {
+    // linha em branco
+}
+in.close();
+```
+
+```python
+# Leitura do arquivo test.txt em Python
+
+my_file = open("/home/user/test.txt", "r")
+print(my_file.read())
+my_file.close()
+```
 
 Veja ums lista de linguagens de programação em [https://pt.wikipedia.org/wiki/Lista_de_linguagens_de_programação](https://pt.wikipedia.org/wiki/Lista_de_linguagens_de_programa%C3%A7%C3%A3o )
 
@@ -383,11 +402,11 @@ Veja ums lista de linguagens de programação em [https://pt.wikipedia.org/wiki/
 
 🛠️ **Ferramentas utilizadas**
 
-| Ferramentas                       | Descrição                                                                       |
-| --------------------------------- | ------------------------------------------------------------------------------- |
-| Desenvolvimento    | Visual Studio Code, PyCharm, Eclipse, IntelliJ IDEA, Netbeans, Bloco de notas 😄 |
-| Controle de versão | Git, GitHub, GitLab, Bitbucket                                                  |
-| Escritório         | Microsoft Word, Google Docs                                                     |
+| Ferramentas        | Descrição                                                                                                           |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| Desenvolvimento    | [Visual Studio Code][31], [PyCharm][32], [Eclipse][33], [IntelliJ IDEA][34], [Netbeans][35], Bloco de notas :smile: |
+| Controle de versão | [Git][22], [GitHub][23], [GitLab][24], [Bitbucket][25]                                                              |
+| Escritório         | [Microsoft Word][6], [Google Docs][7]                                                                               |
 
 ### Engenharia de testes
 
@@ -397,7 +416,7 @@ A **verificação** é o processo de avaliação de um sistema ou componente par
 
 A **validação** é o processo de avaliação de um sistema ou componente durante ou no final do ciclo de vida para determinar se ele atende aos requisitos especificados. 
 
-Os testes tem como meta:
+Os testes tem como metas:
 
 1. Demonstrar ao desenvolvedor e ao cliente que o software atende aos requisitos.
 2. Descobrir falhas ou defeitos que apresenta comportamento incorreto, não desejável ou em não conformidade com sua especificação.
@@ -429,22 +448,24 @@ Possui como atividades:
 
 🛠️ **Ferramentas utilizadas**
 
-| Ferramentas                          | Descrição                      |
-| ------------------------------------ | ------------------------------ |
-| Automação de testes                  | Selenium, Cypress              |
-| Escritório                           | Microsoft Word, Google Docs    |
-| Gerenciamento de testes              | TestLink, TestRail             |
-| Controle de versão                   | Git, GitHub, GitLab, Bitbucket |
-| Integração contínua                  | Jenkins, Travis CI, Circle CI  |
-| Gerenciamento de defeitos            | Jira, Trello, GitHub Projects  |
-| Monitoramento de desempenho          | JMeter, Gatling                |
-| Monitoramento de segurança           | OWASP ZAP, Burp Suite          |
-| Monitoramento de usabilidade         | Hotjar, Google Analytics       |
-| Monitoramento de carga               | Apache Bench, Siege            |
-| Monitoramento de estresse            | Stress-ng, Stress              |
-| Monitoramento de cobertura de código | SonarQube, Codecov             |
-| Monitoramento de qualidade de código | SonarQube, Code Climate        |
-| Monitoramento de vulnerabilidades    | Snyk, WhiteSource              |
+| Ferramentas                          | Descrição                                                                           |
+| ------------------------------------ | ----------------------------------------------------------------------------------- |
+| Gerenciamento de testes              | [TestLink][36], [TestRail][37]                                                      |
+| Gerenciamento de defeitos            | [Jira][1], [Trello][2], [GitHub][23], [Gitlab][24]                                  |
+| Monitoramento de desempenho          | [JMeter][38], [Gatling][39]                                                         |
+| Monitoramento de segurança           | [OWASP][40], [Burp Suite][41]                                                       |
+| Monitoramento de usabilidade         | [Google Analytics][42]                                                              |
+| Monitoramento de carga               | Apache Bench, Siege                                                                 |
+| Monitoramento de estresse            | [Stress-ng][44]                                                                     |
+| Monitoramento de cobertura de código | [SonarQube][43], [Codecov][48]                                                      |
+| Monitoramento de qualidade de código | [SonarQube][43], [Code Climate][47]                                                 |
+| Monitoramento de vulnerabilidades    | [Snyk][45], [WhiteSource][46]                                                       |
+| Escritório                           | [Microsoft Word][6], [Google Docs][7], [Microsoft Excel][6], [Google Planilhas][21] |
+| Controle de versão                   | [Git][22], [GitHub][23], [GitLab][24], [Bitbucket][25]                              |
+| Integração contínua                  | [Jenkins][26], [Travis CI][27], [Circle CI][28], [Gitlab][24], [GitHub Actions][23] |
+| Automação de testes                  | [Selenium][29], [Cypress][30]                                                       |
+                                                         
+
 
 ### Qualidade de Processos ou Garantia da Qualidade
 
@@ -480,11 +501,12 @@ Conforme os mesmo Guia, os objetivos principais são:
 
 🛠️ **Ferramentas utilizadas**
 
-| Ferramentas              | Descrição                      |
-| ------------------------ | ------------------------------ |
-| Escritório               | Microsoft Word, Google Docs    |
-| Controle de versão       | Git, GitHub, GitLab, Bitbucket |
-| Diagramação de processos | Bizagi Modeler, Draw.io        |
+| Ferramentas              | Descrição                                              |
+| ------------------------ | ------------------------------------------------------ |
+| Diagramação de processos | [Bizagi Modeler][17], [Draw.io][18]                    |
+| Controle de versão       | [Git][22], [GitHub][23], [GitLab][24], [Bitbucket][25] |
+| Escritório               | [Microsoft Word][6], [Google Docs][7]                  |
+
 
 ## Deve-se ter todos esses papéis em um projeto?
 
@@ -498,9 +520,9 @@ Conforme os mesmo Guia, os objetivos principais são:
 
 Adentrando nesta discussão, é muito comum vermos desenvolvedores experientes argumentarem que para todo e qualquer projeto o mínimo que se deve fazer é a análise abrangente, codificação e testes. Mas, será que é isso mesmo?
 
-Como sabemos, não existe *bala de prata* e ao meu ver, sabem muito programar, mas de metodologias podem entender pouco, o que é muito comum.
+Como sabemos, não existe *bala de prata* e ao meu ver, sabem muito programar, mas sobre metodologias podem entender pouco, o que é muito comum.
 
-Um bom engenheiro de software deve conhecer ferramentas e boas práticas de desenvolvimento de software, bem como as metodologias de desenvolvimento de software, para que possa escolher a melhor abordagem para cada projeto.
+Um bom engenheiro de software deve conhecer ferramentas e boas práticas de desenvolvimento de software, bem como as metodologias, para que possa escolher a melhor abordagem para cada projeto.
 
 O mínimo de levantamento e análise de requisitos é obrigatório. Desenvolvedores experientes devem ter conhecimento necessário para implementar uma arquitetura de software adequada para o projeto. E, claro, nunca deixar os testes de lado.
 
@@ -508,8 +530,8 @@ Outros projetos exigirão especificação mais detalhada dos requisitos, bem com
 
 1. **Do projeto**, daí podemos depreender que tudo dependerá do tamanho, da complexidade, do orçamento, do prazo, da qualidade, dos riscos etc.
 2. **Dos clientes**, pois estes poderão solicitar uma documentação mais detalhada para compreensão ou mesmo para que possam auditar o projeto. Por vezes um Documento de Visão e um Documento de Requisitos serão apensados em um contrato.
-3. **Da empresa**, pois esta poderá exigir uma documentação mais detalhada para que possa auditar o projeto bem como para que possa reutilizar a documentação em outros projetos. É muito comum que todo o conhecimento adquirido em um projeto esteja na "cabeça" dos principais desenvolvedores que, por vezes, não documentam nada. E, quando estes saem da empresa, todo o conhecimento é perdido. Outrossim, já vi um sistema com dez anos "de idade" precisar ser reimplementado totalmente utilizando nova tecnologia - o motivo foi a necessidade de adequação a um novo mercado. O problema é que o sistema era muito antigo e não havia documentação necessária para realizar o procedimento. Sabe-se também que para entender como o sistema funcionava "por debaixo dos panos" havia uma curva de aprendizagem altíssima de dois anos. Pior foi ver gente ser demitida ou pedir demissão perto do fim desta janela de tempo. O resultado foi que o sistema teve que ser reimplementado do zero. Se houvesse documentação, o custo de reimplementação seria menor.
-4. **Da metodologia de desenvolvimento de software**, pois esta poderá exigir uma documentação mais detalhada para que possa auditar o projeto bem como para que possa reutilizar a documentação em outros projetos. Por exemplo, em metodologias ágeis, a documentação é mínima, mas existe. Em metodologias tradicionais, a documentação é mais detalhada. Existem as abordagens híbridas, quando se mesclam metodologias ágeis e tradicionais. Neste caso, a documentação pode ser mais detalhada ou não. Sou simpático à flexibilidade, pois acredito que cada projeto é um projeto e deve ser tratado como tal. Como sabemos não existe "bala de prata".
+3. **Da empresa**, pois esta poderá exigir uma documentação mais detalhada para que possa auditar o projeto bem como para que possa reutilizar a documentação em outros projetos. É muito comum que todo o conhecimento adquirido em um projeto esteja na "cabeça" dos principais desenvolvedores que, por vezes, não documentam nada. E, quando estes saem da empresa, todo o conhecimento é perdido. Outrossim, já vi um sistema com dez anos "de idade" precisar ser reimplementado totalmente utilizando nova tecnologia - o motivo foi a necessidade de adequação a um novo mercado. O problema é que o sistema era muito antigo e não havia documentação necessária para realizar o procedimento. Sabe-se também que para entender como o sistema funcionava "por debaixo dos panos", havia uma curva de aprendizagem altíssima de cerca de dois anos. Pior foi ver gente ser demitida ou pedir demissão perto do fim desta janela de tempo. O resultado foi que o sistema teve que ser reimplementado do zero. Se houvesse documentação, o custo de reimplementação seria menor.
+4. **Da metodologia de desenvolvimento de software**. Em metodologias ágeis, a documentação é mínima, mas existe. Em metodologias tradicionais, a documentação é mais detalhada. Existem as abordagens híbridas, quando se mesclam metodologias ágeis e tradicionais. Neste caso, a documentação pode ser mais detalhada ou não. Sou simpático à flexibilidade, pois acredito que cada projeto é um projeto e deve ser tratado como tal. Como sabemos não existe "bala de prata".
 5. **Da equipe**. Depende muito do tamanho, da maturidade e do conhecimento profissional dos componentes da equipe. Se a equipe é pequena, pode ser que um desenvolvedor experiente desempenhe mais de um papel e, ainda por cima, deverá dar suporte aos inexperientes. Vejo que a comunidade de TI no Brasil possui profissionais que auxiliam uns aos outros e é bem comum analistas seniores ensinarem ou transmitirem conhecimento aos juniores. De qualquer forma, a curva de aprendizagem sempre será fator determinante para cumprimento dos prazos de um projeto. Se a equipe é grande, pode ser que existam pessoas que desempenhem papéis específicos, como analista de requisitos, analista de testes, desenvolvedor, arquiteto de software, gerente de projetos etc. Neste caso, a curva de aprendizagem será menor, mas o custo do projeto será maior. São várias as variáveis e as equipes devem ir se auto ajustando a medida que os projetos avançam. O importante é que o projeto seja entregue com qualidade, dentro do prazo e do orçamento.
 
 > 📝 **Tome nota**
@@ -522,13 +544,13 @@ Outros projetos exigirão especificação mais detalhada dos requisitos, bem com
 >
 > Que existem conjuntos de boas práticas de desenvolvimento de software que podem ser adotadas por qualquer empresa? São espécies de "manuais" que podem ser seguidos para que as equipes possam melhorar seu dia a dia de trabalho. Dentre elas temos boas práticas do:
 >
-> - Capability Maturity Model Integration for Development (CMMI-DEV)
-> - ISO/IEC 12207
-> - ISO/IEC 15504
-> - Melhoria de Processos de Software Brasileiro (MPS.BR)
-> - Project Management Body of Knowledge (PMBOK)
-> - Software Engineering Body of Knowledge (SWEBOK)
-> - E várias relacionadas às metodologias ágeis como Scrum, XP, Kanban, Lean, FDD, DSDM etc.
+> - [Capability Maturity Model Integration for Development (CMMI-DEV)][100]
+> - [ISO/IEC 12207][101]
+> - [ISO/IEC 15504][102]
+> - [Melhoria de Processos de Software Brasileiro (MPS.BR)][103]
+> - [Project Management Body of Knowledge (PMBOK)][104]
+> - [Software Engineering Body of Knowledge (SWEBOK)][105]
+> - E várias relacionadas às metodologias ágeis como [Scrum][8], [XP][106], [Kanban][9], [Lean][107], [FDD][108], [DSDM][109] etc.
 >
 > **Dica**: sobre as siglas acima, busque mais informações pela Internet. Você vai se surpreender com a quantidade de informações que existem sobre cada uma delas.
 
@@ -568,3 +590,63 @@ Deve-se observar sempre:
 [Voltar](/lessons/softeng/)
 
 Criado Janeiro de 2019 e atualizado em Agosto de 2023 por *Maxwell Anderson*
+
+[1]: <https://www.atlassian.com/br/software/jira> "Jira"
+[2]: <https://trello.com/pt-BR> "Trello"
+[3]: <https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects> "GitHub Projects"
+[4]: <https://helpx.adobe.com/br/support/xd.html> "Adobe XD"
+[5]: <https://balsamiq.com/> "Balsamiq"
+[6]: <https://www.office.com/> "Microsoft Office"
+[7]: <https://www.google.com/docs/about/> "Google Docs"
+[8]: <https://kanbanize.com/pt/recursos-kanban/primeiros-passos/o-que-e-kanban> "Kanban"
+[9]: <https://aws.amazon.com/pt/what-is/scrum/> "Scrum"
+[10]: <https://www.visual-paradigm.com/> "Visual Paradigm"
+[11]: <https://astah.net/pt/> "Astah"
+[12]: <https://sparxsystems.com/> "Enterprise Architech"
+[13]: <https://www.figma.com/> "Figma"
+[14]: <https://www.mysql.com/products/workbench/> "MySQL Workbench"
+[15]: <https://www.oracle.com/br/database/sqldeveloper/technologies/sql-data-modeler/> "Oracle SQL Developer Data Modeler"
+[16]: <https://dbmstools.com/tools/sql-power-architect> "SQL Power Architect"
+[17]: <https://www.bizagi.com/pt/plataforma/modeler> "Bizagi Modeler"
+[18]: <https://app.diagrams.net/> "Draw.io"
+[19]: <https://www.microsoft.com/pt-br/microsoft-365/visio/flowchart-software> "Microsoft Visio"
+[20]: <https://www.microsoft.com/pt-br/microsoft-365/project/project-management-software> "Microsoft Project"
+[21]: <https://docs.google.com/spreadsheets> "Google Planilhas"
+[22]: <https://git-scm.com/> "Git"
+[23]: <https://github.com/> "GitHub"
+[24]: <https://about.gitlab.com/> "Gitlab"
+[25]: <https://bitbucket.org/> "Bitbucket"
+[26]: <https://www.jenkins.io/> "Jenkins"
+[27]: <https://www.travis-ci.com/> "Travis CI"
+[28]: <https://circleci.com/> "Circle CI"
+[29]: <https://www.selenium.dev/> "Selenium"
+[30]: <https://www.cypress.io/> "Cypress"
+[31]: <https://code.visualstudio.com/> "Visual Studio Code"
+[32]: <https://www.jetbrains.com/pt-br/pycharm/> "PyCharm"
+[33]: <https://www.eclipse.org/downloads/> "Eclipse"
+[34]: <https://www.jetbrains.com/idea/> "IntelliJ IDEA"
+[35]: <https://netbeans.apache.org/download/index.html> "Netbeans"
+[36]: <https://testlink.org/> "Testlink"
+[37]: <https://www.testrail.com/> "TestRail"
+[38]: <https://jmeter.apache.org/> "JMeter"
+[39]: <https://gatling.io/> "Gatling"
+[40]: <https://owasp.org/> "OWASP"
+[41]: <https://portswigger.net/burp> "Burp Suite"
+[42]: <https://analytics.google.com/analytics/web/> "Google Analytics"
+[43]: <https://www.sonarsource.com/products/sonarqube/> "SonarQube"
+[44]: <https://gvasanka.medium.com/attack-cpu-memory-of-a-linux-machine-using-stress-and-stress-ng-commands-9a7aa1ee0a25> "Stress-ng"
+[45]: <https://snyk.io/> "Snyk"
+[46]: <https://www.mend.io/> "WhiteSource"
+[47]: <https://codeclimate.com/> "Code Climate"
+[48]: <https://about.codecov.io/> "Codecov"
+
+[100]: <https://cmmiinstitute.com/> "CMMI-DEV"
+[101]: <https://pt.wikipedia.org/wiki/ISO/IEC_12207> "ISO/IEC 12207"
+[102]: <https://pt.wikipedia.org/wiki/ISO/IEC_15504> "ISO/IEC 15504"
+[103]: <https://www.softex.br/wp-content/uploads/2013/07/MPS.BR_Guia_Geral_Software_2012-c-ISBN-1.pdf> "MPS.BR"
+[104]: <https://pmisp.org.br/pmbok-guide/> "PMBOK"
+[105]: <https://www.ieee.org/about/ieee-india/ieee-computer-society-india/swebok.html> "SWEBOK"
+[106]: <https://asana.com/pt/resources/extreme-programming-xp> "XP"
+[107]: <https://www.lean.org.br/o-que-e-lean.aspx> "Lean"
+[108]: <https://pt.wikipedia.org/wiki/Feature_Driven_Development> "FDD"
+[109]: <https://pt.wikipedia.org/wiki/Metodologia_de_desenvolvimento_de_sistemas_din%C3%A2micos> "DSDM"
