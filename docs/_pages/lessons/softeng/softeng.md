@@ -52,8 +52,7 @@ Maxwell Anderson Ielpo do Amaral
   * [Análise baseada em visões do sistema](/lessons/softeng/design/views/)
 * Engenharia de Testes
   * [Introdução à Engenharia de Testes](/lessons/softeng/tests/intro/)
-  * [Histórias de usuários](/lessons/softeng/tests/user-stories/)- [Conteúdo](#conteúdo)
-
+  * [Histórias de usuários](/lessons/softeng/tests/user-stories/)
   
   <!-- * [Configurando as extensões do VSCode](01.%20Prepara%C3%A7%C3%A3o%20do%20ambiente/06.%20Configurando%20as%20extens%C3%B5es%20do%20VSCode.md) 
   * Test Driven Development (TDD)
