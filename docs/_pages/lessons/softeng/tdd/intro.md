@@ -23,8 +23,4 @@ TDD, ou Test Driven Development, é uma técnica de desenvolvimento de software 
 
 Vamos utilizar o projeto que se encontra em <https://github.com/maxwellamaral/garantias-mono-dj> como exemplo. O projeto é um sistema de garantias de produtos, e é escrito em Python utilizando o framework Django. O projeto é um monorepo, ou seja, contém todos os códigos em um único repositório. O projeto é dividido em 3 aplicações: `core`, `api` e `web`. A aplicação `core` contém o código de negócio, a aplicação `api` contém o código da API REST, e a aplicação `web` contém o código da aplicação web. A preparação do ambiente se encontra em no arquivo [README.md](https://github.com/maxwellamaral/garantias-mono-dj#readme) do projeto.
 
-Veja aqui o conteúdo das aulas:
-
-- [Introdução à Engenharia de Requisitos](/lessons/softeng/requirements/intro/)
-
   
