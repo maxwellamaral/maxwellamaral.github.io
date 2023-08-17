@@ -74,7 +74,7 @@ Para a implementação do projeto, iremos utilizar o simulador Tinkercad. Para i
 
 Um LED possui um cátodo e um ânodo. O cátodo é o pino mais curto e o ânodo é o pino mais longo. O cátodo deve ser conectado ao GND e o ânodo ao pino digital 12 do Arduino. O resistor deve ser conectado ao cátodo do LED e o ânodo ao pino digital 12 do Arduino.
 
-Lembre-se:
+Lembre-se: 
 
 |  Pino  | Descrição       | Observação |
 | :----: | :-------------- | :--------: |
