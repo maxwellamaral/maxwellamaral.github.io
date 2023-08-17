@@ -1,0 +1,34 @@
+
+@startuml Produtos
+
+left to right direction
+
+' Atores
+actor "Usuário do sistema" as user
+actor "Usuários comuns" as common_user
+actor Cliente as cli
+actor Administrador as adm
+
+' Relacionamentos
+user <|-- common_user
+common_user <|-- cli
+user <|-- adm
+
+package  "Produtos" {
+    usecase "Manter produtos" as uc_manter_produtos
+    usecase "Manter garantias" as uc_manter_garantias
+    cli -- uc_manter_produtos
+    uc_manter_produtos .> uc_manter_garantias: <<include>>
+
+    usecase "Notificar garantias\n prestes a vencer" as uc_notificar_garantias
+    cli -- uc_notificar_garantias
+    uc_manter_garantias .> uc_notificar_garantias: <<extend>>
+
+    usecase "Encontrar contatos\n dos fabricantes" as uc_encontrar_contatos
+    cli -- uc_encontrar_contatos
+
+    usecase "Manter solicitações\n de reparo, devolução\n ou substituição" as uc_manter_solicitacoes_reparo
+    cli -- uc_manter_solicitacoes_reparo
+}
+
+@enduml

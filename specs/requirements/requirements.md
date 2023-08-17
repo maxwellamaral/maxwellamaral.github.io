@@ -7,9 +7,7 @@ sidebar:
   nav: "softeng-requirements"
 --- -->
 
-Criado em Abril de 2023 por _Maxwell Anderson_
-
-## Capa
+# Capa
 
 ---
 
@@ -32,6 +30,9 @@ Criado em Abril de 2023 por _Maxwell Anderson_
 
 ## Sumário
 
+- [Capa](#capa)
+  - [Histórico de revisões](#histórico-de-revisões)
+  - [Sumário](#sumário)
 - [Introdução](#introdução)
   - [Definições, Acrônimos e Abreviações](#definições-acrônimos-e-abreviações)
 - [Usuários identificados](#usuários-identificados)
@@ -103,7 +104,7 @@ Os requisitos funcionais são descritos a seguir.
 - **[RF005]** - Como administrador, gostaria de oferecer aos varejistas a possibilidade de se comunicar com os clientes após a venda, caso estes concordem em receber atualizações sobre oportunidades e promoções.
 - **[RF006]** - Como cliente, gostaria de ser notificado quando a garantia de um produto estiver prestes a vencer, para que eu possa providenciar a troca do produto em caso de defeitos.
 - **[RF007]** - Como cliente, gostaria de encontrar os contatos dos fabricantes, para que eu possa entrar em contato com eles em caso de defeitos no produto. Os contatos devem ser fornecidos pelo fabricante, podendo ser um telefone, um e-mail ou um site do departamento de vendas e/ou de atendimento ao cliente.
-- **[RF008]** - Como cliente, gostaria de realizar a busca pelos produtos que eu possuo, a fim de evitar a compra de novos produtos que eu já possuo. A busca deve ser feita por nome do produto, marca, modelo, segmento e local de compra.
+- **[RF008]** - Como cliente, gostaria de realizar a busca pelos produtos que eu possuo, a fim de evitar a compra de produtos repetidos. A busca deve ser feita por nome do produto, marca, modelo, segmento e local de compra.
 - **[RF009]** - Como cliente, gostaria de verificar quais as regras de garantia de cada produto, para que eu possa saber de que forma o produto será substituído em caso de defeito.
 - **[RF010]** - Como administrador, gostaria de realizar o backup dos dados dos clientes, para que eu possa recuperar os dados em caso de falha no sistema.
 - **[RF011]** - Como cliente, gostaria de realizar o download dos dados dos produtos que eu possuo, para que eu possa ter uma cópia dos dados em caso de falha no sistema. Os formatos dos arquivos para download poderão ser JSON, planilhas eletrônicas (XLS, XLSX, CSV) e HTML com tabelas e formato acessível para leitores de tela.
@@ -198,3 +199,5 @@ A matriz de rastreabilidade é apresentada a seguir.
 |  RNF012  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
 |  RNF013  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
 |  RNF014  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     | X     | X     | X     | X     |
+
+Criado em Abril de 2023 por _Maxwell Anderson_

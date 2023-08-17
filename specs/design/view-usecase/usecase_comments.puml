@@ -1,0 +1,283 @@
+' Observação importante:
+'
+' Nota 1. Os requisitos copiados abaixo foram retirados do documento de
+' requisitos do projeto. Não se deve realizar este procedimento
+' profissionalmente, pois informações não devem ser duplicadas em
+' documentos diferentes. O ideal é que os requisitos sejam referenciados
+' e não copiados. Porém, para fins didáticos, os requisitos foram
+' copiados para que o leitor possa entender o contexto do diagrama de
+' caso de uso.
+'
+' Nota 2. A estensão deste documento se deve somente para fins
+' pedagógicos e de aprendizagem. Assim, devemos representar somente os
+' requisitos funcionais que necessitam ser comunicados desta forma.
+'
+' Nota 3. É mais interessante obter uma visão de casos de uso por
+' módulo, por subsistema, por contexto ou versão de backlog/escopo
+' de um projeto. Assim, não é necessário representar todos os casos de
+' uso de um sistema em um único diagrama. O diagrama de caso de uso
+' deve ser representado de acordo com o contexto que se deseja
+' comunicar.
+'
+' Nota 4. Toda a análise inicial deve ser sempre revista e atualizada.
+'
+' Nota 5. Deve-se levar em consideração que uma análise de sistemas
+' sempre é dotada de subjetividade e sempre dependerá da interpretação
+' do analista. Assim, não existe uma análise correta ou incorreta, mas
+' sim uma análise que atende ou não aos requisitos do cliente.
+
+
+@startuml usecase_diagram
+
+left to right direction
+skinparam packageStyle rectangle
+
+
+/'Os seguintes usuários foram identificados para o sistema:
+Usuário do sistema
+Usuários comuns
+Usuário cliente
+Patrocinador
+Fabricantes
+Varejistas
+Atendente de suporte
+Administrador do sistema'/
+
+
+' Atores
+actor "Usuário do sistema" as user
+actor "Usuários comuns" as common_user
+actor Cliente as cli
+actor Patrocinador as pat
+actor Fabricante as fab
+actor Varejista as var
+actor "Atendente de suporte" as sup
+actor Administrador as adm
+
+' Relacionamentos
+user <|-- common_user
+common_user <|-- cli
+common_user <|-- pat
+common_user <|-- fab
+common_user <|-- var
+common_user <|-- sup
+user <|-- adm
+
+
+rectangle "Manter produtos" {
+/'
+[RF001]: Como um cliente, eu gostaria de poder manter os produtos que eu compro e controlar as garantias, para que eu possa saber quando o produto estará fora de garantia. Os produtos devem ser cadastrados com os seguintes dados: nome do produto, data de compra, data de vencimento da garantia, segmento do produto, marca e modelo do produto, local de compra, valor pago pelo produto, valor da garantia e modo de compra (online ou físico).
+'/
+
+' Casos de uso
+    usecase "Manter produtos" as uc_manter_produtos
+    usecase "Manter garantias" as uc_manter_garantias
+
+' Relacionamentos
+    cli -- uc_manter_produtos
+    uc_manter_produtos .> uc_manter_garantias: <<include>>
+
+/'
+[RF002]: Como administrador, eu gostaria de oferecer aos clientes a possibilidade de contratar uma assinatura do serviço, onde eles possam pagar uma mensalidade e terem acesso a um número ilimitado de garantias, bem como possibilitar uma assinatura gratuita com acesso a recursos limitados, como por exemplo, apenas registrar até 20 produtos.
+
+Veja que a ação "contratar" é uma funcionalidade do cliente, mas a ação "oferecer" é uma funcionalidade do administrador. Por isso, a ação "contratar" está no diagrama de caso de uso do cliente e a ação "oferecer" está no diagrama de caso de uso do administrador. A ação "pagar", "ter acesso a um número ilimitado de garantias" e "registrar até 20 produtos" são etapas da ação "contratar", por isso não estão no diagrama de caso de uso. As etapas irão compor o diagrama de sequência ou de sequência de atividades durante a análise de visão de casos de uso.
+'/
+
+    usecase "Contratar assinatura" as uc_contratar_assinatura
+    usecase "Manter assinatura" as uc_oferecer_assinatura
+
+    cli -- uc_contratar_assinatura
+    adm -- uc_oferecer_assinatura
+
+/'
+[RF003]: Como administrador, gostaria de oferecer aos patrocinadores uma oportunidade de divulgar seus produtos, para que eles possam aumentar suas vendas, de acordo com os segmentos de produtos que os clientes já possuem conforme registrado no sistema.
+
+Aqui temos que a ação "oferecer divulgação dos produtos" é uma funcionalidade relacionada à "divulgação de produtos" e que, apesar de ser gerenciada pelo administrador, ela será uma funcionalidade utilizada pelo patrocinador. Veja também que um segmento deverá estar vinculado a um produto registrado pelo patrocinador. Desta forma, subtende-se que o patrocinador deverá cadastrar seus produtos e vincular a um segmento e o adminstrador deverá cadastrar segmentos de produtos.
+'/
+
+
+    usecase "Oferecer divulgação\n de produtos" as uc_oferecer_divulgacao
+    usecase "Manter produtos\n para divulgação" as uc_divulgar_produtos
+    usecase "Manter segmentos\n de produtos" as uc_manter_segmentos
+
+    adm -- uc_oferecer_divulgacao
+    adm -- uc_manter_segmentos
+    pat -- uc_divulgar_produtos
+
+    uc_divulgar_produtos .> uc_manter_segmentos: <<include>> "para selecionar \n somente"
+    uc_oferecer_divulgacao .> uc_divulgar_produtos: <<include>>
+
+/'
+[RF004] - Como administrador, gostaria de oferecer aos fabricantes a possibilidade venda de dados dos produtos dos clientes. As informações que serão vendidas são: nome do produto, data de compra, data de vencimento da garantia, segmento do produto, marca e modelo do produto, local de compra, valor pago pelo produto e valor da garantia.
+
+Assim temos que o fabricante tem acesso aos dados que são vendidos pelo administrador. A interação entre os casos de usos é óbvia. O administrador oferece a venda de dados e o fabricante compra os dados. Percebe-se que "manter produtos" estenderá a funcionalidade "oferecer venda de dados dos produtos", pois o administrador só poderá oferecer a venda de dados dos produtos se os produtos estiverem cadastrados no sistema.
+'/
+
+
+    usecase "Oferecer venda de dados\n dos produtos" as uc_oferecer_venda_dados
+    usecase "Comprar dados\n dos produtos" as uc_comprar_dados
+
+    adm -- uc_oferecer_venda_dados
+    fab -- uc_comprar_dados
+    uc_manter_produtos .> uc_comprar_dados: <<extend>>
+
+/'
+[RF005] - Como administrador, gostaria de oferecer aos varejistas a possibilidade de se comunicar com os clientes após a venda, caso estes concordem em receber atualizações sobre oportunidades e promoções.
+
+Aqui temos que o varejista tem acesso aos dados dos clientes que concordaram em receber atualizações sobre oportunidades e promoções. O cliente decide receber atualizações e promoções e o varejista cadastra na plataforma essas promoções. O cliente poderá visualizar as promoções cadastradas pelo varejista.
+'/
+
+
+    usecase "Oferecer comunicação\n com clientes" as uc_oferecer_comunicacao
+    usecase "Receber promoções\n e comunicações" as uc_receber_promocoes
+
+    adm -- uc_oferecer_comunicacao
+    var -- uc_oferecer_comunicacao
+    cli -- uc_receber_promocoes
+    uc_manter_produtos .> uc_receber_promocoes: <<extend>>
+    uc_manter_produtos .> uc_oferecer_comunicacao: <<extend>>
+
+/'
+[RF006] - Como cliente, gostaria de ser notificado quando a garantia de um produto estiver prestes a vencer, para que eu possa providenciar a troca do produto em caso de defeitos.
+
+Aqui temos que o cliente tem acesso aos dados dos produtos que estão prestes a vencer a garantia. Essa é uma funcionalidade que poderá ser acessada em forma de relatório e notificações.
+'/
+
+    usecase "Notificar garantias\n prestes a vencer" as uc_notificar_garantias
+
+    cli -- uc_notificar_garantias
+    uc_manter_garantias .> uc_notificar_garantias: <<extend>>
+
+/'
+[RF007] - Como cliente, gostaria de encontrar os contatos dos fabricantes, para que eu possa entrar em contato com eles em caso de defeitos no produto. Os contatos devem ser fornecidos pelo fabricante, podendo ser um telefone, um e-mail ou um site do departamento de vendas e/ou de atendimento ao cliente.
+'/
+
+    usecase "Encontrar contatos\n dos fabricantes" as uc_encontrar_contatos
+
+    cli -- uc_encontrar_contatos
+
+/'
+[RF008] - Como cliente, gostaria de realizar a busca pelos produtos que eu possuo, a fim de evitar a compra de produtos repetidos. A busca deve ser feita por nome do produto, marca, modelo, segmento e local de compra.
+
+A busca é uma etapa da funcionalidade "manter produtos". Assim, não é necessário representar como caso de uso
+
+[RF009] - Como cliente, gostaria de verificar quais as regras de garantia de cada produto, para que eu possa saber de que forma o produto será substituído em caso de defeito.
+
+Aqui temos que o cliente tem acesso aos dados das regras de garantia de cada produto. Essa é uma ação que poderá ser acessada no próprio cadastro do produto. A regra de garantia é uma etapa da funcionalidade "manter garantias". Assim, não é necessário representar como caso de uso.
+
+[RF010] - Como administrador, gostaria de realizar o backup dos dados dos clientes, para que eu possa recuperar os dados em caso de falha no sistema.
+'/
+
+    usecase "Realizar backup\n dos dados" as uc_realizar_backup
+
+    adm -- uc_realizar_backup
+
+/'
+[RF011] - Como cliente, gostaria de realizar o download dos dados dos produtos que eu possuo, para que eu possa ter uma cópia dos dados em caso de falha no sistema. Os formatos dos arquivos para download poderão ser JSON, planilhas eletrônicas (XLS, XLSX, CSV) e HTML com tabelas e formato acessível para leitores de tela.
+'/
+
+    usecase "Realizar download\n dos dados" as uc_realizar_download
+
+    cli -- uc_realizar_download
+
+/'
+[RF012] - Como administrador, gostaria que todos os usuários realizassem login no sistema, para que eu possa ter controle sobre os acessos e possa realizar auditorias de acesso.
+'/
+
+    usecase "Realizar login\n no sistema" as uc_realizar_login
+    usecase "Manter cadastro do usuário" as uc_manter_cadastro
+    user -- uc_realizar_login
+    user -- uc_manter_cadastro
+    uc_manter_cadastro .> uc_realizar_login: <<extend>>
+
+/'
+[RF013] - Como administrador, gostaria de oferecer aos clientes a possibilidade de realizar o login com o Google, para que eles possam ter uma experiência mais rápida e segura.
+
+Isto é uma etapa da ação "realizar login no sistema". Assim, não é necessário representar como caso de uso.
+
+[RF014] - Como administrador, gostaria de realizar o gerenciamento de usuários.
+
+Isto é uma etapa da funcionalidade "Manter cadastro do usuário"  Assim, não é necessário representar como caso de uso.
+
+[RF015] - Como administrador, gostaria que os usuários fossem comunicados sobre as atualizações do sistema, para que eles possam ter uma experiência mais segura e atualizada.
+
+Preferi permitir que o cliente pude-se optar pelo recebimento de atualizações so sistema, caso queira. Assim, seria uma etapa na definição de preferências do sistema.
+'/
+
+    usecase "Definir preferências\n do sistema" as uc_definir_preferencias
+
+    user -- uc_definir_preferencias
+
+/'
+[RF016] - Como usuário comum, gostaria de reportar problemas no sistema, para que eu possa ajudar a melhorar a experiência dos usuários.
+'/
+
+    usecase "Reportar problemas\n no sistema" as uc_reportar_problemas
+    common_user -- uc_reportar_problemas
+
+/'
+[RF018] - Como usuário comum, gostaria de poder me cadastrar no sistema.
+
+Já representado pelo caso de uso "Manter cadastro do usuário"
+
+[RF019] - Como usuário comum, gostaria de poder alterar o meu e-mail, para que eu possa ter uma experiência mais segura. A alteração de e-mail somente poderá ser realizada por meio de um e-mail de confirmação para acesso a uma página de alteração de e-mail.
+
+Esta ação é uma etapa da funcionalidade "Manter cadastro do usuário". Assim, não é necessário representar como caso de uso.
+
+[RF020] - Como usuário comum, gostaria de poder alterar a minha senha, para que eu possa ter uma experiência mais segura. A alteração de senha somente poderá ser realizada por meio de um e-mail de confirmação para acesso a uma página de alteração de senha.
+
+Esta ação é uma funcionalidade "Alterar senha", pois existe um conjunto de etapas de segurança que comumente são utilizadas para alterar a senha. Assim, é necessário representar como caso de uso. Em casos mais simples poderíamos representar a ação como uma etapa da funcionalidade "Manter cadastro do usuário", mas não vem ao caso aqui por mera opção.
+'/
+
+    usecase "Alterar senha" as uc_alterar_senha
+
+    user -- uc_alterar_senha
+
+/'
+[RF021] - Como usuário comum, gostaria de poder ativar acesso por biometria, para que eu possa ter uma experiência mais segura.
+
+[RF022] - Como usuário comum, gostaria de poder ativar acesso por dois fatores, para que eu possa ter uma experiência mais segura.
+
+[RF022] - Como usuário comum, gostaria de poder ativar acesso por dois fatores, para que eu possa ter uma experiência mais segura.
+
+Decidi manter como etapas, por enquanto, da funcionalidade "Manter cadastro do usuário". Assim, não é necessário representar como caso de uso.
+
+[RF024] - Como cliente, gostaria de poder cadastrar as solicitações de reparo dos produtos que eu possuo, para que eu possa ter um controle sobre as solicitações de reparo.
+
+"Manter solicitações de reparo" será uma ação de funcionalidade. Assim, é necessário representar como caso de uso.
+'/
+
+    usecase "Manter solicitações\n de reparo, devolução\n ou substituição" as uc_manter_solicitacoes_reparo
+
+    cli -- uc_manter_solicitacoes_reparo
+
+/'
+[RF025] - Como cliente, gostaria de obter relatórios sobre os status das garantias dos produtos que eu possuo, bem como sobre o histórico de solicitações de reparo, devolução ou substituição.
+
+Alterei o caso de uso anterior para compor uma funcionalidade maior
+
+[RF026] - Como administrador, gostaria que o sistema realizasse a verificação sobre se atende aos requisitos mínimos de hardware e software para a execução do sistema, e caso não atenda, deve exibir uma mensagem de erro informando o motivo.
+
+Esta ação é uma etapa da funcionalidade "Reportar problemas no sistema", o que pode ser feito durante a instalação ou alteração de hardware pós-instalação. Assim, não é necessário representar como caso de uso.
+
+[RF027] - Como usuário comum, gostaria de verificar quais as regras de privacidade e uso de dados de maneira resumida e simplificada, para que eu possa ter uma experiência mais segura. As regras de privacidade e uso de dados também devem ser apresentadas em uma página de termos de uso e política de privacidade, que deve ser acessível a partir do rodapé do site, a partir da página de cadastro e da página de regras simplificadas.
+
+Esta ação se refere a apresentação de temos legais em forma de funcionalidade.
+'/
+
+    usecase "Apresentar termos\n legais" as uc_apresentar_termos_legais
+
+    common_user -- uc_apresentar_termos_legais
+
+/'
+[RF028] - Como usuário gostaria de ler informações em meu idioma, para que eu possa ter uma experiência mais agradável. O sistema deve ser desenvolvido de forma que possa ser traduzido para outros idiomas, priorizando o inglês, o espanhol e o português do Brasil.
+
+Aqui o usuário poderá selecionar o idioma de preferência. Esta ação é uma etapa da funcionalidade "Definir preferências do sistema", bem como também poderá ser uma ação da funcionalidade "Definir idioma de visualização". Pode ser uma etapa e uma funcionalidade.
+'/
+
+    usecase "Definir idioma\n de visualização" as uc_definir_idioma
+
+    user -- uc_definir_idioma
+}
+
+@enduml

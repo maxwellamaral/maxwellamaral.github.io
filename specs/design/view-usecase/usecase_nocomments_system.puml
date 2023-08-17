@@ -1,0 +1,52 @@
+
+@startuml Sistema
+
+left to right direction
+
+' Atores
+actor "Usuário do sistema" as user
+actor "Usuários comuns" as common_user
+actor Cliente as cli
+actor Administrador as adm
+
+' Relacionamentos
+user <|-- common_user
+common_user <|-- cli
+user <|-- adm
+
+package "Sistema" {
+    usecase "Contratar assinatura" as uc_contratar_assinatura
+    usecase "Manter assinatura" as uc_oferecer_assinatura
+    cli -- uc_contratar_assinatura
+    adm -- uc_oferecer_assinatura
+
+    usecase "Realizar backup\n dos dados" as uc_realizar_backup
+    adm - uc_realizar_backup
+
+    usecase "Realizar download\n dos dados" as uc_realizar_download
+    cli -- uc_realizar_download
+
+    usecase "Realizar login\n no sistema" as uc_realizar_login
+    usecase "Manter cadastro do usuário" as uc_manter_cadastro
+    usecase "Alterar senha" as uc_alterar_senha
+    user -- uc_alterar_senha
+    user -- uc_realizar_login
+    user -- uc_manter_cadastro
+    uc_manter_cadastro .> uc_realizar_login: <<extend>>
+    uc_manter_cadastro .> uc_alterar_senha: <<extend>>
+
+    usecase "Definir preferências\n do sistema" as uc_definir_preferencias
+    user - uc_definir_preferencias
+
+    usecase "Reportar problemas\n no sistema" as uc_reportar_problemas
+    common_user - uc_reportar_problemas
+
+    usecase "Apresentar termos\n legais" as uc_apresentar_termos_legais
+    common_user - uc_apresentar_termos_legais
+
+    usecase "Definir idioma\n de visualização" as uc_definir_idioma
+    user -- uc_definir_idioma
+    uc_definir_preferencias <.. uc_definir_idioma: <<extend>>
+}
+
+@enduml

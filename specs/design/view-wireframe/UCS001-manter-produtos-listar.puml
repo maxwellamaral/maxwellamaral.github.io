@@ -1,0 +1,26 @@
+@startsalt
+{
+    <color:Blue>Listar produtos
+    {* Novo }
+    --
+    Nome
+    "Digite o nome do produto"
+    [Pesquisar <&search>]
+    ---
+    Produtos cadastrados
+    {SI
+        Smartwatch Galaxy Watch 4
+        Smartwatch Galaxy Watch 4 Classic
+        Smartwatch Galaxy Watch 3
+        Smartwatch Galaxy Watch Active 2
+        Smartwatch Galaxy Watch Active
+        Samsung Note 10 
+        Apple iPhone 12 Pro Max
+        Notebook Dell Inspiron 15 3000
+        .
+        .
+    }
+    [Editar <&pencil>]
+    ..
+}
+@endsalt

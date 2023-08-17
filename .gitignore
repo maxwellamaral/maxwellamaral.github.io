@@ -1,4 +1,4 @@
-env/
+.venv/
 .bkp/
 _site/
 .jekyll-cache/

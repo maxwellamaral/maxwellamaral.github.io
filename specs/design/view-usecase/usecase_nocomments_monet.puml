@@ -1,0 +1,50 @@
+
+@startuml Monetização
+
+left to right direction
+
+' Atores
+actor "Usuário do sistema" as user
+actor "Usuários comuns" as common_user
+actor Cliente as cli
+actor Patrocinador as pat
+actor Fabricante as fab
+actor Varejista as var
+actor Administrador as adm
+
+' Relacionamentos
+user <|-- common_user
+common_user <|-- cli
+common_user <|-- pat
+common_user <|-- fab
+common_user <|-- var
+user <|-- adm
+
+package "Monetização" {
+    usecase "Manter produtos" as uc_manter_produtos
+    usecase "Oferecer divulgação\n de produtos" as uc_oferecer_divulgacao
+    usecase "Manter produtos\n para divulgação" as uc_divulgar_produtos
+    usecase "Manter segmentos\n de produtos" as uc_manter_segmentos
+    adm -- uc_manter_produtos
+    adm -- uc_oferecer_divulgacao
+    adm -- uc_manter_segmentos
+    pat - uc_divulgar_produtos
+    uc_divulgar_produtos ..> uc_manter_segmentos: <<include>> "para selecionar \n somente"
+    uc_oferecer_divulgacao ..> uc_divulgar_produtos: <<include>>
+
+    usecase "Oferecer venda de dados\n dos produtos" as uc_oferecer_venda_dados
+    usecase "Comprar dados\n dos produtos" as uc_comprar_dados
+    adm -- uc_oferecer_venda_dados
+    fab -- uc_comprar_dados
+    uc_manter_produtos .> uc_comprar_dados: <<extend>>
+
+    usecase "Oferecer comunicação\n com clientes" as uc_oferecer_comunicacao
+    usecase "Receber promoções\n e comunicações" as uc_receber_promocoes
+    adm -- uc_oferecer_comunicacao
+    var -- uc_oferecer_comunicacao
+    cli - uc_receber_promocoes
+    uc_manter_produtos ..> uc_receber_promocoes: <<extend>>
+    uc_manter_produtos .> uc_oferecer_comunicacao: <<extend>>
+}
+
+@enduml

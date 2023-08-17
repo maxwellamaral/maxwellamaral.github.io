@@ -1,0 +1,3 @@
+# Requirements para ambientes em python para especificação do projeto
+jupyter
+selenium

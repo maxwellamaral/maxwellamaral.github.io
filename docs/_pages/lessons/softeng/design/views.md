@@ -102,7 +102,7 @@ Deve ser entendida por:
 
 ## Diagrama de Casos de Uso
 
-Como você sabe, os requisitos funcionais definidos em **Documento de R equisitos** em [/lessons/softeng/requirements/req/sample/](/lessons/softeng/requirements/req/sample/) definem as funcionalidades que estarão presentes no sistema. E, para representar estas funcionalidades, utilizamos o diagrama de casos de uso.
+Como você sabe, os requisitos funcionais definidos em **Documento de Requisitos** no [exemplo](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/8f925f5c8882263f475162a990b5da48b6779a3d/specs/requirements/requirements.md) definem as funcionalidades que estarão presentes no sistema. E, para representar estas funcionalidades, utilizamos o diagrama de casos de uso.
 
 O diagrama de casos de uso é um diagrama de comportamento que descreve as funcionalidades do sistema e como elas são percebidas pelos usuários enquanto atores que interagem com o sistema. Reveja o assunto relacionado ao Diagrama de Casos de Uso, se necessário.
 
@@ -111,9 +111,10 @@ O diagrama de casos de uso é um diagrama de comportamento que descreve as funci
 Desta forma, vamos seguir as seguintes etapas para poder construir um diagrama de casos de uso:
 
 1. Identificar os atores
-   1. Dê uma olhada no **RF001** do [Documento de Requisitos](/lessons/softeng/requirements/req/sample/). Quais são os atores envolvidos?
+   1. Dê uma olhada no **RF001** do [Documento de Requisitos](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/8f925f5c8882263f475162a990b5da48b6779a3d/specs/requirements/requirements.md). Quais são os atores envolvidos?
    2. Foi identificado o Cliente, pois ele atua como usuário da funcionalidade de cadastro de produto, bem como poderá alterar, excluir e consultar os produtos cadastrados por ele. 
-   3. Desenhe o ator "Cliente" no diagrama de casos de uso.
+   3. Desenhe o ator "Cliente" no diagrama de casos de uso. 
+   4. Você poderá ir desenhando os outros atores que forem identificados nos requisitos funcionais.
 2. Identifique o caso de uso
    1. Faça a seguinte pergunta sobre o **RF001**: a ação de "Manter" é uma funcionalidade do sistema ou uma etapa de uma ação ou processo maior?
    2. Como mencionado, o Cliente poderá cadastrar, alterar, excluir e consultar os produtos cadastrados por ele. Assim sendo, "Manter" significa que o cliente poderá realizar todas estas ações. Assim sendo, a ação nos remete à funcionalidade e, por isto, é candidato a ser um caso de uso. Se fosse uma etapa de uma ação ou processo maior, seria um fluxo principal, alternativo ou fluxo de exceção de um caso de uso. 
@@ -141,7 +142,7 @@ Desta forma, vamos seguir as seguintes etapas para poder construir um diagrama d
    4. Desta forma, o relacionamento será entre os casos de usos "Manter Produtos" e "Manter Garantias", como sendo uma **opcionalidade**. Desenhe o relacionamento como "extends".
 8. O diagrama, inicialmente, deverá ficar assim:
 
-    [![Caso de Uso 02](https://tinyurl.com/2mub4322)](https://tinyurl.com/2mub4322)<!--![Caso de Uso 02](../../../../assets/puml/usecase_rf01_2.puml)-->
+    [![Caso de Uso 02](https://tinyurl.com/26l5fywa)](https://tinyurl.com/26l5fywa)<!--![Caso de Uso 02](../../../../assets/puml/usecase_rf01_2.puml)-->
     <br>
     <small>
         Diagrama de Casos de Uso UC Manter Produto e UC Manter Garantias
@@ -157,7 +158,7 @@ Após a realização deste procedimento sobre cada requisito funcional, o diagra
 >
 > O diagrama de caso de uso abaixo modela o requisito funcional RF001 até o RF007 do [Documento de Requisitos](/lessons/softeng/requirements/req/sample/) validado junto ao cliente.
 
-[![Caso de Uso 02](https://tinyurl.com/2pghbez5)](https://tinyurl.com/2pghbez5)<!--![Caso de Uso 02](../../../../assets/puml/usecase_view.puml)-->
+[![Caso de Uso 02](https://tinyurl.com/23rzn9nj)](https://tinyurl.com/23rzn9nj)<!--![Caso de Uso 02](../../../../assets/puml/usecase_view.puml)-->
 <br>
 <small>
     Diagrama de casos de uso

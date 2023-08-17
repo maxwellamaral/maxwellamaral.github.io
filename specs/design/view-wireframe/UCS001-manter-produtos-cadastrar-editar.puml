@@ -1,0 +1,32 @@
+@startsalt
+{
+    <color:Blue>Cadastro de produtos
+    {* Consultar | Novo }
+    --
+    Nome* 
+    "Smartwatch Galaxy Watch 4"
+    Data de compra* 
+    "30/08/2023"
+    Segmento*
+    ^Eletrônicos^
+    Marca* 
+    "Samsung"
+    Modelo* 
+    "Galaxy Watch 4"
+    Local de compra*
+    "Mercado Livre"
+    Valor pago*
+    "864,00"
+    Modo de compra*
+    ^Online^
+    ..
+    {^"Listagem de garantias"
+        Data de vencimento* | "30/08/2024"
+        Tipo* | ^Garantia original^
+        Valor | "0,00"
+        [Adicionar <&plus>]
+    }
+    [Salvar <&check>] 
+    [Cancelar <&circle-x>]
+}
+@endsalt

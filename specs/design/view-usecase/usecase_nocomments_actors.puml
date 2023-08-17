@@ -1,0 +1,24 @@
+
+@startuml Atores
+
+package "Atores" {
+
+    actor "Usuário do sistema" as user
+    actor "Usuários comuns" as common_user
+    actor Cliente as cli
+    actor Patrocinador as pat
+    actor Fabricante as fab
+    actor Varejista as var
+    actor "Atendente de suporte" as sup
+    actor Administrador as adm
+
+    user <|-- common_user
+    common_user <|-- cli
+    common_user <|-- pat
+    common_user <|-- fab
+    common_user <|-- var
+    common_user <|-- sup
+    user <|-- adm
+}
+
+@enduml
