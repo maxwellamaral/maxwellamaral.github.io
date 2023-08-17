@@ -16,6 +16,18 @@ docs:
         url: /lessons/softeng/
       - title: "Manutenção e Montagem de Computadores"
         url: /lessons/hardware/
+      - title: "Internet das Coisas"
+        url: /lessons/iot/
+
+# INTERNET DAS COISAS
+
+iot:
+  - title: "Internet das Coisas"
+    children: 
+      - title: "Projeto 1 - LED"
+        url: /lessons/iot/project01/
+      - title: ◀️ 
+        url: /lessons/         
 
 # ENGENHARIA DE SOFTWARE
 
