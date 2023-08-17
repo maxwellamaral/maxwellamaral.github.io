@@ -134,3 +134,5 @@ Agora, clique no botão `▶️ Iniciar simulação` e veja o resultado. O LED d
 </center>
 
 Parabéns, agora você já sabe como acender um LED utilizando o Arduino Uno.
+
+Este projeto está também disponível em [ThinkerCad: Projeto 01 - LED ](https://www.tinkercad.com/things/g4HwEwSwOGp-brave-blorr/editel?sharecode=PBwumkFznbt7maPbyqybi-40uBAvfjPorB-2DX_9URw)
