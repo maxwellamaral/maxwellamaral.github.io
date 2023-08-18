@@ -14,6 +14,5 @@ Criado em Março de 2023 por *Maxwell Anderson*
 
 Neste capítulo, você aprenderá como preparar o ambiente de desenvolvimento para o curso. Você aprenderá como criar uma conta no GitHub, instalar o Git, o Python e o Django e o editor de código Visual Studio Code com as extensões necessárias para iniciarmos nossos trabalhos. Depois iremos organizar a estrutura de pastas que usaremos durante o curso.
 
-[Próxima aula](/lessons/softeng/intro/github/)
 
-[Índice](/lessons/softeng/)
+

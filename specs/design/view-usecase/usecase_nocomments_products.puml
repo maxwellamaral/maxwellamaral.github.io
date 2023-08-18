@@ -29,6 +29,10 @@ package  "Produtos" {
 
     usecase "Manter solicitações\n de reparo, devolução\n ou substituição" as uc_manter_solicitacoes_reparo
     cli -- uc_manter_solicitacoes_reparo
+
+    usecase "Manter fabricantes" as uc_manter_fabricantes
+    user -- uc_manter_fabricantes
+    uc_encontrar_contatos ..> uc_manter_fabricantes: <<include>>
 }
 
 @enduml

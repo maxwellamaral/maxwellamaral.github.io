@@ -1,3 +1,4 @@
+env/
 .venv/
 .bkp/
 _site/

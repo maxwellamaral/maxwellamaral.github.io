@@ -70,11 +70,16 @@ Uma outra forma de modelar um software é utilizando protótipos visuais, de bai
 
 ## Quando um software deve ser modelado?
 
-O projeto de software deve ser criado antes da implementação do sistema. Ele deve ser criado durante a fase de projeto do processo de desenvolvimento de software.
+O projeto de software deve ser criado antes da implementação do sistema. Ele deve ser criado durante a fase de projeto do processo de desenvolvimento de software. E por mais que se utilize processos baseados unicamente em metodologias ágeis, um mínimo de projeto sempre é realizado, de acordo com as necessidades do projeto.
 
 ## É sempre necessário criar um projeto de software?
 
-Depende. Se o sistema for pequeno e simples, talvez não seja necessário criar um projeto de software. Todavia, se o sistema for grande e complexo, é recomendável criar um projeto de software.
+Depende. Se o sistema for pequeno e simples, talvez não seja necessário criar um projeto detalhado de software. Todavia, se o sistema for grande e complexo, é recomendável criar um projeto com especificações detalhadas.
 
 Sempre use quando você perceber que existe necessidade e que ele pode ajudar a entender o sistema e a implementá-lo.
 
+Um exemplo de uso necessário de especificações detalhadas em um projeto de software é quando o sistema é composto por componentes da engenharia mecânica, elétrica ou eletrônica. As normas sempre enfatizam a especificação detalhada de sistemas que envolvem componentes dessas outras engenharias. As principais motivações envolvem a segurança, a confiabilidade e a manutenibilidade, bem como também aspectos legais que possam evitar acarretar problemas para a empresa e para os usuários! Outrossim, o simples motivo de exigência em contrato sobre detalhes de implementação podem ser solicitados pelo cliente.
+
+Já ouvi um engenheiro mecânico afirmar que nem em sonho um sistema de missão crítica poderá ser implementado sem especificação técnica detalhada. Ele estava certo.
+
+Leia mais sobre essa discussão em ["Deve-se executar atividades de todas as áreas da Engenharia de Software em um projeto?"](/lessons/softeng/design/intro/#quando-um-software-deve-ser-modelado)

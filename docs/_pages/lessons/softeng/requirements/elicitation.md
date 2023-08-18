@@ -6,7 +6,7 @@ permalink: /lessons/softeng/requirements/elicitation/
 sidebar:
     nav: "softeng-requirements"
 ---
-Criado em Março de 2023 por *Maxwell Anderson*
+
 
 <figure>
     <img src="../../../../assets/images/gpt/cat_conducting_interview1.jpg" width="350" alt="Gato realizando uma entrevista junto a um cliente. Prompt: create a image of a software engineer cat conducting an interview with a client">
@@ -15,6 +15,16 @@ Criado em Março de 2023 por *Maxwell Anderson*
 </figure>
 
 > Se o gato consegue, você também consegue!
+
+- [Introdução](#introdução)
+- [Objetivos](#objetivos)
+- [Atividades práticas](#atividades-práticas)
+  - [Entrevistas](#entrevistas)
+    - [Entrevistas livre de contexto](#entrevistas-livre-de-contexto)
+    - [Perguntas com base em contexto](#perguntas-com-base-em-contexto)
+    - [Considerações](#considerações)
+    - [Condução da entrevista](#condução-da-entrevista)
+
 
 # Introdução
 
@@ -118,3 +128,5 @@ Exemplos de entrevistas livre de contexto:
 - Não apresse o entrevistado quando estiver respondendo.
 - Lembre-se que existem partes interessadas que não são usuários de sistemas de informação e/ou que possuem vários níveis de conhecimento e formação educacional, alguns com conhecimentos técnicos e outros não.
 - Sempre ouça!
+
+Criado em Março de 2023 por *Maxwell Anderson*

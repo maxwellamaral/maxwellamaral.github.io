@@ -6,7 +6,7 @@ permalink: /lessons/softeng/requirements/intro/
 sidebar:
     nav: "softeng-requirements"
 ---
-Criado em Março de 2023 por *Maxwell Anderson*
+
 
 <figure>
     <img src="../../../../assets/images/gpt/cat_conducting_interview2.jpg" width="350" alt="Gato realizando uma entrevista junto a um cliente. Prompt: create a image of a software engineer cat conducting an interview with a client">
@@ -43,3 +43,4 @@ Veja aqui o conteúdo das aulas:
     - [Documento de Visão do Produto (DVP)](/lessons/softeng/requirements/vision/sample/)
 - [Análise de custos e vendas](/lessons/softeng/requirements/costs/)
   
+Criado em Março de 2023 por *Maxwell Anderson*
