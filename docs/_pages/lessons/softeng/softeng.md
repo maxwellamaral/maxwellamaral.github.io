@@ -70,7 +70,7 @@ Segue também um quadro geral sobre os artefatos gerados como exemplo de um proj
 | :---------------- | :-------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | Requisitos        | [Visão do Produto][1]       | Descreve o produto a ser desenvolvido de maneira abrangente                                                                                |
 | Requisitos        | [Requisitos de Software][2] | Lista os requisitos funcionais e não funcionais do sistema                                                                                 |
-| Análise e Projeto | [Visão de Casos de Uso][3]  | Descreve o sistema sob a perspectiva de casos de uso e histórias de usuários                                                               |
+| Análise e Projeto | [Visão de Casos de Uso][3]  | Descreve o sistema sob a perspectiva de casos de uso e histórias de usuários (em construção e designing)                                   |
 | Análise e Projeto | Visão lógica                | Permite visualizar a estrutura do sistema em uma perspectiva baseada na arquitetura e na implementação do sistema                          |
 | Análise e Projeto | Visão de componentes        | Permite visualizar o sistema sob a perspectiva de componentes e seus relacionamentos                                                       |
 | Análise e Projeto | Visão de implantação        | Permite visualizar como o sistema deverá ser implantando                                                                                   |
