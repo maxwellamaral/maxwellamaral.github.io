@@ -87,7 +87,8 @@ Segue também um quadro geral sobre os artefatos gerados como exemplo de um proj
 
 > 💡Importante!
 > 
-> Na maioria dos projetos de desenvolvimento de aplicativos não será necessário o desenvolvimento pormenorizado de todos os artefatos. Os artefatos gerados abaixo são apenas um exemplo de um projeto de software relacionado a um simples sistema de controle de garantias de produtos. O objetivo é apresentar os artefatos de forma simples e objetiva, de forma que o aluno possa entender e aplicar em seu dia a dia, quando necessário. 
+> Na maioria dos projetos de desenvolvimento de aplicativos não será necessário o desenvolvimento pormenorizado de todos os artefatos. Os artefatos gerados são apenas um exemplo de um projeto de software relacionado a um simples sistema de controle de garantias de produtos. O objetivo é apresentar os artefatos de forma simples e objetiva, de forma que o aluno possa entender e aplicar em seu dia a dia, quando necessário. Isso implica dizer que os artefatos podem ser adaptados de acordo com a necessidade do projeto, ou mesmo, podem não ser utilizados.
+> 
 > Veja uma discussão sobre o assunto em:
 >
 > - [Quando um software deve ser modelado?][101]
