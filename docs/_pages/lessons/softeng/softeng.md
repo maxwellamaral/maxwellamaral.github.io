@@ -79,7 +79,7 @@ Segue também um quadro geral sobre os artefatos gerados como exemplo de um proj
 
 > 💡Importante!
 > 
-> Apesar da lista abaixo parecer ser sequencial, na prática, os artefatos são gerados de forma iterativa, incremental e não sequencial.
+> Apesar da lista acima parecer ser sequencial, na prática, os artefatos são gerados de forma iterativa, incremental e não sequencial.
 >
 > Na maioria dos projetos de desenvolvimento de aplicativos não será necessário o desenvolvimento pormenorizado de todos os artefatos. Os artefatos gerados abaixo são apenas um exemplo de um projeto de software relacionado a um simples sistema de controle de garantias de produtos. O objetivo é apresentar os artefatos de forma simples e objetiva, de forma que o aluno possa entender e aplicar em seu dia a dia, quando necessário. 
 >
