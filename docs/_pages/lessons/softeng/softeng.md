@@ -66,6 +66,17 @@ Maxwell Anderson Ielpo do Amaral
 
 Segue também um quadro geral sobre os artefatos gerados como exemplo de um projeto de software relacionado a um sistema de controle de garantias de produtos.
 
+| Fase              | Artefato                                                              | Descrição                                                                                                                                  |
+| :---------------- | :-------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| Requisitos        | [Visão do Produto](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/vision.md)            | Descreve o produto a ser desenvolvido de maneira abrangente                                                                                |
+| Requisitos        | [Requisitos de Software](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/requirements.md)  | Lista os requisitos funcionais e não funcionais do sistema                                                                                 |
+| Análise e Projeto | [Visão de Casos de Uso](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/design/view-usecase.md)        | Descreve o sistema sob a perspectiva de casos de uso e histórias de usuários                                                               |
+| Análise e Projeto | Visão lógica                                                          | Permite visualizar a estrutura do sistema em uma perspectiva baseada na arquitetura e na implementação do sistema                          |
+| Análise e Projeto | Visão de componentes                                                  | Permite visualizar o sistema sob a perspectiva de componentes e seus relacionamentos                                                       |
+| Análise e Projeto | Visão de implantação                                                  | Permite visualizar como o sistema deverá ser implantando                                                                                   |
+| Análise e Projeto | Visão de concorrência                                                 | Não se aplica ao projeto                                                                                                                   |
+| Testes            | Histórias de usuários                                                 | Contém as histórias de usuários construídos na fase de Requisitos e de Análise e Projeto, adicionados os códigos para testes automatizados |
+
 > 💡Importante!
 > 
 > Apesar da lista abaixo parecer ser sequencial, na prática, os artefatos são gerados de forma iterativa, incremental e não sequencial.
@@ -78,15 +89,3 @@ Segue também um quadro geral sobre os artefatos gerados como exemplo de um proj
 > - [É sempre necessário criar um projeto de software?](/lessons/softeng/design/intro#é-sempre-necessário-criar-um-projeto-de-software)
 > - [Deve-se ter todos esses papéis em um projeto?](/lessons/softeng/zero/intro#deve-se-ter-todos-esses-papéis-em-um-projeto)
 > - [Deve-se executar atividades de todas as áreas da Engenharia de Software em um projeto?](/lessons/softeng/zero/intro#deve-se-executar-atividades-de-todas-as-áreas-da-engenharia-de-software-em-um-projeto)
-
-| Fase              | Artefato                                                              | Descrição                                                                                                                                  |
-| :---------------- | :-------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos        | [Visão do Produto](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/vision.md)            | Descreve o produto a ser desenvolvido de maneira abrangente                                                                                |
-| Requisitos        | [Requisitos de Software](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/requirements.md)  | Lista os requisitos funcionais e não funcionais do sistema                                                                                 |
-| Análise e Projeto | [Visão de Casos de Uso](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/design/view-usecase.md)        | Descreve o sistema sob a perspectiva de casos de uso e histórias de usuários                                                               |
-| Análise e Projeto | Visão lógica                                                          | Permite visualizar a estrutura do sistema em uma perspectiva baseada na arquitetura e na implementação do sistema                          |
-| Análise e Projeto | Visão de componentes                                                  | Permite visualizar o sistema sob a perspectiva de componentes e seus relacionamentos                                                       |
-| Análise e Projeto | Visão de implantação                                                  | Permite visualizar como o sistema deverá ser implantando                                                                                   |
-| Análise e Projeto | Visão de concorrência                                                 | Não se aplica ao projeto                                                                                                                   |
-| Testes            | Histórias de usuários                                                 | Contém as histórias de usuários construídos na fase de Requisitos e de Análise e Projeto, adicionados os códigos para testes automatizados |
-
