@@ -73,7 +73,7 @@ Segue também um quadro geral sobre os artefatos gerados como exemplo de um proj
 | Análise e Projeto | [Visão de Casos de Uso][3]  | Descreve o sistema sob a perspectiva de casos de uso e histórias de usuários (em construção e designing) 👷‍♂️                                  |
 | Análise e Projeto | Visão lógica                | Permite visualizar a estrutura do sistema em uma perspectiva baseada na arquitetura e na implementação do sistema                          |
 | Análise e Projeto | Visão de componentes        | Permite visualizar o sistema sob a perspectiva de componentes e seus relacionamentos                                                       |
-| Análise e Projeto | Visão de implantação        | Permite visualizar como o sistema deverá ser implantando                                                                                   |
+| Análise e Projeto | Visão de implantação        | Permite visualizar como o sistema deverá ser implantado                                                                                   |
 | Análise e Projeto | Visão de concorrência       | Não se aplica ao projeto                                                                                                                   |
 | Testes            | Histórias de usuários       | Contém as histórias de usuários construídos na fase de Requisitos e de Análise e Projeto, adicionados os códigos para testes automatizados |
 
