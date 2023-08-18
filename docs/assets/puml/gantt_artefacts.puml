@@ -1,0 +1,39 @@
+@startgantt
+
+language pt
+
+title Sistema de Controle de Garantias de Produtos
+
+printscale daily zoom 1
+' saturday are closed
+' sunday are closed
+
+Label on first column and right aligned
+
+[Requisitos] as [R] lasts 4 days
+[Design] as [D] lasts 16 days
+[Implementação] as [I] lasts 20 days
+[Especificação dos Testes] as [ET] lasts 10 days
+[Testes/CI-CD] as [T] lasts 20 days
+[Gestão de Configuração] as [C] lasts 28 days
+
+Project starts 2023-03-01 
+
+[R] starts D+0 
+[ET] starts D+4 
+[D] starts D+2
+[I] starts D+6
+[T] starts D+8
+[C] starts D+1
+
+' Cores
+
+[R] is colored in Yellow/Black
+[ET] is colored in GreenYellow/Green
+[D] is colored in Orange/OrangeRed
+[I] is colored in Red/IndianRed
+[T] is colored in GreenYellow/Green
+[C] is colored in LightYellow/Red
+
+
+@endgantt

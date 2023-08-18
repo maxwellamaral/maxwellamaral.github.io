@@ -1,4 +1,4 @@
-| Nome | Categoria | Data de compra | Data de final da garantia | Preço | Desconto | Preço líquido | Preço final | Quantidade | Preço da garantia estendida | Preço final com garantia estendida | Quantidade de dias de garantia | Quantidade de dias de garantia estendida |
+| Nome | Categoria | Data de compra | Data de final da garantia | Preï¿½o | Desconto | Preï¿½o lï¿½quido | Preï¿½o final | Quantidade | Preï¿½o da garantia estendida | Preï¿½o final com garantia estendida | Quantidade de dias de garantia | Quantidade de dias de garantia estendida |
 | ---- | --------- | -------------- | ------------------------- | ----- | -------- | ------------- | ----------- | ---------- | --------------------------- | --------------------------------- | --------------------------------- | --------------------------------- |
 | Small Steel Fish | Tools | 2012-03-07 00:00:00 | 2015-09-03 00:00:00 | 8095.51 | 13.12 | 8082.39 | 32329.56 | 4 | 64.48 | 32394.04 | 180 | 1095
 | Gorgeous Frozen Chair | Outdoors | 2011-07-27 00:00:00 | 2014-10-24 00:00:00 | 6918.59 | 1.60 | 6916.99 | 41501.95 | 6 | 38.99 | 41540.94 | 90 | 1095

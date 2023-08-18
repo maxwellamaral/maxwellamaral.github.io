@@ -65,7 +65,7 @@ A visão de casos de uso exibe as funcionalidades do sistema e como elas são pe
 
 |                      Caso de uso                      |      Título      | Wireframes                                                                                                                                                                                                                                                                                      |
 | :---------------------------------------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [UCS001](../tests/products/UCS001-manter-produtos.py) | Manter produtos  | [![UCS001](https://tinyurl.com/22bncap7)](https://tinyurl.com/22bncap7)<!--![UCS001](view-wireframe/UCS001-manter-produtos-listar.puml)--> [![UCS001](https://tinyurl.com/24asnl6u)](https://tinyurl.com/24asnl6u)<!--![UCS001](view-wireframe/UCS001-manter-produtos-cadastrar-editar.puml)--> |
+| [![UCS001](https://tinyurl.com/24asnl6u)](https://tinyurl.com/24asnl6u)<!--![UCS001](view-wireframe/UCS001-manter-produtos-cadastrar-editar.puml)--> |
 |                        UCS002                         | Manter garantias | -> [UCS001] ](../tests/products/UCS001-manter-produtos.py)                                                                                                                                                                                                                                      |
 
 

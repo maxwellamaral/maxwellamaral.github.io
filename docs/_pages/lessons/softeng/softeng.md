@@ -66,26 +66,41 @@ Maxwell Anderson Ielpo do Amaral
 
 Segue também um quadro geral sobre os artefatos gerados como exemplo de um projeto de software relacionado a um sistema de controle de garantias de produtos.
 
-| Fase              | Artefato                                                              | Descrição                                                                                                                                  |
-| :---------------- | :-------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| Requisitos        | [Visão do Produto](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/vision.md)            | Descreve o produto a ser desenvolvido de maneira abrangente                                                                                |
-| Requisitos        | [Requisitos de Software](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/requirements.md)  | Lista os requisitos funcionais e não funcionais do sistema                                                                                 |
-| Análise e Projeto | [Visão de Casos de Uso](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/design/view-usecase.md)        | Descreve o sistema sob a perspectiva de casos de uso e histórias de usuários                                                               |
-| Análise e Projeto | Visão lógica                                                          | Permite visualizar a estrutura do sistema em uma perspectiva baseada na arquitetura e na implementação do sistema                          |
-| Análise e Projeto | Visão de componentes                                                  | Permite visualizar o sistema sob a perspectiva de componentes e seus relacionamentos                                                       |
-| Análise e Projeto | Visão de implantação                                                  | Permite visualizar como o sistema deverá ser implantando                                                                                   |
-| Análise e Projeto | Visão de concorrência                                                 | Não se aplica ao projeto                                                                                                                   |
-| Testes            | Histórias de usuários                                                 | Contém as histórias de usuários construídos na fase de Requisitos e de Análise e Projeto, adicionados os códigos para testes automatizados |
+| Fase              | Artefato                    | Descrição                                                                                                                                  |
+| :---------------- | :-------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| Requisitos        | [Visão do Produto][1]       | Descreve o produto a ser desenvolvido de maneira abrangente                                                                                |
+| Requisitos        | [Requisitos de Software][2] | Lista os requisitos funcionais e não funcionais do sistema                                                                                 |
+| Análise e Projeto | [Visão de Casos de Uso][3]  | Descreve o sistema sob a perspectiva de casos de uso e histórias de usuários                                                               |
+| Análise e Projeto | Visão lógica                | Permite visualizar a estrutura do sistema em uma perspectiva baseada na arquitetura e na implementação do sistema                          |
+| Análise e Projeto | Visão de componentes        | Permite visualizar o sistema sob a perspectiva de componentes e seus relacionamentos                                                       |
+| Análise e Projeto | Visão de implantação        | Permite visualizar como o sistema deverá ser implantando                                                                                   |
+| Análise e Projeto | Visão de concorrência       | Não se aplica ao projeto                                                                                                                   |
+| Testes            | Histórias de usuários       | Contém as histórias de usuários construídos na fase de Requisitos e de Análise e Projeto, adicionados os códigos para testes automatizados |
 
 > 💡Importante!
 > 
-> Apesar da lista acima parecer ser sequencial, na prática, os artefatos são gerados de forma iterativa, incremental e não sequencial.
+> Apesar da lista acima parecer ser sequencial, na prática, os artefatos são gerados de forma iterativa, incremental e não sequencial. 
 >
+> Veja um exemplo de linha do tempo de desenvolvimento de projeto de software:
+
+[![Gantt](https://tinyurl.com/24u2e6ke)](https://tinyurl.com/24u2e6ke)<!--![Gantt](../../../assets/puml/gantt_artefacts.puml)-->
+
+> 💡Importante!
+> 
 > Na maioria dos projetos de desenvolvimento de aplicativos não será necessário o desenvolvimento pormenorizado de todos os artefatos. Os artefatos gerados abaixo são apenas um exemplo de um projeto de software relacionado a um simples sistema de controle de garantias de produtos. O objetivo é apresentar os artefatos de forma simples e objetiva, de forma que o aluno possa entender e aplicar em seu dia a dia, quando necessário. 
->
 > Veja uma discussão sobre o assunto em:
 >
-> - [Quando um software deve ser modelado?](/lessons/softeng/design/intro#quando-um-software-deve-ser-modelado)
-> - [É sempre necessário criar um projeto de software?](/lessons/softeng/design/intro#é-sempre-necessário-criar-um-projeto-de-software)
-> - [Deve-se ter todos esses papéis em um projeto?](/lessons/softeng/zero/intro#deve-se-ter-todos-esses-papéis-em-um-projeto)
-> - [Deve-se executar atividades de todas as áreas da Engenharia de Software em um projeto?](/lessons/softeng/zero/intro#deve-se-executar-atividades-de-todas-as-áreas-da-engenharia-de-software-em-um-projeto)
+> - [Quando um software deve ser modelado?][101]
+> - [É sempre necessário criar um projeto de software?][102]
+> - [Deve-se ter todos esses papéis em um projeto?][103]
+> - [Deve-se executar atividades de todas as áreas da Engenharia de Software em um projeto?][104]
+
+
+[1]: <https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/vision.md>
+[2]: <https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/requirements.md>
+[3]: <https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/design/view-usecase.md>
+
+[101]: </lessons/softeng/design/intro#quando-um-software-deve-ser-modelado>
+[102]: </lessons/softeng/design/intro#é-sempre-necessário-criar-um-projeto-de-software>
+[103]: </lessons/softeng/zero/intro#deve-se-ter-todos-esses-papéis-em-um-projeto>
+[104]: </lessons/softeng/zero/intro#deve-se-executar-atividades-de-todas-as-áreas-da-engenharia-de-software-em-um-projeto>
