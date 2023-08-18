@@ -96,6 +96,20 @@ Segue também um quadro geral sobre os artefatos gerados como exemplo de um proj
 > - [Deve-se ter todos esses papéis em um projeto?][103]
 > - [Deve-se executar atividades de todas as áreas da Engenharia de Software em um projeto?][104]
 
+Devido à experiência adquirida na implantação de melhoria de processos de desenvolvimento de software, pude escrever sobre o assunto em um livro. Se você se interessar, pode baixá-lo gratuitamente em [http://editora.ifpb.edu.br](http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7)
+
+<center>
+    <figure style="text-align:center">
+        <a href="http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7">
+            <img src="../../../../assets/images/lessons/intro09.png" width="250" alt="Exemplo de código-fonte. Comparação entre Java e Python">
+        </a>
+        <figcaption>
+            Implantação de melhoria de processos de software com CMMI-DEV nível 2 
+            <br>
+            Disponível em: <a href="http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7">http://editora.ifpb.edu.br</a>
+        </figcaption>
+    </figure>
+</center>
 
 [1]: <https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/vision.md>
 [2]: <https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/requirements.md>
