@@ -13,6 +13,7 @@
 	],
 	"settings": {
 		"cSpell.language": "en,pt-BR",
+		"liquid.format.enable": true,
 	},
 	"extensions": {
 		"recommendations": [

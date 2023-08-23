@@ -1,52 +1,33 @@
 ---
-layout: home
-author_profile: true
 title: Introdução à Engenharia de Software
 permalink: /lessons/softeng/zero/intro/
 sidebar:
     nav: "softeng-zero"
+
+layout: single
+author_profile: true
+toc: true
+toc_label: "Conteúdo"
+toc_icon: "cog"
+toc_sticky: true
+header:
+    image: /assets/images/gpt/headers/cat_studying_glasses.jpg
+    caption: "Gato estudando Engenharia de Software | Crédito da imagem: gerado por IA com Bing por Maxwell Anderson (2023) | Prompt: create an image of a cat studying software engineering"
 ---
-
-<figure style="text-align:center">
-    <img src="../../../../assets/images/gpt/cat_studying_glasses.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a cat studying software engineering">
-    <figcaption>Gato estudando Engenharia de Software</figcaption>
-    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
-    <br>
-    <small><em>Prompt: create an image of a cat studying software engineering</em></small>
-</figure>
-
-Neste capítulo, você irá aprender sobre aspectos gerais da Engenharia de Software, com
-
-- [Conceitos](#conceitos)
-  - [O que é software?](#o-que-é-software)
-  - [Categorias de produtos de software](#categorias-de-produtos-de-software)
-- [O que é Engenharia de Software?](#o-que-é-engenharia-de-software)
-- [O que se pode fazer em Engenharia de Software?](#o-que-se-pode-fazer-em-engenharia-de-software)
-  - [Principais áreas da Engenharia de Software](#principais-áreas-da-engenharia-de-software)
-    - [Engenharia de requisitos](#engenharia-de-requisitos)
-    - [Análise e projeto](#análise-e-projeto)
-    - [Gerência de projetos](#gerência-de-projetos)
-    - [Gerência de configuração](#gerência-de-configuração)
-    - [Codificação ou desenvolvimento](#codificação-ou-desenvolvimento)
-    - [Engenharia de testes](#engenharia-de-testes)
-    - [Qualidade de Processos ou Garantia da Qualidade](#qualidade-de-processos-ou-garantia-da-qualidade)
-  - [Deve-se ter todos esses papéis em um projeto?](#deve-se-ter-todos-esses-papéis-em-um-projeto)
-  - [Deve-se executar atividades de todas as áreas da Engenharia de Software em um projeto?](#deve-se-executar-atividades-de-todas-as-áreas-da-engenharia-de-software-em-um-projeto)
-  - [Responsabilidade profissional do Engenheiro de Software](#responsabilidade-profissional-do-engenheiro-de-software)
-- [Referências](#referências)
 
 # Conceitos
 
-<center>
-    <figure style="text-align:center">
-        <img src="../../../../assets/images/lessons/intro01.png" width="350" alt="Eu finalmente encontrei ele... depois de 15 anos. A DOCUMENTAÇÃO!">
-        <figcaption>
-            "Eu finalmente encontrei ele... depois de 15 anos. A DOCUMENTAÇÃO!"
-            <br>
-            "PARA FAZER: preencha isto com mais detalhes depois."
-        </figcaption>
-    </figure>
-</center>
+{% 
+  include figure 
+  image_path="/assets/images/lessons/intro01.png" 
+  alt="Meme" 
+  caption="Fonte: desconhecida" 
+%}
+{: .align-center} 
+
+-- Eu finalmente encontrei ele... depois de 15 anos. A DOCUMENTAÇÃO!
+
+-- PARA FAZER: preencha isto com mais detalhes depois.
 
 ## O que é software?
 
@@ -54,12 +35,13 @@ O que é software para você? Deves imaginar um aplicativo ou um programa que é
 
 Conforme mencionado por Pressman (2006), **software** é um produto desenvolvido por profissionais que abrange programas, instruções e dados que são executados em um computador, podendo ser smartphones, tablets, computadores pessoais, servidores etc. Também é constituído por documentos, podendo ser impresso ou digital, desde que a documentação seja necessária para que o programa funcione corretamente.
 
-<center>
-    <figure style="text-align:center">
-        <img src="../../../../assets/images/lessons/intro02.png" width="350" alt="Programa de computador mais documentação é igual a software.">
-        <figcaption>Criado pelo próprio autor (2009)</figcaption>
-    </figure>
-</center>
+{% 
+  include figure 
+  image_path="/assets/images/lessons/intro02.png" 
+  alt="Programa de computador mais documentação é igual a software." 
+  caption="Criado pelo próprio autor (2009)" 
+%}
+{: .align-center}
 
 > 🤔 **Para memorizar**
 >
@@ -67,6 +49,7 @@ Conforme mencionado por Pressman (2006), **software** é um produto desenvolvido
 > - **Cliente**: é quem paga pelo software. Pode ser uma pessoa, uma empresa, um governo etc.
 > - **Especificação**: é o documento que descreve o que o software deve fazer, de maneira detalhada.
 > - **Artefato**: é qualquer coisa que é produzida durante o trabalho de desenvolvimento de software. Pode ser um documento, um programa, um manual, uma especificação etc.
+{: .notice--info}
 
 **Mas o que é entregue ao cliente?**
 
@@ -77,6 +60,7 @@ Já vi clientes contratarem empresas para desenvolverem a especificação e o pr
 > 💡 **Você sabia?**
 >
 > Que existem clientes que podem contratá-lo para desenvolver software e definir, inclusive, que linguagem de programação deve ser utilizada?
+{: .notice--success}
 
 ## Categorias de produtos de software
 
@@ -85,12 +69,13 @@ Já vi clientes contratarem empresas para desenvolverem a especificação e o pr
 
 # O que é Engenharia de Software?
 
-<center>
-    <figure style="text-align:center">
-        <img src="../../../../assets/images/lessons/intro03.png" width="550" alt="Engenharia de software está contida na engenharia de sistemas ">
-        <figcaption>Criado pelo próprio autor (2009)</figcaption>
-    </figure>
-</center>
+{% 
+  include figure 
+  image_path="/assets/images/lessons/intro03.png" 
+  alt="Engenharia de software está contida na engenharia de sistemas" 
+  caption="Criado pelo próprio autor (2009)"
+%}
+{: .align-center}
 
 A **engenharia** é uma ciência que estuda a aplicação de conhecimentos científicos e empíricos para a resolução de problemas.
 
@@ -98,12 +83,13 @@ A **engenharia de sistemas** estuda, no sentindo mais amplo, a aplicação de co
 
 A **engenharia de software** é uma área da engenharia que estuda a aplicação de conhecimentos científicos e empíricos para o desenvolvimento de *sistemas de software* com o objetivo de resolver problemas ou atender necessidades. Assim sendo, um sistema de software é constituído por elementos de software, como programas, instruções, dados e documentação, como visto anteriormente.
 
-<center>
-    <figure style="text-align:center">
-        <img src="../../../../assets/images/lessons/intro04.png" width="650" alt="Áreas da Engenharia de Sistemas: engenharia mecânica, engenharia civil, engenharia elétrica, engenharia de software, engenharia da computação, engenharia de estruturas, engenharia química, engenharia de produção etc.">
-        <figcaption>Criado pelo próprio autor (2009)</figcaption>
-    </figure>
-</center>
+{% 
+  include figure 
+  image_path="/assets/images/lessons/intro04.png" 
+  alt="Áreas da Engenharia de Sistemas: engenharia mecânica, engenharia civil, engenharia elétrica, engenharia de software, engenharia da computação, engenharia de estruturas, engenharia química, engenharia de produção etc." 
+  caption="Criado pelo próprio autor (2009)"
+%}
+{: .align-center}
 
 # O que se pode fazer em Engenharia de Software?
 
@@ -131,17 +117,19 @@ Já tive alunos que não gostavam de programação (já eu amo) e que se tornara
 > 🤔 **Para memorizar**
 >
 > **Papel** é o termo usado para designar a função desempenhada por uma pessoa em uma equipe de desenvolvimento de software. Uma pessoa pode ser contratada para ser um analista de sistemas e atuar como tal, mas pode ser que, em um determinado projeto, ela atue como desenvolvedor. Neste caso, ela está desempenhando o papel de desenvolvedor, mas continua representando a empresa ou instituição como analista de sistemas.
+{: .notice--info}
 
 Vamos tratar de cada uma das principais áreas da Engenharia de Software? Pode ser que você se identifique com alguma delas.
 
 ## Principais áreas da Engenharia de Software
 
-<center>
-    <figure style="text-align:center">
-        <img src="../../../../assets/images/lessons/intro05.png" width="550" alt="Áreas da engenharia de software: engenharia de requisitos, análise e projeto, gerência de projetos, configuração, codificação, engenharia de testes, qualidade de processos, medição e análise etc.">
-        <figcaption>Criado pelo próprio autor (2009)</figcaption>
-    </figure>
-</center>
+{%
+    include figure
+    image_path="/assets/images/lessons/intro05.png"
+    alt="Áreas da engenharia de software"
+    caption="Criado pelo próprio autor (2009)"
+%}
+{: .align-center}
 
 ### Engenharia de requisitos
 
@@ -156,6 +144,7 @@ Vamos tratar de cada uma das principais áreas da Engenharia de Software? Pode s
 > "O sistema deve permitir que o usuário faça login utilizando seu e-mail e senha."
 >
 > Vamos ver este assunto de maneira detalhada e prática em [Engenharia de Requisitos](/lessons/softeng/requirements/intro/).
+{: .notice--info}
 
 A **engenharia de requisitos** é uma área da Engenharia de Software que estuda a aplicação de conhecimentos científicos e empíricos para a elicitação, análise, especificação, validação e gerenciamento de requisitos de software.
 
@@ -194,6 +183,7 @@ Podemos dividir a engenharia de requisitos em 4 subáreas:
 > - *Esboços de contratos*
 > - *Casos de uso*
 > - Dentre outros
+{: .notice--info}
 
 🛠️ **Ferramentas utilizadas**
 
@@ -212,21 +202,21 @@ A **análise e projeto de sistemas de software** é uma área da Engenharia de S
 
 Da mesma forma que um engenheiro civil projeta uma casa para um cliente, o analista de sistemas projeta um sistema de software para um cliente. O engenheiro civil pode fazer uma planta da casa e mostrar para o cliente, que pode aprovar ou não.
 
-<center>
-    <figure style="text-align:center">
-        <img src="../../../../assets/images/lessons/intro06.png" width="550" alt="Ilustração de uma planta e um protótipo de casa">
-        <figcaption>Criado pelo próprio autor (2009)</figcaption>
-    </figure>
-</center>
+{%
+    include figure
+    image_path="/assets/images/lessons/intro06.png"
+    alt="Ilustração de uma planta e um protótipo de casa"
+    caption="Criado pelo próprio autor (2009)"
+%}{: .align-center}
 
 O analista de sistemas pode fazer um protótipo do sistema e mostrar para o cliente e para os desenvolvedores.
 
-<center>
-    <figure style="text-align:center">
-        <img src="../../../../assets/images/lessons/intro07.png" width="550" alt="Ilustração de projeto de sistema de software">
-        <figcaption>Criado pelo próprio autor (2009)</figcaption>
-    </figure>
-</center>
+{%
+    include figure
+    image_path="/assets/images/lessons/intro07.png"
+    alt="Ilustração de um protótipo de sistema de software"
+    caption="Criado pelo próprio autor (2009)"
+%}{: .align-center}
 
 Podemos resumir as atividades desempenhadas pelo analista de sistemas como **realizar a especificação de requisitos em um terceiro nível**, ou seja, detalhar os requisitos levantados na engenharia de requisitos de forma que possam ser implementados e entendidos pelos desenvolvedores e, em alguns casos, pelos clientes.
 
@@ -250,6 +240,7 @@ Podemos resumir as atividades desempenhadas pelo analista de sistemas como **rea
 > - *Dicionários de dados*
 > - *Protótipos visuais*
 > - *Especificação textual* de componentes, interfaces, serviços, APIs etc.
+{: .notice--info}
 
 🛠️ **Ferramentas utilizadas**
 
@@ -314,6 +305,7 @@ Assim sendo, o gerente de projetos deve se preocupar as restrições descritas a
 > - *Cronogramas do projeto*
 > - *Orçamento do projeto*
 > - dentre outros
+{: .notice--info}
 
 🛠️ **Ferramentas utilizadas**
 
@@ -343,6 +335,7 @@ Os procedimentos de gerenciamento de configuração definem como:
 > - *Plano de gerenciamento de configuração*
 > - *Plano de gerenciamento de mudanças, de liberação e de baselines*
 > - *Relatórios de mudanças*
+{: .notice--info}
 
 🛠️ **Ferramentas utilizadas**
 
@@ -399,6 +392,7 @@ Veja ums lista de linguagens de programação em [https://pt.wikipedia.org/wiki/
 > - *Testes unitários*
 > - *Documentação de código*
 > - Dentre outros
+{: .notice--info}
 
 🛠️ **Ferramentas utilizadas**
 
@@ -445,6 +439,7 @@ Possui como atividades:
 > - *Relatórios de testes*
 > - *Relatórios de defeitos*
 > - Dentre outros
+{: .notice--info}
 
 🛠️ **Ferramentas utilizadas**
 
@@ -464,7 +459,6 @@ Possui como atividades:
 | Controle de versão                   | [Git][22], [GitHub][23], [GitLab][24], [Bitbucket][25]                              |
 | Integração contínua                  | [Jenkins][26], [Travis CI][27], [Circle CI][28], [Gitlab][24], [GitHub Actions][23] |
 | Automação de testes                  | [Selenium][29], [Cypress][30]                                                       |
-                                                         
 
 
 ### Qualidade de Processos ou Garantia da Qualidade
@@ -498,6 +492,7 @@ Conforme os mesmo Guia, os objetivos principais são:
 > - *Plano de medição*
 > - *Relatórios de qualidade e de conformidade*
 > - Dentre outros
+{: .notice--info}
 
 🛠️ **Ferramentas utilizadas**
 
@@ -507,6 +502,8 @@ Conforme os mesmo Guia, os objetivos principais são:
 | Controle de versão       | [Git][22], [GitHub][23], [GitLab][24], [Bitbucket][25] |
 | Escritório               | [Microsoft Word][6], [Google Docs][7]                  |
 
+
+# Discussões sobre Engenharia de Software
 
 ## Deve-se ter todos esses papéis em um projeto?
 
@@ -553,21 +550,18 @@ Outros projetos exigirão especificação mais detalhada dos requisitos, bem com
 > - E várias relacionadas às metodologias ágeis como [Scrum][8], [XP][106], [Kanban][9], [Lean][107], [FDD][108], [DSDM][109] etc.
 >
 > **Dica**: sobre as siglas acima, busque mais informações pela Internet. Você vai se surpreender com a quantidade de informações que existem sobre cada uma delas.
+{: .notice--info}
+
 
 Devido à experiência adquirida na implantação de melhoria de processos de desenvolvimento de software, pude escrever sobre o assunto em um livro. Se você se interessar, pode baixá-lo gratuitamente em [http://editora.ifpb.edu.br](http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7)
 
-<center>
-    <figure style="text-align:center">
-        <a href="http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7">
-            <img src="../../../../assets/images/lessons/intro09.png" width="250" alt="Exemplo de código-fonte. Comparação entre Java e Python">
-        </a>
-        <figcaption>
-            Implantação de melhoria de processos de software com CMMI-DEV nível 2 
-            <br>
-            Disponível em: <a href="http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7">http://editora.ifpb.edu.br</a>
-        </figcaption>
-    </figure>
-</center>
+{%
+    include figure
+    image_path="/assets/images/lessons/intro09.png"
+    alt="Livro"
+    caption="Implantação de melhoria de processos de software com CMMI-DEV nível 2"
+    url="http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7"
+%}{: .align-center}
 
 ## Responsabilidade profissional do Engenheiro de Software
 

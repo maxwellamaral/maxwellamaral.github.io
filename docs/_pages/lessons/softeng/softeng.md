@@ -1,24 +1,24 @@
 ---
-layout: home
-author_profile: true
 title: Práticas em Engenharia de Software
 permalink: /lessons/softeng/
 sidebar:
     nav: "softeng"
+
+layout: single
+author_profile: true
+toc: true
+toc_label: "Conteúdo"
+toc_icon: "cog"
+toc_sticky: true
+header:
+    image: /assets/images/gpt/headers/cat_studying_glasses.jpg
+    caption: "Gato estudando Engenharia de Software | Crédito da imagem: gerado por IA com Bing por Maxwell Anderson (2023) | Prompt: create an image of a cat studying software engineering"
 ---
-Criado em Março de 2023 por *Maxwell Anderson*
+> Se o gato consegue, você conseguirá.
+
+# Bem-vindo!
 
 **Seja bem-vindo ao curso de Práticas em Engenharia de Software.**
-
-<figure style="text-align:center">
-    <img src="../../../assets/images/gpt/cat_studying_glasses.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a cat studying software engineering">
-    <figcaption>Gato estudando Engenharia de Software</figcaption>
-    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
-    <br>
-    <small><em>Prompt: create an image of a cat studying software engineering</em></small>
-</figure>
-
-> Se o gato consegue, você conseguirá.
 
 Este curso tem como objetivo apresentar inicialmente as práticas de Engenharia de Software, como:
 
@@ -31,7 +31,7 @@ Os vídeos e aulas são direcionadas ao público de desenvolvedores de software,
 
 Maxwell Anderson Ielpo do Amaral
 
-# Conteúdo
+# Conteúdo do curso
 
 * Introdução
   * [Introdução à Engenharia de Software](/lessons/softeng/zero/intro/)
@@ -62,7 +62,7 @@ Maxwell Anderson Ielpo do Amaral
 
   -->
 
-# Artefatos
+# Artefatos de exemplo
 
 Segue também um quadro geral sobre os artefatos gerados como exemplo de um projeto de software relacionado a um sistema de controle de garantias de produtos.
 
@@ -81,11 +81,15 @@ Segue também um quadro geral sobre os artefatos gerados como exemplo de um proj
 > 
 > Apesar da lista acima parecer ser sequencial, na prática, os artefatos são gerados de forma iterativa, incremental e não sequencial. 
 >
-> Veja um exemplo de linha do tempo de desenvolvimento de projeto de software:
+> Veja um exemplo de linha do tempo de desenvolvimento de projeto de software
+{: .notice--warning}
 
 [![Gantt](https://tinyurl.com/24u2e6ke)](https://tinyurl.com/24u2e6ke)<!--![Gantt](../../../assets/puml/gantt_artefacts.puml)-->
+{: .align-center} 
 
-> 💡Importante!
+## Discussões sobre Engenharia de Software
+
+> 💡Importante saber!
 > 
 > Na maioria dos projetos de desenvolvimento de aplicativos não será necessário o desenvolvimento pormenorizado de todos os artefatos. Os artefatos gerados são apenas um exemplo de um projeto de software relacionado a um simples sistema de controle de garantias de produtos. O objetivo é apresentar os artefatos de forma simples e objetiva, de forma que o aluno possa entender e aplicar em seu dia a dia, quando necessário. Isso implica dizer que os artefatos podem ser adaptados de acordo com a necessidade do projeto, ou mesmo, podem não ser utilizados.
 > 
@@ -95,21 +99,21 @@ Segue também um quadro geral sobre os artefatos gerados como exemplo de um proj
 > - [É sempre necessário criar um projeto de software?][102]
 > - [Deve-se ter todos esses papéis em um projeto?][103]
 > - [Deve-se executar atividades de todas as áreas da Engenharia de Software em um projeto?][104]
+{: .notice--info}
+
+## Livro
 
 Devido à experiência adquirida na implantação de melhoria de processos de desenvolvimento de software, pude escrever sobre o assunto em um livro. Se você se interessar, pode baixá-lo gratuitamente em [http://editora.ifpb.edu.br](http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7)
 
-<center>
-    <figure style="text-align:center">
-        <a href="http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7">
-            <img src="../../../../assets/images/lessons/intro09.png" width="250" alt="Exemplo de código-fonte. Comparação entre Java e Python">
-        </a>
-        <figcaption>
-            Implantação de melhoria de processos de software com CMMI-DEV nível 2 
-            <br>
-            Disponível em: <a href="http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7">http://editora.ifpb.edu.br</a>
-        </figcaption>
-    </figure>
-</center>
+{% 
+  include figure 
+  image_path="/assets/images/lessons/intro09.png" 
+  alt="Implantação de melhoria de processos de software com CMMI-DEV nível 2" 
+  caption="Implantação de melhoria de processos de software com CMMI-DEV nível 2" 
+%}
+{: .align-center} 
+
+Criado em Março de 2023 por *Maxwell Anderson*
 
 [1]: <https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/vision.md>
 [2]: <https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/requirements.md>

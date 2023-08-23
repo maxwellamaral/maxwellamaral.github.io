@@ -41,3 +41,8 @@
         ```
     4. Usar a extensão PlantUML com id `jebbs.plantuml` no VSCode
     5. Usar a extensão PlantUML auto generator com id `goohan.plantumlautogenerator` no VSCode
+
+# Dependências
+
+- Tema: [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
+- Documentação em: [Minimal Mistakes Docs](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
