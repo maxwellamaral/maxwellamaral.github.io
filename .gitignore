@@ -6,6 +6,7 @@ _site/
 docs/.jekyll-cache/
 docs/Gemfile.lock
 docs/_site/
+media/
 maxwellamaral.github.io.code-workspace
 data/garantias.xlsx
 docs/.jekyll-metadata

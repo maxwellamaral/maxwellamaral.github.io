@@ -28,4 +28,5 @@ Maxwell Anderson Ielpo do Amaral
 
 * [Introdução](/lessons/hardware/intro/intro/)
 * [Fontes de alimentação](/lessons/hardware/psu/psu/)
+* [Montagem e desmontagem de computadores](/lessons/hardware/repair/disassembly)
 * [BIOS-Setup](/lessons/hardware/setup/setup/)

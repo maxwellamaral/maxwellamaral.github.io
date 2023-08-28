@@ -125,7 +125,9 @@ hardware:
       - title: Introdução
         url: /lessons/hardware/intro/intro/
       - title: Fontes de alimentação
-        url: /lessons/hardware/psu/psu/        
+        url: /lessons/hardware/psu/psu/      
+      - title: Montagem e desmontagem de computadores
+        url: /lessons/hardware/repair/disassembly/          
       - title: Setup
         url: /lessons/hardware/setup/intro/  
       - title: ◀️ 
@@ -141,7 +143,18 @@ hardware-psu:
       - title: Manutenação Corretiva
         url: /lessons/hardware/psu/corrective/
       - title: ◀️ 
-        url: /lessons/hardware/         
+        url: /lessons/hardware/     
+
+hardware-repair:
+  - title: Montagem e desmontagem de computadores
+    children:
+      - title: Passo a passo
+        url: /lessons/hardware/repair/disassembly/
+      - title: ◀️ 
+        url: /lessons/hardware/   
+
+sidebar:
+    nav: ""            
 
 hardware-setup:
   - title: BIOS-Setup
