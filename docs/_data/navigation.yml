@@ -17,7 +17,7 @@ docs:
       - title: "Manutenção e Montagem de Computadores"
         url: /lessons/hardware/
       - title: "Internet das Coisas"
-        url: /lessons/iot/
+        url: /lessons/iot/intro/
 
 # INTERNET DAS COISAS
 
@@ -25,7 +25,7 @@ iot:
   - title: "Internet das Coisas"
     children: 
       - title: Bem-vindo 
-        url: /lessons/iot/
+        url: /lessons/iot/intro/
       - title: "Projeto 1 - LED"
         url: /lessons/iot/project01/
       - title: ◀️ 
