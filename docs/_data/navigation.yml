@@ -28,6 +28,8 @@ iot:
         url: /lessons/iot/intro/
       - title: "Projeto 1 - LED"
         url: /lessons/iot/project01/
+      - title: "Projeto 2 - Semáforo"
+        url: /lessons/iot/project02/        
       - title: ◀️ 
         url: /lessons/         
 

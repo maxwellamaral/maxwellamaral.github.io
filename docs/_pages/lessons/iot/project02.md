@@ -1,7 +1,7 @@
 ---
 author_profile: true
-title: Projeto 01 - LED
-permalink: /lessons/iot/project01/
+title: Projeto 01 - Semáforo
+permalink: /lessons/iot/project02/
 sidebar:
     nav: "iot"
 layout: single
@@ -10,7 +10,7 @@ toc_label: "Conteúdo"
 toc_icon: "cog"
 toc_sticky: true
 header:
-    image: /assets/images/gpt/headers/cat_arduino06.jpg
+    image: /assets/images/gpt/headers/cat_arduino05.jpg
     caption: "Gato estudando Engenharia de Software | Crédito da imagem: gerado por IA com Bing por Maxwell Anderson (2023) | Prompt: Prompt: crie uma imagem de um gato usando gravata e que está aprendendo a usar um Arduíno. Faça o gato utilizar uma chave de fenda no Arduino. Faça com que ele use óculos."
 ---
 
@@ -18,7 +18,7 @@ header:
 
 {% 
   include figure 
-  image_path="/assets/images/gpt/cat_arduino06.jpg" 
+  image_path="/assets/images/gpt/cat_arduino05.jpg" 
   alt="Prompt: crie uma imagem de um gato usando gravata e que está aprendendo a usar um Arduíno. Faça o gato utilizar uma chave de fenda no Arduino. Faça com que ele use óculos" 
   caption="Fonte: gerado por IA com Bing por Maxwell Anderson (2023)<br>Prompt: crie uma imagem de um gato usando gravata e que está aprendendo a usar um Arduíno. Faça o gato utilizar uma chave de fenda no Arduino. Faça com que ele use óculos." 
 %}
@@ -26,15 +26,9 @@ header:
 
 # Introdução
 
-Nosso primeiro projeto irá tem como objetivo acender um LED e fazê-lo piscar a cada 1s. Para isso, iremos utilizar o Arduino Uno, um LED e um resistor de 270 Ohms e 1/4W.
+Vamos construir um semáforo? Vai que seu Ferrorama precise de um. 😂
 
-{%
-    include figure
-    image_path="/assets/images/lessons/iot/project01_led01.png"
-    alt="Placa de ensaio com LED e resistor"
-    caption="Fonte: próprio autor (2023)"
-%}
-{: .align-center} 
+Podemos utilizar um botão para controlar a sequência de acionamento! Vamos lá?
 
 Para isso, iremos utilizar a seguinte lista de materiais:
 
@@ -42,28 +36,36 @@ Para isso, iremos utilizar a seguinte lista de materiais:
 | :---: | :---------------------------- | :--------: |
 |   1   | Arduino Uno                   |     1      |
 |  D1   | LED Vermelho                  |     1      |
-|  R1   | Resistor 270 Ohms 1/4W        |     1      |
+|  D2   | LED Amarelo                   |     1      |
+|  D3   | LED Verde                     |     1      |
+| R*n*  | Resistor 270 Ohms 1/4W        |     3      |
+|  B1   | Botão de pressão              |     1      |
 |  B1   | Protoboard ou placa de ensaio |     1      |
+|  J1   | Jumpers                       |     8      |
+
+*n = 1, 2, 3*
 
 # Implementação
 
-Vamos começar montando o circuito e depois iremos programar o Arduino para acender o LED.
+Vamos começar montando o circuito e depois iremos programar o Arduino para acender os LEDs.
 
 ## Simulador Tinkercad
+
+Vamos implementar o projeto em duas versões, de maneira iterativa e incremental.
+
+### Versão 1
 
 Para a implementação do projeto, iremos utilizar o simulador Tinkercad. Para isso, crie um novo projeto e adicione os componentes conforme a imagem abaixo:
 
 {%
     include figure
-    image_path="/assets/images/lessons/iot/project01_led02.png"
-    alt="Projeto 01 - LED"
+    image_path="/assets/images/lessons/iot/project02_led01.png"
+    alt="Projeto 02 - Semáforo"
     caption="Fonte: próprio autor (2023)"
 %}
 {: .align-center}
 
-Um LED possui um cátodo e um ânodo. O cátodo é o pino mais curto e o ânodo é o pino mais longo. O cátodo deve ser conectado ao GND e o ânodo ao pino digital 12 do Arduino. 
-
-O resistor deve ser conectado ao cátodo do LED e o ânodo ao pino digital 12 do Arduino. 
+Esta é a primeira versão do projeto. Veja que é bem básica e semelhante ao (Projeto 01)[/lessons/iot/projeto01]
 
 Lembre-se: 
 
@@ -72,25 +74,12 @@ Lembre-se:
 | cátodo | pino mais curto |  ➖ (GND)   |
 | ânodo  | pino mais longo |   ➕ (5V)   |
 
-O resistor serve para evitar que o LED queime, já que possuem resistências baixas. Já que o Arduíno possui uma corrente muito elevada, o resistor é necessário para limitar a corrente que passa para o LED. Ele precisa de 10mA para brilhar de forma razoável, e já que o Arduíno oferece uma corrente de 40mA, o resistor é necessário para limitar a corrente para 10mA.
-
-De forma prática, como poderemos realizar o cálculo do resistor?
-
-1. Primeiro, precisamos saber a tensão de alimentação do LED. Para isso, consulte o datasheet do LED. Para o LED que estamos utilizando, a tensão de alimentação é de 2V.
-2. Agora, precisamos saber a tensão de alimentação do Arduíno. Para isso, consulte o datasheet do Arduíno. Para o Arduíno Uno, a tensão de alimentação é de 5V.
-3. A queda de tensão no resistor é de 3V (5V - 2V).
-4. A corrente que passa pelo resistor é de 10mA.
-5. Utilizando a Lei de Ohm, podemos calcular o valor do resistor: R = V / I = 3V / 0,01A = 300 Ohms. Como não temos um resistor de 300 Ohms, iremos utilizar um resistor de 270 Ohms.
-6. Isso significa que o resistor irá limitar a corrente em 11,111mA (3V / 270 Ohms). Como não é uma corrente alta para o LED, podendo funcionar entre 5mA e 30mA, o LED irá funcionar normalmente.
-
-Agora, vamos programar o Arduíno para acender o LED. Para isso, clique no botão `Código`. Você poderá escolher entre as opções `Bloco`, `Texto` ou `Bloco + texto`. Para este projeto, iremos utilizar a opção `Bloco + texto`.
-
 Insira os blocos conforme ilustrado abaixo:
 
 {%
     include figure
-    image_path="/assets/images/lessons/iot/project01_led03.png"
-    alt="Código do Projeto 01 - LED"
+    image_path="/assets/images/lessons/iot/project02_led02.png"
+    alt="Código do Projeto 02 - Semáforo"
     caption="Fonte: próprio autor (2023)"
 %}
 {: .align-center}
@@ -101,30 +90,150 @@ Veja que o código deve ter ficado como o abaixo:
     // C++ code
     //
 
-    void setup()
-    {
-        pinMode(12, OUTPUT);
-    }
+void setup()
+{
+  pinMode(4, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(2, OUTPUT);
+}
 
-    void loop()
-    {
-        digitalWrite(12, HIGH);
-        delay(1000);    // Wait for 1000 millisecond(s)
-        digitalWrite(12, LOW);
-        delay(1000);    // Wait for 1000 millisecond(s)
-    }
+void loop()
+{
+  digitalWrite(4, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(4, LOW);
+  digitalWrite(3, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(3, LOW);
+  digitalWrite(2, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(2, LOW);
+}
 ```
 
-Agora, clique no botão `▶️ Iniciar simulação` e veja o resultado. O LED deve piscar a cada 1s.
+Agora, clique no botão `▶️ Iniciar simulação` e veja o resultado. Cada LED deve piscar a cada 1s de maneira sequencial.
+
+Vamos agora adicionar o botão?
+
+### Versão 2
 
 {%
     include figure
-    image_path="/assets/images/lessons/iot/project01_led01.gif"
-    alt="Projeto 01 - LED"
+    image_path="/assets/images/lessons/iot/project02_led03.png"
+    alt="Projeto 02 - Semáforo"
     caption="Fonte: próprio autor (2023)"
 %}
 {: .align-center}
 
-Parabéns, agora você já sabe como acender um LED utilizando o Arduino Uno.
+Adicione um botão. Veja que o botão possui 4 pinos. Os pinos laterais 1a e 2a são conectados ao GND e ao 5V, respectivamente. O pino 1b é conectado ao pino 5 do Arduino.
 
-Este projeto está também disponível em [ThinkerCad: Projeto 01 - LED ](https://www.tinkercad.com/things/g4HwEwSwOGp-brave-blorr/editel?sharecode=PBwumkFznbt7maPbyqybi-40uBAvfjPorB-2DX_9URw)
+> Preste atenção na posição do botão na placa de ensaio.
+{: .notice--warning}
+
+Agora, vamos adicionar o código para controlar o botão. Veja que o código deve ficar como o abaixo:
+
+```c++
+// C++ code
+int pinoVermelho = 4;
+int pinoAmarelo = 3;
+int pinoVerde = 2;
+int pinoBotao = 5;
+
+int estado = 0;
+
+void setup()
+{
+    pinMode(pinoVermelho, OUTPUT);
+    pinMode(pinoAmarelo, OUTPUT);
+    pinMode(pinoVerde, OUTPUT);
+    pinMode(pinoBotao, INPUT_PULLUP);
+}
+
+void loop()
+{
+    int botao = digitalRead(pinoBotao);
+
+    if (botao == HIGH)
+    {
+        if (estado == 0)
+        {
+            digitalWrite(pinoVermelho, HIGH);
+            digitalWrite(pinoAmarelo, LOW);
+            digitalWrite(pinoVerde, LOW);
+            estado = 1;
+        }
+        else if (estado == 1)
+        {
+            digitalWrite(pinoVermelho, LOW);
+            digitalWrite(pinoAmarelo, HIGH);
+            digitalWrite(pinoVerde, LOW);       
+            estado = 2;
+        }
+        else if (estado == 2)
+        {
+            digitalWrite(pinoVermelho, LOW);
+            digitalWrite(pinoAmarelo, LOW);
+            digitalWrite(pinoVerde, HIGH);       
+            estado = 0;
+        }
+        delay(1000);
+    }
+}
+```
+
+Vamos simplificar o código acima?
+
+### Versão 3
+
+Sem alterar o circuito, vamos simplificar o código. Veja que o código deve ficar como o abaixo:
+
+```c++
+int pinoVermelho = 4;
+int pinoAmarelo = 3;
+int pinoVerde = 2;
+int pinoBotao = 5;
+
+int estado = 0;
+
+void setup()
+{
+    pinMode(pinoVermelho, OUTPUT);
+    pinMode(pinoAmarelo, OUTPUT);
+    pinMode(pinoVerde, OUTPUT);
+    pinMode(pinoBotao, INPUT_PULLUP);
+}
+
+void loop()
+{
+    if (digitalRead(pinoBotao))
+    {
+        if (estado == 0)
+        {
+            acionarSemaforo(HIGH, LOW, LOW);
+            estado = 1;
+        }
+        else if (estado == 1)
+        {
+            acionarSemaforo(LOW, HIGH, LOW);     
+            estado = 2;
+        }
+        else if (estado == 2)
+        {
+            acionarSemaforo(LOW, LOW, HIGH);
+            estado = 0;
+        }
+        delay(1000);
+    }
+}
+
+void acionarSemaforo(int vermelho, int amarelo, int verde)
+{
+    digitalWrite(pinoVermelho, vermelho);
+    digitalWrite(pinoAmarelo, amarelo);
+    digitalWrite(pinoVerde, verde);   
+}
+```
+
+Show! Funciona! Você faria diferente?
+
+Este projeto está também disponível em [ThinkerCad: Projeto 02 - Semáforo](https://www.tinkercad.com/things/exnWppanIAK-bodacious-rottis-jofo/editel?sharecode=Xv2lPeTS_GRd-w3Kfv6nVVWKTa8BUHVcq3fuEPaKo6A)
