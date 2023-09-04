@@ -82,7 +82,7 @@ Exemplos de atores:
 
 Diagramando atores:
 
-[![Exemplo de atores](https://tinyurl.com/2y7zr9hr)](https://tinyurl.com/2y7zr9hr)<!--![Exemplo de atores](../../../../assets/puml/uml_usecase01.puml)-->
+[![Exemplo de atores](http://tinyurl.com/2y7zr9hr)](http://tinyurl.com/2y7zr9hr)<!--![Exemplo de atores](../../../../assets/puml/uml_usecase01.puml)-->
 <br>
 <small>Exemplo de atores</small>
 <br>
@@ -91,7 +91,7 @@ Diagramando atores:
 
 As setas representam uma relação de generalização/especialização. Por exemplo, o ator `Operador de programação da afiliada` é um tipo de `Operador de sistema` e `Conselho de programação` também é um tipo de `Operador de sistema`.
 
-[![Exemplo de atores](https://tinyurl.com/2cx9jf3g)](https://tinyurl.com/2cx9jf3g)<!--![Exemplo de atores](../../../../assets/puml/uml_usecase02.puml)-->
+[![Exemplo de atores](http://tinyurl.com/2cx9jf3g)](http://tinyurl.com/2cx9jf3g)<!--![Exemplo de atores](../../../../assets/puml/uml_usecase02.puml)-->
 <br>
 <small>Exemplo de atores</small>
 <br>
@@ -120,7 +120,7 @@ Exemplos de casos de uso:
 
 Diagramando casos de uso:
 
-[![Exemplo de casos de uso](https://tinyurl.com/28y3k424)](https://tinyurl.com/28y3k424)<!--![Exemplo de casos de uso](../../../../assets/puml/uml_usecase03.puml)-->
+[![Exemplo de casos de uso](http://tinyurl.com/28y3k424)](http://tinyurl.com/28y3k424)<!--![Exemplo de casos de uso](../../../../assets/puml/uml_usecase03.puml)-->
 <br>
 <small>Exemplo de casos de uso/small>
 <br>
@@ -128,7 +128,7 @@ Diagramando casos de uso:
 
 Aqui temos um exemplo de casos de uso `Cadastrar cliente`, `Alterar cliente`, `Excluir cliente` e `Buscar cliente`.
 
-[![Exemplo de casos de uso](https://tinyurl.com/2y2ar3n8)](https://tinyurl.com/2y2ar3n8)<!--![Exemplo de casos de uso](../../../../assets/puml/uml_usecase04.puml)-->
+[![Exemplo de casos de uso](http://tinyurl.com/2y2ar3n8)](http://tinyurl.com/2y2ar3n8)<!--![Exemplo de casos de uso](../../../../assets/puml/uml_usecase04.puml)-->
 <br>
 <small>Exemplo de casos de uso</small>
 <br>
@@ -178,7 +178,7 @@ Após identificado os atores e os casos de uso, para diagramar casos de uso, dev
 1. Desenhar os atores
 2. Desenhar os casos de uso
 
-  [![Exemplo de atores e casos de uso](https://tinyurl.com/29vzcy6t)](https://tinyurl.com/29vzcy6t)<!--![Exemplo de atores e casos de uso](../../../../assets/puml/uml_usecase05.puml)-->
+  [![Exemplo de atores e casos de uso](http://tinyurl.com/29vzcy6t)](http://tinyurl.com/29vzcy6t)<!--![Exemplo de atores e casos de uso](../../../../assets/puml/uml_usecase05.puml)-->
   <br>
   <small>Exemplo de atores e casos de uso</small>
   <br>
@@ -216,7 +216,7 @@ Utilizamos uma linha "cheia" para representar este relacionamento.
 
 Utilizamos um retângulo em volta dos casos de uso para representar o escopo do sistema - delimitando suas fronteiras ou mesmo pode ser utilizado para representar um módulo do sistema.
 
-[![Relacionamento entre atores e casos de uso](https://tinyurl.com/2bbe328p)](https://tinyurl.com/2bbe328p)<!--![Relacionamento entre atores e casos de uso](../../../../assets/puml/uml_usecase06.puml)-->
+[![Relacionamento entre atores e casos de uso](http://tinyurl.com/2bbe328p)](http://tinyurl.com/2bbe328p)<!--![Relacionamento entre atores e casos de uso](../../../../assets/puml/uml_usecase06.puml)-->
 <br>
 <small>Relacionamento entre atores e casos de uso</small>
 <br>
@@ -228,7 +228,7 @@ Entre atores, um pode ser um tipo de outro.
 
 As setas representam uma relação de generalização/especialização. Por exemplo, o ator `Operador de programação da afiliada` é um tipo de `Operador de sistema` e `Conselho de programação` também é um tipo de `Operador de sistema`.
 
-[![Relacionamento entre atores e atores](https://tinyurl.com/22aypusa)](https://tinyurl.com/22aypusa)<!--![Relacionamento entre atores e atores](../../../../assets/puml/uml_usecase07.puml)-->
+[![Relacionamento entre atores e atores](http://tinyurl.com/22aypusa)](http://tinyurl.com/22aypusa)<!--![Relacionamento entre atores e atores](../../../../assets/puml/uml_usecase07.puml)-->
 <br>
 <small>Relacionamento entre atores e atores</small>
 <br>
@@ -245,7 +245,7 @@ As setas representam uma relação de generalização/especialização. Por exem
   - No diagrama, utilizamos uma linha tracejada com uma seta para representar este relacionamento com `<<include>>`.
   - A seta **aponta** para o caso de uso que deve ser incluído. O diagrama será evoluído para o seguinte:
 
-    [![Relacionamento entre casos de uso e casos de uso com inclusão](https://tinyurl.com/24oldtxf)](https://tinyurl.com/24oldtxf)<!--![Relacionamento entre casos de uso e casos de uso com inclusão](../../../../assets/puml/uml_usecase08.puml)-->
+    [![Relacionamento entre casos de uso e casos de uso com inclusão](http://tinyurl.com/24oldtxf)](http://tinyurl.com/24oldtxf)<!--![Relacionamento entre casos de uso e casos de uso com inclusão](../../../../assets/puml/uml_usecase08.puml)-->
     <br>
     <small>Relacionamento entre casos de uso e casos de uso com inclusão</small>
     <br>
@@ -269,7 +269,7 @@ As setas representam uma relação de generalização/especialização. Por exem
     - Uma funcionalidade com ação semelhante seria "esqueci minha senha".
     - O diagrama seria:
     
-      [![Relacionamento entre casos de uso e casos de uso com extensão](https://tinyurl.com/24s2jmkb)](https://tinyurl.com/24s2jmkb)<!--![Relacionamento entre casos de uso e casos de uso com extensão](../../../../assets/puml/uml_usecase09.puml)-->
+      [![Relacionamento entre casos de uso e casos de uso com extensão](http://tinyurl.com/24s2jmkb)](http://tinyurl.com/24s2jmkb)<!--![Relacionamento entre casos de uso e casos de uso com extensão](../../../../assets/puml/uml_usecase09.puml)-->
       <br>
       <small>Relacionamento entre casos de uso e casos de uso com extensão</small>
       <br>
@@ -281,7 +281,7 @@ As setas representam uma relação de generalização/especialização. Por exem
     - Veja que a seta fica no sentido contrário ao relacionamento de inclusão. Ela indica que o caso de uso `Ofertar conteúdo para afiliada` pode ser estendido pelos casos de uso `Consultar base local` e `Publicar e incluir vídeo na base compartilhada`. Assim, a execução da funcionalidade **partirá** destes.
     - O diagrama ficará assim:
   
-      [![Relacionamento entre casos de uso e casos de uso com extensão](https://tinyurl.com/27yeyt2k)](https://tinyurl.com/27yeyt2k)<!--![Relacionamento entre casos de uso e casos de uso com extensão](../../../../assets/puml/uml_usecase10.puml)-->
+      [![Relacionamento entre casos de uso e casos de uso com extensão](http://tinyurl.com/27yeyt2k)](http://tinyurl.com/27yeyt2k)<!--![Relacionamento entre casos de uso e casos de uso com extensão](../../../../assets/puml/uml_usecase10.puml)-->
       <br>
       <small>Relacionamento entre casos de uso e casos de uso com extensão</small>
       <br>
@@ -292,7 +292,7 @@ As setas representam uma relação de generalização/especialização. Por exem
   - No exemplo abaixo, o caso de uso `Abrir conta comum` pode ser **especializado** em `Abrir conta poupança` e `Abrir conta corrente`. O caso de uso `Abrir conta comum` é um caso de uso genérico, enquanto `Abrir conta poupança` e `Abrir conta corrente` são casos de uso específicos.
   - O diagrama ficará assim:
   
-    [![Relacionamento entre casos de uso e casos de uso com generalização/especialização](https://tinyurl.com/2as4godb)](https://tinyurl.com/2as4godb)<!--![Relacionamento entre casos de uso e casos de uso com generalização/especialização](../../../../assets/puml/uml_usecase11.puml)-->
+    [![Relacionamento entre casos de uso e casos de uso com generalização/especialização](http://tinyurl.com/2as4godb)](http://tinyurl.com/2as4godb)<!--![Relacionamento entre casos de uso e casos de uso com generalização/especialização](../../../../assets/puml/uml_usecase11.puml)-->
     <br>
     <small>Relacionamento entre casos de uso e casos de uso com generalização/especialização</small>
     <br>
@@ -307,7 +307,7 @@ As setas representam uma relação de generalização/especialização. Por exem
 
 É um dos mais utilizados e importantes da UML. Ele permite visualizar as classes que irão compor o sistema.
 
-[![Exemplo de classe com atributos privados e métodos públicos](https://tinyurl.com/2b8orcz6)](https://tinyurl.com/2b8orcz6)<!--![Exemplo de classe com atributos privados e métodos públicos](../../../../assets/puml/uml_class01.puml)-->
+[![Exemplo de classe com atributos privados e métodos públicos](http://tinyurl.com/2b8orcz6)](http://tinyurl.com/2b8orcz6)<!--![Exemplo de classe com atributos privados e métodos públicos](../../../../assets/puml/uml_class01.puml)-->
 <br>
 <small>Exemplo de classe com atributos privados e métodos públicos</small>
 <br>
@@ -324,7 +324,7 @@ As setas representam uma relação de generalização/especialização. Por exem
 
 Temos abaixo um exemplo de classe com associação unária ou reflexiva:
 
-[![Exemplo de classe com associação unária ou reflexiva](https://tinyurl.com/2a5ofu7f)](https://tinyurl.com/2a5ofu7f)<!--![Exemplo de classe com associação unária ou reflexiva](../../../../assets/puml/uml_class02.puml)-->
+[![Exemplo de classe com associação unária ou reflexiva](http://tinyurl.com/2a5ofu7f)](http://tinyurl.com/2a5ofu7f)<!--![Exemplo de classe com associação unária ou reflexiva](../../../../assets/puml/uml_class02.puml)-->
 <br>
 <small>Exemplo de classe com associação unária ou reflexiva</small>
 <br>
@@ -334,7 +334,7 @@ Temos abaixo um exemplo de classe com associação unária ou reflexiva:
 
 Temos abaixo um exemplo de classe com associação binária:
 
-[![Exemplo de classe com associação binária](https://tinyurl.com/2csuysta)](https://tinyurl.com/2csuysta)<!--![Exemplo de classe com associação binária](../../../../assets/puml/uml_class03.puml)-->
+[![Exemplo de classe com associação binária](http://tinyurl.com/2csuysta)](http://tinyurl.com/2csuysta)<!--![Exemplo de classe com associação binária](../../../../assets/puml/uml_class03.puml)-->
 <br>
 <small>Exemplo de classe com associação binária</small>
 <br>
@@ -342,7 +342,7 @@ Temos abaixo um exemplo de classe com associação binária:
 
 Aqui podemos visualizar como ficaria o diagrama de classes e o código relacionado:
 
-[![Exemplo de diagrama de classes com associação binária](https://tinyurl.com/2bvyfkfd)](https://tinyurl.com/2bvyfkfd)<!--![Exemplo de diagrama de classes com associação binária](../../../../assets/puml/uml_class04.puml)-->
+[![Exemplo de diagrama de classes com associação binária](http://tinyurl.com/2bvyfkfd)](http://tinyurl.com/2bvyfkfd)<!--![Exemplo de diagrama de classes com associação binária](../../../../assets/puml/uml_class04.puml)-->
 <br>
 <small>Exemplo de diagrama de classes com associação binária</small>
 <br>
@@ -360,7 +360,7 @@ class B {
 
 Aplicação de associação binária com uso de atributo privado:
 
-[![Aplicação de associação binária com uso de atributo privado](https://tinyurl.com/28r56edy)](https://tinyurl.com/28r56edy)<!--![Aplicação de associação binária com uso de atributo privado](../../../../assets/puml/uml_class05.puml)-->
+[![Aplicação de associação binária com uso de atributo privado](http://tinyurl.com/28r56edy)](http://tinyurl.com/28r56edy)<!--![Aplicação de associação binária com uso de atributo privado](../../../../assets/puml/uml_class05.puml)-->
 <br>
 <small>Aplicação de associação binária com uso de atributo privado</small>
 <br>
@@ -370,7 +370,7 @@ Aplicação de associação binária com uso de atributo privado:
 
 Temos abaixo um exemplo de classe com associação binária com multiplicidade:
 
-[![Exemplo de classe com associação binária com multiplicidade](https://tinyurl.com/2bogo4rx)](https://tinyurl.com/2bogo4rx)<!--![Exemplo de classe com associação binária com multiplicidade](../../../../assets/puml/uml_class06.puml)-->
+[![Exemplo de classe com associação binária com multiplicidade](http://tinyurl.com/2bogo4rx)](http://tinyurl.com/2bogo4rx)<!--![Exemplo de classe com associação binária com multiplicidade](../../../../assets/puml/uml_class06.puml)-->
 <br>
 <small>Exemplo de classe com associação binária com multiplicidade</small>
 <br>
@@ -394,7 +394,7 @@ class Fone {
 }
 ```
 
-[![Exemplo de classe com associação binária com multiplicidade](https://tinyurl.com/2b3uma6o)](https://tinyurl.com/2b3uma6o)<!--![Exemplo de classe com associação binária com multiplicidade](../../../../assets/puml/uml_class07.puml)-->
+[![Exemplo de classe com associação binária com multiplicidade](http://tinyurl.com/2b3uma6o)](http://tinyurl.com/2b3uma6o)<!--![Exemplo de classe com associação binária com multiplicidade](../../../../assets/puml/uml_class07.puml)-->
 <br>
 <small>Exemplo de classe com associação binária com multiplicidade</small>
 <br>
@@ -416,7 +416,7 @@ class Fone {
 
 A generalização/especialização de classes é um relacionamento entre classes tal como visto entre casos de uso e atores. Desta forma, podemos ter:
 
-[![Exemplo de classe com associação binária com multiplicidade](https://tinyurl.com/26ejpy36)](https://tinyurl.com/26ejpy36)<!--![Exemplo de classe com associação binária com multiplicidade](../../../../assets/puml/uml_class08.puml)-->
+[![Exemplo de classe com associação binária com multiplicidade](http://tinyurl.com/26ejpy36)](http://tinyurl.com/26ejpy36)<!--![Exemplo de classe com associação binária com multiplicidade](../../../../assets/puml/uml_class08.puml)-->
 <br>
 <small>Exemplo de diagrama de classes com generalização/especialização</small>
 <br>

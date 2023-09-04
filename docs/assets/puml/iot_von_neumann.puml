@@ -1,0 +1,21 @@
+' Arquitetura de Von Neumann
+@startuml
+
+skinparam backgroundColor #555555
+skinparam rectangle<<behavior>> {
+    roundCorner 25
+}
+
+rectangle "Computador" {
+    archimate #Technology "Processador" as CPU <<technology-device>>
+    archimate #Technology "Memória" as M <<technology-infra-service>>
+}
+rectangle Entrada as E #LimeGreen
+rectangle Saida as S #SeaGreen
+
+E -> CPU
+CPU -> S
+CPU -down-> M
+M -> CPU
+
+@enduml

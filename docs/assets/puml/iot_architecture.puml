@@ -1,0 +1,18 @@
+' Arquitetura simplificada de IOT
+@startuml
+
+skinparam backgroundColor #555555
+skinparam rectangle<<behavior>> {
+    roundCorner 25
+}
+
+archimate #Technology "Microcontrolador" as CPU <<technology-device>>
+rectangle Sensor as S #LimeGreen
+rectangle Atuador as A #SeaGreen
+rectangle Dados as D #GreenYellow
+
+S --> CPU
+CPU --> A
+CPU --> D
+
+@enduml

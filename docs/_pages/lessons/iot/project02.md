@@ -61,7 +61,9 @@ Para a implementação do projeto, iremos utilizar o simulador Tinkercad. Para i
 %}
 {: .align-center}
 
-Um LED possui um cátodo e um ânodo. O cátodo é o pino mais curto e o ânodo é o pino mais longo. O cátodo deve ser conectado ao GND e o ânodo ao pino digital 12 do Arduino. O resistor deve ser conectado ao cátodo do LED e o ânodo ao pino digital 12 do Arduino.
+Um LED possui um cátodo e um ânodo. O cátodo é o pino mais curto e o ânodo é o pino mais longo. O cátodo deve ser conectado ao GND e o ânodo ao pino digital 12 do Arduino. 
+
+O resistor deve ser conectado ao cátodo do LED e o ânodo ao pino digital 12 do Arduino. 
 
 Lembre-se: 
 
@@ -69,6 +71,17 @@ Lembre-se:
 | :----: | :-------------- | :--------: |
 | cátodo | pino mais curto |  ➖ (GND)   |
 | ânodo  | pino mais longo |   ➕ (5V)   |
+
+O resistor serve para evitar que o LED queime, já que possuem resistências baixas. Já que o Arduíno possui uma corrente muito elevada, o resistor é necessário para limitar a corrente que passa para o LED. Ele precisa de 10mA para brilhar de forma razoável, e já que o Arduíno oferece uma corrente de 40mA, o resistor é necessário para limitar a corrente para 10mA.
+
+De forma prática, como poderemos realizar o cálculo do resistor?
+
+1. Primeiro, precisamos saber a tensão de alimentação do LED. Para isso, consulte o datasheet do LED. Para o LED que estamos utilizando, a tensão de alimentação é de 2V.
+2. Agora, precisamos saber a tensão de alimentação do Arduíno. Para isso, consulte o datasheet do Arduíno. Para o Arduíno Uno, a tensão de alimentação é de 5V.
+3. A queda de tensão no resistor é de 3V (5V - 2V).
+4. A corrente que passa pelo resistor é de 10mA.
+5. Utilizando a Lei de Ohm, podemos calcular o valor do resistor: R = V / I = 3V / 0,01A = 300 Ohms. Como não temos um resistor de 300 Ohms, iremos utilizar um resistor de 270 Ohms.
+6. Isso significa que o resistor irá limitar a corrente em 11,111mA (3V / 270 Ohms). Como não é uma corrente alta para o LED, podendo funcionar entre 5mA e 30mA, o LED irá funcionar normalmente.
 
 Agora, vamos programar o Arduíno para acender o LED. Para isso, clique no botão `Código`. Você poderá escolher entre as opções `Bloco`, `Texto` ou `Bloco + texto`. Para este projeto, iremos utilizar a opção `Bloco + texto`.
 
