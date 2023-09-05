@@ -29,7 +29,7 @@ header:
 
 Aproximadamente 5,16 bilhões de pessoas (64,4%) usam a Internet em todo o mundo (WE ARE SOCIAL[^1], 2023), mas esse número é pequeno em comparação com o número de dispositivos conectados à Internet. Estima-se que existam mais de 27 bilhões de dispositivos conectados à Internet em todo o mundo, e esse número deve chegar a 75,44 bilhões até 2025 (FORBES apud ABINC[^2], 2022).
 
-A Internet das Coisas (do inglês, Internet of Things, IoT) é um conceito que se refere à interconexão digital de objetos cotidianos com a internet. A IoT permite que objetos físicos sejam acessados remotamente através de uma rede de sensores e atuadores, permitindo que os mesmos sejam monitorados e controlados remotamente.
+A Internet das Coisas (do inglês, Internet of Things, IoT) é um conceito que se refere à interconexão digital de objetos cotidianos com a Internet. A IoT permite que objetos físicos sejam acessados remotamente através de uma rede de sensores e atuadores, permitindo que os mesmos sejam monitorados e controlados remotamente.
 
 Enquanto pessoas acessam a Internet em busca de informação e entretenimento, as "coisas" ou dispositivos acessam a Internet para transmitir informações sobre o ambiente em que estão inseridas. Essas informações podem ser utilizadas para monitorar e controlar o ambiente, permitindo que as coisas sejam mais eficientes e autônomas.
 
@@ -41,7 +41,7 @@ Um processador centraliza o processamento de dados que entram. A saída é o res
 <br>
 <small>Crédito da imagem: autoria própria (2023)</small>
 
-A IoT é uma arquitetura distribuída, onde cada dispositivo possui um processador e uma memória própria. Os dados de entrada do dispositivo são compostos por sensores e os dados de saída são compostos por atuadores ou, simplesmente, transmitem os dados para outro dispositivo.
+A IoT possui uma arquitetura distribuída, onde cada dispositivo possui um processador e uma memória própria. Os dados de entrada do dispositivo são compostos por sensores e os dados de saída são compostos por atuadores ou, simplesmente, transmitem os dados para outro dispositivo.
 
 [![Arquitetura simplificada de IoT](http://tinyurl.com/2yqp82q2)](http://tinyurl.com/2yqp82q2)<!--![Arquitetura simplificada de IoT](../../../assets/puml/iot_architecture.puml)-->
 <br>
@@ -53,7 +53,7 @@ Um microcontrolador é um "computador" em um chip. Ele possui um processador, me
 
 Assim, um microcontrolador tem tudo os que os primeiros computadores tinham.
 
-Vamos estudar o Arduíno, um microcontrolador de código aberto. O Arduíno é uma plataforma de prototipagem eletrônica de hardware livre e de placa única, projetada com um microcontrolador Atmel AVR com suporte de entrada/saída embutido, uma linguagem de programação padrão, a qual tem origem em Wiring, e é essencialmente C/C++.
+Vamos estudar o Arduíno, que possui um microcontrolador de código aberto. O Arduíno é uma plataforma de prototipagem eletrônica de hardware livre e de placa única, projetada com um microcontrolador Atmel AVR com suporte de entrada/saída embutido, uma linguagem de programação padrão, a qual tem origem em Wiring, e é essencialmente C/C++.
 
 # Arduíno
 
@@ -146,6 +146,8 @@ Para programar no Arduíno, utilizaremos a linguagem C. Veja um código de exemp
         delay(1000);    
     }
 ```
+
+Os primeiros projetos ainda não estão sendo conectados à Internet, pois o objetivo é aprender a programar o Arduíno.
 
 # Referências
 

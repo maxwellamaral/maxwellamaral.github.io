@@ -11,7 +11,7 @@ toc_icon: "cog"
 toc_sticky: true
 header:
     image: /assets/images/gpt/headers/cat_arduino05.jpg
-    caption: "Gato estudando Engenharia de Software | Crédito da imagem: gerado por IA com Bing por Maxwell Anderson (2023) | Prompt: Prompt: crie uma imagem de um gato usando gravata e que está aprendendo a usar um Arduíno. Faça o gato utilizar uma chave de fenda no Arduino. Faça com que ele use óculos."
+    caption: "Gato estudando IOT | Crédito da imagem: gerado por IA com Bing por Maxwell Anderson (2023) | Prompt: Prompt: crie uma imagem de um gato usando gravata e que está aprendendo a usar um Arduíno. Faça o gato utilizar uma chave de fenda no Arduino. Faça com que ele use óculos."
 ---
 
 # Conceitos
@@ -65,7 +65,7 @@ Para a implementação do projeto, iremos utilizar o simulador Tinkercad. Para i
 %}
 {: .align-center}
 
-Esta é a primeira versão do projeto. Veja que é bem básica e semelhante ao (Projeto 01)[/lessons/iot/projeto01]
+Esta é a primeira versão do projeto. Veja que é bem básica e semelhante ao [Projeto 01](/lessons/iot/projeto01)
 
 Lembre-se: 
 

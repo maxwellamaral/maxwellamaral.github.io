@@ -11,7 +11,7 @@ toc_icon: "cog"
 toc_sticky: true
 header:
     image: /assets/images/gpt/headers/cat_arduino06.jpg
-    caption: "Gato estudando Engenharia de Software | Crédito da imagem: gerado por IA com Bing por Maxwell Anderson (2023) | Prompt: Prompt: crie uma imagem de um gato usando gravata e que está aprendendo a usar um Arduíno. Faça o gato utilizar uma chave de fenda no Arduino. Faça com que ele use óculos."
+    caption: "Gato estudando IOT | Crédito da imagem: gerado por IA com Bing por Maxwell Anderson (2023) | Prompt: Prompt: crie uma imagem de um gato usando gravata e que está aprendendo a usar um Arduíno. Faça o gato utilizar uma chave de fenda no Arduino. Faça com que ele use óculos."
 ---
 
 # Conceitos
@@ -43,7 +43,6 @@ Para isso, iremos utilizar a seguinte lista de materiais:
 |   1   | Arduino Uno                   |     1      |
 |  D1   | LED Vermelho                  |     1      |
 |  R1   | Resistor 270 Ohms 1/4W        |     1      |
-|  B1   | Protoboard ou placa de ensaio |     1      |
 
 # Implementação
 
