@@ -1,7 +1,7 @@
 ---
 author_profile: true
-title: Introdução
-permalink: /lessons/iot/intro/
+title: Introdução ao IoT
+permalink: /lessons/iot/
 sidebar:
     nav: "iot"
 layout: single
@@ -24,6 +24,27 @@ header:
 
 
 # Introdução
+
+O objetivo do curso é proporcionar ao estudante e entusiasta a oportunidade de aprender a programar o Arduíno, família ESP/NodeMCU e a desenvolver projetos de Internet das Coisas (IoT), utilizando Home Assistant.
+
+## Módulos do curso
+
+O curso é dividido em módulos:
+
+- Módulo 1: [Introdução à Internet das Coisas ](/lessons/iot/#o-que-é-internet-das-coisas)
+- Módulo 2: [Introdução ao Arduíno](/lessons/iot/#arduíno)
+  - [Projeto 01 - LED](/lessons/iot/project01/)
+  - [Projeto 02 - Semáforo](/lessons/iot/project02/)
+  - [Projeto 03 - Giroflex](/lessons/iot/project03/)
+  - [Projeto 04 - Giroflex com ajuste](/lessons/iot/project04/)
+  - [Projeto 05 - Micro servomotor](/lessons/iot/project05/)
+  - [Projeto 06 - Sensor de umidade](/lessons/iot/project06/) 
+- Módulo 3: Introdução ao ESPxx/NodeMCU (em breve)
+- Módulo 4: Introdução ao Home Assistant (em breve)
+
+Vamos começar?
+
+# Internet das Coisas
 
 ## O que é Internet das Coisas?
 
@@ -59,20 +80,22 @@ Vamos estudar o Arduíno, que possui um microcontrolador de código aberto. O Ar
 
 O Arduíno Uno R3, por exemplo, tem:
 
-- Um microcontrolador ATmega328P
-- 2KB de memória RAM ou mais
-- 32KB de memória Flash ou mais
-- 14 pinos de entrada/saída digital
-- 6 pinos de entrada analógica
-- 6 pinos de saída PWM
-- 1 porta USB
-- 1 porta serial
-- 1 botão de reset
-- 1 LED de status 
-- 1 LED de TX
-- 1 LED de RX
-- 1 LED de Power
-- 1 conector de alimentação
+| Característica                 | Quantidade   |
+| ------------------------------ | ------------ |
+| Microcontrolador ATmega328P    | -            |
+| Memória RAM                    | 2KB ou mais  |
+| Memória Flash                  | 32KB ou mais |
+| Pinos de entrada/saída digital | 14 pinos     |
+| Pinos de entrada analógica     | 06 pinos     |
+| Pinos de saída PWM             | 06 pinos     |
+| Porta USB                      | 01 porta     |
+| Porta serial                   | 01 porta     |
+| Botão de reset                 | 01 botão     |
+| LED de status                  | 01 led       |
+| LED de TX                      | 01 led       |
+| LED de RX                      | 01 led       |
+| LED de Power                   | 01 led       |
+| Conector de alimentação        | 01 conector  |
 
 {%
     include figure
@@ -149,8 +172,7 @@ Para programar no Arduíno, utilizaremos a linguagem C. Veja um código de exemp
 
 Os primeiros projetos ainda não estão sendo conectados à Internet, pois o objetivo é aprender a programar o Arduíno.
 
-# Referências
-
+---
 [^1]: WE ARE SOCIAL. Digital 2023: Global Overview Report. Disponível em: <https://wearesocial.com/uk/blog/2023/01/digital-2023/>. Acesso em: 04 de set. de 2023.
 
 [^2]: FORBES. IoT: até 2025, mais de 27 bilhões de dispositivos estarão conectados. Disponível em: <https://forbes.com.br/forbes-tech/2022/08/iot-ate-2025-mais-de-27-bilhoes-de-dispositivos-estarao-conectados/>. Acesso em: 04 de set. de 2023.
