@@ -25,7 +25,7 @@ iot:
   - title: "Internet das Coisas"
     children: 
       - title: Bem-vindo 
-        url: /lessons/iot/intro/
+        url: /lessons/iot/
       - title: "Projeto 01 - LED"
         url: /lessons/iot/project01/
       - title: "Projeto 02 - Semáforo"
