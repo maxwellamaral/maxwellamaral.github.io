@@ -94,12 +94,12 @@ softeng-requirements:
         url: /lessons/softeng/requirements/intro/ 
       - title: Visão do Produto 
         url: /lessons/softeng/requirements/vision/ 
-      - title: Exemplo de Visão de Produto
-        url: "https://github.com/maxwellamaral/maxwellamaral.github.io/blob/8f925f5c8882263f475162a990b5da48b6779a3d/specs/requirements/vision.md"        
+      # - title: Exemplo de Visão de Produto
+      #   url: "https://github.com/maxwellamaral/maxwellamaral.github.io/blob/8f925f5c8882263f475162a990b5da48b6779a3d/specs/requirements/vision.md"        
       - title: Elicitação de Requisitos 
         url: /lessons/softeng/requirements/elicitation/ 
-      - title: Exemplo de Requisitos de Software 
-        url: "https://github.com/maxwellamaral/maxwellamaral.github.io/blob/8f925f5c8882263f475162a990b5da48b6779a3d/specs/requirements/requirements.md"      
+      # - title: Exemplo de Requisitos de Software 
+      #   url: "https://github.com/maxwellamaral/maxwellamaral.github.io/blob/8f925f5c8882263f475162a990b5da48b6779a3d/specs/requirements/requirements.md"      
       - title: Análise de custos e vendas 
         url: /lessons/softeng/requirements/costs/ 
       - title: ◀️ 

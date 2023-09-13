@@ -1,43 +1,48 @@
 ---
-layout: home
-author_profile: true
 title: Obtendo a Visão do Produto
 permalink: /lessons/softeng/requirements/vision/
 sidebar:
     nav: "softeng-requirements"
+
+layout: single
+author_profile: true
+toc: true
+toc_label: "Conteúdo"
+toc_icon: "cog"
+toc_sticky: true
+header:
+    image: /assets/images/gpt/headers/cat_conducting_interview1.jpg
+    caption: "Gato realizando uma entrevista junto a um cliente | Crédito da imagem: gerado por IA com Bing por Maxwell Anderson (2023) | Prompt: create a image of a software engineer cat conducting an interview with a client"
 ---
-Criado em Março de 2023 por *Maxwell Anderson*
 
-<figure>
-    <img src="../../../../assets/images/gpt/cat_conducting_interview1.jpg" width="350" alt="Gato realizando uma entrevista junto a um cliente. Prompt: create a image of a software engineer cat conducting an interview with a client">
-    <figcaption>Gato realizando uma entrevista junto a um cliente.</figcaption>
-    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
-</figure>
-
-**Conteúdo**
-
-- [Introdução](#introdução)
-- [Documento de Visão do Produto (DVP)](#documento-de-visão-do-produto-dvp)
-  - [Dica de uso por IA generativa. 🧠](#dica-de-uso-por-ia-generativa-)
-    - [Prompt para descrição de oportunidades de negócios](#prompt-para-descrição-de-oportunidades-de-negócios)
-    - [Prompt para descrição sobre os benefícios que o produto trará](#prompt-para-descrição-sobre-os-benefícios-que-o-produto-trará)
-    - [Prompt para criação de tabela sobre benefícios, problemas resolvidos e afetados](#prompt-para-criação-de-tabela-sobre-benefícios-problemas-resolvidos-e-afetados)
-  - [Sobre as restrições mencionadas no documento](#sobre-as-restrições-mencionadas-no-documento)
-
-**Ferramentas**
-
-- 📄[Exemplo de Documento de Visão do Produto (DVP)](/lessons/softeng/requirements/vision/sample/)
-- 📃[Modelo de Documento de Visão do Produto (DVP)](/lessons/softeng/requirements/vision/model/)
+{% 
+  include figure 
+  image_path="/assets/images/gpt/cat_conducting_interview1.jpg" 
+  alt="Gato realizando uma entrevista junto a um cliente." 
+  caption="Crédito da imagem: gerado por IA com Bing por Maxwell Anderson (2023) | Prompt: create a image of a software engineer cat conducting an interview with a client" 
+%}
+{: .align-center} 
 
 # Introdução
 
-O Documento de Visão do Produto (DVP) é um documento que descreve o produto de software que será desenvolvido. Ele descreve o problema que será resolvido, as principais necessidades dos stakeholders, as principais funcionalidades do sistema, as restrições do projeto, etc.
+## O que é?
 
-Ele é, de longe, a fonte de informação mais importante para novos projetos. Através dele você obtém uma visão geral do problema e da necessidade do cliente e dos demais stakeholders. Ele é um documento que deve ser atualizado ao longo do projeto, sempre que novas informações forem obtidas.
+O Documento de Visão do Produto (DVP) é um documento que descreve o produto de software que será desenvolvido, só que de maneira abrangente, não é tão detalhado quanto a listagem de requisitos. Ele descreve o problema que será resolvido, as principais necessidades dos _stakeholders_, as principais funcionalidades do sistema, as restrições do projeto, etc.
 
-É difícil iniciar um trabalho de elicitação de requisitos sem que os engenheiros obtenham uma visão geral do problema e das necessidades dos stakeholders. É importante que você tenha uma visão geral do problema e das necessidades deles antes de iniciar o trabalho de elicitação de requisitos. Acaba que se torna um norteador para que futuras questões possam ser elaboradas. Ficará mais fácil dividir suas necessidades em categorias que poderão se tornar módulos do sistema.
+## Por que é importante?
 
-Você vai perceber que ele trará uma visão do negócio, bem como sobre as oportunidades e e melhorias no dia-a-dia dos stakeholders no uso do novo produto de software que você irá desenvolver. Ele também trará uma visão sobre as restrições do projeto, como prazos, custos, tecnologias, etc.
+Ele é, de longe, a fonte de informação **mais importante** para novos projetos. Através dele você obtém uma visão geral do problema e da necessidade do cliente e dos demais _stakeholders_. 
+
+É um artefato que deve ser atualizado ao longo do projeto, sempre que novas informações forem obtidas.
+
+É difícil iniciar um trabalho de elicitação de requisitos sem que os engenheiros obtenham uma **visão** geral do problema e das necessidades dos _stakeholders_. É importante que você tenha uma visão geral do problema e das necessidades deles antes de iniciar o trabalho de elicitação detalhada dos requisitos. Acaba que se torna um norteador para que futuras questões possam ser elaboradas. Ficará mais fácil dividir suas necessidades em categorias que poderão se tornar módulos do sistema.
+
+Você vai perceber que ele trará uma visão do negócio, bem como sobre as oportunidades e e melhorias no dia-a-dia dos _stakeholders_ no uso do novo produto de software que você irá desenvolver. Ele também trará uma visão sobre as restrições do projeto, como prazos, custos, tecnologias etc.
+
+> 💰🤑💵
+> 
+> Lembre-se que o DVP poderá ser anexado a um contrato entre as partes!
+{: .notice--info}
 
 Tudo que é escrito nele será reutilizado nas próximas etapas e, portanto, tenha muito cuidado com o que escreve.
 
@@ -45,21 +50,78 @@ Tudo que é escrito nele será reutilizado nas próximas etapas e, portanto, ten
 >
 > Se você é novato em uma empresa ou uma outra instituição, e se você irá fazer manutenção em produtos existentes, o DVP é um ótimo artefato norteador pois ele trará uma visão geral do produto e do negócio.
 >
-> Torça para que o DVP esteja atualizado e que ele seja um documento bem escrito. Se ele não estiver atualizado, você terá que atualizá-lo. Se ele não estiver bem escrito, você terá que reescrevê-lo. E caso ele não exista, você terá que criá-lo.
+> Torça para que o DVP esteja atualizado e que ele seja um documento bem escrito. 
+> 
+> - Se ele não estiver atualizado, você terá que fazê-lo. 
+> - Se ele não estiver bem escrito, você terá que reescrevê-lo. 
+> - E caso ele não exista, você terá que criá-lo.
 >
-> Se o produto existente for grande e complexo, atue em conjunto com os engenheiros que já trabalham no produto. O site que contém informações sobre o produto ajudará muito. Eles poderão te ajudar a entender o produto e a sua arquitetura. Construa dentro do escopo do módulo ou parte do conjunto de funcionalidades que você irá trabalhar.
+> Se o produto existente for grande e complexo, atue em conjunto com os engenheiros que já trabalham no produto. O site que contém informações sobre o software ajudará muito. Eles poderão te ajudar a entender o produto e a sua arquitetura. Construa dentro do escopo do módulo ou parte do conjunto de funcionalidades que você irá trabalhar.
+
+## Quando deve ser criado?
+
+Ele deve ser criado antes de iniciar o trabalho de elicitação detalhada dos requisitos. 
+
+## Quem deve criá-lo?
+
+Ele deve ser criado pelo engenheiro de software ou engenheiro de requisitos que assume o papel de Elicitador de Requisitos, em conjunto com o cliente e com os demais _stakeholders_.
+
+## Como criá-lo?
+
+Veja a seguir como criar um DVP.
 
 # Documento de Visão do Produto (DVP)
 
-A melhor forma de aprender é partindo de exemplos. Vamos ver um exemplo de um DVP que poderá ser utilizado como exemplo.
+A melhor forma de aprender é partindo de exemplos. Vamos ver um exemplo de um DVP que poderá ser utilizado como exemplo abaixo.
 
-📄[Exemplo de Documento de Visão do Produto (DVP)](/lessons/softeng/requirements/vision/sample/)
+> Atente bem para as explicações em sala de aula!
+{: .notice--info}
 
-Um modelo em "branco" pode ser copiado e utilizado como base para a criação de um DVP. Ele contém os principais tópicos que devem ser abordados.
+## Exemplo e template
 
-📃[Modelo de Documento de Visão do Produto (DVP)](/lessons/softeng/requirements/vision/model/)
+**Imagens de exemplo**
 
-## Dica de uso por IA generativa. 🧠
+{%
+  include figure
+  image_path="/assets/images/lessons/vision-capa.png"
+  alt="Capa do Documento de Visão do Produto (DVP) do Sistema de Controle de Garantias de Produtos (SCGP)."
+  caption="Crédito da imagem: Maxwell Anderson (2023) | Capa do Documento de Visão do Produto (DVP) do SCGP."
+%}
+{: .align-center}
+
+{%
+  include figure
+  image_path="/assets/images/lessons/vision-arch.png"
+  alt="Arquitetura do Sistema de Controle de Garantias de Produtos (SCGP)."
+  caption="Crédito da imagem: Maxwell Anderson (2023) | Arquitetura ambiental do SCGP."
+%}
+{: .align-center}
+
+O exemplo acima de [Documento de Visão do Produto (DVP) pode ser visualizado aqui.](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/8f925f5c8882263f475162a990b5da48b6779a3d/specs/requirements/vision.md)
+
+O modelo em "branco" ou _template_ abaixo pode ser copiado e utilizado como base para a criação de um DVP. Ele contém os principais tópicos que devem ser abordados.
+
+O modelo de [Documento de Visão do Produto (DVP) pode ser visualizado aqui.](/lessons/softeng/requirements/vision/model/)
+
+> É crucial que ele seja elaborado a partir de uma entrevista com o cliente e com os demais _stakeholders_ conforme realizado na etapa anterior!
+{: .notice--warning}
+
+## Sobre as restrições mencionadas no DVP
+
+Restrições são limitações impostas ao desenvolvimento do sistema ou à sua operação, que podem ter impacto no seu escopo, funcionalidade, desempenho, custo, prazo ou qualidade. Algumas possíveis restrições que podem ser consideradas são:
+
+- **Restrições de hardware**: o sistema pode ter requisitos específicos em termos de capacidade de processamento, memória, armazenamento, rede ou outros componentes de hardware. Restrições de hardware podem afetar tanto a escolha da infraestrutura de TI como a capacidade do sistema em suportar um número maior de usuários ou transações.
+- **Restrições de software**: o sistema pode ter dependências específicas em termos de sistemas operacionais, plataformas de desenvolvimento, bibliotecas de software, bancos de dados ou outras ferramentas de software. Restrições de software podem afetar tanto o desenvolvimento do sistema como a sua integração com outros sistemas.
+- **Restrições de segurança**: o sistema pode ter requisitos específicos em termos de segurança, como autenticação, autorização, criptografia, auditoria, backup ou recuperação de desastres. Restrições de segurança podem afetar tanto o desenvolvimento do sistema como a sua operação e manutenção.
+- **Restrições regulatórias**: o sistema pode estar sujeito a regulamentações ou padrões específicos, como normas de privacidade, segurança, interoperabilidade, acessibilidade ou outras. Restrições regulatórias podem afetar tanto o desenvolvimento do sistema como a sua operação e manutenção, e podem ter implicações legais ou financeiras.
+- **Restrições de tempo e custo**: o sistema pode ter limitações em termos de prazo ou orçamento, que podem afetar tanto o escopo do sistema como a qualidade e desempenho do mesmo. Restrições de tempo e custo podem exigir que sejam tomadas decisões difíceis em termos de priorização de requisitos, recursos, riscos ou qualidade.
+- **Restrições de usabilidade**: o sistema pode ter requisitos específicos em termos de usabilidade, acessibilidade, localização ou outras características que possam afetar a experiência do usuário. Restrições de usabilidade podem exigir que sejam realizados testes de usabilidade e feedback dos usuários para garantir que o sistema atenda às expectativas do usuário.
+
+É importante que todas essas restrições sejam documentadas e consideradas ao longo do desenvolvimento do sistema, para que sejam tomadas as decisões adequadas e para que o sistema possa ser entregue com a qualidade e desempenho esperados.
+
+Veja exemplos de restrições ao fim do Documento de Visão do Produto (DVP) acima.
+
+# Dica de uso por IA generativa. 🧠
 
 As IAs generativas podem ser utilizadas para gerar conteúdos e textos. Elas podem ser utilizadas para gerar exemplos de DVPs.
 
@@ -68,10 +130,13 @@ As IAs generativas podem ser utilizadas para gerar conteúdos e textos. Elas pod
 > Devemos utilizar estas tecnologias como aliadas a fim de tornar o trabalho produtivo. Todavia, devemos ter cuidado para que não se tornem um obstáculo para a criatividade e para a inovação, pois elas podem acabar gerando conteúdos e textos que não sejam úteis ou mesmo que não sejam verdadeiros.
 >
 > Também tome cuidado para não infringir os direitos autorais de terceiros. Se você utilizar conteúdos e textos gerados por IA, certifique-se de que eles não infrinjam os direitos autorais de terceiros.
+>
+> E sempre, sempre, sempre revise o conteúdo gerado por IA. Não confie cegamente no que ela gera. Ela pode gerar conteúdos e textos que não façam sentido ou que não sejam verdadeiros.
+{: .notice--danger}
 
 Seguem alguns exemplos prompts e de textos gerados por IA.
 
-### Prompt para descrição de oportunidades de negócios
+## Prompt para descrição de oportunidades de negócios
 
 Para gerar o exemplo de DVP acima, seguem alguns prompts que podem ser utilizados para gerar textos e conteúdos importantes:
 
@@ -93,7 +158,7 @@ Para gerar o exemplo de DVP acima, seguem alguns prompts que podem ser utilizado
 >>
 >> Essas são apenas algumas ideias de como o Sistema de Controle de Garantias de Produtos (SCGP) pode gerar oportunidades de negócios. Com criatividade e estratégia, você pode identificar muitas outras maneiras de monetizar este produto e torná-lo um sucesso comercial.
 
-### Prompt para descrição sobre os benefícios que o produto trará
+## Prompt para descrição sobre os benefícios que o produto trará
 
 > **Pergunta:**
 >
@@ -111,7 +176,7 @@ Para gerar o exemplo de DVP acima, seguem alguns prompts que podem ser utilizado
 >>
 >> Esses são apenas alguns dos benefícios que o Sistema de Controle de Garantias de Produtos (SCGP) pode trazer para os clientes. No geral, o SCGP ajuda a simplificar a vida dos clientes, oferecendo uma solução eficaz e conveniente para o gerenciamento de garantias de produtos.
 
-### Prompt para criação de tabela sobre benefícios, problemas resolvidos e afetados
+## Prompt para criação de tabela sobre benefícios, problemas resolvidos e afetados
 
 > **Pergunta:**
 >
@@ -131,17 +196,5 @@ Para gerar o exemplo de DVP acima, seguem alguns prompts que podem ser utilizado
 >> | Economia de dinheiro           | Despesas desnecessárias com produtos ainda cobertos pela garantia          | Clientes que compram produtos com garantia    |
 >> ```
 
-## Sobre as restrições mencionadas no documento
-
-Restrições são limitações impostas ao desenvolvimento do sistema ou à sua operação, que podem ter impacto no seu escopo, funcionalidade, desempenho, custo, prazo ou qualidade. Algumas possíveis restrições que podem ser consideradas são:
-
-- **Restrições de hardware**: o sistema pode ter requisitos específicos em termos de capacidade de processamento, memória, armazenamento, rede ou outros componentes de hardware. Restrições de hardware podem afetar tanto a escolha da infraestrutura de TI como a capacidade do sistema em suportar um número maior de usuários ou transações.
-- **Restrições de software**: o sistema pode ter dependências específicas em termos de sistemas operacionais, plataformas de desenvolvimento, bibliotecas de software, bancos de dados ou outras ferramentas de software. Restrições de software podem afetar tanto o desenvolvimento do sistema como a sua integração com outros sistemas.
-- **Restrições de segurança**: o sistema pode ter requisitos específicos em termos de segurança, como autenticação, autorização, criptografia, auditoria, backup ou recuperação de desastres. Restrições de segurança podem afetar tanto o desenvolvimento do sistema como a sua operação e manutenção.
-- **Restrições regulatórias**: o sistema pode estar sujeito a regulamentações ou padrões específicos, como normas de privacidade, segurança, interoperabilidade, acessibilidade ou outras. Restrições regulatórias podem afetar tanto o desenvolvimento do sistema como a sua operação e manutenção, e podem ter implicações legais ou financeiras.
-- **Restrições de tempo e custo**: o sistema pode ter limitações em termos de prazo ou orçamento, que podem afetar tanto o escopo do sistema como a qualidade e desempenho do mesmo. Restrições de tempo e custo podem exigir que sejam tomadas decisões difíceis em termos de priorização de requisitos, recursos, riscos ou qualidade.
-- **Restrições de usabilidade**: o sistema pode ter requisitos específicos em termos de usabilidade, acessibilidade, localização ou outras características que possam afetar a experiência do usuário. Restrições de usabilidade podem exigir que sejam realizados testes de usabilidade e feedback dos usuários para garantir que o sistema atenda às expectativas do usuário.
-
-É importante que todas essas restrições sejam documentadas e consideradas ao longo do desenvolvimento do sistema, para que sejam tomadas as decisões adequadas e para que o sistema possa ser entregue com a qualidade e desempenho esperados.
-
-Veja exemplos de restrições ao fim do Documento de Visão do Produto (DVP).
+---
+Criado em Março de 2023 por *Maxwell Anderson*
