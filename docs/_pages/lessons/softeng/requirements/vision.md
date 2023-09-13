@@ -97,7 +97,7 @@ A melhor forma de aprender é partindo de exemplos. Vamos ver um exemplo de um D
 %}
 {: .align-center}
 
-O exemplo acima de [Documento de Visão do Produto (DVP) pode ser visualizado aqui.](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/8f925f5c8882263f475162a990b5da48b6779a3d/specs/requirements/vision.md)
+O exemplo acima de [Documento de Visão do Produto (DVP) pode ser visualizado aqui.](https://github.com/maxwellamaral/maxwellamaral.github.io/blob/main/specs/requirements/vision.md)
 
 O modelo em "branco" ou _template_ abaixo pode ser copiado e utilizado como base para a criação de um DVP. Ele contém os principais tópicos que devem ser abordados.
 
