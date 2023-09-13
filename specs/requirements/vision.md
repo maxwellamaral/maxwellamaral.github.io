@@ -1,23 +1,8 @@
----
-layout: home
-author_profile: true
-title: Exemplo de Documento de Visão do Produto (DVP)
-permalink: /lessons/softeng/requirements/vision/sample/
-sidebar:
-  nav: "softeng-requirements"
----
-
-Criado em Março de 2023 por _Maxwell Anderson_
-
-## Capa
-
----
-
 <h1>Visão do Produto</h1>
 
-<h2>Nome do Produto</h2>
+<h2>Sistema de Controle de Garantias de Produtos (SCGP)</h2>
 
-<small>Versão 1.0</small>
+<small>Versão 1.2</small>
 
 ---
 
@@ -195,7 +180,7 @@ Além disso, o sistema SCGP pode ser integrado com outros sistemas, como sistema
 
 Uma estrutura operacional do produto é apresentada na Figura 1.
 
-![Arquitetura ambiental do sistema SCGP](../../../../../assets/images/lessons/architecture.jpg)
+![Arquitetura ambiental do sistema SCGP](../../assets/images/architecture.jpg)
 
 **Figura 1** - Arquitetura ambiental do sistema SCGP
 
@@ -258,3 +243,4 @@ BRA
 </address>
 
 ---
+Criado em Março de 2023 por _Maxwell Anderson_
