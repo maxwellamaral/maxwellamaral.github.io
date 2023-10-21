@@ -155,6 +155,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _slides
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -290,3 +291,4 @@ defaults:
       comments: # true
       share: true
       related: true
+

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "reveal.js": "^4.6.1",
+    "reveal.js-toolbar": "^0.2.1"
+  }
+}

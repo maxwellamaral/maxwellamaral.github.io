@@ -15,6 +15,7 @@ header:
     caption: "Gato estudando Engenharia de Software | Crédito da imagem: gerado por IA com Bing por Maxwell Anderson (2023) | Prompt: create an image of a cat studying software engineering"
 ---
 
+
 # Conceitos
 
 {% 
@@ -644,3 +645,4 @@ Criado Janeiro de 2019 e atualizado em Agosto de 2023 por *Maxwell Anderson*
 [107]: <https://www.lean.org.br/o-que-e-lean.aspx> "Lean"
 [108]: <https://pt.wikipedia.org/wiki/Feature_Driven_Development> "FDD"
 [109]: <https://pt.wikipedia.org/wiki/Metodologia_de_desenvolvimento_de_sistemas_din%C3%A2micos> "DSDM"
+

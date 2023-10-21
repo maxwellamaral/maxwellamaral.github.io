@@ -6,6 +6,9 @@ main:
     url: /#galeria
   - title: "Sobre"
     url: /about/
+  # - title: Slides
+  #   url: /slides/
+
 
 docs:
   - title: "Disciplinas"
