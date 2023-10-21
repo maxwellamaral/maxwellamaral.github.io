@@ -10,8 +10,8 @@ layout: compress
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ " /assets/reveal.js/css/reveal.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ " /assets/reveal.js/css/theme/black.css" | relative_url }}">
+    <link rel="stylesheet" href="/assets/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="/assets/reveal.js/css/theme/black.css">
     <!-- Any additional CSS styles can be included here -->
 </head>
 
@@ -26,8 +26,10 @@ layout: compress
                 {% for vertical_slide in vertical_slides %}
                 {% if vertical_slide contains '<!--noSLIDE-->' or vertical_slide contains '---' %}
                 {% else %}
-                <section>
-                    {{ vertical_slide | markdownify }}
+                <section data-markdown>
+                    <textarea data-template>
+                        {{ vertical_slide | markdownify }}
+                    </textarea>
                 </section>
                 {% endif %}
                 {% endfor %}
@@ -38,8 +40,10 @@ layout: compress
                 {{ slide_content | markdownify }}
             </section>
             {% else %}
-            <section>
-                {{ slide_content | markdownify }}
+            <section data-markdown>
+                <textarea data-template>
+                    {{ slide_content | markdownify }}
+                </textarea>
             </section>
             {% endif %}
             {% endif %}
@@ -48,7 +52,7 @@ layout: compress
     </div>
 
 
-    <script src="{{ " /assets/reveal.js/js/reveal.js" | relative_url }}"></script>
+    <script src="/assets/reveal.js/js/reveal.js"></script>
     <script src="/assets/reveal.js/plugin/notes/notes.js"></script>
     <script src="/assets/reveal.js/plugin/markdown/markdown.js"></script>
     <script src="/assets/reveal.js/plugin/highlight/highlight.js"></script>
@@ -69,7 +73,7 @@ layout: compress
             // be preserved when the presentation is scaled to fit different
             // resolutions. Can be specified using percentage units.
             width: 1200,
-            height: 600,
+            height: 1000,
 
             // Factor of the display size that should remain empty around
             // the content
@@ -77,7 +81,7 @@ layout: compress
 
             // Bounds for smallest/largest possible scale to apply to content
             minScale: 0.2,
-            maxScale: 2.0,
+            maxScale: 1.0,
 
 
             // Display presentation control arrows
@@ -147,7 +151,7 @@ layout: compress
 
             // Disables the default reveal.js slide layout (scaling and centering)
             // so that you can use custom CSS layout
-            disableLayout: true,
+            disableLayout: false,
 
             // Enable the slide overview mode
             overview: true,

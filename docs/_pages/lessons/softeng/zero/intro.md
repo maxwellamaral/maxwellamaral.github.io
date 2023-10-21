@@ -14,21 +14,23 @@ header:
     image: /assets/images/gpt/headers/cat_studying_glasses.jpg
     caption: "Gato estudando Engenharia de Software | Crédito da imagem: gerado por IA com Bing por Maxwell Anderson (2023) | Prompt: create an image of a cat studying software engineering"
 ---
-
+<!--SLIDE-->
 
 # Conceitos
 
-{% 
-  include figure 
-  image_path="/assets/images/lessons/intro01.png" 
-  alt="Meme" 
-  caption="Fonte: desconhecida" 
-%}
-{: .align-center} 
+<!--vSLIDE-->
 
--- Eu finalmente encontrei ele... depois de 15 anos. A DOCUMENTAÇÃO!
+<figure>
+  <img src="/assets/images/lessons/intro01.png" alt="Meme">
+  <figcaption><small>Fonte: desconhecida</small></figcaption>
+</figure>
+<small>
+Eu finalmente encontrei ele... depois de 15 anos. A DOCUMENTAÇÃO!
+<br>
+PARA FAZER: preencha isto com mais detalhes depois.
+</small>
 
--- PARA FAZER: preencha isto com mais detalhes depois.
+<!--SLIDE-->
 
 ## O que é software?
 
@@ -36,13 +38,14 @@ O que é software para você? Deves imaginar um aplicativo ou um programa que é
 
 Conforme mencionado por Pressman (2006), **software** é um produto desenvolvido por profissionais que abrange programas, instruções e dados que são executados em um computador, podendo ser smartphones, tablets, computadores pessoais, servidores etc. Também é constituído por documentos, podendo ser impresso ou digital, desde que a documentação seja necessária para que o programa funcione corretamente.
 
-{% 
-  include figure 
-  image_path="/assets/images/lessons/intro02.png" 
-  alt="Programa de computador mais documentação é igual a software." 
-  caption="Criado pelo próprio autor (2009)" 
-%}
-{: .align-center}
+<!--vSLIDE-->
+
+<figure class="align-center">
+  <img src="/assets/images/lessons/intro02.png" alt="Programa de computador mais documentação é igual a software.">
+  <figcaption><small>Criado pelo próprio autor (2009)</small></figcaption>
+</figure>
+
+<!--vSLIDE-->
 
 > 🤔 **Para memorizar**
 >
@@ -52,49 +55,63 @@ Conforme mencionado por Pressman (2006), **software** é um produto desenvolvido
 > - **Artefato**: é qualquer coisa que é produzida durante o trabalho de desenvolvimento de software. Pode ser um documento, um programa, um manual, uma especificação etc.
 {: .notice--info}
 
+<!--vSLIDE-->
+
 **Mas o que é entregue ao cliente?**
 
 **Depende**: normalmente entregamos um programa funcionando mais o manual do usuário. Mas, dependendo do cliente, poderemos entregar toda a **especificação** e/ou quaisquer outros artefatos oriundos de um processo.
 
 Já vi clientes contratarem empresas para desenvolverem a especificação e o programa. Também já vi clientes comprarem, além disso, o código-fonte.
 
+<!--vSLIDE-->
+
 > 💡 **Você sabia?**
 >
 > Que existem clientes que podem contratá-lo para desenvolver software e definir, inclusive, que linguagem de programação deve ser utilizada?
 {: .notice--success}
+
+<!--vSLIDE-->
 
 ## Categorias de produtos de software
 
 - **Produtos genéricos ou de "prateleira"**: são softwares existentes no mercado que podem ser adquiridos por qualquer pessoa ou empresa. Exemplos: Windows, Linux, Microsoft Office, Photoshop etc.
 - **Produtos sob encomenda**: são softwares desenvolvidos sob medida para um cliente específico. Exemplos: sistemas de gestão de empresas, sistemas de gestão de universidades, sistemas de gestão de hospitais etc.
 
+<!--SLIDE-->
+
 # O que é Engenharia de Software?
 
-{% 
-  include figure 
-  image_path="/assets/images/lessons/intro03.png" 
-  alt="Engenharia de software está contida na engenharia de sistemas" 
-  caption="Criado pelo próprio autor (2009)"
-%}
-{: .align-center}
+<figure class="align-center">
+  <img src="/assets/images/lessons/intro03.png" alt="Engenharia de software está contida na engenharia de sistemas">
+  <figcaption><small>Criado pelo próprio autor (2009)</small></figcaption>
+</figure>
+
+<!--vSLIDE-->
 
 A **engenharia** é uma ciência que estuda a aplicação de conhecimentos científicos e empíricos para a resolução de problemas.
 
+<!--vSLIDE-->
+
 A **engenharia de sistemas** estuda, no sentindo mais amplo, a aplicação de conhecimentos científicos e empíricos para o desenvolvimento de *sistemas em geral* com o objetivo de resolver problemas ou atender necessidades. Assim sendo, um sistema pode ser composto por elementos de vários outros subsistemas, como por exemplo, um robô que é constituído por elementos mecânicos, elétricos, eletrônicos e de software.
+
+<!--vSLIDE-->
 
 A **engenharia de software** é uma área da engenharia que estuda a aplicação de conhecimentos científicos e empíricos para o desenvolvimento de *sistemas de software* com o objetivo de resolver problemas ou atender necessidades. Assim sendo, um sistema de software é constituído por elementos de software, como programas, instruções, dados e documentação, como visto anteriormente.
 
-{% 
-  include figure 
-  image_path="/assets/images/lessons/intro04.png" 
-  alt="Áreas da Engenharia de Sistemas: engenharia mecânica, engenharia civil, engenharia elétrica, engenharia de software, engenharia da computação, engenharia de estruturas, engenharia química, engenharia de produção etc." 
-  caption="Criado pelo próprio autor (2009)"
-%}
-{: .align-center}
+<!--vSLIDE-->
+
+<figure class="align-center">
+  <img src="/assets/images/lessons/intro04.png" alt="Áreas da Engenharia de Sistemas: engenharia mecânica, engenharia civil, engenharia elétrica, engenharia de software, engenharia da computação, engenharia de estruturas, engenharia química, engenharia de produção etc.">
+  <figcaption><small>Criado pelo próprio autor (2009)</small></figcaption>
+</figure>
+
+<!--SLIDE-->
 
 # O que se pode fazer em Engenharia de Software?
 
 Se você está em um curso técnico ou superior da área de Engenharia de Software, Ciência da Computação ou afins, pode estar achando que, ao concluir, você será um desenvolvedor ou programador. Talvez você nem goste de programação. Mas, não se preocupe, pois existem várias outras funções que você pode exercer, como:
+
+<!--vSLIDE-->
 
 - *Engenheiro de requisitos* ou *analista de requisitos*
 - *Analista de sistemas de software*
@@ -113,7 +130,11 @@ Se você está em um curso técnico ou superior da área de Engenharia de Softwa
 - *DBA* ou *administrador de banco de dados*
 - entre outros...
 
+<!--vSLIDE-->
+
 Já tive alunos que não gostavam de programação (já eu amo) e que se tornaram excelentes analistas de requisitos, analistas de testes... e hoje trabalham em grandes empresas.
+
+<!--vSLIDE-->
 
 > 🤔 **Para memorizar**
 >
@@ -122,15 +143,16 @@ Já tive alunos que não gostavam de programação (já eu amo) e que se tornara
 
 Vamos tratar de cada uma das principais áreas da Engenharia de Software? Pode ser que você se identifique com alguma delas.
 
+<!--SLIDE-->
+
 ## Principais áreas da Engenharia de Software
 
-{%
-    include figure
-    image_path="/assets/images/lessons/intro05.png"
-    alt="Áreas da engenharia de software"
-    caption="Criado pelo próprio autor (2009)"
-%}
-{: .align-center}
+<figure class="align-center">
+  <img src="/assets/images/lessons/intro05.png" alt="Áreas da engenharia de software">
+  <figcaption><small>Criado pelo próprio autor (2009)</small></figcaption>
+</figure>
+
+<!--SLIDE-->
 
 ### Engenharia de requisitos
 
@@ -203,21 +225,17 @@ A **análise e projeto de sistemas de software** é uma área da Engenharia de S
 
 Da mesma forma que um engenheiro civil projeta uma casa para um cliente, o analista de sistemas projeta um sistema de software para um cliente. O engenheiro civil pode fazer uma planta da casa e mostrar para o cliente, que pode aprovar ou não.
 
-{%
-    include figure
-    image_path="/assets/images/lessons/intro06.png"
-    alt="Ilustração de uma planta e um protótipo de casa"
-    caption="Criado pelo próprio autor (2009)"
-%}{: .align-center}
+<figure class="align-center">
+  <img src="/assets/images/lessons/intro06.png" alt="Ilustração de uma planta e um protótipo de casa">
+  <figcaption><small>Criado pelo próprio autor (2009)</small></figcaption>
+</figure>
 
 O analista de sistemas pode fazer um protótipo do sistema e mostrar para o cliente e para os desenvolvedores.
 
-{%
-    include figure
-    image_path="/assets/images/lessons/intro07.png"
-    alt="Ilustração de um protótipo de sistema de software"
-    caption="Criado pelo próprio autor (2009)"
-%}{: .align-center}
+<figure class="align-center">
+  <img src="/assets/images/lessons/intro07.png" alt="Ilustração de um protótipo de sistema de software">
+  <figcaption><small>Criado pelo próprio autor (2009)</small></figcaption>
+</figure>
 
 Podemos resumir as atividades desempenhadas pelo analista de sistemas como **realizar a especificação de requisitos em um terceiro nível**, ou seja, detalhar os requisitos levantados na engenharia de requisitos de forma que possam ser implementados e entendidos pelos desenvolvedores e, em alguns casos, pelos clientes.
 
