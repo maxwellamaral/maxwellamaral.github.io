@@ -113,6 +113,18 @@ softeng-design:
     children:
       - title: Introdução ao Projeto
         url: /lessons/softeng/design/intro/
+      - title: Introdução à UML
+        url: /lessons/softeng/design/uml_intro/
+      - title: Diagrama de Casos de Uso
+        url: /lessons/softeng/design/uml_usecase/
+      - title: Diagrama de Classes
+        url: /lessons/softeng/design/uml_classes/
+      - title: Diagrama de Pacotes
+        url: /lessons/softeng/design/uml_packages/
+      - title: Diagrama de Atividades
+        url: /lessons/softeng/design/uml_activities/
+      - title: Diagrama de Sequência
+        url: /lessons/softeng/design/uml_sequences/
       - title: Visões do Sistema
         url: /lessons/softeng/design/views/        
       - title: ◀️ 

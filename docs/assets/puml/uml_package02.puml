@@ -1,0 +1,14 @@
+@startuml
+
+
+package "Sistema de\nControle Bancário" {
+    
+    
+    package "Contas"
+    package "Investimentos"
+    package "Seguros"
+    package "Cartões"
+
+}
+
+@enduml

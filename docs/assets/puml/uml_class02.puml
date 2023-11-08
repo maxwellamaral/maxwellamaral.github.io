@@ -1,6 +1,7 @@
 @startuml
 
 skinparam classAttributeIconSize 0
+scale 2.0
 
 class Funcionario {
     - nome : str

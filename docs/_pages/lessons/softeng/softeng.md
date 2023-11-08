@@ -84,7 +84,7 @@ Segue também um quadro geral sobre os artefatos gerados como exemplo de um proj
 > Veja um exemplo de linha do tempo de desenvolvimento de projeto de software
 {: .notice--warning}
 
-[![Gantt](http://tinyurl.com/24u2e6ke)](http://tinyurl.com/24u2e6ke)<!--![Gantt](../../../assets/puml/gantt_artefacts.puml)-->
+[![Gantt](https://tinyurl.com/24u2e6ke)](https://tinyurl.com/24u2e6ke)<!--![Gantt](../../../assets/puml/gantt_artefacts.puml)-->
 {: .align-center} 
 
 ## Discussões sobre Engenharia de Software

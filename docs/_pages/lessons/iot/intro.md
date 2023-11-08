@@ -58,13 +58,13 @@ Lembram da arquitetura básica de Von Neumann?
 
 Um processador centraliza o processamento de dados que entram. A saída é o resultado desse processamento.
 
-[![Arquitetura de Von Neumann](http://tinyurl.com/2bt5kyss)](http://tinyurl.com/2bt5kyss)<!--![Arquitetura de Von Neumann](../../../assets/puml/iot_von_neumann.puml)-->
+[![Arquitetura de Von Neumann](https://tinyurl.com/2bt5kyss)](https://tinyurl.com/2bt5kyss)<!--![Arquitetura de Von Neumann](../../../assets/puml/iot_von_neumann.puml)-->
 <br>
 <small>Crédito da imagem: autoria própria (2023)</small>
 
 A IoT possui uma arquitetura distribuída, onde cada dispositivo possui um processador e uma memória própria. Os dados de entrada do dispositivo são compostos por sensores e os dados de saída são compostos por atuadores ou, simplesmente, transmitem os dados para outro dispositivo.
 
-[![Arquitetura simplificada de IoT](http://tinyurl.com/2yqp82q2)](http://tinyurl.com/2yqp82q2)<!--![Arquitetura simplificada de IoT](../../../assets/puml/iot_architecture.puml)-->
+[![Arquitetura simplificada de IoT](https://tinyurl.com/2yqp82q2)](https://tinyurl.com/2yqp82q2)<!--![Arquitetura simplificada de IoT](../../../assets/puml/iot_architecture.puml)-->
 <br>
 <small>Crédito da imagem: autoria própria (2023)</small>
 

@@ -1,0 +1,21 @@
+@startuml
+
+' left to right direction
+skinparam classAttributeIconSize 0
+
+abstract class ContaBancária {
+
+}
+
+class ContaCorrente {
+
+}
+
+class ContaPoupança {
+
+}
+
+ContaBancária <|-- ContaCorrente
+ContaBancária <|-- ContaPoupança
+
+@enduml

@@ -1,0 +1,49 @@
+@startuml
+
+' left to right direction
+skinparam classAttributeIconSize 0
+
+class Associação {
+    - nome : string
+    - data_inicio : date
+    - data_fim : date
+}
+
+class Funcionário {
+    - nome : string
+    - data_nascimento : date
+    - salario : float
+}
+
+class Membro {
+    - nome : string
+    - data_nascimento : date
+}
+
+class Jogador {
+    - altura : float
+    - peso : float
+}
+
+class Tecnico {
+    - especialidade : string
+    - salario : float
+}
+
+class Equipe {
+    - nome : string
+    - data_fundacao : date    
+}
+
+Membro <|-- Jogador
+Membro <|-- Tecnico
+
+Equipe "0..1" -up--* "1" Associação
+
+Jogador "11..22" -up--o "0..1" Equipe
+Tecnico "1..2" -up--o "1" Equipe
+
+Funcionário "1..*" -up-- "1" Associação
+Funcionário "1..*" -- "1" Funcionário : supervisor
+
+@enduml

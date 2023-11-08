@@ -1,0 +1,17 @@
+@startuml
+
+start
+:Informar dados da compra;
+if () then (boleto)
+    :Processar pagamento\nvia boleto;
+else (cartao)
+    :Processar pagamento via cartao;
+endif
+fork
+    :Enviar email com dados da compra;
+fork again
+    :Enviar SMS com dados da compra;
+endfork
+:Gerar nota fiscal;
+stop
+@enduml

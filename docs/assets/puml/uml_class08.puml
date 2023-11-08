@@ -8,7 +8,7 @@ class ContaComum {
     - data_encerramento : date
     - numero_conta : str
     - saldo : float
-    - senha : str
+    # senha : str
     - situacao : int
     + abrirConta(conta: str) -> void
     + consultarConta(agencia: str, conta: str) -> bool

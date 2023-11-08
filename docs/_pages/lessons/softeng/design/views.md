@@ -124,7 +124,7 @@ Desta forma, vamos seguir as seguintes etapas para poder construir um diagrama d
    2. Desenhe o relacionamento entre o ator "Cliente" e o caso de uso "Manter Produtos".
 4. O diagrama, inicialmente, deverá ficar assim:
 
-    [![Caso de Uso 01](http://tinyurl.com/2mszgurt)](http://tinyurl.com/2mszgurt)<!--![Caso de Uso 01](../../../../assets/puml/usecase_rf01.puml)-->
+    [![Caso de Uso 01](https://tinyurl.com/2mszgurt)](https://tinyurl.com/2mszgurt)<!--![Caso de Uso 01](../../../../assets/puml/usecase_rf01.puml)-->
     <br>
     <small>
         Diagrama de Casos de Uso UC Manter Produto
@@ -142,7 +142,7 @@ Desta forma, vamos seguir as seguintes etapas para poder construir um diagrama d
    4. Desta forma, o relacionamento será entre os casos de usos "Manter Produtos" e "Manter Garantias", como sendo uma **opcionalidade**. Desenhe o relacionamento como "extends".
 8. O diagrama, inicialmente, deverá ficar assim:
 
-    [![Caso de Uso 02](http://tinyurl.com/26l5fywa)](http://tinyurl.com/26l5fywa)<!--![Caso de Uso 02](../../../../assets/puml/usecase_rf01_2.puml)-->
+    [![Caso de Uso 02](https://tinyurl.com/26l5fywa)](https://tinyurl.com/26l5fywa)<!--![Caso de Uso 02](../../../../assets/puml/usecase_rf01_2.puml)-->
     <br>
     <small>
         Diagrama de Casos de Uso UC Manter Produto e UC Manter Garantias
@@ -158,7 +158,7 @@ Após a realização deste procedimento sobre cada requisito funcional, o diagra
 >
 > O diagrama de caso de uso abaixo modela o requisito funcional RF001 até o RF007 do [Documento de Requisitos](/lessons/softeng/requirements/req/sample/) validado junto ao cliente.
 
-[![Caso de Uso 02](http://tinyurl.com/23rzn9nj)](http://tinyurl.com/23rzn9nj)<!--![Caso de Uso 02](../../../../assets/puml/usecase_view.puml)-->
+[![Caso de Uso 02](https://tinyurl.com/23rzn9nj)](https://tinyurl.com/23rzn9nj)<!--![Caso de Uso 02](../../../../assets/puml/usecase_view.puml)-->
 <br>
 <small>
     Diagrama de casos de uso
@@ -300,7 +300,7 @@ Para extrair as etapas de um caso de uso, vamos seguir as seguintes etapas:
 
 Nesta caso, estou somente representando o caso de uso Manter Produtos e Garantias.
 
-[![Caso de uso Manter Produtos e Garantias](http://tinyurl.com/2d8zfbw9)](http://tinyurl.com/2d8zfbw9)<!--![Caso de uso Manter Produtos e Garantias](../../../../assets/puml/activity_view01.puml)-->
+[![Caso de uso Manter Produtos e Garantias](https://tinyurl.com/2d8zfbw9)](https://tinyurl.com/2d8zfbw9)<!--![Caso de uso Manter Produtos e Garantias](../../../../assets/puml/activity_view01.puml)-->
 <br>
 <small>
     Diagrama de atividades das UCS Manter Produtos e Garantias
@@ -312,7 +312,7 @@ Nesta caso, estou somente representando o caso de uso Manter Produtos e Garantia
 
 Aqui estou representando, para fins de exemplo, o diagrama de atividades da UC Manter Clientes.
 
-[![Diagrama de Atividades da UC Manter Clientes](http://tinyurl.com/222rgl6x)](http://tinyurl.com/222rgl6x)<!--![Diagrama de Atividades da UC Manter Clientes](../../../../assets/puml/activity_view02.puml)-->
+[![Diagrama de Atividades da UC Manter Clientes](https://tinyurl.com/222rgl6x)](https://tinyurl.com/222rgl6x)<!--![Diagrama de Atividades da UC Manter Clientes](../../../../assets/puml/activity_view02.puml)-->
 <br>
 <small>
     Diagrama de atividades das UCS Manter Clientes
@@ -417,14 +417,14 @@ Para extrair as classes de uma especificação de caso de uso, vamos seguir as s
    1. Nesta primeira fase, ao termos identificados as classes e seus atributos, vamos desenhar o diagrama de classes.
    2. A primeira versão do diagrama de classes está ficando assim:
    
-      [![Diagrama de classes v1](http://tinyurl.com/23yqumvp)](http://tinyurl.com/23yqumvp)<!--![Diagrama de classes v1](../../../../assets/puml/class_view02_v1.puml)-->
+      [![Diagrama de classes v1](https://tinyurl.com/23yqumvp)](https://tinyurl.com/23yqumvp)<!--![Diagrama de classes v1](../../../../assets/puml/class_view02_v1.puml)-->
  
    3. Agora poderemos ir adicionando os atributos que fazem sentido para cada classe. Por exemplo:
       1. A classe **Cliente** poderá ter os atributos **nome**, **e-mail**, **telefone** e **endereço**. 
       2. As classes **Segmento de Produto**, **Marca**, **Modelo** e **Modo de Compra** poderão ter, em cada um, os atributos **nome** e **descrição**. 
       3. Desta forma, o diagrama irá evoluir como mostrado abaixo:
    
-       [![Diagrama de classes v2](http://tinyurl.com/24uz36qj)](http://tinyurl.com/24uz36qj)<!--![Diagrama de classes v2](../../../../assets/puml/class_view02_v2.puml)-->
+       [![Diagrama de classes v2](https://tinyurl.com/24uz36qj)](https://tinyurl.com/24uz36qj)<!--![Diagrama de classes v2](../../../../assets/puml/class_view02_v2.puml)-->
 
 4. Nesta próxima etapa, precisamos identificar o **comportamento** através da:
     - leitura da especificação dos casos de uso;
@@ -517,5 +517,5 @@ Para extrair as classes de uma especificação de caso de uso, vamos seguir as s
   
 6. Agora iremos incluir esses métodos na classe Produto. Sobre as outras classes, podemos decidir incluir métodos comuns de uma arquitetura CRUD. Irá ficar assim:
 
-    [![Diagrama de classes v3](http://tinyurl.com/2cayjezw)](http://tinyurl.com/2cayjezw)<!--![Diagrama de classes v3](../../../../assets/puml/class_view02_v3.puml)-->
+    [![Diagrama de classes v3](https://tinyurl.com/2cayjezw)](https://tinyurl.com/2cayjezw)<!--![Diagrama de classes v3](../../../../assets/puml/class_view02_v3.puml)-->
 

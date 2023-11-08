@@ -1,0 +1,25 @@
+@startuml
+
+skinparam packageStyle rectangle
+
+:Cliente: as c
+:Funcionário: as f
+(Encerrar conta) as ucs_ec
+(Realizar saque) as ucs_rs
+(Realizar depósito) as ucs_rd
+
+note "{Se saldo positivo}" as N1
+note "{Se saldo negativo}" as N2
+
+
+c -- ucs_ec
+f -- ucs_ec
+
+ucs_rs -up.. N1 
+N1 -up..> ucs_ec : <<extend>>
+
+ucs_rd -up.. N2
+N2 -up..> ucs_ec : <<extend>>
+
+
+@enduml

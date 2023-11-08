@@ -1,0 +1,20 @@
+@startuml
+
+' left to right direction
+skinparam classAttributeIconSize 0
+
+class Jogador {
+    - nome : string
+    - data_nascimento : date
+    - altura : float
+    - peso : float
+}
+
+class Equipe {
+    - nome : string
+    - data_fundacao : date    
+}
+
+Jogador -up--o Equipe
+
+@enduml

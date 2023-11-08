@@ -1,0 +1,47 @@
+@startuml
+
+actor Cliente as ac
+participant frontend as pf <<Interface>>
+control Controlador_Banco as cb 
+participant ":ContaComum" as pc
+
+ac -> pf : Inserir cartão da conta
+activate ac
+activate pf
+
+pf -> cb : numero_conta()
+activate cb
+cb -> pc : consultar_conta(long): int
+activate pc
+pc -> cb : true: int
+activate cb
+deactivate cb
+deactivate pc
+cb -> pf : solicitar_senha()
+activate pf
+deactivate pf
+deactivate cb
+deactivate pf
+
+ac -> pf : Inserir a senha
+activate pf
+activate cb
+pf -> cb : enviar_senha()
+cb -> pc : validar_senha(int): int
+activate pc
+pc -> cb : true: int
+activate cb
+deactivate cb
+deactivate pc
+cb -> pc : saldo_conta(): double
+activate pc
+pc -> cb : saldo: double
+
+deactivate pc
+cb -> pf : enviar_saldo()
+activate pf
+deactivate pf
+deactivate cb
+deactivate pf
+
+@enduml

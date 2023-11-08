@@ -1,0 +1,17 @@
+@startuml
+
+package "Sistema de\nControle Bancário" {
+
+    note "Pacote com detalhes\nde seus elementos" as N1
+
+    class Pessoa
+    class PessoaFisica
+    class PessoaJuridica
+    class ContaComum
+    class ContaEspecial
+    class ContaPoupanca
+    class Banco
+    class Agencia
+}
+
+@enduml

@@ -29,8 +29,8 @@ rectangle TV_IFPB {
     oca -down..> ivg : <<include>>
 
     ' extensão
-    oca -down..> cbl : <<extend>>
-    oca -down..> pil : <<extend>>
+    cbl -up..> oca : <<extend>>
+    pil -up..> oca : <<extend>>
 }
 
 @enduml

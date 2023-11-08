@@ -1,0 +1,19 @@
+@startuml
+
+start
+
+:Receber número da conta;
+:Consultar conta;
+if () then (conta inexistente)
+    stop
+else (conta existente)
+    :Solicitar senha;
+    :Receber senha;
+    :Validar senha;
+    if () then (senha inválida)
+        stop
+    else (senha válida)
+        :Consultar saldo;
+        :Apresentar saldo;
+        stop
+@enduml

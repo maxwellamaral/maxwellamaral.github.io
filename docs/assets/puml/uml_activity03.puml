@@ -1,0 +1,36 @@
+@startuml
+
+|Cliente|
+start
+:Selecionar itens para compra;
+|Cliente|
+:Adicionar itens ao carrinho;
+|Sistema|
+if (Itens no carrinho?) then (Sim)
+    |Cliente|
+    :Fazer checkout;
+    |Sistema|
+    if (Estoque disponível?) then (Sim)
+        |Sistema|
+        :Reservar itens no estoque;
+        |Cliente|
+        :Informar dados de entrega;
+        |Sistema|
+        :Calcular frete;
+        |Cliente|
+        :Selecionar método de pagamento;
+        |Sistema|
+        :Processar pagamento;
+        |Sistema|
+    else (Não)
+        |Sistema|
+        :Notificar cliente sobre falta de estoque;
+    endif
+else (Não)
+    |Sistema|
+    :Notificar cliente sobre carrinho vazio;
+endif
+|Cliente|
+stop
+
+@enduml
