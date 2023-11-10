@@ -113,7 +113,5 @@ Um exemplo de uso necessário de especificações detalhadas em um projeto de so
 
 Já ouvi um engenheiro mecânico afirmar que nem em sonho um sistema de missão crítica poderá ser implementado sem especificação técnica detalhada. Ele estava certo.
 
-Leia mais sobre essa discussão em ["Deve-se executar atividades de todas as áreas da Engenharia de Software em um projeto?"](/lessons/softeng/design/intro/#quando-um-software-deve-ser-modelado)
-
 ---
 Criado em Junho de 2023 por *Maxwell Anderson*
