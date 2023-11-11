@@ -38,12 +38,12 @@ class Equipe {
 Membro <|-- Jogador
 Membro <|-- Tecnico
 
-Equipe "0..1" -up--* "1" Associação
+Equipe "0..1" -up--* "1" Associação : possui
 
-Jogador "11..22" -up--o "0..1" Equipe
-Tecnico "1..2" -up--o "1" Equipe
+Jogador "11..22" -up--o Equipe
+Tecnico "1..2" -up--o Equipe
 
-Funcionário "1..*" -up-- "1" Associação
-Funcionário "1..*" -- "1" Funcionário : supervisor
+Funcionário "1..*" -up-- "1" Associação : possui
+Funcionário "1" -- "0..*" Funcionário : supervisiona
 
 @enduml

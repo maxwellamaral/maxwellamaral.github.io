@@ -62,7 +62,7 @@ Se não existirem atributos, então o retângulo que contém os atributos terá 
 
 Os métodos são escritos com o nome do método seguido de `()` e o tipo de retorno do método. Os métodos:
 
-- sem retorno são escritos possuem `void`.
+- sem retorno são escritos com `void`.
 - sem parâmetros possuem `()` vazio.
 - com parâmetros são escritos na forma `(nome_atributo1: tipoA, nome_atributo2: tipoB, ..., nome_atributoN: tipoC)`.
 
@@ -132,7 +132,7 @@ class Conta:
 
 > **Nota para desenvolvedores**
 >
-> Perceba que as anotações de tipo são apenas sugestões e não forçam o Python a usar esses tipos. Se você atribuir um valor de um tipo diferente a um desses atributos, o Python não irá parar você. As anotações de tipo são principalmente para documentação e para ferramentas de análise de código.
+> Perceba que as anotações de tipo são apenas sugestões e não forçam o Python a usar esses tipos. Se você atribuir um valor de um tipo diferente a um desses atributos, o Python não irá parar você. As anotações de tipo servem principalmente para documentação e para ferramentas de análise de código.
 
 ## Visibilidade
 
@@ -173,18 +173,18 @@ Associações são relacionamentos entre classes. São representadas por uma lin
 
 Temos abaixo um exemplo de classe com associação unária ou reflexiva:
 
-[![Exemplo de classe com associação unária ou reflexiva](https://tinyurl.com/yq9tk88t)](https://tinyurl.com/yq9tk88t)<!--![Exemplo de classe com associação unária ou reflexiva](../../../../assets/puml/uml_class02.puml)-->
+[![Exemplo de classe com associação unária ou reflexiva](https://tinyurl.com/yl4grv6o)](https://tinyurl.com/yl4grv6o)<!--![Exemplo de classe com associação unária ou reflexiva](../../../../assets/puml/uml_class02.puml)-->
 <br>
 <small>Exemplo de classe com associação unária ou reflexiva</small>
 <br>
 <small>Fonte: elaboração própria (2023)</small>
 
-Veja que a associação reflexiva é uma associação entre objetos da mesma classe. No exemplo acima, temos que um funcionário pode ter vários colegas de trabalho. Desta forma, podemos podemos visualizar como ficaria o diagrama de classes e o código relacionado:
+Veja que a associação reflexiva é uma associação entre objetos da mesma classe. No exemplo acima, temos que um funcionário pode ter nenhum ou vários colegas. Desta forma, podemos podemos visualizar como ficaria o diagrama de classes e o código relacionado:
 
 > ℹ️ **Nota**
 >
-> Não se concentre em interpretar todo o código, mas se concentre como as relações entre as classes são implementadas. 
-> 
+> Não se concentre em interpretar todo o código, mas se concentre como as relações entre as classes são implementadas.
+>
 > Quem vai ter que se preocupar em implementar as classes são os desenvolvedores. A não ser que você é o cara que faz tudo. 😂
 
 ```java
@@ -538,11 +538,11 @@ Porque o desenvolvedor terá que implementar "na mão" a restrição sobre a qua
 
 > ❔Você sabia?
 >
-> Que podemos usar um diagrama de classes UML para representar entidades de dados ao invés de um Diagrama Entidade-Relacionamento (DER) visto na disciplina de Banco de Dados? Pois é! Perceba que na UML não existe um diagrama específico para representar entidades de dados. E como podemos fazer isso? Simples! Basta usar a associação binária com multiplicidade.
+> Que podemos usar um diagrama de classes UML para representar entidades de dados ao invés de um Diagrama Entidade-Relacionamento (DER) visto por vocês na disciplina de Banco de Dados? Pois é! Perceba que na UML não existe um diagrama específico para representar entidades de dados. E como podemos fazer isso? Simples! Basta usar a associação binária com multiplicidade.
 
 ### Generalização e especialização
 
-A generalização/especialização de classes é um relacionamento entre classes tal como visto entre casos de uso e atores. Desta forma, podemos ter:
+A generalização/especialização de classes é um relacionamento entre classes tal como visto entre atores e atores na lição sobre [Diagramas de Casos de Uso](lessons/softeng/design/uml_usecase/#relacionamento-entre-atores-e-atores). Desta forma, podemos ter:
 
 [![Exemplo de classe com associação binária com multiplicidade](https://tinyurl.com/yr2784b6)](https://tinyurl.com/yr2784b6)<!--![Exemplo de classe com associação binária com multiplicidade](../../../../assets/puml/uml_class08.puml)-->
 <br>
@@ -698,13 +698,23 @@ A composição é representada por uma linha com um losango preenchido na ponta 
 
 Veja um exemplo completo de diagrama de classes com todas as associações apresentadas até aqui.
 
-[![Exemplo de diagrama completo](https://tinyurl.com/ypm83hou)](https://tinyurl.com/ypm83hou)<!--![Exemplo de diagrama completo](../../../../assets/puml/uml_class11.puml)-->
+[![Exemplo de diagrama completo](https://tinyurl.com/ypffsmae)](https://tinyurl.com/ypffsmae)<!--![Exemplo de diagrama completo](../../../../assets/puml/uml_class11.puml)-->
 <br>
 <small>Exemplo de diagrama completo</small>
 <br>
 <small>Fonte: elaboração própria (2023)</small>
 
 Quando eu devo usar uma simples associação, uma relação de agregação ou de composição? Tudo depende da análise subjetiva do analista de sistemas. Se vai usar multiplicidade ou não, se vai usar associação unária ou binária etc.
+
+Assim podemos interpretar o diagrama:
+
+- Uma **Associação** possui *nenhuma ou uma* **Equipe**. **Equipe** só existirá se existir uma **Associação** (temos uma relação todo-parte forte aqui).
+- Uma **Associação** possui *um ou vários* **Funcionários**.
+- Um **Funcionário** supervisiona *nenhum ou vários* **Funcionários**. 
+- Um **Funcionário** é supervisionado por *um* **Funcionário**.
+- Uma **Equipe** possui de *11 a 22* **Jogadores** (temos uma relação todo-parte fraca, pois um jogador poderá existir caso uma equipe não exista).
+- Uma **Equipe** possui *um ou dois* **Técnicos** (o mesmo acima).
+- **Jogador** e **Técnico** são tipos de **Membros**.
 
 Viu um "A" na classe `Membro`, inclusive com nome escrito em itálico? Isso significa que a classe é **abstrata**. Não pode ser instanciada. Ela só existe para ser herdada por outras classes. Vamos ver isso a seguir.
 
@@ -742,7 +752,7 @@ Aqui as interfaces são especificadas de maneira detalhada.
 
 Se não for necessário especificar os métodos, então podemos usar a notação simplificada:
 
-[![Exemplo de interface simplificada](https://tinyurl.com/yqmmztko)](https://tinyurl.com/yqmmztko)<!--![Exemplo de interface simplificada](../../../../assets/puml/uml_class14.puml)-->
+[![Exemplo de interface simplificada](https://tinyurl.com/ywgrhq47)](https://tinyurl.com/ywgrhq47)<!--![Exemplo de interface simplificada](../../../../assets/puml/uml_class14.puml)-->
 
 # Referências
 

@@ -8,6 +8,6 @@ class Funcionario {
     - cargo : str
 }
 
-Funcionario "0..*" -- Funcionario
+Funcionario -- "0..*" Funcionario : é colega de
 
 @enduml
