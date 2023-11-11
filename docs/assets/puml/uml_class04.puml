@@ -12,6 +12,6 @@ class B {
 
 }
 
-A --"-b" B
+A -- B : possui
 
 @enduml

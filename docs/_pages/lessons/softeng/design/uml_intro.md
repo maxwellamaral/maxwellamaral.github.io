@@ -31,7 +31,7 @@ A Unified Modeling Language (UML) é uma linguagem de modelagem de software que 
 
 Surgiu da união de três linguagens de modelagem de software: Booch, OMT e OOSE. A UML foi criada por Grady Booch, Ivar Jacobson e James Rumbaugh na década de 1990. 
 
-A documentação pode ser encontrada em [https://www.uml.org/](https://www.uml.org/)
+A documentação pode ser encontrada em [https://www.omg.org/spec/UML/](https://www.omg.org/spec/UML/)
 
 Iremos estudar os principais diagramas:
 

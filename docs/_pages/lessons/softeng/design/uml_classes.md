@@ -26,17 +26,19 @@ header:
     </figure>
 </center>
 
-# Introdução
-
 > **Nota**
 >
 > Para compreender esta lição, é necessário ter conhecimento prévio sobre o paradigma de programação orientada a objetos. Se você não tem conhecimento sobre o assunto, recomendo que estude antes de prosseguir.
 
-É um dos mais utilizados e importantes da UML. Ele permite visualizar as classes que irão compor o sistema.
+# Introdução
 
-Veja o caso de uso `Abrir conta comum` na [lição anterior](uml_usecase.md#especificação-descritiva-de-casos-de-uso). Nele, temos que o ator `Cliente` irá interagir com o sistema para realizar a abertura de uma conta comum. 
+O diagrama de classes é um dos mais utilizados e importantes da UML. Permite visualizar as classes que irão compor o sistema.
 
-Um caso de uso irá gerar uma classe. Um ator também gera classe. Desta forma, teremos:
+Veja o caso de uso `Abrir conta comum` da [lição anterior](uml_usecase.md#especificação-descritiva-de-casos-de-uso). Nele, temos que o ator `Cliente` irá interagir com o sistema para realizar a abertura de uma conta comum.
+
+[![Relacionamento entre casos de uso e casos de uso com generalização/especialização](https://tinyurl.com/2as4godb)](https://tinyurl.com/2as4godb)<!--![Relacionamento entre casos de uso e casos de uso com generalização/especialização](../../../../assets/puml/uml_usecase11.puml)-->
+
+Durante o processo de análise, um caso de uso poderá gerar uma classe. Desta forma, teremos:
 
 [![Exemplo de classe com atributos privados e métodos públicos](https://tinyurl.com/2b8orcz6)](https://tinyurl.com/2b8orcz6)<!--![Exemplo de classe com atributos privados e métodos públicos](../../../../assets/puml/uml_class01.puml)-->
 <br>
@@ -46,7 +48,7 @@ Um caso de uso irá gerar uma classe. Um ator também gera classe. Desta forma, 
 
 # Elementos
 
-Um classe é desenhada como um retângulo com três divisões:
+Um classe é desenhada como um retângulo com três divisões, contendo:
 
 - Nome da classe
 - Atributos
@@ -54,19 +56,21 @@ Um classe é desenhada como um retângulo com três divisões:
 
 ## Atributos e métodos
 
-Os atributos são escritos com o nome do atributo seguido de `:` e o tipo do atributo. Se não existirem atributos, então o retângulo que contém os atributos contém espaço vazio.
+Veja novamente a classe acima. Os atributos são escritos com o nome do atributo seguido de `:` e o tipo do atributo.
 
-Os métodos são escritos com o nome do método seguido de `()` e o tipo de retorno do método. Os métodos que:
+Se não existirem atributos, então o retângulo que contém os atributos terá espaço vazio.
 
-- não retornam nada são escritos como `void`.
-- não possuem parâmetros são escritos como `()`.
-- possuem parâmetros são escritos como `(nome_atributo1: tipoA, nome_atributo2: tipoB, ..., nome_atributoN: tipoC)`.
+Os métodos são escritos com o nome do método seguido de `()` e o tipo de retorno do método. Os métodos:
+
+- sem retorno são escritos possuem `void`.
+- sem parâmetros possuem `()` vazio.
+- com parâmetros são escritos na forma `(nome_atributo1: tipoA, nome_atributo2: tipoB, ..., nome_atributoN: tipoC)`.
 
 Se não existirem métodos, então a divisão de métodos não é desenhada.
 
 > **Nota**
 >
-> Se você assume o papel de analista de sistemas e você irá necessitar modelar um sistema, ao término do seu trabalho, esses diagramas serão enviados aos desenvolvedores em forma de projeto. Os desenvolvedores irão implementar o sistema com base nos diagramas que você criou.
+> Se você assume o papel de analista de sistemas e irá necessitar modelar um sistema, ao término do seu trabalho, esses diagramas serão enviados aos desenvolvedores em forma de projeto. Os desenvolvedores irão implementar o sistema com base nos diagramas que você criou.
 >
 > Lembre-se também que as classes foram desenvolvidas a partir dos casos de usos que o analista também criou anteriormente.
 >
@@ -126,7 +130,9 @@ class Conta:
     # Implementação do método aqui
 ```
 
-> Note que as anotações de tipo são apenas sugestões e não forçam o Python a usar esses tipos. Se você atribuir um valor de um tipo diferente a um desses atributos, o Python não irá parar você. As anotações de tipo são principalmente para documentação e para ferramentas de análise de código.
+> **Nota para desenvolvedores**
+>
+> Perceba que as anotações de tipo são apenas sugestões e não forçam o Python a usar esses tipos. Se você atribuir um valor de um tipo diferente a um desses atributos, o Python não irá parar você. As anotações de tipo são principalmente para documentação e para ferramentas de análise de código.
 
 ## Visibilidade
 
@@ -150,16 +156,20 @@ Assim, temos:
 <br>
 <small>Fonte: elaboração própria (2023)</small>
 
-## Associações
+Assim, interpretando o diagrama acima, temos que `ContaEspecial` não "enxerga" o atributo `saldo` da classe `ContaComum`, pois ele é privado. Todavia, `ContaEspecial` pode acessar o método `abrirConta()` da classe `ContaComum`, pois ele é público. O mesmo vale para o atributo `senha`, pois ele é protegido.
 
-São relacionamentos entre classes. Podem ser:
+## Relacionamentos ou associações
+
+Associações são relacionamentos entre classes. São representadas por uma linha que liga duas classes. Podem ser:
 
 - Unária ou reflexiva
 - Binária
 - Binária com multiplicidade
 - Generalização e especialização
+- Agregação
+- Composição
 
-### Unária ou reflexiva
+### Associação unária ou reflexiva
 
 Temos abaixo um exemplo de classe com associação unária ou reflexiva:
 
@@ -245,15 +255,17 @@ for colega in funcionario1.colegas_de_trabalho:
     print(colega.nome, colega.cargo)
 ```
 
-### Binária
+### Associação binária
 
 Genericamente, aqui podemos visualizar como ficaria o diagrama de classes e o código relacionado:
 
-[![Exemplo de diagrama de classes com associação binária](https://tinyurl.com/ynremjvp)](https://tinyurl.com/ynremjvp)<!--![Exemplo de diagrama de classes com associação binária](../../../../assets/puml/uml_class04.puml)-->
+[![Exemplo de diagrama de classes com associação binária](https://tinyurl.com/yweckbv9)](https://tinyurl.com/yweckbv9)<!--![Exemplo de diagrama de classes com associação binária](../../../../assets/puml/uml_class04.puml)-->
 <br>
 <small>Exemplo de diagrama de classes com associação binária</small>
 <br>
 <small>Fonte: elaboração própria (2023)</small>
+
+A leitura da associação deveria ser feita da sequinte forma: "uma instância da classe A possui uma instância da classe B".
 
 ```java
 class A {
@@ -267,13 +279,13 @@ class B {
 
 Temos abaixo um exemplo de classe com associação binária:
 
-[![Exemplo de classe com associação binária](https://tinyurl.com/ysbkrm5g)](https://tinyurl.com/ysbkrm5g)<!--![Exemplo de classe com associação binária](../../../../assets/puml/uml_class03.puml)-->
+[![Exemplo de classe com associação binária](https://tinyurl.com/yusuw8u3)](https://tinyurl.com/yusuw8u3)<!--![Exemplo de classe com associação binária](../../../../assets/puml/uml_class03.puml)-->
 <br>
 <small>Exemplo de classe com associação binária</small>
 <br>
 <small>Fonte: elaboração própria (2023)</small>
 
-Na associação binária, temos que um sócio pode **possuir** vários dependentes.
+Na associação binária, temos que um sócio pode **possuir** vários dependentes. Este possui uma seta para indicar a navegabilidade. Ou seja, um sócio pode acessar seus dependentes, mas um dependente não pode acessar seu sócio. Assim a navegabilidade indica o sentido da associação.
 
 Segue exemplos de código em Java para as classes Socio e Dependente:
 
@@ -316,6 +328,7 @@ class Dependente {
     }
 }
 ```
+
 Em Python, o código ficaria assim:
 
 ```python
@@ -456,11 +469,11 @@ print("Telefone:", pessoa.fone.getFone())
 print("É celular?", pessoa.fone.isCelular())
 ```
 
-### Binária com multiplicidade
+### Associação binária com multiplicidade
 
 Temos abaixo um exemplo de classe com associação binária com multiplicidade:
 
-[![Exemplo de classe com associação binária com multiplicidade](https://tinyurl.com/2bogo4rx)](https://tinyurl.com/2bogo4rx)<!--![Exemplo de classe com associação binária com multiplicidade](../../../../assets/puml/uml_class06.puml)-->
+[![Exemplo de classe com associação binária com multiplicidade](https://tinyurl.com/ykzz8p44)](https://tinyurl.com/ykzz8p44)<!--![Exemplo de classe com associação binária com multiplicidade](../../../../assets/puml/uml_class06.puml)-->
 <br>
 <small>Exemplo de classe com associação binária com multiplicidade</small>
 <br>
@@ -483,7 +496,6 @@ Um quadro geral para representar a multiplicidade é:
 | Nenhum ou um     | `0..1`     | Nenhum ou um único objeto |
 | Nenhum ou vários | `0..*`     | Nenhum ou vários objetos  |
 
-
 No primeiro caso, o código ficaria assim:
 
 ```java
@@ -496,15 +508,15 @@ class Fone {
 }
 ```
 
-O segundo caso, onde um telefone poderá ser vinculado a várias pessoas, ficaria assim:
+O segundo caso, onde um telefone poderá ser vinculado a várias pessoas:
 
-[![Exemplo de classe com associação binária com multiplicidade](https://tinyurl.com/2b3uma6o)](https://tinyurl.com/2b3uma6o)<!--![Exemplo de classe com associação binária com multiplicidade](../../../../assets/puml/uml_class07.puml)-->
+[![Exemplo de classe com associação binária com multiplicidade](https://tinyurl.com/ywyh6rmo)](https://tinyurl.com/ywyh6rmo)<!--![Exemplo de classe com associação binária com multiplicidade](../../../../assets/puml/uml_class07.puml)-->
 <br>
 <small>Exemplo de classe com associação binária com multiplicidade</small>
 <br>
 <small>Fonte: elaboração própria (2023)</small>
 
-Desta forma, o código ficará assim:
+Segue o código:
 
 ```java
 class Pessoa {
@@ -516,13 +528,17 @@ class Fone {
 }
 ```
 
-"Oxente! Mas se uma pessoa pode ter nenhum ou um único telefone e um telefone pode ser vinculado a várias pessoas, por que o código aparenta ser uma relação muitos para muitos?"
+"Oxente! Mas se uma pessoa pode ter nenhum ou um único telefone e um telefone pode ser vinculado a várias pessoas, por que o **código** aparenta ser uma relação muitos para muitos?"
 
 Porque o desenvolvedor terá que implementar "na mão" a restrição sobre a quantidade de objetos que podem ser criados (nenhum telefone ou um único telefone). Ele vai dar um jeito de implementar isso. 😁
 
 > ℹ️ **Nota**
 >
 > Um telefone vinculado a várias pessoas? Consegue imaginar um exemplo de aplicação? ;)
+
+> ❔Você sabia?
+>
+> Que podemos usar um diagrama de classes UML para representar entidades de dados ao invés de um Diagrama Entidade-Relacionamento (DER) visto na disciplina de Banco de Dados? Pois é! Perceba que na UML não existe um diagrama específico para representar entidades de dados. E como podemos fazer isso? Simples! Basta usar a associação binária com multiplicidade.
 
 ### Generalização e especialização
 
@@ -534,7 +550,7 @@ A generalização/especialização de classes é um relacionamento entre classes
 <br>
 <small>Fonte: elaboração própria (2023)</small>
 
-O código em Java ficara assim:
+O código em Java ficará assim:
 
 ```java
 import java.util.Date;
@@ -576,7 +592,7 @@ class ContaPoupanca extends ContaComum {
 }
 ```
 
-Em Python, o código ficaria assim:
+Já em Python:
 
 ```python
 from datetime import date
@@ -617,7 +633,7 @@ class ContaPoupanca(ContaComum):
         self.data_aniversario = date.today()
 ```
 
-Exemplo de uso em Python
+Exemplo de uso em Python:
 
 ```python
 conta_especial = ContaEspecial()
@@ -652,17 +668,23 @@ Com isso, existe uma regra para verificar a relação de agregação entre duas 
 
 A agregação é representada por uma linha com um losango vazado na ponta que aponta para a classe que representa o todo.
 
-Neste exemplo, `Jogador` é **parte** e `Equipe` é **todo**. 
+Neste exemplo, `Jogador` é a **parte** e `Equipe` é o **todo**.
 
-Cada equipe possui um ou mais jogadores. E cada jogador faz parte de uma equipe. Se a equipe deixar de existir, os jogadores poderão fazer parte de outras equipes. Se um jogador deixar de existir, a equipe continuará existindo. Nessa relação, um jogador também poderá fazer parte de mais de uma equipe. A ideia é que se a equipe deixar de existir, ninguém vai ser demitido! 😁
+Cada equipe possui um ou mais jogadores. E cada jogador faz parte de uma equipe.
 
-### Composição 
+- Se a equipe deixar de existir, os jogadores poderão fazer parte de outras equipes.
+- Se um jogador deixar de existir, a equipe continuará existindo.
+- Um jogador também poderá fazer parte de mais de uma equipe.
 
-A composição é um tipo de agregação mais **forte**. 
+A ideia é que se a equipe deixar de existir, ninguém vai ser demitido! 😁
+
+### Composição
+
+A composição é um tipo de agregação mais **forte**.
 
 Aqui a história muda! Se a equipe deixar de existir, os jogadores serão demitidos! 😱
 
-Assim, os objetos-parte (jogadores) não podem existir sem o objeto-todo (equipe). Os objetos-parte são sempre criados e destruídos pelo objeto-todo. Se o **todo** deixa de existir, as **partes** também deixarão de existir. 
+Assim, os objetos-parte (jogadores) não podem existir sem o objeto-todo (equipe). Os objetos-parte são sempre criados e destruídos pelo objeto-todo. Se o **todo** deixa de existir, as **partes** também deixarão de existir.
 
 [![Exemplo de classe com composição](https://tinyurl.com/ylgmyal6)](https://tinyurl.com/ylgmyal6)<!--![Exemplo de classe com composição](../../../../assets/puml/uml_class10.puml)-->
 <br>
@@ -676,19 +698,23 @@ A composição é representada por uma linha com um losango preenchido na ponta 
 
 Veja um exemplo completo de diagrama de classes com todas as associações apresentadas até aqui.
 
-[![Exemplo de diagrama completo](https://tinyurl.com/ypa2zgce)](https://tinyurl.com/ypa2zgce)<!--![Exemplo de diagrama completo](../../../../assets/puml/uml_class11.puml)-->
+[![Exemplo de diagrama completo](https://tinyurl.com/ypm83hou)](https://tinyurl.com/ypm83hou)<!--![Exemplo de diagrama completo](../../../../assets/puml/uml_class11.puml)-->
 <br>
 <small>Exemplo de diagrama completo</small>
 <br>
 <small>Fonte: elaboração própria (2023)</small>
 
-Quando eu devo usar uma simples associação, uma relação de agregação ou de composição? Tudo depende da análise subjetiva do analista de sistemas. Se vai usar multiplicidade ou não, se vai usar associação unária ou binária, etc.
+Quando eu devo usar uma simples associação, uma relação de agregação ou de composição? Tudo depende da análise subjetiva do analista de sistemas. Se vai usar multiplicidade ou não, se vai usar associação unária ou binária etc.
+
+Viu um "A" na classe `Membro`, inclusive com nome escrito em itálico? Isso significa que a classe é **abstrata**. Não pode ser instanciada. Ela só existe para ser herdada por outras classes. Vamos ver isso a seguir.
 
 ## Classes e métodos abstratos
 
-Uma classe abstrata é uma classe que não pode ser instanciada. Ela é usada apenas para ser herdada por outras classes. Classes abstratas só existem para serem herdadas.
+Uma classe abstrata é uma classe que não pode ser instanciada. É utilizada apenas para ser herdada por outras classes.
 
-A classe abstrata é representada por um nome em itálico.
+Classes abstratas só existem para serem herdadas.
+
+É representada por um nome em itálico.
 
 [![Exemplo de classe abstrata](https://tinyurl.com/yuln4xd6)](https://tinyurl.com/yuln4xd6)<!--![Exemplo de classe abstrata](../../../../assets/puml/uml_class12.puml)-->
 <br>
@@ -696,22 +722,27 @@ A classe abstrata é representada por um nome em itálico.
 <br>
 <small>Fonte: elaboração própria (2023)</small>
 
-Um método abstrato é um método que não possui implementação. Ele é usado apenas para ser sobrescrito por outras classes. Métodos abstratos só existem para serem sobrescritos.
+Um método abstrato é um método que não possui implementação. Ele é usado apenas para ser sobrescrito por outras classes.
 
 O método abstrato é representado por um nome em itálico, assim como a classe.
 
 ## Interfaces
 
-Uma interface é um conjunto de métodos abstratos. Ela é usada para definir um contrato que deve ser implementado por outras classes.
+Uma interface descreve um conjunto de serviços fornecidos. É muito utilizada para diagramar APIs. Define um "contrato" que deve ser implementado por outras classes.
 
-A interface é representada por um nome em itálico e com o nome precedido por um `<<interface>>` ou símbolo correspondente.
+A interface é representada por um nome em itálico e com o nome precedido pelo estereótipo `<<interface>>` ou símbolo correspondente. É comum que o nome da interface comece com a letra "I" maiúscula.
 
-[![Exemplo de interface](https://tinyurl.com/yrs3c84f)](https://tinyurl.com/yrs3c84f)<!--![Exemplo de interface](../../../../assets/puml/uml_class13.puml)-->
+[![Exemplo de interface](https://tinyurl.com/ywe5huuy)](https://tinyurl.com/ywe5huuy)<!--![Exemplo de interface](../../../../assets/puml/uml_class13.puml)-->
 <br>
 <small>Exemplo de interface</small>
 <br>
 <small>Fonte: elaboração própria (2023)</small>
 
+Aqui as interfaces são especificadas de maneira detalhada.
+
+Se não for necessário especificar os métodos, então podemos usar a notação simplificada:
+
+[![Exemplo de interface simplificada](https://tinyurl.com/yqmmztko)](https://tinyurl.com/yqmmztko)<!--![Exemplo de interface simplificada](../../../../assets/puml/uml_class14.puml)-->
 
 # Referências
 

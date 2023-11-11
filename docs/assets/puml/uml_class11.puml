@@ -15,7 +15,7 @@ class Funcionário {
     - salario : float
 }
 
-class Membro {
+abstract class Membro {
     - nome : string
     - data_nascimento : date
 }

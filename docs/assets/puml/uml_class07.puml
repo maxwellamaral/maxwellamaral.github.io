@@ -19,6 +19,6 @@ class Fone {
     + isCelular() -> bool
 }
 
-Pessoa "*"--"0..1" Fone
+Pessoa "*"--"0..1" Fone : possui
 
 @enduml

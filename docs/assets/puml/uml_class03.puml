@@ -16,6 +16,6 @@ class Dependente {
     - nome : str
 }
 
-Socio --"possui" Dependente
+Socio --> Dependente : possui
 
 @enduml

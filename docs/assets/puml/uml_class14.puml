@@ -1,16 +1,4 @@
 @startuml
-' Declaração da interface IAnimal
-interface IAnimal <<interface>> {
-    + comer()
-    + dormir()
-    + fazerSom()
-}
-
-' Declaração da interface IPet
-interface IPet <<interface>> {
-    + brincar()
-    + nome : String
-}
 
 ' Declaração da classe Cachorro que implementa as interfaces IAnimal e IPet
 class Cachorro {
@@ -20,8 +8,10 @@ class Cachorro {
     + brincar()
 }
 
+() IAnimal
+
 ' Relacionamento entre as interfaces e a classe
 IAnimal -up--# Cachorro
-IPet -up--# Cachorro
+
 
 @enduml
