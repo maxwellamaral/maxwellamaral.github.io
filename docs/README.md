@@ -41,6 +41,30 @@
         ```
     4. Usar a extensão PlantUML com id `jebbs.plantuml` no VSCode
     5. Usar a extensão PlantUML auto generator com id `goohan.plantumlautogenerator` no VSCode
+ 8. Atualizando a galeria de imagens:
+    1. Gere arquivo `pics.txt` em `assets/images/gpt` com o comando 
+       ```bash
+        ls -1 > pics.txt
+       ```
+    2. No ChatGPT, gere saída utilizando o prompt.
+    
+        Leia a lista abaixo e gere código no formato:
+
+        \```markdown<br>
+        \- url: /assets/images/gpt/nome_arquivo.jpg <br> 
+            image_path: /assets/images/gpt/nome_arquivo.jpg <br>
+            alt: "nome arquivo" <br>
+            title: "nome arquivo" <br>
+        \```
+
+        Lista:
+
+        \```plain <br>
+        Cole a lista aqui <br>
+        \```
+
+    3. Insira o código gerado em `2023-08-22-post-gallery.md`
+
 
 # Dependências
 
