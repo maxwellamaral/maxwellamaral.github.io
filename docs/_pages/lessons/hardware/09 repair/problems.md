@@ -186,12 +186,12 @@ Verifique o funcionamento correto de todos os periféricos:
 
 - Utilize ferramentas de *benchmarking* para avaliar o desempenho geral do sistema. Isso pode ajudar a identificar áreas que podem ser otimizadas para um melhor desempenho.
 
-## 18. Verificação da Configuração de Energia
+## 17. Verificação da Configuração de Energia
 
 1. Certifique-se de que as configurações de gerenciamento de energia estão otimizadas para o melhor equilíbrio entre desempenho e eficiência energética. Isso é especialmente relevante para laptops.
 2. Se o cliente possuir no-break, confirme se a bateria está em bom estado e se o no-break está funcionando corretamente.
 
-## 19. Documentação das Alterações
+## 18. Documentação das Alterações
 
 1. Durante o processo de inspeção e otimização, mantenha uma documentação detalhada de todas as alterações realizadas. Isso facilita futuras referências e solução de problemas.
 2. Essa etapa é crucial para clientes corporativos.
