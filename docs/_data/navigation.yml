@@ -165,7 +165,7 @@ hardware-psu:
         url: /lessons/hardware/psu/psu/
       - title: Padrões de fontes de alimentação
         url: /lessons/hardware/psu/psu_standards/
-      - title: Manutenação Corretiva
+      - title: Manutenção Corretiva
         url: /lessons/hardware/psu/corrective/
       - title: ◀️ 
         url: /lessons/hardware/     
@@ -173,8 +173,10 @@ hardware-psu:
 hardware-repair:
   - title: Montagem e desmontagem de computadores
     children:
-      - title: Passo a passo
+      - title: Processo de montagem e desmontagem
         url: /lessons/hardware/repair/disassembly/
+      - title: Manutenção Preventiva
+        url: /lessons/hardware/repair/problems/
       - title: ◀️ 
         url: /lessons/hardware/   
 
