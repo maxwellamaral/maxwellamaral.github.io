@@ -171,7 +171,7 @@ hardware-psu:
         url: /lessons/hardware/     
 
 hardware-repair:
-  - title: Montagem e desmontagem de computadores
+  - title: Montagem e manutenção de computadores
     children:
       - title: Processo de montagem e desmontagem
         url: /lessons/hardware/repair/disassembly/
