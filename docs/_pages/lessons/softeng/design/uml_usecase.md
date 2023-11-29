@@ -136,7 +136,7 @@ Para identificar casos de uso, devemos ler os requisitos funcionais levantados e
 - O sistema necessita **informar** algo para o ator?
 - Existe algum **processamento** de dados externo que o sistema deva saber?
 
-Iremos ver com detalhes como fazer a extração de atores e casos de usos a partir de uma lista de requisitos funcionais em [Visões do Sistema](views.md). Mas antes, vamos nos concentrar em conhecer como os casos de usos são diagramados.
+Iremos ver com detalhes como fazer a extração de atores e casos de usos a partir de uma lista de requisitos funcionais em [Visões do Sistema](views_intro.md). Mas antes, vamos nos concentrar em conhecer como os casos de usos são diagramados.
 
 #### Como diagramar?
 
