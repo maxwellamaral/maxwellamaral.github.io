@@ -4,7 +4,7 @@ left to right direction
 skinparam packageStyle rectangle
 actor Cliente as c
 
-rectangle "Manter produtos" {
+rectangle "SCGP" {
     usecase "Manter produto" as uc1
 }
 

@@ -13,20 +13,20 @@ actor "Atendentes de\nSuporte" as a
 
 rectangle "Sistema de Controle de Garantias de Produtos (SCGP)" {
     package "Produto" {
-        usecase "Manter\nprodutos" as uc_manter_produtos
+        usecase "Manter\nproduto" as uc_manter_produtos
         usecase "Contratar\nassinatura" as uc_contratar_assinatura
-        usecase "Divulgar\nprodutos" as uc_divulgar_produtos
-        usecase "Vender dados\nprodutos" as uc_vender_dados_produtos
+        usecase "Divulgar\nproduto" as uc_divulgar_produtos
+        usecase "Vender dados\nproduto" as uc_vender_dados_produtos
         usecase "Notificar cliente\nsobre garantia" as uc_notificar_cliente_sobre_garantia
-        usecase "Manter garantias" as uc_manter_garantias
+        usecase "Manter garantia" as uc_manter_garantias
     }
     package "Cliente" {
-        usecase "Manter\nclientes" as uc_manter_clientes
-        usecase "Comunicar\nclientes" as uc_comunicar_clientes
-        usecase "Manter comunicação\ncom clientes" as uc_manter_comunicacao_clientes
+        usecase "Manter\ncliente" as uc_manter_clientes
+        usecase "Comunicar\ncliente" as uc_comunicar_clientes
+        usecase "Manter comunicação\ncom cliente" as uc_manter_comunicacao_clientes
     }
-    usecase "Manter\nfabricantes" as uc_manter_fabricantes
-    usecase "Contatar\nfabricantes" as uc_contatar_fabricantes
+    usecase "Manter\nfabricante" as uc_manter_fabricantes
+    usecase "Contatar\nfabricante" as uc_contatar_fabricantes
 }
 
 us <|-- u
@@ -47,7 +47,7 @@ adm -- uc_vender_dados_produtos
 uc_vender_dados_produtos .> uc_manter_produtos: <<include>>
 
 adm -- uc_divulgar_produtos
-uc_divulgar_produtos .> uc_manter_produtos: <<include>>
+uc_divulgar_produtos <. uc_manter_produtos: <<extend>>
 
 adm -- uc_manter_clientes
 

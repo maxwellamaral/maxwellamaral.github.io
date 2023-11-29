@@ -43,4 +43,7 @@ Veja aqui o conteúdo das aulas:
     - [Documento de Visão do Produto (DVP)](/lessons/softeng/requirements/vision/sample/)
 - [Análise de custos e vendas](/lessons/softeng/requirements/costs/)
   
+Você irá perceber durante seus estudos que existem várias formas de fazer a mesma coisa, e que não existe uma forma certa ou errada. O que existe é uma forma mais adequada para o seu contexto. E isso é o que você irá aprender aqui. E, com o passar do tempo, este material irá ser atualizado, inevitavelmente, para se adequar às novas formas de se fazer as coisas.
+
+---
 Criado em Março de 2023 por *Maxwell Anderson*

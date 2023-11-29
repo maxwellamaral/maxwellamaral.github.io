@@ -4,12 +4,12 @@ left to right direction
 skinparam packageStyle rectangle
 actor Cliente as c
 
-rectangle "Manter produtos" {
+rectangle "SCGP" {
     usecase "Manter produto" as uc1
-    usecase "Manter garantias" as uc2
+    usecase "Manter garantia" as uc2
 }
 
 c -- uc1
-uc1 .> uc2: <<include>>
+uc1 <. uc2: <<extend>>
 
 @enduml

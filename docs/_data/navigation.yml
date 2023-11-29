@@ -126,7 +126,11 @@ softeng-design:
       - title: Diagrama de Sequência
         url: /lessons/softeng/design/uml_sequences/
       - title: Visões do Sistema
-        url: /lessons/softeng/design/views/        
+        url: /lessons/softeng/design/views/  
+      - title: Visão de Casos de Uso
+        url: /lessons/softeng/design/views_usecase/  
+      - title: Visão Lógica
+        url: /lessons/softeng/design/views_logic/               
       - title: ◀️ 
         url: /lessons/softeng/         
 
