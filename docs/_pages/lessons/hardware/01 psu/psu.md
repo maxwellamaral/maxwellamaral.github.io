@@ -12,12 +12,12 @@ sidebar:
 Criado em Março de 2023 por _Maxwell Anderson_
 
 <center>
-  <figure style="text-align:center">
-      <img src="../../../../assets/images/gpt/cat_hardware_power1.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a computer maintenance technician cat repairing computer power supply">
+  <figure>
+  <frdware_power1.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a computer maintenance technician cat repairing computer power supply">
       <figcaption>Gato técnico em manutenção de computadores consertando uma fonte de alimentação</figcaption>
       <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
   </figure>
-</center>
+</center>center
 
 > Se o gato consegue, você conseguirá.
 
@@ -37,7 +37,6 @@ A fonte de alimentação de um computador é um componente essencial para o func
 
 Vamos conhecer como funcionam as conversões entre tensões, bem como as características das fontes AT e ATX.
 
-
 <figure style="text-align:center">
     <img src="../../../../assets/images/gpt/psu_sample1.jpg" width="350" alt="Exemplo de fonte de alimentação. Prompt: Create an image of ATX power supply of computer">
     <figcaption>Exemplo de fonte de alimentação. <br>IA prompt: "Create an image of ATX power supply of computer"</figcaption>
@@ -51,7 +50,6 @@ A fonte de alimentação é um componente que pode apresentar problemas de funci
 Uma rede elétrica pode oferecer uma tensão alternada de 110V ou 220V, dependendo do país.
 
 Os componentes eletrônicos de um computador funcionam com uma tensão de 5V, 12V ou 3.3V. Essas tensões são contínuas e mais baixas.
-
 
 <figure style="text-align:center">
     <img src="../../../../assets/images/lessons/psu-0.png" width="350" alt="Visão detalhada sobre a conversão de tensão alternada para tensão contínua com chaveador">
@@ -68,7 +66,6 @@ Conforme podemos ver na figura abaixo, vamos explicar o passo a passo sobre como
 3. Um outro circuito, chamado de **circuito retificador**, converte a corrente alternada em corrente contínua pulsante positiva, isto é, a tensão pulsa entre 0V e 12V positivo. O circuito retificador é composto por diodos, que são semicondutores que conduzem corrente elétrica em apenas uma direção;
 4. Depois um **filtro** transforma essa pulsação em tensão contínua de 12V. O filtro é formado por capacitores. Um problema é as oscilações que ocorrem na tensão contínua, que podem causar problemas nos componentes eletrônicos. Para resolver esse problema, o filtro é formado por vários capacitores em paralelo, que reduzem as oscilações, mas não totalmente.
 5. Por último, um **regulador** remove a oscilação restante fazendo com que a tensão seja constante e contínua. O regulador pode ser um circuito integrado ou um diodo zener.
-
 
 <figure style="text-align:center">
     <img src="../../../../assets/images/lessons/psu-1.png" width="350" alt="Visão detalhada sobre a conversão de tensão alternada para tensão contínua com chaveador">
@@ -91,7 +88,6 @@ Imagina como seriam as fontes de alimentação para placas de vídeo e jogos que
     <figcaption>Visão detalhada sobre a conversão de tensão alternada para tensão contínua de tensão alternada para tensão contínua com chaveador</figcaption>
     <small>Fonte: Gabriel Torres. Hardware Curso Completo. 4ª edição. Editora Axcel Books: 2001.</small>
 </figure>
-
 
 ## Cálculo de potências
 
@@ -183,7 +179,7 @@ Realize o cálculo da potência total da placa de som.
 
   $$ {P=P1+P2+P3} $$
   $$ {P=2W+2,4W+0,36W} $$
-  $$ {P=4,76W} $$
+  $$ {P=4,W} $$
 
 **Exemplo 3:**
 
