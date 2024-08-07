@@ -4,7 +4,15 @@
     "MD007": false,
     "MD025": false,
     "MD029": false,
-    "MD033": false,
+    "MD033": {
+        "allowed_elements": [
+            "center",
+            "figure",
+            "img",
+            "figcaption",
+            "small"
+        ]
+    },
     "no-hard-tabs": false,
     "line-length": false
 }
