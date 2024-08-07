@@ -17,7 +17,7 @@ Criado em Março de 2023 por _Maxwell Anderson_
       <figcaption>Gato técnico em manutenção de computadores consertando uma fonte de alimentação</figcaption>
       <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
   </figure>
-</center>center
+</center>
 
 > Se o gato consegue, você conseguirá.
 
