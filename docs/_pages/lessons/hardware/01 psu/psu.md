@@ -13,7 +13,7 @@ Criado em Março de 2023 por _Maxwell Anderson_
 
 <center>
   <figure>
-  <frdware_power1.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a computer maintenance technician cat repairing computer power supply">
+  <img src="../../../../assets/images/gpt/cat_hardware_power1.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a computer maintenance technician cat repairing computer power supply">
       <figcaption>Gato técnico em manutenção de computadores consertando uma fonte de alimentação</figcaption>
       <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
   </figure>
