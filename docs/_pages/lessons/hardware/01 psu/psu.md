@@ -175,11 +175,15 @@ Realize o cálculo da potência total da placa de som.
 
   $$ {P3=-12V*0,03A=-0,36W} $$
 
+  Neste caso, para valores negativos, utilizaremos o valor do módulo onde:
+
+  $$ {|P3|=|-0,36W| => P3 = 0,36W} $$
+
 - **Passo 5**: some as potências. Assim sendo:
 
   $$ {P=P1+P2+P3} $$
-  $$ {P=2W+2,4W-0,36W} $$
-  $$ {P=4,04W} $$
+  $$ {P=2W+2,4W+0,36W} $$
+  $$ {P=4,76W} $$
 
 **Exemplo 3:**
 
