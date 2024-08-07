@@ -178,8 +178,10 @@ Realize o cálculo da potência total da placa de som.
 - **Passo 5**: some as potências. Assim sendo:
 
   $$ {P=P1+P2+P3} $$
+
   $$ {P=2W+2,4W+0,36W} $$
-  $$ {P=4,W} $$
+  
+  $$ {P=4,76W} $$
 
 **Exemplo 3:**
 
