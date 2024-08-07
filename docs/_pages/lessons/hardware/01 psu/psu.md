@@ -52,10 +52,11 @@ Uma rede elétrica pode oferecer uma tensão alternada de 110V ou 220V, dependen
 
 Os componentes eletrônicos de um computador funcionam com uma tensão de 5V, 12V ou 3.3V. Essas tensões são contínuas e mais baixas.
 
+
 <figure style="text-align:center">
-    <img src="../../../../assets/images/" width="350" alt="Conversão de tensão alternada para tensão contínua">
-    <figcaption>Conversão de tensão alternada para tensão contínua</figcaption>
-    <small>Fonte: autoria própria (2023)</small>
+    <img src="../../../../assets/images/lessons/psu-0.png" width="350" alt="Visão detalhada sobre a conversão de tensão alternada para tensão contínua com chaveador">
+    <figcaption>Visão detalhada sobre a conversão de tensão alternada para tensão contínua de tensão alternada para tensão contínua com chaveador</figcaption>
+    <small>Fonte: Gabriel Torres. Hardware Curso Completo. 4ª edição. Editora Axcel Books: 2001.</small>
 </figure>
 
 **Como funciona a conversão de tensão?**
@@ -68,10 +69,11 @@ Conforme podemos ver na figura abaixo, vamos explicar o passo a passo sobre como
 4. Depois um **filtro** transforma essa pulsação em tensão contínua de 12V. O filtro é formado por capacitores. Um problema é as oscilações que ocorrem na tensão contínua, que podem causar problemas nos componentes eletrônicos. Para resolver esse problema, o filtro é formado por vários capacitores em paralelo, que reduzem as oscilações, mas não totalmente.
 5. Por último, um **regulador** remove a oscilação restante fazendo com que a tensão seja constante e contínua. O regulador pode ser um circuito integrado ou um diodo zener.
 
+
 <figure style="text-align:center">
-    <img src="../../../../assets/images/" width="350" alt="Visão detalhada sobre a conversão de tensão alternada para tensão contínua">
-    <figcaption>Visão detalhada sobre a conversão de tensão alternada para tensão contínua de tensão alternada para tensão contínua</figcaption>
-    <small>Fonte: autoria própria (2023)</small>
+    <img src="../../../../assets/images/lessons/psu-1.png" width="350" alt="Visão detalhada sobre a conversão de tensão alternada para tensão contínua com chaveador">
+    <figcaption>Visão detalhada sobre a conversão de tensão alternada para tensão contínua de tensão alternada para tensão contínua com chaveador</figcaption>
+    <small>Fonte: Gabriel Torres. Hardware Curso Completo. 4ª edição. Editora Axcel Books: 2001.</small>
 </figure>
 
 **Mas e o problema do tamanho do transformador?**
@@ -79,10 +81,17 @@ Conforme podemos ver na figura abaixo, vamos explicar o passo a passo sobre como
 Imagina como seriam as fontes de alimentação para placas de vídeo e jogos que dependem de correntes mais altas? O transformador seria grande e pesado. Para resolver este problema, foi adicionado antes do transformador um **chaveador** que converte a frequência da corrente elétrica de 60Hz para 20.000Hz. Assim, a corrente elétrica passa por um transformador menor, que é mais leve e mais barato.
 
 <figure style="text-align:center">
-    <img src="../../../../assets/images/" width="350" alt="Visão detalhada sobre a conversão de tensão alternada para tensão contínua com chaveador">
+    <img src="../../../../assets/images/lessons/psu-2.png" width="350" alt="Visão detalhada sobre a conversão de tensão alternada para tensão contínua com chaveador">
     <figcaption>Visão detalhada sobre a conversão de tensão alternada para tensão contínua de tensão alternada para tensão contínua com chaveador</figcaption>
-    <small>Fonte: autoria própria (2023)</small>
+    <small>Fonte: Gabriel Torres. Hardware Curso Completo. 4ª edição. Editora Axcel Books: 2001.</small>
 </figure>
+
+<figure style="text-align:center">
+    <img src="../../../../assets/images/lessons/psu-3.png" width="350" alt="Visão detalhada sobre a conversão de tensão alternada para tensão contínua com chaveador">
+    <figcaption>Visão detalhada sobre a conversão de tensão alternada para tensão contínua de tensão alternada para tensão contínua com chaveador</figcaption>
+    <small>Fonte: Gabriel Torres. Hardware Curso Completo. 4ª edição. Editora Axcel Books: 2001.</small>
+</figure>
+
 
 ## Cálculo de potências
 
@@ -209,6 +218,9 @@ Mas qual será a real potência do banco de baterias, se as informações sobre 
   $$ {P=3.7V*10A=37W} $$
 
   Logo, a potência real do banco de baterias é de 37W.
+
+> Observação:
+> Veja que são necessárias ferramentas especiais para confirmar a verdadeira potência da fonte.
 
 ## Potência necessária para um computador
 
