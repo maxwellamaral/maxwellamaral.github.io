@@ -153,6 +153,8 @@ hardware:
         url: /lessons/hardware/
       - title: Introdução
         url: /lessons/hardware/intro/intro/
+      - title: Sistemas de numeração
+        url: /lessons/hardware/intro/numbering/
       - title: Fontes de alimentação
         url: /lessons/hardware/psu/psu/      
       - title: Montagem e desmontagem de computadores
