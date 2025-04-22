@@ -1,0 +1,605 @@
+[
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "toml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "toml",
+        "description": "toml",
+        "detail": "toml",
+        "documentation": {}
+    },
+    {
+        "label": "xml.etree.ElementTree",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xml.etree.ElementTree",
+        "description": "xml.etree.ElementTree",
+        "detail": "xml.etree.ElementTree",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "faker_commerce",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "faker_commerce",
+        "description": "faker_commerce",
+        "detail": "faker_commerce",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "ImproperlyConfigured",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ImproperlyConfigured",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "get_secret",
+        "importPath": "manage",
+        "description": "manage",
+        "isExtraImport": true,
+        "detail": "manage",
+        "documentation": {}
+    },
+    {
+        "label": "get_secret",
+        "importPath": "manage",
+        "description": "manage",
+        "isExtraImport": true,
+        "detail": "manage",
+        "documentation": {}
+    },
+    {
+        "label": "get_secret",
+        "importPath": "manage",
+        "description": "manage",
+        "isExtraImport": true,
+        "detail": "manage",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "read_csv",
+        "kind": 2,
+        "importPath": "data.chatgpt.converter",
+        "description": "data.chatgpt.converter",
+        "peekOfCode": "def read_csv():\n    with open('data.csv', 'r', encoding='utf-8') as file:\n        reader = csv.DictReader(file)\n        data = [row for row in reader]\n    return data\n# Converte a lista de dicionários para o formato JSON\ndef to_json(data):\n    with open('data.json', 'w', encoding='utf-8') as file:\n        json.dump(data, file, indent=4, ensure_ascii=False)\n# Converte a lista de dicionários para o formato Markdown",
+        "detail": "data.chatgpt.converter",
+        "documentation": {}
+    },
+    {
+        "label": "to_json",
+        "kind": 2,
+        "importPath": "data.chatgpt.converter",
+        "description": "data.chatgpt.converter",
+        "peekOfCode": "def to_json(data):\n    with open('data.json', 'w', encoding='utf-8') as file:\n        json.dump(data, file, indent=4, ensure_ascii=False)\n# Converte a lista de dicionários para o formato Markdown\ndef to_md(data):\n    with open('data.md', 'w', encoding='utf-8') as file:\n        for row in data:\n            file.write(f\"## {row['pergunta']}: {row['resposta']}\")\n# Converte a lista de dicionários para o formato TOML\ndef to_toml(data):",
+        "detail": "data.chatgpt.converter",
+        "documentation": {}
+    },
+    {
+        "label": "to_md",
+        "kind": 2,
+        "importPath": "data.chatgpt.converter",
+        "description": "data.chatgpt.converter",
+        "peekOfCode": "def to_md(data):\n    with open('data.md', 'w', encoding='utf-8') as file:\n        for row in data:\n            file.write(f\"## {row['pergunta']}: {row['resposta']}\")\n# Converte a lista de dicionários para o formato TOML\ndef to_toml(data):\n    with open('data.toml', 'w', encoding='utf-8') as file:\n        toml.dump(data, file)\n# # Converte a lista de dicionários para o formato YAML\n# def to_yaml(data):",
+        "detail": "data.chatgpt.converter",
+        "documentation": {}
+    },
+    {
+        "label": "to_toml",
+        "kind": 2,
+        "importPath": "data.chatgpt.converter",
+        "description": "data.chatgpt.converter",
+        "peekOfCode": "def to_toml(data):\n    with open('data.toml', 'w', encoding='utf-8') as file:\n        toml.dump(data, file)\n# # Converte a lista de dicionários para o formato YAML\n# def to_yaml(data):\n#     with open('data.yaml', 'w', encoding='utf-8') as file:\n#         yaml.dump(data, file)\n# Converte a lista de dicionários para o formato XML\ndef to_xml(data):\n    root = ET.Element('root')",
+        "detail": "data.chatgpt.converter",
+        "documentation": {}
+    },
+    {
+        "label": "to_xml",
+        "kind": 2,
+        "importPath": "data.chatgpt.converter",
+        "description": "data.chatgpt.converter",
+        "peekOfCode": "def to_xml(data):\n    root = ET.Element('root')\n    for row in data:\n        child = ET.SubElement(root, 'row')\n        for key, value in row.items():\n            ET.SubElement(child, key).text = value\n    tree = ET.ElementTree(root)\n    tree.write('data.xml', encoding='utf-8', xml_declaration=True)\n# Executa a conversão\ndef main():",
+        "detail": "data.chatgpt.converter",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "data.chatgpt.converter",
+        "description": "data.chatgpt.converter",
+        "peekOfCode": "def main():\n    data = read_csv()\n    to_json(data)\n    to_md(data)\n    to_toml(data)\n    # to_yaml(data)\n    to_xml(data)\nif __name__ == '__main__':\n    main()",
+        "detail": "data.chatgpt.converter",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "data.python_faker.gerarDados",
+        "description": "data.python_faker.gerarDados",
+        "peekOfCode": "class Product:\n    \"\"\"\n    Produto\n    \"\"\"\n    def __init__(\n        self,\n        name: str,\n        category: str = None,\n        date: datetime = datetime.now(),\n        warranty_days: int = 365,",
+        "detail": "data.python_faker.gerarDados",
+        "documentation": {}
+    },
+    {
+        "label": "DataGenerator",
+        "kind": 6,
+        "importPath": "data.python_faker.gerarDados",
+        "description": "data.python_faker.gerarDados",
+        "peekOfCode": "class DataGenerator:\n    \"\"\"\n    Gerador de dados aleatórios\n    \"\"\"\n    def __init__(self, seed: int = None):\n        \"\"\"\n        Inicialização\n        :param seed: Semente para a geração de números aleatórios\n        \"\"\"\n        # Gera números aleatórios",
+        "detail": "data.python_faker.gerarDados",
+        "documentation": {}
+    },
+    {
+        "label": "fake",
+        "kind": 5,
+        "importPath": "data.python_faker.gerarDados",
+        "description": "data.python_faker.gerarDados",
+        "peekOfCode": "fake = Faker()\nfake.add_provider(faker_commerce.Provider)\nclass Product:\n    \"\"\"\n    Produto\n    \"\"\"\n    def __init__(\n        self,\n        name: str,\n        category: str = None,",
+        "detail": "data.python_faker.gerarDados",
+        "documentation": {}
+    },
+    {
+        "label": "WarrantyConfig",
+        "kind": 6,
+        "importPath": "src.monolithic.dj.apps.warranty.apps",
+        "description": "src.monolithic.dj.apps.warranty.apps",
+        "peekOfCode": "class WarrantyConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"warranty\"",
+        "detail": "src.monolithic.dj.apps.warranty.apps",
+        "documentation": {}
+    },
+    {
+        "label": "SmokeTest",
+        "kind": 6,
+        "importPath": "src.monolithic.dj.apps.warranty.tests",
+        "description": "src.monolithic.dj.apps.warranty.tests",
+        "peekOfCode": "class SmokeTest(TestCase):\n    def test_bad_maths(self):\n        self.assertEqual(1 + 1, 3)",
+        "detail": "src.monolithic.dj.apps.warranty.tests",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings.dev",
+        "description": "src.monolithic.dj.garantias.settings.dev",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\nEMAIL_BACKEND = \"django.core.mail.backends.console.EmailBackend\"",
+        "detail": "src.monolithic.dj.garantias.settings.dev",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings.dev",
+        "description": "src.monolithic.dj.garantias.settings.dev",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\nEMAIL_BACKEND = \"django.core.mail.backends.console.EmailBackend\"",
+        "detail": "src.monolithic.dj.garantias.settings.dev",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings.dev",
+        "description": "src.monolithic.dj.garantias.settings.dev",
+        "peekOfCode": "EMAIL_BACKEND = \"django.core.mail.backends.console.EmailBackend\"",
+        "detail": "src.monolithic.dj.garantias.settings.dev",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent.parent\n# Este é o diretório que contém todos os aplicativos do projeto\nAPPS_DIR = os.path.join(BASE_DIR, \"apps\")\n# Este é o diretório que contém todas as bibliotecas e aplicativos externos\nEXTERNAL_BASE = os.path.join(BASE_DIR, \"externals\")\n# Este é o diretório que contém todas as bibliotecas externas\nEXTERNAL_LIBS_PATH = os.path.join(EXTERNAL_BASE, \"libs\")\n# Este é o diretório que contém todos os aplicativos externos\nEXTERNAL_APPS_PATH = os.path.join(EXTERNAL_BASE, \"apps\")\n# Adicione todas as bibliotecas e aplicativos externos ao caminho",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "APPS_DIR",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "APPS_DIR = os.path.join(BASE_DIR, \"apps\")\n# Este é o diretório que contém todas as bibliotecas e aplicativos externos\nEXTERNAL_BASE = os.path.join(BASE_DIR, \"externals\")\n# Este é o diretório que contém todas as bibliotecas externas\nEXTERNAL_LIBS_PATH = os.path.join(EXTERNAL_BASE, \"libs\")\n# Este é o diretório que contém todos os aplicativos externos\nEXTERNAL_APPS_PATH = os.path.join(EXTERNAL_BASE, \"apps\")\n# Adicione todas as bibliotecas e aplicativos externos ao caminho\nsys.path = [APPS_DIR, EXTERNAL_LIBS_PATH, EXTERNAL_APPS_PATH] + sys.path\n# Quick-start development settings - unsuitable for production",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "EXTERNAL_BASE",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "EXTERNAL_BASE = os.path.join(BASE_DIR, \"externals\")\n# Este é o diretório que contém todas as bibliotecas externas\nEXTERNAL_LIBS_PATH = os.path.join(EXTERNAL_BASE, \"libs\")\n# Este é o diretório que contém todos os aplicativos externos\nEXTERNAL_APPS_PATH = os.path.join(EXTERNAL_BASE, \"apps\")\n# Adicione todas as bibliotecas e aplicativos externos ao caminho\nsys.path = [APPS_DIR, EXTERNAL_LIBS_PATH, EXTERNAL_APPS_PATH] + sys.path\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\nSECRET_KEY = get_secret(\"DJANGO_SECRET_KEY\")",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "EXTERNAL_LIBS_PATH",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "EXTERNAL_LIBS_PATH = os.path.join(EXTERNAL_BASE, \"libs\")\n# Este é o diretório que contém todos os aplicativos externos\nEXTERNAL_APPS_PATH = os.path.join(EXTERNAL_BASE, \"apps\")\n# Adicione todas as bibliotecas e aplicativos externos ao caminho\nsys.path = [APPS_DIR, EXTERNAL_LIBS_PATH, EXTERNAL_APPS_PATH] + sys.path\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\nSECRET_KEY = get_secret(\"DJANGO_SECRET_KEY\")\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "EXTERNAL_APPS_PATH",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "EXTERNAL_APPS_PATH = os.path.join(EXTERNAL_BASE, \"apps\")\n# Adicione todas as bibliotecas e aplicativos externos ao caminho\nsys.path = [APPS_DIR, EXTERNAL_LIBS_PATH, EXTERNAL_APPS_PATH] + sys.path\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\nSECRET_KEY = get_secret(\"DJANGO_SECRET_KEY\")\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "sys.path = [APPS_DIR, EXTERNAL_LIBS_PATH, EXTERNAL_APPS_PATH] + sys.path\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\nSECRET_KEY = get_secret(\"DJANGO_SECRET_KEY\")\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "SECRET_KEY = get_secret(\"DJANGO_SECRET_KEY\")\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"warranty\",",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"warranty\",\n]\nMIDDLEWARE = [",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]\n# Caminho para o arquivo de rotas",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "ROOT_URLCONF = \"garantias.urls\"\n# Caminho para o arquivo de templates em DIRS\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [os.path.join(BASE_DIR, \"garantias\", \"templates\")],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [os.path.join(BASE_DIR, \"garantias\", \"templates\")],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "WSGI_APPLICATION = \"garantias.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Configurações de localização",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Configurações de localização\nLOCALE_PATHS = [os.path.join(BASE_DIR, \"locale\")]",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Configurações de localização\nLOCALE_PATHS = [os.path.join(BASE_DIR, \"locale\")]\n# Configurações de arquivos estáticos",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "STATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Configurações de localização\nLOCALE_PATHS = [os.path.join(BASE_DIR, \"locale\")]\n# Configurações de arquivos estáticos\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"garantias\", \"static\")]\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# Configurações de arquivos de mídia",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# Configurações de localização\nLOCALE_PATHS = [os.path.join(BASE_DIR, \"locale\")]\n# Configurações de arquivos estáticos\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"garantias\", \"static\")]\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# Configurações de arquivos de mídia\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "LOCALE_PATHS",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "LOCALE_PATHS = [os.path.join(BASE_DIR, \"locale\")]\n# Configurações de arquivos estáticos\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, \"garantias\", \"static\")]\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# Configurações de arquivos de mídia\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, \"garantias\", \"static\")]\nSTATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# Configurações de arquivos de mídia\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, \"static\")\n# Configurações de arquivos de mídia\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.settings._base",
+        "description": "src.monolithic.dj.garantias.settings._base",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
+        "detail": "src.monolithic.dj.garantias.settings._base",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.asgi",
+        "description": "src.monolithic.dj.garantias.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "src.monolithic.dj.garantias.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.urls",
+        "description": "src.monolithic.dj.garantias.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
+        "detail": "src.monolithic.dj.garantias.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "src.monolithic.dj.garantias.wsgi",
+        "description": "src.monolithic.dj.garantias.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "src.monolithic.dj.garantias.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "get_secret",
+        "kind": 2,
+        "importPath": "src.monolithic.dj.manage",
+        "description": "src.monolithic.dj.manage",
+        "peekOfCode": "def get_secret(setting, secrets_file='secrets.json'):\n    \"\"\"\n    Configura a leitura das variáveis de ambiente\n    \"\"\"\n    with open(secrets_file) as f:\n        secrets = json.loads(f.read())\n        try:\n            return secrets[setting]\n        except KeyError as e:\n            error_msg = f\"Set the {setting} environment variable\"",
+        "detail": "src.monolithic.dj.manage",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.monolithic.dj.manage",
+        "description": "src.monolithic.dj.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', get_secret(\"DJANGO_SETTINGS_MODULE\"))\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "src.monolithic.dj.manage",
+        "documentation": {}
+    }
+]
