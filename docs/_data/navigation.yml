@@ -13,15 +13,15 @@ main:
 docs:
   - title: "Disciplinas"
     children:
-      - title: "Visão geral"
+      - title: "🪟 Visão geral"
         url: "/lessons/"
-      - title: "Práticas de Engenharia de Software"
+      - title: "🛠️ Práticas de Engenharia de Software"
         url: /lessons/softeng/
-      - title: "Manutenção e Montagem de Computadores"
+      - title: "🖥️ Manutenção e Montagem de Computadores"
         url: /lessons/hardware/
-      - title: "Internet das Coisas"
+      - title: "🌐 Internet das Coisas"
         url: /lessons/iot/
-      - title: "Introdução à Programação com PyBR"
+      - title: "🐍 Introdução à Programação com PyBR"
         url: https://maxwellamaral.github.io/pybr/index
 
 # INTRODUÇÃO À PROGRAMAÇÃO COM PyBR
