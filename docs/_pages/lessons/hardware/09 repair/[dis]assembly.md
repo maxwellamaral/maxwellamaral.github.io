@@ -97,6 +97,8 @@ Lembre-se de deixar a bancada de manutenção limpa e arrumada!
 
 O PC está pronto!
 
+![alt text](image.png)
+
 ---
 Criado em Março de 2023 por *Maxwell Anderson*
 
