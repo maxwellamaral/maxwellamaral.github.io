@@ -21,6 +21,26 @@ docs:
         url: /lessons/hardware/
       - title: "Internet das Coisas"
         url: /lessons/iot/
+      - title: "Introdução à Programação com PyBR"
+        url: https://maxwellamaral.github.io/pybr/index
+
+# INTRODUÇÃO À PROGRAMAÇÃO COM PyBR
+
+programming:
+  - title: "Introdução à Programação com PyBR"
+    children:
+      - title: Bem-vindo 
+        url: https://maxwellamaral.github.io/pybr/index
+      - title: "Guia Rápido"
+        url: https://maxwellamaral.github.io/pybr/tutorial
+      - title: "Guia Completo"
+        url: https://maxwellamaral.github.io/pybr/tutorial-completo
+      - title: "Exercícios Práticos"
+        url: https://maxwellamaral.github.io/pybr/exercicios
+      - title: "Referência"
+        url: https://maxwellamaral.github.io/pybr/referencia
+      - title: ◀️ 
+        url: /lessons/
 
 # INTERNET DAS COISAS
 
