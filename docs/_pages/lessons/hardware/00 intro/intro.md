@@ -1,11 +1,11 @@
 ---
 
 layout: home  
-author\_profile: true  
+author_profile: true  
 title: Manutenção e Montagem de Computadores  
 permalink: /lessons/hardware/intro/intro/  
 sidebar:  
-nav: "hardware"
+    nav: "hardware"
 
 ---
 
