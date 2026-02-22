@@ -164,7 +164,9 @@ softeng-tests:
       - title: ◀️ 
         url: /lessons/softeng/ 
 
+################################
 # HARDWARE
+################################
 
 hardware:
   - title: Manutenção e Montagem de Computadores
@@ -173,6 +175,8 @@ hardware:
         url: /lessons/hardware/
       - title: Introdução
         url: /lessons/hardware/intro/intro/
+      - title: História dos computadores
+        url: /lessons/hardware/intro/origin/
       - title: Sistemas de numeração
         url: /lessons/hardware/intro/numbering/
       - title: Fontes de alimentação

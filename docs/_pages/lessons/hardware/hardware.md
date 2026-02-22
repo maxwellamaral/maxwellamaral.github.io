@@ -1,20 +1,19 @@
 ---
-layout: home
-author_profile: true
-title: Manutenção e Montagem de Computadores
-permalink: /lessons/hardware/
-sidebar:
-    nav: "hardware"
+
+layout: home  
+author\_profile: true  
+title: Manutenção e Montagem de Computadores  
+permalink: /lessons/hardware/  
+sidebar:  
+nav: "hardware"
+
 ---
-Criado em Março de 2023 por *Maxwell Anderson*
+
+Criado em Março de 2023 por _Maxwell Anderson_
 
 **Seja bem-vindo ao curso de Manutenção e Montagem de Computadores.**
 
-<figure style="text-align:center">
-    <img src="../../../assets/images/gpt/cat_hardware1.jpg" width="350" alt="Gato estudando com óculos. Prompt: Create an image of a computer maintenance technician cat">
-    <figcaption>Gato técnico em manutenção de computadores </figcaption>
-    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
-</figure>
+![Gato estudando com óculos. Prompt: Create an image of a computer maintenance technician cat](../../../assets/images/gpt/cat_hardware1.jpg)Gato técnico em manutenção de computadoresFonte: gerado por IA com Bing por Maxwell Anderson (2023)
 
 > Se o gato consegue, você conseguirá.
 
@@ -26,7 +25,7 @@ Maxwell Anderson Ielpo do Amaral
 
 # Conteúdo
 
-* [Introdução](/lessons/hardware/intro/intro/)
-* [Fontes de alimentação](/lessons/hardware/psu/psu/)
-* [Montagem e desmontagem de computadores](/lessons/hardware/repair/disassembly)
-* [BIOS-Setup](/lessons/hardware/setup/setup/)
+*   [Introdução](/lessons/hardware/intro/intro/)
+*   [Fontes de alimentação](/lessons/hardware/psu/psu/)
+*   [Montagem e desmontagem de computadores](/lessons/hardware/repair/disassembly)
+*   [BIOS-Setup](/lessons/hardware/setup/setup/)

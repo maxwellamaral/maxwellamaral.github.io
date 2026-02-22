@@ -1,18 +1,17 @@
 ---
-layout: home
-author_profile: true
-title: Instalando o Django no Windows
-permalink: /lessons/softeng/intro/django/
-sidebar:
-    nav: "softeng-intro"
----
-Criado em Março de 2023 por *Maxwell Anderson*
 
-<figure>
-    <img src="../../../../assets/images/gpt/cat_studying_glasses3.jpg" width="350" alt="Gato estudando usando óculos. Prompt: Create an image of a cat studying software engineering">
-    <figcaption>Gato estudando Engenharia de Software.</figcaption>
-    <small>Fonte: gerado por IA com Bing por Maxwell Anderson (2023)</small>
-</figure>
+layout: home  
+author\_profile: true  
+title: Instalando o Django no Windows  
+permalink: /lessons/softeng/intro/django/  
+sidebar:  
+nav: "softeng-intro"
+
+---
+
+Criado em Março de 2023 por _Maxwell Anderson_
+
+![Gato estudando usando óculos. Prompt: Create an image of a cat studying software engineering](../../../../assets/images/gpt/cat_studying_glasses3.jpg)Gato estudando Engenharia de Software.Fonte: gerado por IA com Bing por Maxwell Anderson (2023)
 
 > Se o gato consegue, você conseguirá.
 
@@ -26,22 +25,20 @@ O Django é um framework de alto nível, que permite que você se concentre no d
 
 Realize os passos abaixo para instalar o Django no Windows:
 
-- Para instalar o Django, abra o Terminal do Windows ou o Prompt de Comando e digite o comando abaixo:
+Para instalar o Django, abra o Terminal do Windows ou o Prompt de Comando e digite o comando abaixo:
 
-    ```bash
-    pip install django
-    ```
+```
+pip install django
+```
 
-- Após o término da instalação, digite o comando abaixo para verificar a versão do Django instalada:
+Após o término da instalação, digite o comando abaixo para verificar a versão do Django instalada:
 
-    ```bash
-    django-admin --version
-    ```
+```
+django-admin --version
+```
 
 Pronto! O Django foi instalado com sucesso no Windows.
 
 Agora você poderá seguir para a próxima aula.
-
-<!-- [Configurando as extensões do VSCode](06.%20Configurando%20as%20extensões%20do%20VSCode.md) -->
 
 [Índice](/lessons/softeng/)
