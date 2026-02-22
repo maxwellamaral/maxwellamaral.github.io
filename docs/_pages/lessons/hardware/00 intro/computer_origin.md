@@ -19,22 +19,25 @@ Este material é destinado a alunos que estão iniciando sua jornada no suporte 
 
 ## Sumário
 
-- [1. Conceitos Básicos para o Técnico](#conceitos-basicos)
-- [2. A Evolução do Hardware: Onde Tudo Começou](#evolucao-hardware)
-  - [Dos Cálculos Manuais à Mecânica](#calculos-manuais)
-  - [O Pai da Computação e a Primeira Programadora](#pai-computacao)
-- [3. A Era Eletrônica: Válvulas e Gigantes](#era-eletronica)
-  - [O Gigante ENIAC (1946)](#eniac)
-  - [O UNIVAC I (1951)](#univac)
-- [4. Arquiteturas Fundamentais: O Legado de Von Neumann e Turing](#von-neumann)
-  - [Componentes da Arquitetura de Von Neumann](#componentes-von-neumann)
-  - [Alan Turing e o Automatic Computing Engine (ACE)](#alan-turing)
-- [5. A Revolução do Estado Sólido: Transistores e Circuitos Integrados](#revolucao-solido)
-- [6. Evolução Tecnológica do Armazenamento e Memória](#evolucao-armazenamento)
-  - [O Declínio dos Discos Rígidos e a Ascensão do NVMe](#nvme)
-- [7. O Salto para o Século XXI](#seculo-xxi)
-- [Referências Citadas](#referencias)
-- [Exercícios](#exercicios)
+- [Guia de Introdução ao Hardware: Da Mecânica ao NVMe (Edição 2026)](#guia-de-introdução-ao-hardware-da-mecânica-ao-nvme-edição-2026)
+  - [Sumário](#sumário)
+  - [1. Conceitos Básicos para o Técnico {#conceitos-basicos}](#1-conceitos-básicos-para-o-técnico-conceitos-basicos)
+  - [2. A Evolução do Hardware: Onde Tudo Começou {#evolucao-hardware}](#2-a-evolução-do-hardware-onde-tudo-começou-evolucao-hardware)
+    - [Dos Cálculos Manuais à Mecânica {#calculos-manuais}](#dos-cálculos-manuais-à-mecânica-calculos-manuais)
+    - [O Pai da Computação e a Primeira Programadora {#pai-computacao}](#o-pai-da-computação-e-a-primeira-programadora-pai-computacao)
+  - [3. A Era Eletrônica: Válvulas e Gigantes {#era-eletronica}](#3-a-era-eletrônica-válvulas-e-gigantes-era-eletronica)
+    - [O Gigante ENIAC (1946) {#eniac}](#o-gigante-eniac-1946-eniac)
+    - [O UNIVAC I (1951) {#univac}](#o-univac-i-1951-univac)
+  - [4. Arquiteturas Fundamentais: O Legado de Von Neumann e Turing {#von-neumann}](#4-arquiteturas-fundamentais-o-legado-de-von-neumann-e-turing-von-neumann)
+    - [Componentes da Arquitetura de Von Neumann {#componentes-von-neumann}](#componentes-da-arquitetura-de-von-neumann-componentes-von-neumann)
+    - [Alan Turing e o Automatic Computing Engine (ACE) {#alan-turing}](#alan-turing-e-o-automatic-computing-engine-ace-alan-turing)
+  - [5. A Revolução do Estado Sólido: Transistores e Circuitos Integrados {#revolucao-solido}](#5-a-revolução-do-estado-sólido-transistores-e-circuitos-integrados-revolucao-solido)
+    - [Do Transistor ao Microprocessador](#do-transistor-ao-microprocessador)
+  - [6. Evolução Tecnológica do Armazenamento e Memória {#evolucao-armazenamento}](#6-evolução-tecnológica-do-armazenamento-e-memória-evolucao-armazenamento)
+    - [O Declínio dos Discos Rígidos e a Ascensão do NVMe {#nvme}](#o-declínio-dos-discos-rígidos-e-a-ascensão-do-nvme-nvme)
+  - [7. O Salto para o Século XXI {#seculo-xxi}](#7-o-salto-para-o-século-xxi-seculo-xxi)
+    - [Desafios de Manutenção Atuais:](#desafios-de-manutenção-atuais)
+  - [Referências citadas](#referências-citadas)
 
 ---
 
@@ -209,60 +212,36 @@ Hoje, não trocamos válvulas, mas lidamos com a **Miniaturização**. O substit
 
 ---
 
-## Referências Citadas {#referencias}
+## Referências citadas
 
-1. <a id="ref-1"></a> [Timeline of Computing History](http://clab.math.auth.gr/sites/default/files/2025-03/CS_Timeline.pdf). Acessado em 22 de fevereiro de 2026.
-2. <a id="ref-2"></a> [Computer History Timeline](http://www.cis.usouthal.edu/faculty/daigle/project1/timeline.htm). Acessado em 22 de fevereiro de 2026.
-3. <a id="ref-3"></a> [History of Computers](https://www.cs.uah.edu/~rcoleman/Common/History/History.html). Acessado em 22 de fevereiro de 2026.
-4. <a id="ref-4"></a> [Computing History Timeline](https://www.computinghistory.org.uk/cgi/computing-timeline.pl). Acessado em 22 de fevereiro de 2026.
-5. <a id="ref-5"></a> [Electronic Components - From Vacuum Tubes to Integrated Circuits | Viet Thai SupMan](https://vietthaisupman.com/electronic-components-from-vacuum-tubes-to-integrated-circuits/). Acessado em 22 de fevereiro de 2026.
-6. <a id="ref-6"></a> [John von Neumann and the von Neumann Architecture | StudyCorgi](https://studycorgi.com/john-von-neumann-and-the-von-neumann-architecture/). Acessado em 22 de fevereiro de 2026.
-7. <a id="ref-7"></a> [Computer History: A Timeline of Computer Programming Languages | HP® Tech Takes](https://www.hp.com/us-en/shop/tech-takes/computer-history-programming-languages). Acessado em 22 de fevereiro de 2026.
-8. <a id="ref-8"></a> [The Dawn of Electronics: From Vacuum Tubes to Transistors](https://www.hemargroup.ch/en/blog/the-dawn-of-electronics-from-vacuum-tubes-to-transistors). Acessado em 22 de fevereiro de 2026.
-9. <a id="ref-9"></a> [The Evolution of Electronic Computing: From Vacuum Tubes to Transistors](https://beaver.my/the-evolution-of-electronic-computing-from-vacuum-tubes-to-transistors/). Acessado em 22 de fevereiro de 2026.
-10. <a id="ref-10"></a> [ENIAC - Wikipedia](https://en.wikipedia.org/wiki/ENIAC). Acessado em 22 de fevereiro de 2026.
-11. <a id="ref-11"></a> [UNIVAC: the first commercial computer that revolutionized data management is 70 years old](https://www.primeur.com/blog/univac-the-first-commercial-computer-that-revolutionized-data-management-is-70-years-old). Acessado em 22 de fevereiro de 2026.
-12. <a id="ref-12"></a> [Computer History - Computer Science](https://www.cs.kent.edu/~rothstei/10051/HistoryPt4.htm). Acessado em 22 de fevereiro de 2026.
-13. <a id="ref-13"></a> [UNIVAC I - Wikipedia](https://en.wikipedia.org/wiki/UNIVAC_I). Acessado em 22 de fevereiro de 2026.
-14. <a id="ref-14"></a> [Alan Turing's Other Universal Machine - Communications of the ACM](https://cacm.acm.org/opinion/alan-turings-other-universal-machine/). Acessado em 22 de fevereiro de 2026.
-15. <a id="ref-15"></a> [Von Neumann Architecture - Computer Science GCSE GURU](https://www.computerscience.gcse.guru/theory/von-neumann-architecture). Acessado em 22 de fevereiro de 2026.
-16. <a id="ref-16"></a> [Von Neumann Architecture - BYJU'S](https://byjus.com/gate/von-neumann-architecture-notes/). Acessado em 22 de fevereiro de 2026.
-17. <a id="ref-17"></a> [5.2. The von Neumann Architecture - Dive Into Systems](https://diveintosystems.org/book/C5-Arch/von.html). Acessado em 22 de fevereiro de 2026.
-18. <a id="ref-18"></a> [Von Neumann architecture - Wikipedia](https://en.wikipedia.org/wiki/Von_Neumann_architecture). Acessado em 22 de fevereiro de 2026.
-19. <a id="ref-19"></a> [Alan Turing - Computer Designer, Codebreaker, Enigma | Britannica](https://www.britannica.com/biography/Alan-Turing/Computer-designer). Acessado em 22 de fevereiro de 2026.
-20. <a id="ref-20"></a> [Automatic Computing Engine - Wikipedia](https://en.wikipedia.org/wiki/Automatic_Computing_Engine). Acessado em 22 de fevereiro de 2026.
-21. <a id="ref-21"></a> [The History of the Transistor - John Bardeen, Walter Brattain, William Shockley](https://personal.utdallas.edu/~zhoud/ee6375-2004/lecture_2_introduction_to_VLSI_design/The%20History%20of%20the%20Transistor%20-%20John%20Bardeen%20-%20Walter%20Brattain%20-%20William%20Shockley.htm). Acessado em 22 de fevereiro de 2026.
-22. <a id="ref-22"></a> [UNIVAC II](https://www.ed-thelen.org/comp-hist///BRL2nd/U2.pdf). Acessado em 22 de fevereiro de 2026.
-23. <a id="ref-23"></a> [Primary Storage in 2026: Trends, Priorities and Strategic Shifts - WWT](https://www.wwt.com/blog/primary-storage-in-2026-trends-priorities-and-strategic-shifts). Acessado em 22 de fevereiro de 2026.
-24. <a id="ref-24"></a> [Please stop using these 5 storage drives in 2026 - How-To Geek](https://www.howtogeek.com/please-stop-using-these-storage-drives-in-2026/). Acessado em 22 de fevereiro de 2026.
-25. <a id="ref-25"></a> [SSD vs. NVMe: What's the difference? - IBM](https://www.ibm.com/think/topics/ssd-vs-nvme). Acessado em 22 de fevereiro de 2026.
-26. <a id="ref-26"></a> [6 PC Hardware Upgrades That Actually Improve Gaming and Productivity in 2026](https://www.techtimes.com/articles/314386/20260130/6-pc-hardware-upgrades-that-actually-improve-gaming-productivity-2026.htm). Acessado em 22 de fevereiro de 2026.
-27. <a id="ref-27"></a> [SSD PCIe 5.0 in 2026: is it really worth it? - DropReference](https://dropreference.com/en/blog/guide/ssd-pcie6-2026). Acessado em 22 de fevereiro de 2026.
-28. <a id="ref-28"></a> [State of Memory Technology and Trends to Watch in 2026 - SD Association](https://www.sdcard.org/press/thoughtleadership/state-of-memory-technology-and-trends-to-watch-in-2026/). Acessado em 22 de fevereiro de 2026.
-29. <a id="ref-29"></a> [5 Powerful Computer Hardware Trends in 2026 - ACE Computers](https://acecomputers.com/computer-hardware/). Acessado em 22 de fevereiro de 2026.
-30. <a id="ref-30"></a> [Hardware Prices Are Surging: What IT Leaders Need to Know About the 2026 Memory Crisis - i-Tech Support](https://i-techsupport.com/hardware-prices-are-surging-what-it-leaders-need-to-know-about-the-2026-memory-crisis/). Acessado em 22 de fevereiro de 2026.
-31. <a id="ref-31"></a> [The von Neumann Architecture — UndertheCovers - Jonathan Appavoo](https://jappavoo.github.io/UndertheCovers/te). Acessado em 22 de fevereiro de 2026.
-
----
-
-## Exercícios {#exercicios}
-
-1. **O que é um arquivo?** Explique com suas próprias palavras o conceito de arquivo e dê dois exemplos do cotidiano.
-
-2. **Diferença entre RAM e armazenamento permanente:** Por que, ao desligar o computador, você não perde as fotos salvas no SSD, mas perde o que estava sendo editado em um documento não salvo?
-
-3. **Linha do tempo histórica:** Coloque em ordem cronológica os seguintes inventos: Transistor, ENIAC, Pascalina, UNIVAC I, Ábaco, Circuito Integrado. Justifique a importância de cada um para a evolução do hardware.
-
-4. **Charles Babbage e Ada Lovelace:** Qual foi a contribuição específica de cada um para a história da computação? Por que Ada Lovelace é considerada a primeira programadora da história?
-
-5. **ENIAC vs. computador atual:** O ENIAC pesava 30 toneladas, consumia 174.000 watts e usava mais de 18.000 válvulas. Compare com um computador moderno e explique quais avanços tecnológicos tornaram possível essa miniaturização.
-
-6. **Arquitetura de Von Neumann:** Quais são os cinco componentes essenciais dessa arquitetura? Explique a função de cada um com suas próprias palavras e cite como cada componente aparece em um computador moderno.
-
-7. **Gargalo de Von Neumann:** O que é o "Gargalo de Von Neumann" e por que ele limita o desempenho dos computadores? Como a Arquitetura Harvard tenta contornar esse problema e onde ela é aplicada hoje?
-
-8. **Transistores e válvulas eletrônicas:** Liste pelo menos três vantagens do transistor em relação às válvulas eletrônicas e explique como essa substituição transformou as práticas de manutenção de hardware.
-
-9. **HDD vs. SSD NVMe:** Por que, em 2026, os técnicos recomendam o uso de SSDs NVMe em vez de HDDs para o sistema operacional? Compare as velocidades máximas das duas tecnologias e explique a diferença de barramentos utilizados.
-
-10. **Crise de componentes de 2026:** De acordo com o texto, os preços de memória RAM e SSDs subiram até 60% em 2026. Qual é o principal motivo apontado para esse aumento? Como esse cenário impacta o trabalho do técnico de hardware e as recomendações que ele deve fazer ao cliente?
+1.  \[1\] Timeline of Computing History, acessado em fevereiro 22, 2026, \<http://clab.math.auth.gr/sites/default/files/2025-03/CS_Timeline.pdf\>
+2.  \[2\] Computer History Timeline, acessado em fevereiro 22, 2026, \<http://www.cis.usouthal.edu/faculty/daigle/project1/timeline.htm\>
+3.  \[3\] History of Computers, acessado em fevereiro 22, 2026, \<https://www.cs.uah.edu/~rcoleman/Common/History/History.html\>
+4.  \[4\] Computing History Timeline, acessado em fevereiro 22, 2026, \<https://www.computinghistory.org.uk/cgi/computing-timeline.pl\>
+5.  \[5\] Electronic Components - From Vacuum Tubes to Integrated Circuits \| Viet Thai SupMan, acessado em fevereiro 22, 2026, \<https://vietthaisupman.com/electronic-components-from-vacuum-tubes-to-integrated-circuits/\>
+6.  \[6\] John von Neumann and the von Neumann Architecture \| Free Essay Example - StudyCorgi, acessado em fevereiro 22, 2026, \<https://studycorgi.com/john-von-neumann-and-the-von-neumann-architecture/\>
+7.  \[7\] Computer History: A Timeline of Computer Programming Languages \| HP® Tech Takes, acessado em fevereiro 22, 2026, \<https://www.hp.com/us-en/shop/tech-takes/computer-history-programming-languages\>
+8.  \[8\] The Dawn of Electronics: From Vacuum Tubes to Transistors, acessado em fevereiro 22, 2026, \<https://www.hemargroup.ch/en/blog/the-dawn-of-electronics-from-vacuum-tubes-to-transistors\>
+9.  \[9\] The Evolution of Electronic Computing: From Vacuum Tubes to Transistors, acessado em fevereiro 22, 2026, \<https://beaver.my/the-evolution-of-electronic-computing-from-vacuum-tubes-to-transistors/\>
+10.  \[10\] ENIAC - Wikipedia, acessado em fevereiro 22, 2026, \<https://en.wikipedia.org/wiki/ENIAC\>
+11.  \[11\] UNIVAC: the first commercial computer that revolutionized data management is 70 years old, acessado em fevereiro 22, 2026, \<https://www.primeur.com/blog/univac-the-first-commercial-computer-that-revolutionized-data-management-is-70-years-old\>
+12.  \[12\] Computer History - Computer Science, acessado em fevereiro 22, 2026, \<https://www.cs.kent.edu/~rothstei/10051/HistoryPt4.htm\>
+13.  \[13\] UNIVAC I - Wikipedia, acessado em fevereiro 22, 2026, \<https://en.wikipedia.org/wiki/UNIVAC_I\>
+14.  \[14\] Alan Turing's Other Universal Machine - Communications of the ACM, acessado em fevereiro 22, 2026, \<https://cacm.acm.org/opinion/alan-turings-other-universal-machine/\>
+15.  \[15\] Von Neumann Architecture - Computer Science GCSE GURU, acessado em fevereiro 22, 2026, \<https://www.computerscience.gcse.guru/theory/von-neumann-architecture\>
+16.  \[16\] Von Neumann Architecture - BYJU'S, acessado em fevereiro 22, 2026, \<https://byjus.com/gate/von-neumann-architecture-notes/\>
+17.  \[17\] 5.2. The von Neumann Architecture - Dive Into Systems, acessado em fevereiro 22, 2026, \<https://diveintosystems.org/book/C5-Arch/von.html\>
+18.  \[18\] Von Neumann architecture - Wikipedia, acessado em fevereiro 22, 2026, \<https://en.wikipedia.org/wiki/Von_Neumann_architecture\>
+19.  \[19\] Alan Turing - Computer Designer, Codebreaker, Enigma \| Britannica, acessado em fevereiro 22, 2026, \<https://www.britannica.com/biography/Alan-Turing/Computer-designer\>
+20.  \[20\] Automatic Computing Engine - Wikipedia, acessado em fevereiro 22, 2026, \<https://en.wikipedia.org/wiki/Automatic_Computing_Engine\>
+21.  \[21\] The History of the Transistor - John Bardeen - Walter Brattain - William Shockley, acessado em fevereiro 22, 2026, \<https://personal.utdallas.edu/~zhoud/ee6375-2004/lecture_2_introduction_to_VLSI_design/The%20History%20of%20the%20Transistor%20-%20John%20Bardeen%20-%20Walter%20Brattain%20-%20William%20Shockley.htm\>
+22.  \[22\] univac ii, acessado em fevereiro 22, 2026, \<https://www.ed-thelen.org/comp-hist///BRL2nd/U2.pdf\>
+23.  \[23\] Primary Storage in 2026: Trends, Priorities and Strategic Shifts - WWT, acessado em fevereiro 22, 2026, \<https://www.wwt.com/blog/primary-storage-in-2026-trends-priorities-and-strategic-shifts\>
+24.  \[24\] Please stop using these 5 storage drives in 2026 - How-To Geek, acessado em fevereiro 22, 2026, \<https://www.howtogeek.com/please-stop-using-these-storage-drives-in-2026/\>
+25.  \[25\] SSD vs. NVMe: What's the difference? - IBM, acessado em fevereiro 22, 2026, \<https://www.ibm.com/think/topics/ssd-vs-nvme\>
+26.  \[26\] 6 PC Hardware Upgrades That Actually Improve Gaming and Productivity in 2026, acessado em fevereiro 22, 2026, \<https://www.techtimes.com/articles/314386/20260130/6-pc-hardware-upgrades-that-actually-improve-gaming-productivity-2026.htm\>
+27.  \[27\] SSD PCIe 5.0 in 2026: is it really worth it? - DropReference, acessado em fevereiro 22, 2026, \<https://dropreference.com/en/blog/guide/ssd-pcie6-2026\>
+28.  \[28\] State of Memory Technology and Trends to Watch in 2026 - SD Association, acessado em fevereiro 22, 2026, \<https://www.sdcard.org/press/thoughtleadership/state-of-memory-technology-and-trends-to-watch-in-2026/\>
+29.  \[29\] 5 Powerful Computer Hardware Trends in 2026 - ACE Computers, acessado em fevereiro 22, 2026, \<https://acecomputers.com/computer-hardware/\>
+30.  \[30\] Hardware Prices Are Surging: What IT Leaders Need to Know About the 2026 Memory Crisis - i-Tech Support, acessado em fevereiro 22, 2026, \<https://i-techsupport.com/hardware-prices-are-surging-what-it-leaders-need-to-know-about-the-2026-memory-crisis/\>
+31.  \[31\] The von Neumann Architecture — UndertheCovers - Jonathan Appavoo, acessado em fevereiro 22, 2026, \<https://jappavoo.github.io/UndertheCovers/te\>
